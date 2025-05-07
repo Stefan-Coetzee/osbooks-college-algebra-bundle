@@ -26,31 +26,31 @@ Objective 1: Use Cramer’s Rule to solve systems of equations (IA 4.6.3)
 
   Use Cramer’s rule to solve the system of equations.
 
-$$\left\{\begin{array}{l}-2x+3y=3\\ x+3y=12\end{array}\right.$$
+$\left\{\begin{array}{l}-2x+3y=3\\ x+3y=12\end{array}\right.$
 
   
     Evaluate the determinant of the system by using the coefficients of the variables
-     $$D=\left|\begin{array}{cc}-2& 3\\ 1& 3\end{array}\right|=-6-3=-9$$ 
+     $D=\left|\begin{array}{cc}-2& 3\\ 1& 3\end{array}\right|=-6-3=-9$ 
   
   
     Evaluate the determinant Dx.
 Replace the coefficients of the variable x, -2 and 1, by the constants 3 and 12
 
-     $${D}_{x}=\left|\begin{array}{cc}3& 3\\ 12& 3\end{array}\right|=9-36=-27$$ 
+     ${D}_{x}=\left|\begin{array}{cc}3& 3\\ 12& 3\end{array}\right|=9-36=-27$ 
   
   
     Evaluate the determinant Dy.
 Replace the coefficients of the variable y, 3 and 3, by the constants 3 and 12
 
-     $${D}_{y}=\left|\begin{array}{cc}-2& 3\\ 1& 12\end{array}\right|=-24-3=-27$$ 
+     ${D}_{y}=\left|\begin{array}{cc}-2& 3\\ 1& 12\end{array}\right|=-24-3=-27$ 
   
   
     Find x and y
-     $$\begin{array}{c}x=\frac{{D}_{x}}{D}=\frac{-27}{-9}=3\\ y=\frac{{D}_{y}}{D}=\frac{-27}{-9}=3\end{array}$$ 
+     $\begin{array}{c}x=\frac{{D}_{x}}{D}=\frac{-27}{-9}=3\\ y=\frac{{D}_{y}}{D}=\frac{-27}{-9}=3\end{array}$ 
   
   
     Write the solution as an ordered pair
-     $$(3,3)$$ 
+     $(3,3)$ 
   
   
     Check the solution in the original equations
@@ -61,70 +61,130 @@ Practice Makes Perfect
 ======================
 Use Cramer’s Rule to solve the system of equations.
 
-$$\left\{\begin{array}{l}3x+8y=-3\\ 2x+5y=-3\end{array}\right.$$
+$\left\{\begin{array}{l}3x+8y=-3\\ 2x+5y=-3\end{array}\right.$
 
-Solve the system of equations using Cramer’s Rule: $$\{\begin{array}{c}3x-5y+4z=5\hfill \\ 5x+2y+z=0\hfill \\ 2x+3y-2z=3\hfill \end{array}.$$
+Solve the system of equations using Cramer’s Rule: $\{\begin{array}{c}3x-5y+4z=5\hfill \\ 5x+2y+z=0\hfill \\ 2x+3y-2z=3\hfill \end{array}.$
 
 Evaluate the determinant *D*.
 
-Expand by minors using column 1.
-
-Evaluate the determinants.
-
-Simplify.
-
-Simplify.
-
-Simplify.
-
-Evaluate the determinant $${D}_{x}.$$ Use theconstants to replace the coefficients of *x*.
+![.](../../media/CNX_IntAlg_Figure_04_06_018d_img.jpg)
 
 Expand by minors using column 1.
 
-Evaluate the determinants.
+![.](../../media/CNX_IntAlg_Figure_04_06_018a_img.jpg)
 
-Simplify.
-
-Simplify.
-
-Evaluate the determinant $${D}_{y}.$$ Use theconstants to replace the coefficients of *y*.
+![.](../../media/CNX_IntAlg_Figure_04_06_018e_img.jpg)
 
 Evaluate the determinants.
 
-Simplify.
+![.](../../media/CNX_IntAlg_Figure_04_06_018f_img.jpg)
 
 Simplify.
 
+![.](../../media/CNX_IntAlg_Figure_04_06_018g_img.jpg)
+
 Simplify.
 
-Evaluate the determinant $${D}_{z}.$$ Use theconstants to replace the coefficients of *z*.
+![.](../../media/CNX_IntAlg_Figure_04_06_018h_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018i_img.jpg)
+
+Evaluate the determinant ${D}_{x}.$ Use theconstants to replace the coefficients of *x*.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018j_img.jpg)
+
+Expand by minors using column 1.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018k_img.jpg)
 
 Evaluate the determinants.
 
-Simplify.
+![.](../../media/CNX_IntAlg_Figure_04_06_018l_img.jpg)
 
 Simplify.
 
+![.](../../media/CNX_IntAlg_Figure_04_06_018m_img.jpg)
+
 Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018n_img-76ec.jpg)
+
+Evaluate the determinant ${D}_{y}.$ Use theconstants to replace the coefficients of *y*.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018o_img.jpg)
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018b_img.jpg)
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018p_img.jpg)
+
+Evaluate the determinants.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018q_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018r_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018s_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018t_img.jpg)
+
+Evaluate the determinant ${D}_{z}.$ Use theconstants to replace the coefficients of *z*.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018u_img.jpg)
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018c_img.jpg)
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018v_img.jpg)
+
+Evaluate the determinants.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018w_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018x_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018y_img.jpg)
+
+Simplify.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018z_img.jpg)
 
 Find *x*, *y*, and *z*.
 
+![.](../../media/CNX_IntAlg_Figure_04_06_018aa_img.jpg)
+
 Substitute in the values.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018bb_img.jpg)
 
 Simplify.
 
+![.](../../media/CNX_IntAlg_Figure_04_06_018cc_img.jpg)
+
 Write the solution as an ordered triple.
+
+![.](../../media/CNX_IntAlg_Figure_04_06_018dd_img.jpg)
 
 Check that the ordered triple is a solutionto *all three* original equations.
 We leave the check to you.
 
-The solution is $$\left(2,\mathrm{-3},\mathrm{-4}\right).$$
+The solution is $\left(2,\mathrm{-3},\mathrm{-4}\right).$
 
 Practice Makes Perfect
 ======================
 Use Cramer’s Rule to solve the system of three equations.
 
-$$\left\{\begin{array}{l}3x+8y+2z=-5\\ 2x+5y-3z=0\\ x+2y-2z=-1\end{array}\right.$$
+$\left\{\begin{array}{l}3x+8y+2z=-5\\ 2x+5y-3z=0\\ x+2y-2z=-1\end{array}\right.$
 We have learned how to solve systems of equations in two variables and three variables, and by multiple methods: substitution, addition, Gaussian elimination, using the inverse of a matrix, and graphing. Some of these methods are easier to apply than others and are more appropriate in certain situations. In this section, we will study two more strategies for solving systems of equations.
 
 Evaluating the Determinant of a 2×2 Matrix
@@ -135,14 +195,16 @@ A determinant is a real number that can be very useful in mathematics because it
 Find the Determinant of a 2 × 2 Matrix
 ======================================
 
-The **determinant** of a $$2\times 2$$ matrix, given
+The **determinant** of a $2\times 2$ matrix, given
  $$
 A=\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]
 $$
 
 is defined as
 
-Notice the change in notation. There are several ways to indicate the determinant, including $$\mathrm{det}\left(A\right)$$ and replacing the brackets in a matrix with straight lines, $$\left|A\right|.$$
+![Image](../../media/CNX_Precalc_Figure_09_08_001.jpg)
+
+Notice the change in notation. There are several ways to indicate the determinant, including $\mathrm{det}\left(A\right)$ and replacing the brackets in a matrix with straight lines, $\left|A\right|.$
 
 Finding the Determinant of a 2 × 2 Matrix
 =========================================
@@ -168,37 +230,37 @@ To understand Cramer’s Rule, let’s look closely at how we solve systems of l
 \begin{array}{c}{a}_{1}x+{b}_{1}y={c}_{1}\phantom{\rule{0.5em}{0ex}}\left(1\right)\\ {a}_{2}x+{b}_{2}y={c}_{2}\phantom{\rule{0.5em}{0ex}}\left(2\right)\end{array}
 $$
 
-We eliminate one variable using row operations and solve for the other. Say that we wish to solve for $$x.$$ If equation (2) is multiplied by the opposite of the coefficient of $$y$$ in equation (1), equation (1) is multiplied by the coefficient of $$y$$ in equation (2), and we add the two equations, the variable $$y$$ will be eliminated.
+We eliminate one variable using row operations and solve for the other. Say that we wish to solve for $x.$ If equation (2) is multiplied by the opposite of the coefficient of $y$ in equation (1), equation (1) is multiplied by the coefficient of $y$ in equation (2), and we add the two equations, the variable $y$ will be eliminated.
 
    $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{llll}\hfill & \hfill & \hfill & \hfill \\ {b}_{2}{a}_{1}x+{b}_{2}{b}_{1}y={b}_{2}{c}_{1}\hfill & \hfill & \hfill & \text{Multiply\}{R}_{1}\phantom{\rule{0.5em}{0ex}}\text{by\}{b}_{2}\hfill \\ -{b}_{1}{a}_{2}x-{b}_{1}{b}_{2}y=-{b}_{1}{c}_{2}\hfill & \hfill & \hfill & \text{Multiply\}{R}_{2}\phantom{\rule{0.5em}{0ex}}\text{by}-{b}_{1}\hfill \end{array}}\hfill \\ \begin{array}{ll}\ {b}_{2}{a}_{1}x-{b}_{1}{a}_{2}x={b}_{2}{c}_{1}-{b}_{1}{c}_{2}\hfill & \hfill \end{array}\hfill \end{array}
 $$
-Now, solve for $$x.$$
+Now, solve for $x.$
 
    $$
 \begin{array}{l}{b}_{2}{a}_{1}x-{b}_{1}{a}_{2}x={b}_{2}{c}_{1}-{b}_{1}{c}_{2}\hfill \\ x({b}_{2}{a}_{1}-{b}_{1}{a}_{2})={b}_{2}{c}_{1}-{b}_{1}{c}_{2}\hfill \\ \text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}x=\frac{{b}_{2}{c}_{1}-{b}_{1}{c}_{2}}{{b}_{2}{a}_{1}-{b}_{1}{a}_{2}}=\frac{\left|\begin{array}{cc}{c}_{1}& {b}_{1}\\ {c}_{2}& {b}_{2}\end{array}\right|}{\left|\begin{array}{cc}{a}_{1}& {b}_{1}\\ {a}_{2}& {b}_{2}\end{array}\right|}\hfill \end{array}
 $$
-Similarly, to solve for $$y,$$ we will eliminate $$x.$$
+Similarly, to solve for $y,$ we will eliminate $x.$
  $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{llll}\hfill & \hfill & \hfill & \hfill \\ {a}_{2}{a}_{1}x+{a}_{2}{b}_{1}y={a}_{2}{c}_{1}\hfill & \hfill & \hfill & \text{Multiply\}{R}_{1}\phantom{\rule{0.5em}{0ex}}\text{by\}{a}_{2}\hfill \\ -{a}_{1}{a}_{2}x-{a}_{1}{b}_{2}y=-{a}_{1}{c}_{2}\hfill & \hfill & \hfill & \text{Multiply\}{R}_{2}\phantom{\rule{0.5em}{0ex}}\text{by}-{a}_{1}\hfill \end{array}}\hfill \\ \begin{array}{ll}{a}_{2}{b}_{1}y-{a}_{1}{b}_{2}y={a}_{2}{c}_{1}-{a}_{1}{c}_{2}\hfill & \hfill \end{array}\hfill \end{array}
 $$
-Solving for $$y$$ gives
+Solving for $y$ gives
  $$
 \begin{array}{l}{a}_{2}{b}_{1}y-{a}_{1}{b}_{2}y={a}_{2}{c}_{1}-{a}_{1}{c}_{2}\hfill \\ y({a}_{2}{b}_{1}-{a}_{1}{b}_{2})={a}_{2}{c}_{1}-{a}_{1}{c}_{2}\hfill \\ \text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}y=\frac{{a}_{2}{c}_{1}-{a}_{1}{c}_{2}}{{a}_{2}{b}_{1}-{a}_{1}{b}_{2}}=\frac{{a}_{1}{c}_{2}-{a}_{2}{c}_{1}}{{a}_{1}{b}_{2}-{a}_{2}{b}_{1}}=\frac{\left|\begin{array}{cc}{a}_{1}& {c}_{1}\\ {a}_{2}& {c}_{2}\end{array}\right|}{\left|\begin{array}{cc}{a}_{1}& {b}_{1}\\ {a}_{2}& {b}_{2}\end{array}\right|}\hfill \end{array}
 $$
-Notice that the denominator for both $$x$$ and $$y$$ is the determinant of the coefficient matrix.
+Notice that the denominator for both $x$ and $y$ is the determinant of the coefficient matrix.
 
-We can use these formulas to solve for $$x$$ and $$y,$$ but Cramer’s Rule also introduces new notation:
+We can use these formulas to solve for $x$ and $y,$ but Cramer’s Rule also introduces new notation:
 
- $$D:$$ determinant of the coefficient matrix
- $${D}_{x}:$$ determinant of the numerator in the solution of $$x$$  $$
+ $D:$ determinant of the coefficient matrix
+ ${D}_{x}:$ determinant of the numerator in the solution of $x$  $$
 x=\frac{{D}_{x}}{D}
 $$
 
- $${D}_{y}:$$ determinant of the numerator in the solution of $$y$$
- $$y=\frac{{D}_{y}}{D}$$
+ ${D}_{y}:$ determinant of the numerator in the solution of $y$
+ $y=\frac{{D}_{y}}{D}$
 
-The key to Cramer’s Rule is replacing the variable column of interest with the constant column and calculating the determinants. We can then express $$x$$ and $$y$$ as a quotient of two determinants.
+The key to Cramer’s Rule is replacing the variable column of interest with the constant column and calculating the determinants. We can then express $x$ and $y$ as a quotient of two determinants.
 
 Cramer’s Rule for 2×2 Systems
 =============================
@@ -217,28 +279,28 @@ The solution using Cramer’s Rule is given as
 x=\frac{{D}_{x}}{D}=\frac{\left|\begin{array}{cc}{c}_{1}& {b}_{1}\\ {c}_{2}& {b}_{2}\end{array}\right|}{\left|\begin{array}{cc}{a}_{1}& {b}_{1}\\ {a}_{2}& {b}_{2}\end{array}\right|},\phantom{\rule{0.5em}{0ex}}D\ne 0;\phantom{\rule{0.5em}{0ex}}\text{}\text{}\phantom{\rule{0.5em}{0ex}}y=\frac{{D}_{y}}{D}=\frac{\left|\begin{array}{cc}{a}_{1}& {c}_{1}\\ {a}_{2}& {c}_{2}\end{array}\right|}{\left|\begin{array}{cc}{a}_{1}& {b}_{1}\\ {a}_{2}& {b}_{2}\end{array}\right|},\phantom{\rule{0.5em}{0ex}}D\ne 0.
 $$
 
-If we are solving for $$x,$$ the $$x$$ column is replaced with the constant column. If we are solving for $$y,$$ the $$y$$ column is replaced with the constant column.
+If we are solving for $x,$ the $x$ column is replaced with the constant column. If we are solving for $y,$ the $y$ column is replaced with the constant column.
 
 Using Cramer’s Rule to Solve a 2 × 2 System
 ===========================================
 
-Solve the following $$2\times 2$$ system using Cramer’s Rule.
+Solve the following $2\times 2$ system using Cramer’s Rule.
 
    $$
 \begin{array}{c}12x+3y=15\\ \text\ 2x-3y=13\end{array}
 $$
 
-Solve for $$x.$$
+Solve for $x.$
 
    $$
 x=\frac{{D}_{x}}{D}=\frac{\left|\begin{array}{rr}\hfill 15& \hfill 3\\ \hfill 13& \hfill -3\end{array}\right|}{\left|\begin{array}{rr}\hfill 12& \hfill 3\\ \hfill 2& \hfill -3\end{array}\right|}=\frac{-45-39}{-36-6}=\frac{-84}{-42}=2
 $$
-Solve for $$y.$$
+Solve for $y.$
 
    $$
 y=\frac{{D}_{y}}{D}=\frac{\left|\begin{array}{rr}\hfill 12& \hfill 15\\ \hfill 2& \hfill 13\end{array}\right|}{\left|\begin{array}{rr}\hfill 12& \hfill 3\\ \hfill 2& \hfill -3\end{array}\right|}=\frac{156-30}{-36-6}=-\frac{126}{42}=\mathrm{-3}
 $$
-The solution is $$\left(2,\mathrm{-3}\right).$$
+The solution is $\left(2,\mathrm{-3}\right).$
 
 try it feature
 Use Cramer’s Rule to solve the 2 × 2 system of equations.
@@ -246,7 +308,7 @@ Use Cramer’s Rule to solve the 2 × 2 system of equations.
 \begin{array}{l}\text\ x+2y=\mathrm{-11}\hfill \\ -2x+y=\mathrm{-13}\hfill \end{array}
 $$
 
-$$\left(3,-7\right)$$
+$\left(3,-7\right)$
 
 Evaluating the Determinant of a 3 × 3 Matrix
 ============================================
@@ -258,13 +320,15 @@ Find the **determinant** of the 3×3 matrix.
 A=\left[\begin{array}{ccc}{a}_{1}& {b}_{1}& {c}_{1}\\ {a}_{2}& {b}_{2}& {c}_{2}\\ {a}_{3}& {b}_{3}& {c}_{3}\end{array}\right]
 $$
 
-Augment $$A$$ with the first two columns.
+Augment $A$ with the first two columns.
    $$
 \mathrm{det}(A)=\left|\begin{array}{ccc}{a}_{1}& {b}_{1}& {c}_{1}\\ {a}_{2}& {b}_{2}& {c}_{2}\\ {a}_{3}& {b}_{3}& {c}_{3}\end{array}|\begin{array}{c}{a}_{1}\\ {a}_{2}\\ {a}_{3}\end{array}\begin{array}{c}{b}_{1}\\ {b}_{2}\\ {b}_{3}\end{array}\right|
 $$
 
 From upper left to lower right: Multiply the entries down the first diagonal. Add the result to the product of entries down the second diagonal. Add this result to the product of the entries down the third diagonal.
 From lower left to upper right: Subtract the product of entries up the first diagonal. From this result subtract the product of entries up the second diagonal. From this result, subtract the product of entries up the third diagonal.
+
+![Image](../../media/CNX_Precalc_Figure_09_08_002.jpg)
 
 The algebra is as follows:
 
@@ -293,12 +357,12 @@ Find the determinant of the 3 × 3 matrix.
 \mathrm{det}(A)=\left|\begin{array}{ccc}1& -3& 7\\ 1& 1& 1\\ 1& -2& 3\end{array}\right|
 $$
 
-$$-10$$
+$-10$
 
 qa feature
 *Can we use the same method to find the determinant of a larger matrix?*
 
-*No, this method only works for $$2\times 2$$ and $$\text{3}\times 3$$ matrices. For larger matrices it is best to use a graphing utility or computer software.*
+*No, this method only works for $2\times 2$ and $\text{3}\times 3$ matrices. For larger matrices it is best to use a graphing utility or computer software.*
 
 Using Cramer’s Rule to Solve a System of Three Equations in Three Variables
 ===========================================================================
@@ -307,13 +371,17 @@ When we calculate the determinant to be zero, Cramer’s Rule gives no indicatio
 
 Consider a 3 × 3 system of equations.
 
+![Image](../../media/9.8.1.jpg)
+
  $$
 x=\frac{{D}_{x}}{D},y=\frac{{D}_{y}}{D},z=\frac{{D}_{z}}{D},D\ne 0
 $$
 
 where
 
-If we are writing the determinant $${D}_{x},$$ we replace the $$x$$ column with the constant column. If we are writing the determinant $${D}_{y},$$ we replace the $$y$$ column with the constant column. If we are writing the determinant $${D}_{z},$$ we replace the $$z$$ column with the constant column. Always check the answer.
+![Image](../../media/9.8.2.jpg)
+
+If we are writing the determinant ${D}_{x},$ we replace the $x$ column with the constant column. If we are writing the determinant ${D}_{y},$ we replace the $y$ column with the constant column. If we are writing the determinant ${D}_{z},$ we replace the $z$ column with the constant column. Always check the answer.
 
 Solving a 3 × 3 System Using Cramer’s Rule
 ==========================================
@@ -335,7 +403,7 @@ Then,
    $$
 \begin{array}{l}x=\frac{{D}_{x}}{D}=\frac{-3}{-3}=1\hfill \\ y=\frac{{D}_{y}}{D}=\frac{-9}{-3}=3\hfill \\ z=\frac{{D}_{z}}{D}=\frac{6}{-3}=-2\hfill \end{array}
 $$
-The solution is $$\left(1,3,\mathrm{-2}\right).$$
+The solution is $\left(1,3,\mathrm{-2}\right).$
 
 try it feature
 Use Cramer’s Rule to solve the 3 × 3 matrix.
@@ -343,7 +411,7 @@ Use Cramer’s Rule to solve the 3 × 3 matrix.
 \begin{array}{r}\hfill x-3y+7z=13\\ \hfill x+y+z=1\\ \hfill x-2y+3z=4\end{array}
 $$
 
-$$\left(-2,\frac{3}{5},\frac{12}{5}\right)$$
+$\left(-2,\frac{3}{5},\frac{12}{5}\right)$
 
 Using Cramer’s Rule to Solve an Inconsistent System
 ===================================================
@@ -354,7 +422,7 @@ Solve the system of equations using Cramer’s Rule.
 \begin{array}{l}3x-2y=4\text{\hspace{1em}}(1)\\ 6x-4y=0\text{\hspace{1em}}(2)\end{array}
 $$
 
-We begin by finding the determinants $$D,{D}_{x},\text{and\}{D}_{y}.$$
+We begin by finding the determinants $D,{D}_{x},\text{and\}{D}_{y}.$
 
    $$
 D=\left|\begin{array}{cc}3& -2\\ 6& -4\end{array}\right|=3\left(-4\right)-6\left(-2\right)=0
@@ -362,15 +430,14 @@ $$
 
 We know that a determinant of zero means that either the system has no solution or it has an infinite number of solutions. To see which one, we use the process of elimination. Our goal is to eliminate one of the variables.
 
-Multiply equation (1) by $$\mathrm{-2.}$$ 
-Add the result to equation $$\left(2\right).$$
+Multiply equation (1) by $\mathrm{-2.}$ 
+Add the result to equation $\left(2\right).$
 
  $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{l}\begin{array}{l}\hfill \\ -6x+4y\phantom{\rule{0.5em}{0ex}}=\mathrm{-8}\hfill \end{array}\hfill \\ 6x-4y=0\hfill \end{array}}\hfill \\ 0=\mathrm{-8}\hfill \end{array}
 $$
-We obtain the equation $$0=\mathrm{-8},$$ which is false. Therefore, the system has no solution. Graphing the system reveals two parallel lines. See .
-\n\n![
-](../../media/CNX_Precalc_Figure_09_08_003.jpg)\n\n
+We obtain the equation $0=\mathrm{-8},$ which is false. Therefore, the system has no solution. Graphing the system reveals two parallel lines. See .
+\n\n![Image](../../media/CNX_Precalc_Figure_09_08_003.jpg)\n\n
 
 Use Cramer’s Rule to Solve a Dependent System
 =============================================
@@ -394,14 +461,13 @@ $$
 
 As the determinant equals zero, there is either no solution or an infinite number of solutions. We have to perform elimination to find out.
 
-Multiply equation (1) by $$\mathrm{-2}$$ and add the result to equation (3):
+Multiply equation (1) by $\mathrm{-2}$ and add the result to equation (3):
    $$
 \frac{\begin{array}{r}\hfill -2x+4y-6z=0\\ \hfill 2x-4y+6z=0\end{array}}{0=0}
 $$
 
-Obtaining an answer of $$0=0,$$ a statement that is always true, means that the system has an infinite number of solutions. Graphing the system, we can see that two of the planes are the same and they both intersect the third plane on a line. See .
-\n\n![
-](../../media/CNX_Precalc_Figure_09_08_005.jpg)\n\n
+Obtaining an answer of $0=0,$ a statement that is always true, means that the system has an infinite number of solutions. Graphing the system, we can see that two of the planes are the same and they both intersect the third plane on a line. See .
+\n\n![Image](../../media/CNX_Precalc_Figure_09_08_005.jpg)\n\n
 
 Understanding Properties of Determinants
 ========================================
@@ -417,7 +483,7 @@ If the matrix is in upper triangular form, the determinant equals the product of
 When two rows are interchanged, the determinant changes sign.
 If either two rows or two columns are identical, the determinant equals zero.
 If a matrix contains either a row of zeros or a column of zeros, the determinant equals zero.
-The determinant of an inverse matrix $${A}^{-1}$$ is the reciprocal of the determinant of the matrix $$A.$$ 
+The determinant of an inverse matrix ${A}^{-1}$ is the reciprocal of the determinant of the matrix $A.$ 
 If any row or column is multiplied by a constant, the determinant is multiplied by the same factor.
 
 Illustrating Properties of Determinants
@@ -430,7 +496,7 @@ Property 1 states that if the matrix is in upper triangular form, the determinan
    $$
 A=\left[\begin{array}{rrr}\hfill 1& \hfill 2& \hfill 3\\ \hfill 0& \hfill 2& \hfill 1\\ \hfill 0& \hfill 0& \hfill -1\end{array}\right]
 $$
-Augment $$A$$ with the first two columns.
+Augment $A$ with the first two columns.
 
    $$
 A=\left[\begin{array}{ccc}1& 2& 3\\ 0& 2& 1\\ 0& 0& -1\end{array}|\begin{array}{c}1\\ 0\\ 0\end{array}\begin{array}{c}2\\ 2\\ 0\end{array}\right]
@@ -457,7 +523,7 @@ Property 4 states that if a row or column equals zero, the determinant equals ze
 A=\left[\begin{array}{cc}1& 2\\ 0& 0\end{array}\right],\phantom{\rule{0.5em}{0ex}}\mathrm{det}(A)=1\left(0\right)-2\left(0\right)=0
 $$
 
-Property 5 states that the determinant of an inverse matrix $${A}^{-1}$$ is the reciprocal of the determinant $$A.$$ Thus,
+Property 5 states that the determinant of an inverse matrix ${A}^{-1}$ is the reciprocal of the determinant $A.$ Thus,
  $$
 \begin{array}{l}A=\left[\begin{array}{cc}1& 2\\ 3& 4\end{array}\right],\mathrm{det}\left(A\right)=1\left(4\right)-3\left(2\right)=\mathrm{-2}\hfill \\ \hfill \\ {A}^{-1}=\left[\begin{array}{cc}-2& 1\\ \frac{3}{2}& -\frac{1}{2}\end{array}\right],\mathrm{det}\left({A}^{-1}\right)=-2\left(-\frac{1}{2}\right)-\left(\frac{3}{2}\right)\left(1\right)=-\frac{1}{2}\hfill \end{array}
 $$
@@ -497,13 +563,13 @@ Solve a Systems of Three Equations using Cramer's Rule
 Key Concepts
 ============
 
-The determinant for $$\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]$$ is $$ad-bc.$$ See .
+The determinant for $\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]$ is $ad-bc.$ See .
 
-Cramer’s Rule replaces a variable column with the constant column. Solutions are $$x=\frac{{D}_{x}}{D},y=\frac{{D}_{y}}{D}.$$ See .
+Cramer’s Rule replaces a variable column with the constant column. Solutions are $x=\frac{{D}_{x}}{D},y=\frac{{D}_{y}}{D}.$ See .
 
 To find the determinant of a 3×3 matrix, augment with the first two columns. Add the three diagonal entries (upper left to lower right) and subtract the three diagonal entries (lower left to upper right). See .
 
-To solve a system of three equations in three variables using Cramer’s Rule, replace a variable column with the constant column for each desired solution: $$x=\frac{{D}_{x}}{D},y=\frac{{D}_{y}}{D},z=\frac{{D}_{z}}{D}.$$ See .
+To solve a system of three equations in three variables using Cramer’s Rule, replace a variable column with the constant column for each desired solution: $x=\frac{{D}_{x}}{D},y=\frac{{D}_{y}}{D},z=\frac{{D}_{z}}{D}.$ See .
 Cramer’s Rule is also useful for finding the solution of a system of equations with no solution or infinite solutions. See  and .
 
 Certain properties of determinants are useful for solving problems. For example:
@@ -512,7 +578,7 @@ If the matrix is in upper triangular form, the determinant equals the product of
 When two rows are interchanged, the determinant changes sign.
 If either two rows or two columns are identical, the determinant equals zero.
 If a matrix contains either a row of zeros or a column of zeros, the determinant equals zero.
-The determinant of an inverse matrix $${A}^{-1}$$ is the reciprocal of the determinant of the matrix $$A.$$
+The determinant of an inverse matrix ${A}^{-1}$ is the reciprocal of the determinant of the matrix $A.$
 
 If any row or column is multiplied by a constant, the determinant is multiplied by the same factor. See  and .
 
@@ -526,158 +592,158 @@ Explain why we can always evaluate the determinant of a square matrix.
 
 A determinant is the sum and products of the entries in the matrix, so you can always evaluate that product—even if it does end up being 0.
 
-Examining Cramer’s Rule, explain why there is no unique solution to the system when the determinant of your matrix is 0. For simplicity, use a $$2\times 2$$ matrix.
+Examining Cramer’s Rule, explain why there is no unique solution to the system when the determinant of your matrix is 0. For simplicity, use a $2\times 2$ matrix.
 
 Explain what it means in terms of an inverse for a matrix to have a 0 determinant.
 
 The inverse does not exist.
 
-The determinant of $$2\times 2$$ matrix $$A$$ is 3. If you switch the rows and multiply the first row by 6 and the second row by 2, explain how to find the determinant and provide the answer.
+The determinant of $2\times 2$ matrix $A$ is 3. If you switch the rows and multiply the first row by 6 and the second row by 2, explain how to find the determinant and provide the answer.
 
 Algebraic
 =========
 For the following exercises, find the determinant.
 
-$$\left|\begin{array}{cc}1& 2\\ 3& 4\end{array}\right|$$
+$\left|\begin{array}{cc}1& 2\\ 3& 4\end{array}\right|$
 
-$$-2$$
+$-2$
 
-$$\left|\begin{array}{rr}\hfill -1& \hfill 2\\ \hfill 3& \hfill -4\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill -1& \hfill 2\\ \hfill 3& \hfill -4\end{array}\right|$
 
-$$\left|\begin{array}{rr}\hfill 2& \hfill -5\\ \hfill -1& \hfill 6\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill 2& \hfill -5\\ \hfill -1& \hfill 6\end{array}\right|$
 
-$$7$$
+$7$
 
-$$\left|\begin{array}{cc}-8& 4\\ -1& 5\end{array}\right|$$
+$\left|\begin{array}{cc}-8& 4\\ -1& 5\end{array}\right|$
 
-$$\left|\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 3& \hfill -4\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 3& \hfill -4\end{array}\right|$
 
-$$-4$$
+$-4$
 
-$$\left|\begin{array}{rr}\hfill 10& \hfill 20\\ \hfill 0& \hfill -10\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill 10& \hfill 20\\ \hfill 0& \hfill -10\end{array}\right|$
 
-$$\left|\begin{array}{cc}10& 0.2\\ 5& 0.1\end{array}\right|$$
+$\left|\begin{array}{cc}10& 0.2\\ 5& 0.1\end{array}\right|$
 
-$$0$$
+$0$
 
-$$\left|\begin{array}{rr}\hfill 6& \hfill -3\\ \hfill 8& \hfill 4\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill 6& \hfill -3\\ \hfill 8& \hfill 4\end{array}\right|$
 
-$$\left|\begin{array}{rr}\hfill -2& \hfill -3\\ \hfill 3.1& \hfill 4,000\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill -2& \hfill -3\\ \hfill 3.1& \hfill 4,000\end{array}\right|$
 
-$$-7,990.7$$
+$-7,990.7$
 
-$$\left|\begin{array}{rr}\hfill -1.1& \hfill 0.6\\ \hfill 7.2& \hfill -0.5\end{array}\right|$$
+$\left|\begin{array}{rr}\hfill -1.1& \hfill 0.6\\ \hfill 7.2& \hfill -0.5\end{array}\right|$
 
-$$\left|\begin{array}{rrr}\hfill -1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0\\ \hfill 0& \hfill 0& \hfill -3\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill -1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0\\ \hfill 0& \hfill 0& \hfill -3\end{array}\right|$
 
-$$3$$
+$3$
 
-$$\left|\begin{array}{rrr}\hfill -1& \hfill 4& \hfill 0\\ \hfill 0& \hfill 2& \hfill 3\\ \hfill 0& \hfill 0& \hfill -3\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill -1& \hfill 4& \hfill 0\\ \hfill 0& \hfill 2& \hfill 3\\ \hfill 0& \hfill 0& \hfill -3\end{array}\right|$
 
-$$\left|\begin{array}{ccc}1& 0& 1\\ 0& 1& 0\\ 1& 0& 0\end{array}\right|$$
+$\left|\begin{array}{ccc}1& 0& 1\\ 0& 1& 0\\ 1& 0& 0\end{array}\right|$
 
-$$-1$$
+$-1$
 
-$$\left|\begin{array}{rrr}\hfill 2& \hfill -3& \hfill 1\\ \hfill 3& \hfill -4& \hfill 1\\ \hfill -5& \hfill 6& \hfill 1\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill 2& \hfill -3& \hfill 1\\ \hfill 3& \hfill -4& \hfill 1\\ \hfill -5& \hfill 6& \hfill 1\end{array}\right|$
 
-$$\left|\begin{array}{rrr}\hfill -2& \hfill 1& \hfill 4\\ \hfill -4& \hfill 2& \hfill -8\\ \hfill 2& \hfill -8& \hfill -3\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill -2& \hfill 1& \hfill 4\\ \hfill -4& \hfill 2& \hfill -8\\ \hfill 2& \hfill -8& \hfill -3\end{array}\right|$
 
-$$224$$
+$224$
 
-$$\left|\begin{array}{rrr}\hfill 6& \hfill -1& \hfill 2\\ \hfill -4& \hfill -3& \hfill 5\\ \hfill 1& \hfill 9& \hfill -1\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill 6& \hfill -1& \hfill 2\\ \hfill -4& \hfill -3& \hfill 5\\ \hfill 1& \hfill 9& \hfill -1\end{array}\right|$
 
-$$\left|\begin{array}{rrr}\hfill 5& \hfill 1& \hfill -1\\ \hfill 2& \hfill 3& \hfill 1\\ \hfill 3& \hfill -6& \hfill -3\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill 5& \hfill 1& \hfill -1\\ \hfill 2& \hfill 3& \hfill 1\\ \hfill 3& \hfill -6& \hfill -3\end{array}\right|$
 
-$$15$$
+$15$
 
-$$\left|\begin{array}{rrr}\hfill 1.1& \hfill 2& \hfill -1\\ \hfill -4& \hfill 0& \hfill 0\\ \hfill 4.1& \hfill -0.4& \hfill 2.5\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill 1.1& \hfill 2& \hfill -1\\ \hfill -4& \hfill 0& \hfill 0\\ \hfill 4.1& \hfill -0.4& \hfill 2.5\end{array}\right|$
 
-$$\left|\begin{array}{rrr}\hfill 2& \hfill -1.6& \hfill 3.1\\ \hfill 1.1& \hfill 3& \hfill -8\\ \hfill -9.3& \hfill 0& \hfill 2\end{array}\right|$$
+$\left|\begin{array}{rrr}\hfill 2& \hfill -1.6& \hfill 3.1\\ \hfill 1.1& \hfill 3& \hfill -8\\ \hfill -9.3& \hfill 0& \hfill 2\end{array}\right|$
 
-$$-17.03$$
+$-17.03$
 
-$$\left|\begin{array}{ccc}-\frac{1}{2}& \frac{1}{3}& \frac{1}{4}\\ \frac{1}{5}& -\frac{1}{6}& \frac{1}{7}\\ 0& 0& \frac{1}{8}\end{array}\right|$$
-
-For the following exercises, solve the system of linear equations using Cramer’s Rule.
-
-$$\begin{array}{l}2x-3y=\mathrm{-1}\\ 4x+5y=9\end{array}$$
-
-$$\left(1,1\right)$$
-
-$$\begin{array}{r}5x-4y=2\\ -4x+7y=6\end{array}$$
-
-$$\begin{array}{l}6x-3y=2\hfill \\ -8x+9y=\mathrm{-1}\hfill \end{array}$$
-
-$$\left(\frac{1}{2},\frac{1}{3}\right)$$
-
-$$\begin{array}{l}2x+6y=12\\ 5x-2y=13\end{array}$$
-
-$$\begin{array}{l}4x+3y=23\hfill \\ 2x-y=\mathrm{-1}\hfill \end{array}$$
-
-$$\left(2,5\right)$$
-
-$$\begin{array}{l}10x-6y=2\hfill \\ -5x+8y=\mathrm{-1}\hfill \end{array}$$
-
-$$\begin{array}{l}4x-3y=\mathrm{-3}\\ 2x+6y=\mathrm{-4}\end{array}$$
-
-$$\left(-1,-\frac{1}{3}\right)$$
-
-$$\begin{array}{r}4x-5y=7\\ -3x+9y=0\end{array}$$
-
-$$\begin{array}{l}4x+10y=180\hfill \\ -3x-5y=\mathrm{-105}\hfill \end{array}$$
-
-$$\left(15,12\right)$$
-
-$$\begin{array}{l}8x-2y=\mathrm{-3}\hfill \\ -4x+6y=4\hfill \end{array}$$
+$\left|\begin{array}{ccc}-\frac{1}{2}& \frac{1}{3}& \frac{1}{4}\\ \frac{1}{5}& -\frac{1}{6}& \frac{1}{7}\\ 0& 0& \frac{1}{8}\end{array}\right|$
 
 For the following exercises, solve the system of linear equations using Cramer’s Rule.
 
-$$\begin{array}{l}x+2y-4z=-1\hfill \\ 7x+3y+5z=26\hfill \\ -2x-6y+7z=-6\hfill \end{array}$$
+$\begin{array}{l}2x-3y=\mathrm{-1}\\ 4x+5y=9\end{array}$
 
-$$\left(1,3,2\right)$$
+$\left(1,1\right)$
 
-$$\begin{array}{l}-5x+2y-4z=-47\hfill \\ 4x-3y-z=-94\hfill \\ 3x-3y+2z=94\hfill \end{array}$$
+$\begin{array}{r}5x-4y=2\\ -4x+7y=6\end{array}$
 
-$$\begin{array}{l}4x+5y-z=\mathrm{-7}\hfill \\ \mathrm{-2}x-9y+2z=8\hfill \\ 5y+7z=21\hfill \end{array}$$
+$\begin{array}{l}6x-3y=2\hfill \\ -8x+9y=\mathrm{-1}\hfill \end{array}$
 
-$$\left(-1,0,3\right)$$
+$\left(\frac{1}{2},\frac{1}{3}\right)$
 
-$$\begin{array}{r}4x-3y+4z=10\\ 5x-2z=-2\\ 3x+2y-5z=-9\end{array}$$
+$\begin{array}{l}2x+6y=12\\ 5x-2y=13\end{array}$
 
-$$\begin{array}{l}4x-2y+3z=6\hfill \\ -6x+y=-2\hfill \\ 2x+7y+8z=24\hfill \end{array}$$
+$\begin{array}{l}4x+3y=23\hfill \\ 2x-y=\mathrm{-1}\hfill \end{array}$
 
-$$\left(\frac{1}{2},1,2\right)$$
+$\left(2,5\right)$
 
-$$\begin{array}{r}\hfill 5x+2y-z=1\\ \hfill -7x-8y+3z=1.5\\ \hfill 6x-12y+z=7\end{array}$$
+$\begin{array}{l}10x-6y=2\hfill \\ -5x+8y=\mathrm{-1}\hfill \end{array}$
 
-$$\begin{array}{l}13x-17y+16z=73\hfill \\ -11x+15y+17z=61\hfill \\ 46x+10y-30z=-18\hfill \end{array}$$
+$\begin{array}{l}4x-3y=\mathrm{-3}\\ 2x+6y=\mathrm{-4}\end{array}$
 
-$$\left(2,1,4\right)$$
+$\left(-1,-\frac{1}{3}\right)$
 
-$$\begin{array}{l}\hfill \\ -4x-3y-8z=-7\hfill \\ 2x-9y+5z=0.5\hfill \\ 5x-6y-5z=-2\hfill \end{array}$$
+$\begin{array}{r}4x-5y=7\\ -3x+9y=0\end{array}$
 
-$$\begin{array}{l}4x-6y+8z=10\hfill \\ -2x+3y-4z=-5\hfill \\ x+y+z=1\hfill \end{array}$$
+$\begin{array}{l}4x+10y=180\hfill \\ -3x-5y=\mathrm{-105}\hfill \end{array}$
+
+$\left(15,12\right)$
+
+$\begin{array}{l}8x-2y=\mathrm{-3}\hfill \\ -4x+6y=4\hfill \end{array}$
+
+For the following exercises, solve the system of linear equations using Cramer’s Rule.
+
+$\begin{array}{l}x+2y-4z=-1\hfill \\ 7x+3y+5z=26\hfill \\ -2x-6y+7z=-6\hfill \end{array}$
+
+$\left(1,3,2\right)$
+
+$\begin{array}{l}-5x+2y-4z=-47\hfill \\ 4x-3y-z=-94\hfill \\ 3x-3y+2z=94\hfill \end{array}$
+
+$\begin{array}{l}4x+5y-z=\mathrm{-7}\hfill \\ \mathrm{-2}x-9y+2z=8\hfill \\ 5y+7z=21\hfill \end{array}$
+
+$\left(-1,0,3\right)$
+
+$\begin{array}{r}4x-3y+4z=10\\ 5x-2z=-2\\ 3x+2y-5z=-9\end{array}$
+
+$\begin{array}{l}4x-2y+3z=6\hfill \\ -6x+y=-2\hfill \\ 2x+7y+8z=24\hfill \end{array}$
+
+$\left(\frac{1}{2},1,2\right)$
+
+$\begin{array}{r}\hfill 5x+2y-z=1\\ \hfill -7x-8y+3z=1.5\\ \hfill 6x-12y+z=7\end{array}$
+
+$\begin{array}{l}13x-17y+16z=73\hfill \\ -11x+15y+17z=61\hfill \\ 46x+10y-30z=-18\hfill \end{array}$
+
+$\left(2,1,4\right)$
+
+$\begin{array}{l}\hfill \\ -4x-3y-8z=-7\hfill \\ 2x-9y+5z=0.5\hfill \\ 5x-6y-5z=-2\hfill \end{array}$
+
+$\begin{array}{l}4x-6y+8z=10\hfill \\ -2x+3y-4z=-5\hfill \\ x+y+z=1\hfill \end{array}$
 
 Infinite solutions
 
-$$\begin{array}{r}\hfill 4x-6y+8z=10\\ \hfill -2x+3y-4z=-5\\ \hfill 12x+18y-24z=-30\end{array}$$
+$\begin{array}{r}\hfill 4x-6y+8z=10\\ \hfill -2x+3y-4z=-5\\ \hfill 12x+18y-24z=-30\end{array}$
 
 Technology
 ==========
 
 For the following exercises, use the determinant function on a graphing utility.
 
-$$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 8& \hfill 9\\ \hfill 0& \hfill 2& \hfill 1& \hfill 0\\ \hfill 1& \hfill 0& \hfill 3& \hfill 0\\ \hfill 0& \hfill 2& \hfill 4& \hfill 3\end{array}\right|$$
+$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 8& \hfill 9\\ \hfill 0& \hfill 2& \hfill 1& \hfill 0\\ \hfill 1& \hfill 0& \hfill 3& \hfill 0\\ \hfill 0& \hfill 2& \hfill 4& \hfill 3\end{array}\right|$
 
-$$24$$
+$24$
 
-$$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 2& \hfill 1\\ \hfill 0& \hfill \mathrm{-9}& \hfill 1& \hfill 3\\ \hfill 3& \hfill 0& \hfill \mathrm{-2}& \hfill \mathrm{-1}\\ \hfill 0& \hfill 1& \hfill 1& \hfill \mathrm{-2}\end{array}\right|$$
+$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 2& \hfill 1\\ \hfill 0& \hfill \mathrm{-9}& \hfill 1& \hfill 3\\ \hfill 3& \hfill 0& \hfill \mathrm{-2}& \hfill \mathrm{-1}\\ \hfill 0& \hfill 1& \hfill 1& \hfill \mathrm{-2}\end{array}\right|$
 
-$$\left|\begin{array}{rrrr}\hfill \frac{1}{2}& \hfill 1& \hfill 7& \hfill 4\\ \hfill 0& \hfill \frac{1}{2}& \hfill 100& \hfill 5\\ \hfill 0& \hfill 0& \hfill 2& \hfill \mathrm{2,000}\\ \hfill 0& \hfill 0& \hfill 0& \hfill 2\end{array}\right|$$
+$\left|\begin{array}{rrrr}\hfill \frac{1}{2}& \hfill 1& \hfill 7& \hfill 4\\ \hfill 0& \hfill \frac{1}{2}& \hfill 100& \hfill 5\\ \hfill 0& \hfill 0& \hfill 2& \hfill \mathrm{2,000}\\ \hfill 0& \hfill 0& \hfill 0& \hfill 2\end{array}\right|$
 
-$$1$$
+$1$
 
-$$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 2& \hfill 3& \hfill 0& \hfill 0\\ \hfill 4& \hfill 5& \hfill 6& \hfill 0\\ \hfill 7& \hfill 8& \hfill 9& \hfill 0\end{array}\right|$$
+$\left|\begin{array}{rrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 2& \hfill 3& \hfill 0& \hfill 0\\ \hfill 4& \hfill 5& \hfill 6& \hfill 0\\ \hfill 7& \hfill 8& \hfill 9& \hfill 0\end{array}\right|$
 
 Real-World Applications
 =======================
@@ -774,69 +840,69 @@ Systems of Linear Equations: Two Variables
 ==========================================
 For the following exercises, determine whether the ordered pair is a solution to the system of equations.
 
-$$\begin{array}{l}3x-y=4\\ x+4y=-3\end{array}$$ and $$(-1,1)$$
+$\begin{array}{l}3x-y=4\\ x+4y=-3\end{array}$ and $(-1,1)$
 
 No
 
-$$\begin{array}{l}6x-2y=24\\ -3x+3y=18\end{array}$$ and $$(9,15)$$
+$\begin{array}{l}6x-2y=24\\ -3x+3y=18\end{array}$ and $(9,15)$
 
 For the following exercises, use substitution to solve the system of equations.
 
-$$\begin{array}{l}10x+5y=\mathrm{-5}\hfill \\ 3x-2y=\mathrm{-12}\hfill \end{array}$$
+$\begin{array}{l}10x+5y=\mathrm{-5}\hfill \\ 3x-2y=\mathrm{-12}\hfill \end{array}$
 
-$$\left(-2,3\right)$$
+$\left(-2,3\right)$
 
-$$\begin{array}{l}\frac{4}{7}x+\frac{1}{5}y=\frac{43}{70}\\ \frac{5}{6}x-\frac{1}{3}y=-\frac{2}{3}\end{array}$$
+$\begin{array}{l}\frac{4}{7}x+\frac{1}{5}y=\frac{43}{70}\\ \frac{5}{6}x-\frac{1}{3}y=-\frac{2}{3}\end{array}$
 
-$$\begin{array}{l}5x+6y=14\\ 4x+8y=8\end{array}$$
+$\begin{array}{l}5x+6y=14\\ 4x+8y=8\end{array}$
 
-$$\left(4,-1\right)$$
+$\left(4,-1\right)$
 
 For the following exercises, use addition to solve the system of equations.
 
-$$\begin{array}{l}3x+2y=\mathrm{-7}\\ 2x+4y=6\end{array}$$
+$\begin{array}{l}3x+2y=\mathrm{-7}\\ 2x+4y=6\end{array}$
 
- $$\begin{array}{r}3x+4y=2\\ 9x+12y=3\end{array}$$
+ $\begin{array}{r}3x+4y=2\\ 9x+12y=3\end{array}$
 
 No solutions exist.
 
- $$\begin{array}{l}8x+4y=2\\ 6x-5y=0.7\end{array}$$
+ $\begin{array}{l}8x+4y=2\\ 6x-5y=0.7\end{array}$
 
 For the following exercises, write a system of equations to solve each problem. Solve the system of equations.
 
- A factory has a cost of production $$C(x)=150x+15\text{,}000$$ and a revenue function $$R(x)=200x.$$ What is the break-even point?
+ A factory has a cost of production $C(x)=150x+15\text{,}000$ and a revenue function $R(x)=200x.$ What is the break-even point?
 
- $$(300,60,000)$$
+ $(300,60,000)$
 
- A performer charges $$C(x)=50x+10\text{,}000,$$ where $$x$$ is the total number of attendees at a show. The venue charges $75 per ticket. After how many people buy tickets does the venue break even, and what is the value of the total tickets sold at that point?
+ A performer charges $C(x)=50x+10\text{,}000,$ where $x$ is the total number of attendees at a show. The venue charges $75 per ticket. After how many people buy tickets does the venue break even, and what is the value of the total tickets sold at that point?
 
 Systems of Linear Equations: Three Variables
 ============================================
 For the following exercises, solve the system of three equations using substitution or addition.
 
- $$\begin{array}{l}0.5x-0.5y=10\hfill \\ -0.2y+0.2x=4\hfill \\ 0.1x+0.1z=2\hfill \end{array}$$
+ $\begin{array}{l}0.5x-0.5y=10\hfill \\ -0.2y+0.2x=4\hfill \\ 0.1x+0.1z=2\hfill \end{array}$
 
  Infinite solutions
 
- $$\begin{array}{r}\hfill 5x+3y-z=5\\ \hfill 3x-2y+4z=13\\ \hfill 4x+3y+5z=22\end{array}$$
+ $\begin{array}{r}\hfill 5x+3y-z=5\\ \hfill 3x-2y+4z=13\\ \hfill 4x+3y+5z=22\end{array}$
 
- $$\begin{array}{r}x+y+z=1\\ 2x+2y+2z=1\\ 3x+3y=2\end{array}$$
+ $\begin{array}{r}x+y+z=1\\ 2x+2y+2z=1\\ 3x+3y=2\end{array}$
 
 No solutions exist.
 
- $$\begin{array}{l}2x-3y+z=\mathrm{-1}\hfill \\ x+y+z=\mathrm{-4}\hfill \\ 4x+2y-3z=33\hfill \end{array}$$
+ $\begin{array}{l}2x-3y+z=\mathrm{-1}\hfill \\ x+y+z=\mathrm{-4}\hfill \\ 4x+2y-3z=33\hfill \end{array}$
 
- $$\begin{array}{l}3x+2y-z=\mathrm{-10}\hfill \\ x-y+2z=7\hfill \\ -x+3y+z=\mathrm{-2}\hfill \end{array}$$
+ $\begin{array}{l}3x+2y-z=\mathrm{-10}\hfill \\ x-y+2z=7\hfill \\ -x+3y+z=\mathrm{-2}\hfill \end{array}$
 
- $$\left(-1,-2,3\right)$$
+ $\left(-1,-2,3\right)$
 
- $$\begin{array}{r}\hfill 3x+4z=\mathrm{-11}\\ \hfill x-2y=5\\ \hfill 4y-z=\mathrm{-10}\end{array}$$
+ $\begin{array}{r}\hfill 3x+4z=\mathrm{-11}\\ \hfill x-2y=5\\ \hfill 4y-z=\mathrm{-10}\end{array}$
 
- $$\begin{array}{r}2x-3y+z=0\\ 2x+4y-3z=0\\ 6x-2y-z=0\end{array}$$
+ $\begin{array}{r}2x-3y+z=0\\ 2x+4y-3z=0\\ 6x-2y-z=0\end{array}$
 
- $$\left(x,\frac{8x}{5},\frac{14x}{5}\right)$$
+ $\left(x,\frac{8x}{5},\frac{14x}{5}\right)$
 
- $$\begin{array}{r}6x-4y-2z=2\\ 3x+2y-5z=4\\ 6y-7z=5\end{array}$$
+ $\begin{array}{r}6x-4y-2z=2\\ 3x+2y-5z=4\\ 6y-7z=5\end{array}$
 
 For the following exercises, write a system of equations to solve each problem. Solve the system of equations.
 
@@ -850,174 +916,178 @@ Systems of Nonlinear Equations and Inequalities: Two Variables
 ==============================================================
 For the following exercises, solve the system of nonlinear equations.
 
- $$\begin{array}{l}y={x}^{2}-7\hfill \\ y=5x-13\hfill \end{array}$$
+ $\begin{array}{l}y={x}^{2}-7\hfill \\ y=5x-13\hfill \end{array}$
 
- $$\left(2,-3\right),\left(3,2\right)$$
+ $\left(2,-3\right),\left(3,2\right)$
 
- $$\begin{array}{l}y={x}^{2}-4\hfill \\ y=5x+10\hfill \end{array}$$
+ $\begin{array}{l}y={x}^{2}-4\hfill \\ y=5x+10\hfill \end{array}$
 
- $$\begin{array}{l}{x}^{2}+{y}^{2}=16\hfill \\ y=x-8\hfill \end{array}$$
+ $\begin{array}{l}{x}^{2}+{y}^{2}=16\hfill \\ y=x-8\hfill \end{array}$
 
 No solution
 
- $$\begin{array}{l}{x}^{2}+{y}^{2}=25\hfill \\ y={x}^{2}+5\hfill \end{array}$$
+ $\begin{array}{l}{x}^{2}+{y}^{2}=25\hfill \\ y={x}^{2}+5\hfill \end{array}$
 
- $$\begin{array}{r}{x}^{2}+{y}^{2}=4\\ y-{x}^{2}=3\end{array}$$
+ $\begin{array}{r}{x}^{2}+{y}^{2}=4\\ y-{x}^{2}=3\end{array}$
 
 No solution
 
 For the following exercises, graph the inequality.
 
- $$y>{x}^{2}-1$$
+ $y>{x}^{2}-1$
 
- $$\frac{1}{4}{x}^{2}+{y}^{2}<4$$
+ $\frac{1}{4}{x}^{2}+{y}^{2}<4$
+
+![Image](../../media/CNX_Precalc_Figure_09_08_202.jpg)
 
 For the following exercises, graph the system of inequalities.
 
- $$\begin{array}{l}{x}^{2}+{y}^{2}+2x<3\hfill \\ y>-{x}^{2}-3\hfill \end{array}$$
+ $\begin{array}{l}{x}^{2}+{y}^{2}+2x<3\hfill \\ y>-{x}^{2}-3\hfill \end{array}$
 
- $$\begin{array}{l}{x}^{2}-2x+{y}^{2}-4x<4\hfill \\ y<-x+4\hfill \end{array}$$
+ $\begin{array}{l}{x}^{2}-2x+{y}^{2}-4x<4\hfill \\ y<-x+4\hfill \end{array}$
 
-$$\begin{array}{l}{x}^{2}+{y}^{2}<1\hfill \\ {y}^{2}<x\hfill \end{array}$$
+![Image](../../media/CNX_Precalc_Figure_09_08_204.jpg)
+
+$\begin{array}{l}{x}^{2}+{y}^{2}<1\hfill \\ {y}^{2}<x\hfill \end{array}$
 
 Partial Fractions
 =================
 
 For the following exercises, decompose into partial fractions.
 
- $$\frac{-2x+6}{{x}^{2}+3x+2}$$
+ $\frac{-2x+6}{{x}^{2}+3x+2}$
 
- $$\frac{2}{x+2},\frac{-4}{x+1}$$
+ $\frac{2}{x+2},\frac{-4}{x+1}$
 
- $$\frac{10x+2}{4{x}^{2}+4x+1}$$
+ $\frac{10x+2}{4{x}^{2}+4x+1}$
 
- $$\frac{7x+20}{{x}^{2}+10x+25}$$
+ $\frac{7x+20}{{x}^{2}+10x+25}$
 
- $$\frac{7}{x+5},\frac{-15}{{(x+5)}^{2}}$$
+ $\frac{7}{x+5},\frac{-15}{{(x+5)}^{2}}$
 
- $$\frac{x-18}{{x}^{2}-12x+36}$$
+ $\frac{x-18}{{x}^{2}-12x+36}$
 
- $$\frac{-{x}^{2}+36x+70}{{x}^{3}-125}$$
+ $\frac{-{x}^{2}+36x+70}{{x}^{3}-125}$
 
- $$\frac{3}{x-5},\frac{-4x+1}{{x}^{2}+5x+25}$$
+ $\frac{3}{x-5},\frac{-4x+1}{{x}^{2}+5x+25}$
 
- $$\frac{-5{x}^{2}+6x-2}{{x}^{3}+27}$$
+ $\frac{-5{x}^{2}+6x-2}{{x}^{3}+27}$
 
- $$\frac{{x}^{3}-4{x}^{2}+3x+11}{{({x}^{2}-2)}^{2}}$$
+ $\frac{{x}^{3}-4{x}^{2}+3x+11}{{({x}^{2}-2)}^{2}}$
 
- $$\frac{x-4}{({x}^{2}-2)},\frac{5x+3}{{({x}^{2}-2)}^{2}}$$
+ $\frac{x-4}{({x}^{2}-2)},\frac{5x+3}{{({x}^{2}-2)}^{2}}$
 
- $$\frac{4{x}^{4}-2{x}^{3}+22{x}^{2}-6x+48}{x{({x}^{2}+4)}^{2}}$$
+ $\frac{4{x}^{4}-2{x}^{3}+22{x}^{2}-6x+48}{x{({x}^{2}+4)}^{2}}$
 
 Matrices and Matrix Operations
 ==============================
 
 For the following exercises, perform the requested operations on the given matrices.
 
-  $$A=\left[\begin{array}{rr}\hfill 4& \hfill -2\\ \hfill 1& \hfill 3\end{array}\right],B=\left[\begin{array}{rrr}\hfill 6& \hfill 7& \hfill -3\\ \hfill 11& \hfill -2& \hfill 4\end{array}\right],C=\left[\begin{array}{r}\hfill \begin{array}{cc}6& 7\\ 11& -2\end{array}\\ \hfill \begin{array}{cc}14& 0\end{array}\end{array}\right],D=\left[\begin{array}{rrr}\hfill 1& \hfill -4& \hfill 9\\ \hfill 10& \hfill 5& \hfill -7\\ \hfill 2& \hfill 8& \hfill 5\end{array}\right],E=\left[\begin{array}{rrr}\hfill 7& \hfill -14& \hfill 3\\ \hfill 2& \hfill -1& \hfill 3\\ \hfill 0& \hfill 1& \hfill 9\end{array}\right]$$
-$$-4A$$
+  $A=\left[\begin{array}{rr}\hfill 4& \hfill -2\\ \hfill 1& \hfill 3\end{array}\right],B=\left[\begin{array}{rrr}\hfill 6& \hfill 7& \hfill -3\\ \hfill 11& \hfill -2& \hfill 4\end{array}\right],C=\left[\begin{array}{r}\hfill \begin{array}{cc}6& 7\\ 11& -2\end{array}\\ \hfill \begin{array}{cc}14& 0\end{array}\end{array}\right],D=\left[\begin{array}{rrr}\hfill 1& \hfill -4& \hfill 9\\ \hfill 10& \hfill 5& \hfill -7\\ \hfill 2& \hfill 8& \hfill 5\end{array}\right],E=\left[\begin{array}{rrr}\hfill 7& \hfill -14& \hfill 3\\ \hfill 2& \hfill -1& \hfill 3\\ \hfill 0& \hfill 1& \hfill 9\end{array}\right]$
+$-4A$
 
- $$\left[\begin{array}{cc}-16& 8\\ -4& -12\end{array}\right]$$
+ $\left[\begin{array}{cc}-16& 8\\ -4& -12\end{array}\right]$
 
- $$10D-6E$$
+ $10D-6E$
 
- $$B+C$$
+ $B+C$
 
 undefined; dimensions do not match
 
- $$AB$$
+ $AB$
 
- $$BA$$
-
-undefined; inner dimensions do not match
-
- $$BC$$
-
- $$CB$$
-
- $$\left[\begin{array}{ccc}113& 28& 10\\ 44& 81& -41\\ 84& 98& -42\end{array}\right]$$
-
- $$DE$$
-
- $$ED$$
-
- $$\left[\begin{array}{ccc}-127& -74& 176\\ -2& 11& 40\\ 28& 77& 38\end{array}\right]$$
-
- $$EC$$
-
- $$CE$$
+ $BA$
 
 undefined; inner dimensions do not match
 
- $${A}^{3}$$
+ $BC$
+
+ $CB$
+
+ $\left[\begin{array}{ccc}113& 28& 10\\ 44& 81& -41\\ 84& 98& -42\end{array}\right]$
+
+ $DE$
+
+ $ED$
+
+ $\left[\begin{array}{ccc}-127& -74& 176\\ -2& 11& 40\\ 28& 77& 38\end{array}\right]$
+
+ $EC$
+
+ $CE$
+
+undefined; inner dimensions do not match
+
+ ${A}^{3}$
 
 Solving Systems with Gaussian Elimination
 =========================================
 For the following exercises, write the system of linear equations from the augmented matrix. Indicate whether there will be a unique solution.
 
- $$\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill \mathrm{-3}\\ \hfill 0& \hfill 1& \hfill 2\\ \hfill 0& \hfill 0& \hfill 0\end{array}|\begin{array}{r}\hfill 7\\ \hfill \mathrm{-5}\\ \hfill 0\end{array}\right]$$
+ $\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill \mathrm{-3}\\ \hfill 0& \hfill 1& \hfill 2\\ \hfill 0& \hfill 0& \hfill 0\end{array}|\begin{array}{r}\hfill 7\\ \hfill \mathrm{-5}\\ \hfill 0\end{array}\right]$
 
- $$\begin{array}{l}x-3z=7\\ y+2z=-5\end{array}$$ with infinite solutions
+ $\begin{array}{l}x-3z=7\\ y+2z=-5\end{array}$ with infinite solutions
 
- $$\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 5\\ \hfill 0& \hfill 1& \hfill \mathrm{-2}\\ \hfill 0& \hfill 0& \hfill 0\end{array}|\begin{array}{r}\hfill \mathrm{-9}\\ \hfill 4\\ \hfill 3\end{array}\right]$$
+ $\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 5\\ \hfill 0& \hfill 1& \hfill \mathrm{-2}\\ \hfill 0& \hfill 0& \hfill 0\end{array}|\begin{array}{r}\hfill \mathrm{-9}\\ \hfill 4\\ \hfill 3\end{array}\right]$
 
 For the following exercises, write the augmented matrix from the system of linear equations.
 
- $$\begin{array}{r}\hfill -2x+2y+z=7\\ \hfill 2x-8y+5z=0\\ \hfill 19x-10y+22z=3\end{array}$$
+ $\begin{array}{r}\hfill -2x+2y+z=7\\ \hfill 2x-8y+5z=0\\ \hfill 19x-10y+22z=3\end{array}$
 
- $$\left[\begin{array}{rrr}\hfill -2& \hfill 2& \hfill 1\\ \hfill 2& \hfill -8& \hfill 5\\ \hfill 19& \hfill -10& \hfill 22\end{array}|\begin{array}{r}\hfill 7\\ \hfill 0\\ \hfill 3\end{array}\right]$$
+ $\left[\begin{array}{rrr}\hfill -2& \hfill 2& \hfill 1\\ \hfill 2& \hfill -8& \hfill 5\\ \hfill 19& \hfill -10& \hfill 22\end{array}|\begin{array}{r}\hfill 7\\ \hfill 0\\ \hfill 3\end{array}\right]$
 
- $$\begin{array}{l}4x+2y-3z=14\hfill \\ -12x+3y+z=100\hfill \\ 9x-6y+2z=31\hfill \end{array}$$
+ $\begin{array}{l}4x+2y-3z=14\hfill \\ -12x+3y+z=100\hfill \\ 9x-6y+2z=31\hfill \end{array}$
 
- $$\begin{array}{r}\hfill x+3z=12\\ \hfill -x+4y=0\\ \hfill y+2z=-7\end{array}$$
+ $\begin{array}{r}\hfill x+3z=12\\ \hfill -x+4y=0\\ \hfill y+2z=-7\end{array}$
 
- $$\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 3\\ \hfill \mathrm{-1}& \hfill 4& \hfill 0\\ \hfill 0& \hfill 1& \hfill 2\end{array}|\begin{array}{r}\hfill 12\\ \hfill 0\\ \hfill \mathrm{-7}\end{array}\right]$$
+ $\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 3\\ \hfill \mathrm{-1}& \hfill 4& \hfill 0\\ \hfill 0& \hfill 1& \hfill 2\end{array}|\begin{array}{r}\hfill 12\\ \hfill 0\\ \hfill \mathrm{-7}\end{array}\right]$
 
 For the following exercises, solve the system of linear equations using Gaussian elimination.
 
- $$\begin{array}{r}3x-4y=-7\\ -6x+8y=14\end{array}$$
+ $\begin{array}{r}3x-4y=-7\\ -6x+8y=14\end{array}$
 
- $$\begin{array}{r}3x-4y=1\\ -6x+8y=6\end{array}$$
-
-No solutions exist.
-
- $$\begin{array}{l}-1.1x-2.3y=6.2\\ -5.2x-4.1y=4.3\hfill \end{array}$$
-
- $$\begin{array}{r}\hfill 2x+3y+2z=1\\ \hfill -4x-6y-4z=-2\\ \hfill 10x+15y+10z=0\end{array}$$
+ $\begin{array}{r}3x-4y=1\\ -6x+8y=6\end{array}$
 
 No solutions exist.
 
- $$\begin{array}{r}\hfill -x+2y-4z=8\\ \hfill 3y+8z=-4\\ \hfill -7x+y+2z=1\end{array}$$
+ $\begin{array}{l}-1.1x-2.3y=6.2\\ -5.2x-4.1y=4.3\hfill \end{array}$
+
+ $\begin{array}{r}\hfill 2x+3y+2z=1\\ \hfill -4x-6y-4z=-2\\ \hfill 10x+15y+10z=0\end{array}$
+
+No solutions exist.
+
+ $\begin{array}{r}\hfill -x+2y-4z=8\\ \hfill 3y+8z=-4\\ \hfill -7x+y+2z=1\end{array}$
 
 Solving Systems with Inverses
 =============================
 For the following exercises, find the inverse of the matrix.
 
- $$\left[\begin{array}{rr}\hfill -0.2& \hfill 1.4\\ \hfill 1.2& \hfill -0.4\end{array}\right]$$
+ $\left[\begin{array}{rr}\hfill -0.2& \hfill 1.4\\ \hfill 1.2& \hfill -0.4\end{array}\right]$
 
- $$\frac{1}{8}\left[\begin{array}{cc}2& 7\\ 6& 1\end{array}\right]$$
+ $\frac{1}{8}\left[\begin{array}{cc}2& 7\\ 6& 1\end{array}\right]$
 
- $$\left[\begin{array}{rr}\hfill \frac{1}{2}& \hfill -\frac{1}{2}\\ \hfill -\frac{1}{4}& \hfill \frac{3}{4}\end{array}\right]$$
+ $\left[\begin{array}{rr}\hfill \frac{1}{2}& \hfill -\frac{1}{2}\\ \hfill -\frac{1}{4}& \hfill \frac{3}{4}\end{array}\right]$
 
- $$\left[\begin{array}{ccc}12& 9& -6\\ -1& 3& 2\\ -4& -3& 2\end{array}\right]$$
+ $\left[\begin{array}{ccc}12& 9& -6\\ -1& 3& 2\\ -4& -3& 2\end{array}\right]$
 
 No inverse exists.
 
- $$\left[\begin{array}{ccc}2& 1& 3\\ 1& 2& 3\\ 3& 2& 1\end{array}\right]$$
+ $\left[\begin{array}{ccc}2& 1& 3\\ 1& 2& 3\\ 3& 2& 1\end{array}\right]$
 
 For the following exercises, find the solutions by computing the inverse of the matrix.
 
- $$\begin{array}{l}0.3x-0.1y=-10\hfill \\ -0.1x+0.3y=14\hfill \end{array}$$
+ $\begin{array}{l}0.3x-0.1y=-10\hfill \\ -0.1x+0.3y=14\hfill \end{array}$
 
- $$\left(-20,40\right)$$
+ $\left(-20,40\right)$
 
- $$\begin{array}{l}0.4x-0.2y=-0.6\hfill \\ -0.1x+0.05y=0.3\hfill \end{array}$$
+ $\begin{array}{l}0.4x-0.2y=-0.6\hfill \\ -0.1x+0.05y=0.3\hfill \end{array}$
 
- $$\begin{array}{r}4x+3y-3z=-4.3\\ 5x-4y-z=-6.1\\ x+z=-0.7\end{array}$$
+ $\begin{array}{r}4x+3y-3z=-4.3\\ 5x-4y-z=-6.1\\ x+z=-0.7\end{array}$
 
- $$\left(-1,0.2,0.3\right)$$
+ $\left(-1,0.2,0.3\right)$
 
- $$\begin{array}{r}\hfill \begin{array}{l}\\ -2x-3y+2z=3\end{array}\\ \hfill -x+2y+4z=-5\\ \hfill -2y+5z=-3\end{array}$$
+ $\begin{array}{r}\hfill \begin{array}{l}\\ -2x-3y+2z=3\end{array}\\ \hfill -x+2y+4z=-5\\ \hfill -2y+5z=-3\end{array}$
 
 For the following exercises, write a system of equations to solve each problem. Solve the system of equations.
 
@@ -1032,170 +1102,170 @@ Solving Systems with Cramer's Rule
 
 For the following exercises, find the determinant.
 
- $$\left|\begin{array}{cc}100& 0\\ 0& 0\end{array}\right|$$
+ $\left|\begin{array}{cc}100& 0\\ 0& 0\end{array}\right|$
 
 0
 
- $$\left|\begin{array}{cc}0.2& -0.6\\ 0.7& -1.1\end{array}\right|$$
+ $\left|\begin{array}{cc}0.2& -0.6\\ 0.7& -1.1\end{array}\right|$
 
- $$\left|\begin{array}{ccc}-1& 4& 3\\ 0& 2& 3\\ 0& 0& -3\end{array}\right|$$
+ $\left|\begin{array}{ccc}-1& 4& 3\\ 0& 2& 3\\ 0& 0& -3\end{array}\right|$
 
 6
 
- $$\left|\begin{array}{ccc}\sqrt{2}& 0& 0\\ 0& \sqrt{2}& 0\\ 0& 0& \sqrt{2}\end{array}\right|$$
+ $\left|\begin{array}{ccc}\sqrt{2}& 0& 0\\ 0& \sqrt{2}& 0\\ 0& 0& \sqrt{2}\end{array}\right|$
 
 For the following exercises, use Cramer’s Rule to solve the linear systems of equations.
 
- $$\begin{array}{r}\hfill 4x-2y=23\\ \hfill -5x-10y=-35\end{array}$$
+ $\begin{array}{r}\hfill 4x-2y=23\\ \hfill -5x-10y=-35\end{array}$
 
- $$\left(6,\frac{1}{2}\right)$$
+ $\left(6,\frac{1}{2}\right)$
 
- $$\begin{array}{l}0.2x-0.1y=0\\ -0.3x+0.3y=2.5\end{array}$$
+ $\begin{array}{l}0.2x-0.1y=0\\ -0.3x+0.3y=2.5\end{array}$
 
- $$\begin{array}{r}\hfill -0.5x+0.1y=0.3\\ \hfill -0.25x+0.05y=0.15\end{array}$$
+ $\begin{array}{r}\hfill -0.5x+0.1y=0.3\\ \hfill -0.25x+0.05y=0.15\end{array}$
 
 (*x*, 5*x*+ 3)
 
- $$\begin{array}{l}x+6y+3z=4\\ 2x+y+2z=3\\ 3x-2y+z=0\end{array}$$
+ $\begin{array}{l}x+6y+3z=4\\ 2x+y+2z=3\\ 3x-2y+z=0\end{array}$
 
- $$\begin{array}{r}\hfill 4x-3y+5z=-\frac{5}{2}\\ \hfill 7x-9y-3z=\frac{3}{2}\\ \hfill x-5y-5z=\frac{5}{2}\end{array}$$
+ $\begin{array}{r}\hfill 4x-3y+5z=-\frac{5}{2}\\ \hfill 7x-9y-3z=\frac{3}{2}\\ \hfill x-5y-5z=\frac{5}{2}\end{array}$
 
- $$\left(0,0,-\frac{1}{2}\right)$$
+ $\left(0,0,-\frac{1}{2}\right)$
 
- $$\begin{array}{r}\frac{3}{10}x-\frac{1}{5}y-\frac{3}{10}z=-\frac{1}{50}\\ \frac{1}{10}x-\frac{1}{10}y-\frac{1}{2}z=-\frac{9}{50}\\ \frac{2}{5}x-\frac{1}{2}y-\frac{3}{5}z=-\frac{1}{5}\end{array}$$
+ $\begin{array}{r}\frac{3}{10}x-\frac{1}{5}y-\frac{3}{10}z=-\frac{1}{50}\\ \frac{1}{10}x-\frac{1}{10}y-\frac{1}{2}z=-\frac{9}{50}\\ \frac{2}{5}x-\frac{1}{2}y-\frac{3}{5}z=-\frac{1}{5}\end{array}$
 
 Practice Test
 =============
 Is the following ordered pair a solution to the system of equations?
 
-  $$\begin{array}{l}\\ \begin{array}{l}-5x-y=12\hfill \\ x+4y=9\hfill \end{array}\end{array}$$ with $$(-3,3)$$
+  $\begin{array}{l}\\ \begin{array}{l}-5x-y=12\hfill \\ x+4y=9\hfill \end{array}\end{array}$ with $(-3,3)$
 
   
 Yes
 
   For the following exercises, solve the systems of linear and nonlinear equations using substitution or elimination. Indicate if no solution exists.
 
-  $$\begin{array}{r}\frac{1}{2}x-\frac{1}{3}y=4\\ \frac{3}{2}x-y=0\end{array}$$
+  $\begin{array}{r}\frac{1}{2}x-\frac{1}{3}y=4\\ \frac{3}{2}x-y=0\end{array}$
 
-  $$\begin{array}{l}\\ -\frac{1}{2}x-4y=4\\ \hfill 2x+16y=2\end{array}$$
+  $\begin{array}{l}\\ -\frac{1}{2}x-4y=4\\ \hfill 2x+16y=2\end{array}$
 
   
 No solutions exist.
 
   
-  $$\begin{array}{r}\hfill 5x-y=1\\ \hfill -10x+2y=-2\end{array}$$
+  $\begin{array}{r}\hfill 5x-y=1\\ \hfill -10x+2y=-2\end{array}$
 
-  $$\begin{array}{l}4x-6y-2z=\frac{1}{10}\hfill \\ x-7y+5z=-\frac{1}{4}\hfill \\ 3x+6y-9z=\frac{6}{5}\hfill \end{array}$$
-
-   
-    $$\frac{1}{20}\left(10,5,4\right)$$
+  $\begin{array}{l}4x-6y-2z=\frac{1}{10}\hfill \\ x-7y+5z=-\frac{1}{4}\hfill \\ 3x+6y-9z=\frac{6}{5}\hfill \end{array}$
 
    
-  $$\begin{array}{r}x+z=20\\ x+y+z=20\\ x+2y+z=10\end{array}$$
-
-  $$\begin{array}{r}5x-4y-3z=0\\ 2x+y+2z=0\\ x-6y-7z=0\end{array}$$
+    $\frac{1}{20}\left(10,5,4\right)$
 
    
-    $$\left(x,\frac{16x}{5}-\frac{13x}{5}\right)$$
+  $\begin{array}{r}x+z=20\\ x+y+z=20\\ x+2y+z=10\end{array}$
+
+  $\begin{array}{r}5x-4y-3z=0\\ 2x+y+2z=0\\ x-6y-7z=0\end{array}$
 
    
-  $$\begin{array}{l}y={x}^{2}+2x-3\\ y=x-1\end{array}$$
-
-  $$\begin{array}{l}{y}^{2}+{x}^{2}=25\\ {y}^{2}-2{x}^{2}=1\end{array}$$
+    $\left(x,\frac{16x}{5}-\frac{13x}{5}\right)$
 
    
-    $$(-2\sqrt{2},-\sqrt{17}),\left(-2\sqrt{2},\sqrt{17}\right),\left(2\sqrt{2},-\sqrt{17}\right),\left(2\sqrt{2},\sqrt{17}\right)$$
+  $\begin{array}{l}y={x}^{2}+2x-3\\ y=x-1\end{array}$
+
+  $\begin{array}{l}{y}^{2}+{x}^{2}=25\\ {y}^{2}-2{x}^{2}=1\end{array}$
+
+   
+    $(-2\sqrt{2},-\sqrt{17}),\left(-2\sqrt{2},\sqrt{17}\right),\left(2\sqrt{2},-\sqrt{17}\right),\left(2\sqrt{2},\sqrt{17}\right)$
 
   For the following exercises, graph the following inequalities.
 
-  $$y<{x}^{2}+9$$
+  $y<{x}^{2}+9$
 
-  $$\begin{array}{l}{x}^{2}+{y}^{2}>4\\ y<{x}^{2}+1\end{array}$$
+  $\begin{array}{l}{x}^{2}+{y}^{2}>4\\ y<{x}^{2}+1\end{array}$
 
   
 
    
-    
-   
+
+![Image](../../media/CNX_Precalc_Figure_09_08_207.jpg)
 
 For the following exercises, write the partial fraction decomposition.
 
-  $$\frac{-8x-30}{{x}^{2}+10x+25}$$
+  $\frac{-8x-30}{{x}^{2}+10x+25}$
 
-  $$\frac{13x+2}{{(3x+1)}^{2}}$$
+  $\frac{13x+2}{{(3x+1)}^{2}}$
 
   
-   $$\frac{5}{3x+1}-\frac{2x+3}{{(3x+1)}^{2}}$$
+   $\frac{5}{3x+1}-\frac{2x+3}{{(3x+1)}^{2}}$
 
-  $$\frac{{x}^{4}-{x}^{3}+2x-1}{x{({x}^{2}+1)}^{2}}$$
+  $\frac{{x}^{4}-{x}^{3}+2x-1}{x{({x}^{2}+1)}^{2}}$
 
   For the following exercises, perform the given matrix operations.
 
-  $$5\left[\begin{array}{cc}4& 9\\ -2& 3\end{array}\right]+\frac{1}{2}\left[\begin{array}{cc}-6& 12\\ 4& -8\end{array}\right]$$
+  $5\left[\begin{array}{cc}4& 9\\ -2& 3\end{array}\right]+\frac{1}{2}\left[\begin{array}{cc}-6& 12\\ 4& -8\end{array}\right]$
 
   
-   $$\left[\begin{array}{cc}17& 51\\ -8& 11\end{array}\right]$$
+   $\left[\begin{array}{cc}17& 51\\ -8& 11\end{array}\right]$
 
-  $$\left[\begin{array}{rrr}\hfill 1& \hfill 4& \hfill -7\\ \hfill -2& \hfill 9& \hfill 5\\ \hfill 12& \hfill 0& \hfill -4\end{array}\right]\phantom{\rule{0.5em}{0ex}}\left[\begin{array}{cc}3& -4\\ 1& 3\\ 5& 10\end{array}\right]$$
+  $\left[\begin{array}{rrr}\hfill 1& \hfill 4& \hfill -7\\ \hfill -2& \hfill 9& \hfill 5\\ \hfill 12& \hfill 0& \hfill -4\end{array}\right]\phantom{\rule{0.5em}{0ex}}\left[\begin{array}{cc}3& -4\\ 1& 3\\ 5& 10\end{array}\right]$
 
-  $${\left[\begin{array}{rr}\hfill \frac{1}{2}& \hfill \frac{1}{3}\\ \hfill \frac{1}{4}& \hfill \frac{1}{5}\end{array}\right]}^{-1}$$
-
-   
-    $$\left[\begin{array}{cc}12& -20\\ -15& 30\end{array}\right]$$
+  ${\left[\begin{array}{rr}\hfill \frac{1}{2}& \hfill \frac{1}{3}\\ \hfill \frac{1}{4}& \hfill \frac{1}{5}\end{array}\right]}^{-1}$
 
    
-
-  $$\mathrm{det}\left|\begin{array}{cc}0& 0\\ 400& 4\text{,}000\end{array}\right|$$
-
-  $$\mathrm{det}\left|\begin{array}{rrr}\hfill \frac{1}{2}& \hfill -\frac{1}{2}& \hfill 0\\ \hfill -\frac{1}{2}& \hfill 0& \hfill \frac{1}{2}\\ \hfill 0& \hfill \frac{1}{2}& \hfill 0\end{array}\right|$$
+    $\left[\begin{array}{cc}12& -20\\ -15& 30\end{array}\right]$
 
    
-    $$-\frac{1}{8}$$
+
+  $\mathrm{det}\left|\begin{array}{cc}0& 0\\ 400& 4\text{,}000\end{array}\right|$
+
+  $\mathrm{det}\left|\begin{array}{rrr}\hfill \frac{1}{2}& \hfill -\frac{1}{2}& \hfill 0\\ \hfill -\frac{1}{2}& \hfill 0& \hfill \frac{1}{2}\\ \hfill 0& \hfill \frac{1}{2}& \hfill 0\end{array}\right|$
 
    
-  If $$\mathrm{det}(A)=\mathrm{-6},$$ what would be the determinant if you switched rows 1 and 3, multiplied the second row by 12, and took the inverse?
+    $-\frac{1}{8}$
+
+   
+  If $\mathrm{det}(A)=\mathrm{-6},$ what would be the determinant if you switched rows 1 and 3, multiplied the second row by 12, and took the inverse?
 
   Rewrite the system of linear equations as an augmented matrix.
 
-    $$\begin{array}{l}14x-2y+13z=140\hfill \\ -2x+3y-6z=-1\hfill \\ x-5y+12z=11\hfill \end{array}$$
+    $\begin{array}{l}14x-2y+13z=140\hfill \\ -2x+3y-6z=-1\hfill \\ x-5y+12z=11\hfill \end{array}$
 
   
-   $$\left[\begin{array}{rrr}\hfill 14& \hfill -2& \hfill 13\\ \hfill -2& \hfill 3& \hfill -6\\ \hfill 1& \hfill -5& \hfill 12\end{array}\phantom{\rule{0.5em}{0ex}}|\begin{array}{r}\hfill 140\\ \hfill -1\\ \hfill 11\end{array}\right]$$
+   $\left[\begin{array}{rrr}\hfill 14& \hfill -2& \hfill 13\\ \hfill -2& \hfill 3& \hfill -6\\ \hfill 1& \hfill -5& \hfill 12\end{array}\phantom{\rule{0.5em}{0ex}}|\begin{array}{r}\hfill 140\\ \hfill -1\\ \hfill 11\end{array}\right]$
 
   Rewrite the augmented matrix as a system of linear equations.
 
-    $$\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 3\\ \hfill -2& \hfill 4& \hfill 9\\ \hfill -6& \hfill 1& \hfill 2\end{array}|\begin{array}{r}\hfill 12\\ \hfill -5\\ \hfill 8\end{array}\right]$$
+    $\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 3\\ \hfill -2& \hfill 4& \hfill 9\\ \hfill -6& \hfill 1& \hfill 2\end{array}|\begin{array}{r}\hfill 12\\ \hfill -5\\ \hfill 8\end{array}\right]$
 
   For the following exercises, use Gaussian elimination to solve the systems of equations.
 
-  $$\begin{array}{r}x-6y=4\\ 2x-12y=0\end{array}$$
+  $\begin{array}{r}x-6y=4\\ 2x-12y=0\end{array}$
 
   
 No solutions exist.
 
-  $$\begin{array}{r}\hfill 2x+y+z=-3\\ \hfill x-2y+3z=6\\ \hfill x-y-z=6\end{array}$$
+  $\begin{array}{r}\hfill 2x+y+z=-3\\ \hfill x-2y+3z=6\\ \hfill x-y-z=6\end{array}$
 
   For the following exercises, use the inverse of a matrix to solve the systems of equations.
 
-  $$\begin{array}{r}\hfill 4x-5y=-50\\ \hfill -x+2y=80\end{array}$$
+  $\begin{array}{r}\hfill 4x-5y=-50\\ \hfill -x+2y=80\end{array}$
 
   
-   $$\left(100,90\right)$$
+   $\left(100,90\right)$
 
-  $$\begin{array}{r}\hfill \frac{1}{100}x-\frac{3}{100}y+\frac{1}{20}z=-49\\ \hfill \frac{3}{100}x-\frac{7}{100}y-\frac{1}{100}z=13\\ \hfill \frac{9}{100}x-\frac{9}{100}y-\frac{9}{100}z=99\end{array}$$
+  $\begin{array}{r}\hfill \frac{1}{100}x-\frac{3}{100}y+\frac{1}{20}z=-49\\ \hfill \frac{3}{100}x-\frac{7}{100}y-\frac{1}{100}z=13\\ \hfill \frac{9}{100}x-\frac{9}{100}y-\frac{9}{100}z=99\end{array}$
 
   For the following exercises, use Cramer’s Rule to solve the systems of equations.
 
-  $$\begin{array}{l}200x-300y=2\\ 400x+715y=4\end{array}$$
+  $\begin{array}{l}200x-300y=2\\ 400x+715y=4\end{array}$
 
   
-   $$\left(\frac{1}{100},0\right)$$
+   $\left(\frac{1}{100},0\right)$
 
-  $$\begin{array}{l}0.1x+0.1y-0.1z=-1.2\\ 0.1x-0.2y+0.4z=-1.2\\ 0.5x-0.3y+0.8z=-5.9\end{array}$$
+  $\begin{array}{l}0.1x+0.1y-0.1z=-1.2\\ 0.1x-0.2y+0.4z=-1.2\\ 0.5x-0.3y+0.8z=-5.9\end{array}$
 
   For the following exercises, solve using a system of linear equations.
 
-  A factory producing cell phones has the following cost and revenue functions: $$C(x)={x}^{2}+75x+2\text{,}688$$ and $$R(x)={x}^{2}+160x.$$ What is the range of cell phones they should produce each day so there is profit? Round to the nearest number that generates profit.
+  A factory producing cell phones has the following cost and revenue functions: $C(x)={x}^{2}+75x+2\text{,}688$ and $R(x)={x}^{2}+160x.$ What is the range of cell phones they should produce each day so there is profit? Round to the nearest number that generates profit.
 
   
 32 or more cell phones per day

@@ -94,8 +94,7 @@ Mindsets can be changed. As Dr. Dweck would say “You have a choice. Mindsets a
 Think about what you would like to achieve in your classes this term and how a growth mindset can help you reach these goals. Write three goals for yourself below.
 
 Maahi is building a little free library (a small house-shaped book repository), whose front is in the shape of a square topped with a triangle. There will be a rectangular door through which people can take and donate books. Maahi wants to find the area of the front of the library so that they can purchase the correct amount of paint. Using the measurements of the front of the house, shown in , we can create an expression that combines several variable terms, allowing us to solve this problem and others like it.
-\n\n![
-](../../media/CNX_CAT_Figure_01_04_001.jpg)\n\n
+\n\n![Image](../../media/CNX_CAT_Figure_01_04_001.jpg)\n\n
 
 First find the area of the square in square feet.
 
@@ -105,7 +104,7 @@ $$
 
 Then find the area of the triangle in square feet.
 
- $$\begin{array}{ccc}\hfill A& =& \frac{1}{2}bh\hfill \\ & =& \phantom{\rule{0.5em}{0ex}}\frac{1}{2}(2x)\left(\frac{3}{2}\right)\hfill \\ & =& \phantom{\rule{0.5em}{0ex}}\frac{3}{2}x\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill A& =& \frac{1}{2}bh\hfill \\ & =& \phantom{\rule{0.5em}{0ex}}\frac{1}{2}(2x)\left(\frac{3}{2}\right)\hfill \\ & =& \phantom{\rule{0.5em}{0ex}}\frac{3}{2}x\hfill \end{array}$
 
 Next find the area of the rectangular door in square feet.
 
@@ -113,16 +112,18 @@ Next find the area of the rectangular door in square feet.
 \begin{array}{ccc}\hfill A& =& lw\hfill \\ & =& x\cdot 1\hfill \\ \hfill & =& x\hfill \end{array}
 $$
 
-The area of the front of the library can be found by adding the areas of the square and the triangle, and then subtracting the area of the rectangle. When we do this, we get $$4{x}^{2}+\frac{3}{2}x-x\phantom{\rule{0.5em}{0ex}}{\text{ft}}^{2},$$ or $$4{x}^{2}+\frac{1}{2}x$$ ft2.
+The area of the front of the library can be found by adding the areas of the square and the triangle, and then subtracting the area of the rectangle. When we do this, we get $4{x}^{2}+\frac{3}{2}x-x\phantom{\rule{0.5em}{0ex}}{\text{ft}}^{2},$ or $4{x}^{2}+\frac{1}{2}x$ ft2.
 In this section, we will examine expressions such as this one, which combine several variable terms.
 
 Identifying the Degree and Leading Coefficient of Polynomials
 =============================================================
 
-The formula just found is an example of a **polynomial**, which is a sum of or difference of terms, each consisting of a variable raised to a nonnegative integer power. A number multiplied by a variable raised to an exponent, such as $$384\pi ,$$ is known as a **coefficient**. Coefficients can be positive, negative, or zero, and can be whole numbers, decimals, or fractions. Each product $${a}_{i}{x}^{i},$$ such as $$384\pi w,$$ is a **term of a polynomial**. If a term does not contain a variable, it is called a *constant*.
+The formula just found is an example of a **polynomial**, which is a sum of or difference of terms, each consisting of a variable raised to a nonnegative integer power. A number multiplied by a variable raised to an exponent, such as $384\pi ,$ is known as a **coefficient**. Coefficients can be positive, negative, or zero, and can be whole numbers, decimals, or fractions. Each product ${a}_{i}{x}^{i},$ such as $384\pi w,$ is a **term of a polynomial**. If a term does not contain a variable, it is called a *constant*.
 
-A polynomial containing only one term, such as $$5{x}^{4},$$ is called a **monomial**. A polynomial containing two terms, such as $$2x-9,$$ is called a **binomial**. A polynomial containing three terms, such as $$\mathrm{-3}{x}^{2}+8x-7,$$ is called a **trinomial**.
+A polynomial containing only one term, such as $5{x}^{4},$ is called a **monomial**. A polynomial containing two terms, such as $2x-9,$ is called a **binomial**. A polynomial containing three terms, such as $\mathrm{-3}{x}^{2}+8x-7,$ is called a **trinomial**.
 We can find the **degree** of a polynomial by identifying the highest power of the variable that occurs in the polynomial. The term with the highest degree is called the **leading term** because it is usually written first. The coefficient of the leading term is called the **leading coefficient**. When a polynomial is written so that the powers are descending, we say that it is in standard form.
+
+![A polynomial reading: a sub n times x to the nth power plus and so on plus a sub 2 times x squared plus a sub one times x plus a subzero is shown. The a in the term a sub n is labeled: leading coefficient. The n in the term x to the nth power is labeled: degree. Finally, the entire term is labeled as: Leading term.](../../media/CNX_CAT_Figure_01_04_002.jpg)
 
 Polynomials
 ===========
@@ -133,7 +134,7 @@ A **polynomial** is an expression that can be written in the form
 {a}_{n}{x}^{n}+\mathrm{...}+{a}_{2}{x}^{2}+{a}_{1}x+{a}_{0}
 $$
 
-Each real number *ai*is called a **coefficient**. The number $${a}_{0}$$ that is not multiplied by a variable is called a *constant*. Each product $${a}_{i}{x}^{i}$$ is a **term of a polynomial**. The highest power of the variable that occurs in the polynomial is called the **degree** of a polynomial. The **leading term** is the term with the highest power, and its coefficient is called the **leading coefficient**.
+Each real number *ai*is called a **coefficient**. The number ${a}_{0}$ that is not multiplied by a variable is called a *constant*. Each product ${a}_{i}{x}^{i}$ is a **term of a polynomial**. The highest power of the variable that occurs in the polynomial is called the **degree** of a polynomial. The **leading term** is the term with the highest power, and its coefficient is called the **leading coefficient**.
 
 How To
 *Given a polynomial expression, identify the degree and leading coefficient*.
@@ -147,28 +148,28 @@ Identifying the Degree and Leading Coefficient of a Polynomial
 
 For the following polynomials, identify the degree, the leading term, and the leading coefficient.
 
-  ⓐ $$3+2{x}^{2}-4{x}^{3}$$
+  ⓐ $3+2{x}^{2}-4{x}^{3}$
 
-ⓑ $$5{t}^{5}-2{t}^{3}+7t$$
+ⓑ $5{t}^{5}-2{t}^{3}+7t$
 
-ⓒ $$6p-{p}^{3}-2$$
+ⓒ $6p-{p}^{3}-2$
 
-  ⓐThe highest power of *x* is 3, so the degree is 3. The leading term is the term containing that degree, $$\mathrm{-4}{x}^{3}.$$ The leading coefficient is the coefficient of that term, $$\mathrm{-4.}$$
+  ⓐThe highest power of *x* is 3, so the degree is 3. The leading term is the term containing that degree, $\mathrm{-4}{x}^{3}.$ The leading coefficient is the coefficient of that term, $\mathrm{-4.}$
 
-ⓑThe highest power of *t* is $$5,$$ so the degree is $$5.$$ The leading term is the term containing that degree, $$5{t}^{5}.$$ The leading coefficient is the coefficient of that term, $$5.$$
+ⓑThe highest power of *t* is $5,$ so the degree is $5.$ The leading term is the term containing that degree, $5{t}^{5}.$ The leading coefficient is the coefficient of that term, $5.$
 
-ⓒThe highest power of *p* is $$3,$$ so the degree is $$3.$$ The leading term is the term containing that degree, $$-{p}^{3},$$ The leading coefficient is the coefficient of that term, $$\mathrm{-1.}$$
+ⓒThe highest power of *p* is $3,$ so the degree is $3.$ The leading term is the term containing that degree, $-{p}^{3},$ The leading coefficient is the coefficient of that term, $\mathrm{-1.}$
 
 Try It
 
-Identify the degree, leading term, and leading coefficient of the polynomial $$4{x}^{2}-{x}^{6}+2x-6.$$
+Identify the degree, leading term, and leading coefficient of the polynomial $4{x}^{2}-{x}^{6}+2x-6.$
 
-The degree is 6, the leading term is $$-{x}^{6},$$ and the leading coefficient is $$\mathrm{-1.}$$
+The degree is 6, the leading term is $-{x}^{6},$ and the leading coefficient is $\mathrm{-1.}$
 
 Adding and Subtracting Polynomials
 ==================================
 
-We can add and subtract polynomials by combining like terms, which are terms that contain the same variables raised to the same exponents. For example, $$5{x}^{2}$$ and $$\mathrm{-2}{x}^{2}$$ are like terms, and can be added to get $$3{x}^{2},$$ but $$3x$$ and $$3{x}^{2}$$ are not like terms, and therefore cannot be added.
+We can add and subtract polynomials by combining like terms, which are terms that contain the same variables raised to the same exponents. For example, $5{x}^{2}$ and $\mathrm{-2}{x}^{2}$ are like terms, and can be added to get $3{x}^{2},$ but $3x$ and $3{x}^{2}$ are not like terms, and therefore cannot be added.
 
 How To
 *Given multiple polynomials, add or subtract them to simplify the expressions.*
@@ -181,7 +182,7 @@ Adding Polynomials
 
 Find the sum.
 
- $$\left(12{x}^{2}+9x-21\right)+\left(4{x}^{3}+8{x}^{2}-5x+20\right)$$
+ $\left(12{x}^{2}+9x-21\right)+\left(4{x}^{3}+8{x}^{2}-5x+20\right)$
 
 $$
 \begin{array}{cc}4{x}^{3}+\left(12{x}^{2}+8{x}^{2}\right)+(9x-5x)+(\mathrm{-21}+20)\ \hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Combine\ like\ terms}.\hfill \\ 4{x}^{3}+20{x}^{2}+4x-1\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Simplify}.\hfill \end{array}
@@ -196,16 +197,16 @@ Try It
 
 Find the sum.
 
- $$\left(2{x}^{3}+5{x}^{2}-x+1\right)+\left(2{x}^{2}-3x-4\right)$$
+ $\left(2{x}^{3}+5{x}^{2}-x+1\right)+\left(2{x}^{2}-3x-4\right)$
 
-$$2{x}^{3}+7{x}^{2}\mathrm{-4}x\mathrm{-3}$$
+$2{x}^{3}+7{x}^{2}\mathrm{-4}x\mathrm{-3}$
 
 Subtracting Polynomials
 =======================
 
 Find the difference.
 
- $$\left(7{x}^{4}-{x}^{2}+6x+1\right)-\left(5{x}^{3}-2{x}^{2}+3x+2\right)$$
+ $\left(7{x}^{4}-{x}^{2}+6x+1\right)-\left(5{x}^{3}-2{x}^{2}+3x+2\right)$
 
 $$
 \begin{array}{cc}7{x}^{4}-{x}^{2}+6x+1-5{x}^{3}+2{x}^{2}-3x-2\hfill & \phantom{\rule{1em}{0ex}}\text{Distribute negative sign.}\hfill \\ 7{x}^{4}-5{x}^{3}+{x}^{2}+6x-3x+1-2\hfill & \phantom{\rule{1em}{0ex}}\text{Group like terms.}\hfill \\ 7{x}^{4}-5{x}^{3}+{x}^{2}+3x-1\hfill & \phantom{\rule{1em}{0ex}}\text{Combine/simplify.}\hfill \end{array}
@@ -220,9 +221,9 @@ Try It
  
 Find the difference.
 
- $$\left(\mathrm{-7}{x}^{3}-7{x}^{2}+6x-2\right)-\left(4{x}^{3}-6{x}^{2}-x+7\right)$$
+ $\left(\mathrm{-7}{x}^{3}-7{x}^{2}+6x-2\right)-\left(4{x}^{3}-6{x}^{2}-x+7\right)$
 
-$$\mathrm{-11}{x}^{3}-{x}^{2}+7x\mathrm{-9}$$
+$\mathrm{-11}{x}^{3}-{x}^{2}+7x\mathrm{-9}$
 
 Multiplying Polynomials
 =======================
@@ -232,7 +233,7 @@ Multiplying polynomials is a bit more challenging than adding and subtracting po
 Multiplying Polynomials Using the Distributive Property
 =======================================================
 
-To multiply a number by a polynomial, we use the distributive property. The number must be distributed to each term of the polynomial. We can distribute the $$2$$ in $$2(x+7)$$ to obtain the equivalent expression $$2x+14.$$ When multiplying polynomials, the distributive property allows us to multiply each term of the first polynomial by each term of the second. We then add the products together and combine like terms to simplify.
+To multiply a number by a polynomial, we use the distributive property. The number must be distributed to each term of the polynomial. We can distribute the $2$ in $2(x+7)$ to obtain the equivalent expression $2x+14.$ When multiplying polynomials, the distributive property allows us to multiply each term of the first polynomial by each term of the second. We then add the products together and combine like terms to simplify.
 
 How To
 *Given the multiplication of two polynomials, use the distributive property to simplify the expression.*
@@ -246,7 +247,7 @@ Multiplying Polynomials Using the Distributive Property
 
 Find the product.
 
-$$\left(2x+1\right)\left(3{x}^{2}-x+4\right)$$
+$\left(2x+1\right)\left(3{x}^{2}-x+4\right)$
 
 $$
 \begin{array}{cc}2x\left(3{x}^{2}-x+4\right)+1\left(3{x}^{2}-x+4\right)\ \hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use\ the\ distributive\ property}.\hfill \\ \left(6{x}^{3}-2{x}^{2}+8x\right)+\left(3{x}^{2}-x+4\right)\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Multiply}.\hfill \\ 6{x}^{3}+\left(\mathrm{-2}{x}^{2}+3{x}^{2}\right)+(8x-x)+4\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Combine\ like\ terms}.\hfill \\ 6{x}^{3}+{x}^{2}+7x+4\ \hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Simplify}.\hfill \end{array}
@@ -257,40 +258,42 @@ Analysis
 
 We can use a table to keep track of our work, as shown in . Write one polynomial across the top and the other down the side. For each box in the table, multiply the term for that row by the term for that column. Then add all of the terms together, combine like terms, and simplify.
 
- $$3{x}^{2}$$
+ $3{x}^{2}$
 
- $$-x$$
+ $-x$
 
- $$+4$$
+ $+4$
 
- $$2x$$
+ $2x$
 
- $$6{x}^{3}$$
+ $6{x}^{3}$
 
- $$\mathrm{-2}{x}^{2}$$
+ $\mathrm{-2}{x}^{2}$
 
- $$8x$$
+ $8x$
 
- $$+1$$
+ $+1$
 
- $$3{x}^{2}$$
+ $3{x}^{2}$
 
- $$-x$$
+ $-x$
 
- $$4$$
+ $4$
 
 Try It
 
 Find the product.
 
- $$(3x+2)\left({x}^{3}-4{x}^{2}+7\right)$$
+ $(3x+2)\left({x}^{3}-4{x}^{2}+7\right)$
 
-$$3{x}^{4}\mathrm{-10}{x}^{3}\mathrm{-8}{x}^{2}+21x+14$$
+$3{x}^{4}\mathrm{-10}{x}^{3}\mathrm{-8}{x}^{2}+21x+14$
 
 Using FOIL to Multiply Binomials
 ================================
 
 A shortcut called FOIL is sometimes used to find the product of two binomials. It is called FOIL because we multiply the *f*irst terms, the *o*uter terms, the *i*nner terms, and then the *l*ast terms of each binomial.
+
+![Two quantities in parentheses are being multiplied, the first being: a times x plus b and the second being: c times x plus d. This expression equals ac times x squared plus ad times x plus bc times x plus bd. The terms ax and cx are labeled: First Terms. The terms ax and d are labeled: Outer Terms. The terms b and cx are labeled: Inner Terms. The terms b and d are labeled: Last Terms.](../../media/CNX_CAT_Figure_01_04_003.jpg)
 
 The FOIL method arises out of the distributive property. We are simply multiplying each term of the first binomial by each term of the second binomial, and then combining like terms.
 
@@ -309,25 +312,32 @@ Using FOIL to Multiply Binomials
 
 Use FOIL to find the product.
 
-$$(2x-18)(3x+3)$$
+$(2x-18)(3x+3)$
 
 Find the product of the first terms.
 
+![Image](../../media/CNX_CAT_Figure_01_04_004.jpg)
+
 Find the product of the outer terms.
+
+![Image](../../media/CNX_CAT_Figure_01_04_005.jpg)
 
 Find the product of the inner terms.
 
-Find the product of the last terms.
+![Image](../../media/CNX_CAT_Figure_01_04_006.jpg)
 
-$$\begin{array}{cc}6{x}^{2}+6x-54x-54\hfill & \phantom{\rule{2em}{0ex}}\text{Add\ the\ products}.\hfill \\ 6{x}^{2}+(6x-54x)-54\hfill & \phantom{\rule{2em}{0ex}}\text{Combine\ like\ terms}.\hfill \\ 6{x}^{2}-48x-54\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}$$
+Find the product of the last terms.
+![Image](../../media/CNX_CAT_Figure_01_04_007.jpg)
+
+$\begin{array}{cc}6{x}^{2}+6x-54x-54\hfill & \phantom{\rule{2em}{0ex}}\text{Add\ the\ products}.\hfill \\ 6{x}^{2}+(6x-54x)-54\hfill & \phantom{\rule{2em}{0ex}}\text{Combine\ like\ terms}.\hfill \\ 6{x}^{2}-48x-54\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}$
 
 Try It
 
 Use FOIL to find the product.
 
-$$(x+7)(3x-5)$$
+$(x+7)(3x-5)$
 
-$$3{x}^{2}+16x\mathrm{-35}$$
+$3{x}^{2}+16x\mathrm{-35}$
 
 Perfect Square Trinomials
 =========================
@@ -345,7 +355,7 @@ Perfect Square Trinomials
 
 When a binomial is squared, the result is the first term squared added to double the product of both terms and the last term squared.
 
- $${(x+a)}^{2}=(x+a)(x+a)={x}^{2}+2ax+{a}^{2}$$
+ ${(x+a)}^{2}=(x+a)(x+a)={x}^{2}+2ax+{a}^{2}$
 
 How To
 *Given a binomial, square it using the formula for perfect square trinomials.*
@@ -358,23 +368,23 @@ Add and simplify.
 Expanding Perfect Squares
 =========================
 
-Expand $${(3x-8)}^{2}.$$
+Expand ${(3x-8)}^{2}.$
 
 Begin by squaring the first term and the last term. For the middle term of the trinomial, double the product of the two terms.
 
- $${(3x)}^{2}-2(3x)(8)+{(\mathrm{-8})}^{2}$$
-Simplify. $$9{x}^{2}-48x+64.$$
+ ${(3x)}^{2}-2(3x)(8)+{(\mathrm{-8})}^{2}$
+Simplify. $9{x}^{2}-48x+64.$
 
 Try It
 
-Expand $${(4x-1)}^{2}.$$
+Expand ${(4x-1)}^{2}.$
 
-$$16{x}^{2}\mathrm{-8}x+1$$
+$16{x}^{2}\mathrm{-8}x+1$
 
 Difference of Squares
 =====================
 
-Another special product is called the **difference of squares**, which occurs when we multiply a binomial by another binomial with the same terms but the opposite sign. Let’s see what happens when we multiply $$(x+1)(x-1)$$ using the FOIL method.
+Another special product is called the **difference of squares**, which occurs when we multiply a binomial by another binomial with the same terms but the opposite sign. Let’s see what happens when we multiply $(x+1)(x-1)$ using the FOIL method.
  $$
 \begin{array}{ccc}\hfill (x+1)(x-1)& =& {x}^{2}-x+x-1\hfill \\ & =& {x}^{2}-1\hfill \end{array}
 $$
@@ -397,7 +407,7 @@ Difference of Squares
 
 When a binomial is multiplied by a binomial with the same terms separated by the opposite sign, the result is the square of the first term minus the square of the last term.
 
- $$(a+b)(a-b)={a}^{2}-{b}^{2}$$
+ $(a+b)(a-b)={a}^{2}-{b}^{2}$
 
 How To
 *Given a binomial multiplied by a binomial with the same terms but the opposite sign, find the difference of squares.*
@@ -409,15 +419,15 @@ Subtract the square of the last term from the square of the first term.
 Multiplying Binomials Resulting in a Difference of Squares
 ==========================================================
 
-Multiply $$(9x+4)(9x-4).$$
+Multiply $(9x+4)(9x-4).$
 
-Square the first term to get $${(9x)}^{2}=81{x}^{2}.$$ Square the last term to get $${4}^{2}=16.$$ Subtract the square of the last term from the square of the first term to find the product of $$81{x}^{2}-16.$$
+Square the first term to get ${(9x)}^{2}=81{x}^{2}.$ Square the last term to get ${4}^{2}=16.$ Subtract the square of the last term from the square of the first term to find the product of $81{x}^{2}-16.$
 
 Try It
 
-Multiply $$(2x+7)(2x-7).$$
+Multiply $(2x+7)(2x-7).$
 
-$$4{x}^{2}\mathrm{-49}$$
+$4{x}^{2}\mathrm{-49}$
 
 Performing Operations with Polynomials of Several Variables
 ===========================================================
@@ -430,7 +440,7 @@ $$
 Multiplying Polynomials Containing Several Variables
 ====================================================
 
-Multiply $$(x+4)(3x-2y+5).$$
+Multiply $(x+4)(3x-2y+5).$
 
 Follow the same steps that we used to multiply polynomials containing only one variable.
 
@@ -440,9 +450,9 @@ $$
 
 Try It
 
-Multiply $$(3x-1)(2x+7y-9).$$
+Multiply $(3x-1)(2x+7y-9).$
 
-$$6{x}^{2}+21xy\mathrm{-29}x\mathrm{-7}y+9$$
+$6{x}^{2}+21xy\mathrm{-29}x\mathrm{-7}y+9$
 
 Media
 Access these online resources for additional instruction and practice with polynomials.
@@ -456,10 +466,10 @@ Key Equations
 =============
 
 perfect square trinomial
- $${(x+a)}^{2}=(x+a)(x+a)={x}^{2}+2ax+{a}^{2}$$
+ ${(x+a)}^{2}=(x+a)(x+a)={x}^{2}+2ax+{a}^{2}$
 
 difference of squares
- $$(a+b)(a-b)={a}^{2}-{b}^{2}$$
+ $(a+b)(a-b)={a}^{2}-{b}^{2}$
 
 Key Concepts
 ============
@@ -494,185 +504,185 @@ Algebraic
 =========
 For the following exercises, identify the degree of the polynomial.
 
-$$7x-2{x}^{2}+13$$
+$7x-2{x}^{2}+13$
 
 2
 
-$$14{m}^{3}+{m}^{2}-16m+8$$
+$14{m}^{3}+{m}^{2}-16m+8$
 
-$$\mathrm{-625}{a}^{8}+16{b}^{4}$$
+$\mathrm{-625}{a}^{8}+16{b}^{4}$
 
 8
 
-$$200p-30{p}^{2}m+40{m}^{3}$$
+$200p-30{p}^{2}m+40{m}^{3}$
 
-$${x}^{2}+4x+4$$
+${x}^{2}+4x+4$
 
 2
 
-$$6{y}^{4}-{y}^{5}+3y-4$$
+$6{y}^{4}-{y}^{5}+3y-4$
 
 For the following exercises, find the sum or difference.
 
-$$\left(12{x}^{2}+3x\right)-\left(8{x}^{2}\mathrm{-19}\right)$$
+$\left(12{x}^{2}+3x\right)-\left(8{x}^{2}\mathrm{-19}\right)$
 
-$$4{x}^{2}+3x+19$$
+$4{x}^{2}+3x+19$
 
-$$\left(4{z}^{3}+8{z}^{2}-z\right)+\left(\mathrm{-2}{z}^{2}+z+6\right)$$
+$\left(4{z}^{3}+8{z}^{2}-z\right)+\left(\mathrm{-2}{z}^{2}+z+6\right)$
 
-$$\left(6{w}^{2}+24w+24\right)-\left(3w{}^{2}-6w+3\right)$$
+$\left(6{w}^{2}+24w+24\right)-\left(3w{}^{2}-6w+3\right)$
 
-$$3{w}^{2}+30w+21$$
+$3{w}^{2}+30w+21$
 
-$$\left(7{a}^{3}+6{a}^{2}-4a-13\right)+\left(-3{a}^{3}-4{a}^{2}+6a+17\right)$$
+$\left(7{a}^{3}+6{a}^{2}-4a-13\right)+\left(-3{a}^{3}-4{a}^{2}+6a+17\right)$
 
-$$\left(11{b}^{4}-6{b}^{3}+18{b}^{2}-4b+8\right)-\left(3{b}^{3}+6{b}^{2}+3b\right)$$
+$\left(11{b}^{4}-6{b}^{3}+18{b}^{2}-4b+8\right)-\left(3{b}^{3}+6{b}^{2}+3b\right)$
 
-$$11{b}^{4}\mathrm{-9}{b}^{3}+12{b}^{2}\mathrm{-7}b+8$$
+$11{b}^{4}\mathrm{-9}{b}^{3}+12{b}^{2}\mathrm{-7}b+8$
 
-$$\left(49{p}^{2}-25\right)+\left(16{p}^{4}-32{p}^{2}+16\right)$$
+$\left(49{p}^{2}-25\right)+\left(16{p}^{4}-32{p}^{2}+16\right)$
 
 For the following exercises, find the product.
 
-$$(4x+2)(6x-4)$$
+$(4x+2)(6x-4)$
 
-$$24{x}^{2}\mathrm{-4}x\mathrm{-8}$$
+$24{x}^{2}\mathrm{-4}x\mathrm{-8}$
 
-$$\left(14{c}^{2}+4c\right)\left(2{c}^{2}-3c\right)$$
+$\left(14{c}^{2}+4c\right)\left(2{c}^{2}-3c\right)$
 
-$$\left(6{b}^{2}-6\right)\left(4{b}^{2}-4\right)$$
+$\left(6{b}^{2}-6\right)\left(4{b}^{2}-4\right)$
 
-$$24{b}^{4}\mathrm{-48}{b}^{2}+24$$
+$24{b}^{4}\mathrm{-48}{b}^{2}+24$
 
-$$(3d-5)(2d+9)$$
+$(3d-5)(2d+9)$
 
-$$(9v-11)(11v-9)$$
+$(9v-11)(11v-9)$
 
-$$99{v}^{2}\mathrm{-202}v+99$$
+$99{v}^{2}\mathrm{-202}v+99$
 
-$$\left(4{t}^{2}+7t\right)\left(\mathrm{-3}{t}^{2}+4\right)$$
+$\left(4{t}^{2}+7t\right)\left(\mathrm{-3}{t}^{2}+4\right)$
 
-$$(8n-4)\left({n}^{2}+9\right)$$
+$(8n-4)\left({n}^{2}+9\right)$
 
-$$8{n}^{3}\mathrm{-4}{n}^{2}+72n\mathrm{-36}$$
+$8{n}^{3}\mathrm{-4}{n}^{2}+72n\mathrm{-36}$
 
 For the following exercises, expand the binomial.
 
-$${\left(4x+5\right)}^{2}$$
+${\left(4x+5\right)}^{2}$
 
-$${(3y-7)}^{2}$$
+${(3y-7)}^{2}$
 
-$$9{y}^{2}\mathrm{-42}y+49$$
+$9{y}^{2}\mathrm{-42}y+49$
 
-$${(12-4x)}^{2}$$
+${(12-4x)}^{2}$
 
-$${\left(4p+9\right)}^{2}$$
+${\left(4p+9\right)}^{2}$
 
-$$16{p}^{2}+72p+81$$
+$16{p}^{2}+72p+81$
 
-$${(2m-3)}^{2}$$
+${(2m-3)}^{2}$
 
-$${(3y-6)}^{2}$$
+${(3y-6)}^{2}$
 
-$$9{y}^{2}\mathrm{-36}y+36$$
+$9{y}^{2}\mathrm{-36}y+36$
 
-$${\left(9b+1\right)}^{2}$$
+${\left(9b+1\right)}^{2}$
 
 For the following exercises, multiply the binomials.
 
-$$(4c+1)(4c-1)$$
+$(4c+1)(4c-1)$
 
-$$16{c}^{2}\mathrm{-1}$$
+$16{c}^{2}\mathrm{-1}$
 
-$$(9a-4)(9a+4)$$
+$(9a-4)(9a+4)$
 
-$$(15n-6)(15n+6)$$
+$(15n-6)(15n+6)$
 
-$$225{n}^{2}\mathrm{-36}$$
+$225{n}^{2}\mathrm{-36}$
 
-$$(25b+2)(25b-2)$$
+$(25b+2)(25b-2)$
 
-$$(4+4m)(4-4m)$$
+$(4+4m)(4-4m)$
 
-$$\mathrm{-16}{m}^{2}+16$$
+$\mathrm{-16}{m}^{2}+16$
 
-$$(14p+7)(14p-7)$$
+$(14p+7)(14p-7)$
 
-$$(11q-10)(11q+10)$$
+$(11q-10)(11q+10)$
 
-$$121{q}^{2}\mathrm{-100}$$
+$121{q}^{2}\mathrm{-100}$
 
 For the following exercises, multiply the polynomials.
 
-$$\left(2{x}^{2}+2x+1\right)(4x-1)$$
+$\left(2{x}^{2}+2x+1\right)(4x-1)$
 
-$$\left(4{t}^{2}+t-7\right)\left(4{t}^{2}-1\right)$$
+$\left(4{t}^{2}+t-7\right)\left(4{t}^{2}-1\right)$
 
-$$16{t}^{4}+4{t}^{3}\mathrm{-32}{t}^{2}-t+7$$
+$16{t}^{4}+4{t}^{3}\mathrm{-32}{t}^{2}-t+7$
 
-$$(x-1)\left({x}^{2}-2x+1\right)$$
+$(x-1)\left({x}^{2}-2x+1\right)$
 
-$$(y-2)\left({y}^{2}-4y-9\right)$$
+$(y-2)\left({y}^{2}-4y-9\right)$
 
-$${y}^{3}\mathrm{-6}{y}^{2}-y+18$$
+${y}^{3}\mathrm{-6}{y}^{2}-y+18$
 
-$$(6k-5)\left(6{k}^{2}+5k-1\right)$$
+$(6k-5)\left(6{k}^{2}+5k-1\right)$
 
-$$\left(3{p}^{2}+2p-10\right)(p-1)$$
+$\left(3{p}^{2}+2p-10\right)(p-1)$
 
-$$3{p}^{3}-{p}^{2}\mathrm{-12}p+10$$
+$3{p}^{3}-{p}^{2}\mathrm{-12}p+10$
 
-$$(4m-13)\left(2{m}^{2}-7m+9\right)$$
+$(4m-13)\left(2{m}^{2}-7m+9\right)$
 
-$$\left(a+b\right)\left(a-b\right)$$
+$\left(a+b\right)\left(a-b\right)$
 
-$${a}^{2}-{b}^{2}$$
+${a}^{2}-{b}^{2}$
 
-$$(4x-6y)(6x-4y)$$
+$(4x-6y)(6x-4y)$
 
-$${(4t-5u)}^{2}$$
+${(4t-5u)}^{2}$
 
-$$16{t}^{2}\mathrm{-40}tu+25{u}^{2}$$
+$16{t}^{2}\mathrm{-40}tu+25{u}^{2}$
 
-$$(9m+4n-1)(2m+8)$$
+$(9m+4n-1)(2m+8)$
 
-$$\left(4t-x\right)\left(t-x+1\right)$$
+$\left(4t-x\right)\left(t-x+1\right)$
 
-$$4{t}^{2}+{x}^{2}+4t\mathrm{-5}tx-x$$
+$4{t}^{2}+{x}^{2}+4t\mathrm{-5}tx-x$
 
-$$({b}^{2}-1)\left({a}^{2}+2ab+{b}^{2}\right)$$
+$({b}^{2}-1)\left({a}^{2}+2ab+{b}^{2}\right)$
 
-$$\left(4r-d\right)\left(6r+7d\right)$$
+$\left(4r-d\right)\left(6r+7d\right)$
 
-$$24{r}^{2}+22rd\mathrm{-7}{d}^{2}$$
+$24{r}^{2}+22rd\mathrm{-7}{d}^{2}$
 
-$$\left(x+y\right)\left({x}^{2}-xy+{y}^{2}\right)$$
+$\left(x+y\right)\left({x}^{2}-xy+{y}^{2}\right)$
 
 Real-World Applications
 =======================
-A developer wants to purchase a plot of land to build a house. The area of the plot can be described by the following expression: $$(4x+1)(8x-3)$$ where *x* is measured in meters. Multiply the binomials to find the area of the plot in standard form.
+A developer wants to purchase a plot of land to build a house. The area of the plot can be described by the following expression: $(4x+1)(8x-3)$ where *x* is measured in meters. Multiply the binomials to find the area of the plot in standard form.
 
-$$32{x}^{2}\mathrm{-4}x\mathrm{-3}$$ m2
+$32{x}^{2}\mathrm{-4}x\mathrm{-3}$ m2
 
-A prospective buyer wants to know how much grain a specific silo can hold. The area of the floor of the silo is $${\left(2x+9\right)}^{2}.$$ The height of the silo is $$10x+10,$$ where *x* is measured in feet. Expand the square and multiply by the height to find the expression that shows how much grain the silo can hold.
+A prospective buyer wants to know how much grain a specific silo can hold. The area of the floor of the silo is ${\left(2x+9\right)}^{2}.$ The height of the silo is $10x+10,$ where *x* is measured in feet. Expand the square and multiply by the height to find the expression that shows how much grain the silo can hold.
 
 Extensions
 ==========
 
 For the following exercises, perform the given operations.
 
-$${(4t-7)}^{2}(2t+1)-\left(4{t}^{2}+2t+11\right)$$
+${(4t-7)}^{2}(2t+1)-\left(4{t}^{2}+2t+11\right)$
 
-$$32{t}^{3}-100{t}^{2}+40t+38$$
+$32{t}^{3}-100{t}^{2}+40t+38$
 
-$$(3b+6)(3b-6)(9{b}^{2}-36)$$
+$(3b+6)(3b-6)(9{b}^{2}-36)$
 
-$$({a}^{2}+4ac+4{c}^{2})({a}^{2}-4{c}^{2})$$
+$({a}^{2}+4ac+4{c}^{2})({a}^{2}-4{c}^{2})$
 
-$${a}^{4}+4{a}^{3}c\mathrm{-16}a{c}^{3}\mathrm{-16}{c}^{4}$$
+${a}^{4}+4{a}^{3}c\mathrm{-16}a{c}^{3}\mathrm{-16}{c}^{4}$
 
 **binomial**a polynomial containing two terms
-**coefficient**any real number $${a}_{i}$$ in a polynomial in the form $${a}_{n}{x}^{n}+\mathrm{...}+{a}_{2}{x}^{2}+{a}_{1}x+{a}_{0}$$
+**coefficient**any real number ${a}_{i}$ in a polynomial in the form ${a}_{n}{x}^{n}+\mathrm{...}+{a}_{2}{x}^{2}+{a}_{1}x+{a}_{0}$
 
 **degree**the highest power of the variable that occurs in a polynomial
 **difference of squares**the binomial that results when a binomial is multiplied by a binomial with the same terms, but the opposite sign
@@ -681,6 +691,6 @@ $${a}^{4}+4{a}^{3}c\mathrm{-16}a{c}^{3}\mathrm{-16}{c}^{4}$$
 **monomial**a polynomial containing one term
 **perfect square trinomial**	the trinomial that results when a binomial is squared
 **polynomial**a sum of terms each consisting of a variable raised to a nonnegative integer power
-**term of a polynomial**any $${a}_{i}{x}^{i}$$ of a polynomial in the form $${a}_{n}{x}^{n}+\mathrm{...}+{a}_{2}{x}^{2}+{a}_{1}x+{a}_{0}$$
+**term of a polynomial**any ${a}_{i}{x}^{i}$ of a polynomial in the form ${a}_{n}{x}^{n}+\mathrm{...}+{a}_{2}{x}^{2}+{a}_{1}x+{a}_{0}$
 
 **trinomial**	a polynomial containing three terms

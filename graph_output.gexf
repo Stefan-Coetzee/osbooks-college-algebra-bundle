@@ -1,0 +1,2700 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-07">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tag" type="string" />
+      <attribute id="1" title="graph_node_id" type="string" />
+      <attribute id="2" title="text_content" type="string" />
+      <attribute id="3" title="document_title" type="string" />
+      <attribute id="4" title="abstract_text" type="string" />
+      <attribute id="5" title="section_class" type="string" />
+      <attribute id="6" title="title" type="string" />
+      <attribute id="7" title="objectives_list" type="string" />
+      <attribute id="8" title="problem_text" type="string" />
+      <attribute id="9" title="media_xml_content" type="string" />
+      <attribute id="10" title="image_src" type="string" />
+      <attribute id="11" title="latex_content" type="string" />
+      <attribute id="12" title="note_class" type="string" />
+      <attribute id="13" title="content" type="string" />
+      <attribute id="14" title="question" type="string" />
+      <attribute id="15" title="answer" type="string" />
+      <attribute id="16" title="solution_text" type="string" />
+      <attribute id="17" title="term_text" type="string" />
+      <attribute id="18" title="meaning_text" type="string" />
+    </attributes>
+    <nodes>
+      <node id="document_document_4392478384" label="Document">
+        <attvalues>
+          <attvalue for="0" value="document" />
+          <attvalue for="1" value="document_document_4392478384" />
+        </attvalues>
+      </node>
+      <node id="title_title_4392472624" label="title&#10;(Radicals and [...])">
+        <attvalues>
+          <attvalue for="0" value="title" />
+          <attvalue for="1" value="title_title_4392472624" />
+          <attvalue for="2" value="Radicals and Rational Exponents" />
+        </attvalues>
+      </node>
+      <node id="metadata_metadata_4392470624" label="Metadata&#10;Title: Radicals and [...]">
+        <attvalues>
+          <attvalue for="0" value="metadata" />
+          <attvalue for="1" value="metadata_metadata_4392470624" />
+          <attvalue for="3" value="Radicals and Rational Exponents" />
+          <attvalue for="4" value="In this section, you will:" />
+        </attvalues>
+      </node>
+      <node id="content_content_4392432912" label="Content">
+        <attvalues>
+          <attvalue for="0" value="content" />
+          <attvalue for="1" value="content_content_4392432912" />
+        </attvalues>
+      </node>
+      <node id="eip-877" label="Section (coreq-skills)&#10;Coreq Skills">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_eip-877" />
+          <attvalue for="5" value="coreq-skills" />
+          <attvalue for="6" value="Coreq Skills" />
+        </attvalues>
+      </node>
+      <node id="fs-idm653475424" label="Section (learning-objectives)&#10;Learning Objective:">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-idm653475424" />
+          <attvalue for="5" value="learning-objectives" />
+          <attvalue for="6" value="Learning Objective:" />
+          <attvalue for="7" value="[&quot;Investigate the discipline called learning science and the idea of a knowledge space.&quot;]" />
+        </attvalues>
+      </node>
+      <node id="eip-978" label="Section (default)&#10;Objective 1: [...]">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_eip-978" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Objective 1: Investigate the discipline called learning science and the idea of a knowledge space." />
+        </attvalues>
+      </node>
+      <node id="eip-733" label="para&#10;(The brain is a [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_eip-733" />
+          <attvalue for="2" value="The brain is a complex organ. It is the control center for our bodies, while the mind is where thinking and learning take place. In an attempt to understand the processes that occur in learning, researchers study a collection of disciplines called learning sciences . This interdisciplinary field includes study of psychological, sociological, anthropological, and computational approaches to learning." />
+        </attvalues>
+      </node>
+      <node id="eip-684" label="para&#10;(In this skill [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_eip-684" />
+          <attvalue for="2" value="In this skill sheet we will investigate the mathematics of mastery and knowledge spaces. A knowledge space includes the possible states of knowledge of a human learner. The theory of knowledge space was introduced in 1985 by mathematical psychologists Jean-Paul Doignon and Jean-Claude Falmagne and has since been studied by many researchers. [FN:spaces]" />
+        </attvalues>
+      </node>
+      <node id="eip-453" label="Section (practice-perfect)&#10;Practice Makes Perfect">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_eip-453" />
+          <attvalue for="5" value="practice-perfect" />
+          <attvalue for="6" value="Practice Makes Perfect" />
+        </attvalues>
+      </node>
+      <node id="eip-464" label="Practice Ex.&#10;(eip-464)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-464" />
+          <attvalue for="8" value="List each of the possible subsets of the 4 topics listed above using roster notation. Remember a subset is a collection of topics in which each topic listed is an element of the set Q we defined above. By including a topic, we are indicating that the student has mastered the topic." />
+        </attvalues>
+      </node>
+      <node id="eip-935" label="Practice Ex.&#10;(eip-935)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-935" />
+          <attvalue for="8" value="Verify in your work above you have listed all 16 subsets to set Q. Remember that a subset may contain all of the topics listed in Q." />
+        </attvalues>
+      </node>
+      <node id="eip-351" label="Practice Ex.&#10;(eip-351)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-351" />
+          <attvalue for="8" value="What formula could you use to help you determine the number of possible subsets? Remember that each topic could be mastered or not by a student. Show below that your formula would be equal to 16 for a list of 4 topics." />
+        </attvalues>
+      </node>
+      <node id="eip-320" label="Practice Ex.&#10;(eip-320)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-320" />
+          <attvalue for="8" value="Now use the formula you found in #3 to find the number of subsets possible if we include all 32 student-learning outcomes. Hint: In evaluating exponential terms, the function values increase very rapidly. To display very large (or very small) values, a calculator will use scientific notation. For example: 2.56 E6 is telling you to move the decimal point 6 places to the right and to insert zeros where you have missing values. For example: 2.56 E6 = 2,560,000 or 2 million, five hundred, sixty thousand." />
+        </attvalues>
+      </node>
+      <node id="eip-317" label="Practice Ex.&#10;(eip-317)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-317" />
+          <attvalue for="8" value="The subsets you created in #1 are referred to as knowledge spaces in the field of learning science. In this context mastery of one concept may depend on your mastery of another. List one skill in mathematics that would help to master each of the following SLO’s:" />
+        </attvalues>
+      </node>
+      <node id="eip-681" label="Practice Ex.&#10;(eip-681)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-681" />
+          <attvalue for="8" value="Mastery of what are called linchpin topics will make it easier to learn other topics. For example, the ability to solve linear equations with variables on both sides can “unlock” a whole set of new skills for a student to master. List 3 other linchpin topics that would help you to master this math course. Discuss these with others in your class. Did they identify the same topics?" />
+        </attvalues>
+      </node>
+      <node id="eip-948" label="Practice Ex.&#10;(eip-948)">
+        <attvalues>
+          <attvalue for="0" value="PracticeExerciseItem" />
+          <attvalue for="1" value="PracticeExercise_exercise_eip-948" />
+          <attvalue for="8" value="A corequisite course in mathematics is designed to provide support to a student by reviewing linchpin topics right when and where students need the help. Review of these important foundational ideas allow the learner to move on and master the student learning objectives for the course. Brainstorm ideas with your classmates about ways this corequisite support course could help you in your learning." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431492" label="para&#10;(A hardware [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339431492" />
+          <attvalue for="2" value="A hardware store sells 16-ft ladders and 24-ft ladders. A window is located 12 feet above the ground. A ladder needs to be purchased that will reach the window from a point on the ground 5 feet from the building. To find out the length of ladder needed, we can draw a right triangle as shown in , and use the Pythagorean Theorem." />
+        </attvalues>
+      </node>
+      <node id="Figure_01_03_001" label="Figure&#10;(ID: Figure_01_03_001)">
+        <attvalues>
+          <attvalue for="0" value="figure" />
+          <attvalue for="1" value="figure_figure_Figure_01_03_001" />
+          <attvalue for="9" value="&lt;media xmlns=&quot;http://cnx.rice.edu/cnxml&quot; id=&quot;fs-id1167339431507&quot; alt=&quot;A right triangle with a base of 5 feet, a height of 12 feet, and a hypotenuse labeled c&quot;&gt;&#10;&lt;image mime-type=&quot;image/jpg&quot; src=&quot;../../media/CNX_CAT_Figure_01_03_001.jpg&quot; /&gt;&#10;&lt;/media&gt;" />
+          <attvalue for="10" value="../../media/CNX_CAT_Figure_01_03_001.jpg" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431519" label="Equation&#10;(ID: fs-id1167339431519)">
+        <attvalues>
+          <attvalue for="0" value="equation" />
+          <attvalue for="1" value="equation_equation_fs-id1167339431519" />
+          <attvalue for="11" value="\[ \begin{array}{ccc}\hfill {a}^{2}+{b}^{2}&amp; =&amp; {c}^{2}\hfill \ \hfill {5}^{2}+{12}^{2}&amp; =&amp; {c}^{2}\hfill \ \hfill 169&amp; =&amp; {c}^{2}\hfill \end{array} \]" />
+        </attvalues>
+      </node>
+      <node id="label_label_4392383360" label="label&#10;(?)">
+        <attvalues>
+          <attvalue for="0" value="label" />
+          <attvalue for="1" value="label_label_4392383360" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431629" label="para&#10;(Now, we need [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339431629" />
+          <attvalue for="2" value="Now, we need to find out the length that, when squared, is 169, to determine which ladder to choose. In other words, we need to find a square root. In this section, we will investigate methods of finding solutions to problems such as this one." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431634" label="Section (default)&#10;Evaluating Square Roots">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339431634" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Evaluating Square Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431640" label="para&#10;(When the [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339431640" />
+          <attvalue for="2" value="When the square root of a number is squared, the result is the original number. Since ${4}^{2}=16,$ the square root of $16$ is $4.$ The square root function is the inverse of the squaring function just as subtraction is the inverse of addition. To undo squaring, we take the square root." />
+        </attvalues>
+      </node>
+      <node id="fs-id1484606" label="para&#10;(In general [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1484606" />
+          <attvalue for="2" value="In general terms, if $a$ is a positive real number, then the square root of $a$ is a number that, when multiplied by itself, gives $a.$ The square root could be positive or negative because multiplying two negative numbers gives a positive number. The principal square root is the nonnegative number that when multiplied by itself equals $a.$ The square root obtained using a calculator is the principal square root." />
+        </attvalues>
+      </node>
+      <node id="fs-id1507362" label="para&#10;(The principal [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1507362" />
+          <attvalue for="2" value="The principal square root of $a$ is written as $\sqrt{a}.$ The symbol is called a radical , the term under the symbol is called the radicand , and the entire expression is called a radical expression ." />
+        </attvalues>
+      </node>
+      <node id="fs-id1495127" label="media&#10;(fs-id1495127)">
+        <attvalues>
+          <attvalue for="0" value="media" />
+          <attvalue for="1" value="media_media_fs-id1495127" />
+        </attvalues>
+      </node>
+      <node id="image_image_4392650128" label="image&#10;(?)">
+        <attvalues>
+          <attvalue for="0" value="image" />
+          <attvalue for="1" value="image_image_4392650128" />
+        </attvalues>
+      </node>
+      <node id="fs-id1524853" label="DefNote: Principal [...] ()&#10;Principal [...]">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1524853" />
+          <attvalue for="6" value="Principal Square Root" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="Principal Square Root The principal square root of $a$ is the nonnegative number that, when multiplied by itself, equals $a.$ It is written as a radical expression , with a symbol called a radical over the term called the radicand : $\sqrt{a}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431755" label="Q&amp;A (precalculus qa)&#10;fs-id1167339431755">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1167339431755" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus qa" />
+          <attvalue for="14" value="Does $\sqrt{25}=\pm 5?$" />
+          <attvalue for="15" value="No. Although both ${5}^{2}$ and ${(\mathrm{-5})}^{2}$ are $25,$ the radical symbol implies only a nonnegative root, the principal square root. The principal square root of 25 is $\sqrt{25}=5.$" />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_01" label="Example&#10;Evaluating Square Roots">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_01" />
+          <attvalue for="6" value="Evaluating Square Roots" />
+          <attvalue for="8" value="Evaluating Square Roots Evaluate each expression." />
+          <attvalue for="16" value="" />
+        </attvalues>
+      </node>
+      <node id="fs-id1509816" label="Q&amp;A (precalculus qa)&#10;fs-id1509816">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1509816" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus qa" />
+          <attvalue for="14" value="For $\sqrt{25+144},$ can we find the square roots before adding?" />
+          <attvalue for="15" value="No. $\sqrt{25}+\sqrt{144}=5+12=17.$ This is not equivalent to $\sqrt{25+144}=13.$ The order of operations requires us to add the terms in the radicand before finding the square root." />
+        </attvalues>
+      </node>
+      <node id="fs-id1314899" label="Try It (precalculus try)&#10;fs-id1314899">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1314899" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Evaluate each expression." />
+          <attvalue for="16" value="" />
+        </attvalues>
+      </node>
+      <node id="fs-id1424126" label="Section (default)&#10;Using the Product [...]">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1424126" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Using the Product Rule to Simplify Square Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499813" label="para&#10;(To simplify a [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1499813" />
+          <attvalue for="2" value="To simplify a square root, we rewrite it such that there are no perfect squares in the radicand. There are several properties of square roots that allow us to simplify complicated radical expressions. The first rule we will look at is the product rule for simplifying square roots, which allows us to separate the square root of a product of two numbers into the product of two separate rational expressions. For instance, we can rewrite $\sqrt{15}$ as $\sqrt{3}\cdot \sqrt{5}.$ We can also use the product rule to express the product of multiple radical expressions as a single radical expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1494721" label="DefNote: The [...] ()&#10;The Product [...]">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1494721" />
+          <attvalue for="6" value="The Product Rule for Simplifying Square Roots" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="The Product Rule for Simplifying Square Roots If $a$ and $b$ are nonnegative, the square root of the product $ab$ is equal to the product of the square roots of $a$ and $b.\phantom{\rule{0.5em}{0ex}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1521678" label="How To (how-to-notitle)&#10;fs-id1521678">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1521678" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given a square root radical expression, use the product rule to simplify it." />
+        </attvalues>
+      </node>
+      <node id="fs-id1516957" label="List (enumerated)&#10;(Factor [...] ID: fs-id1516957)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1516957" />
+          <attvalue for="2" value="Factor any perfect squares from the radicand. Write the radical expression as a product of radical expressions. Simplify." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392896848" label="item&#10;(Factor any [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392896848" />
+          <attvalue for="2" value="Factor any perfect squares from the radicand." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392896928" label="item&#10;(Write the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392896928" />
+          <attvalue for="2" value="Write the radical expression as a product of radical expressions." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392897008" label="item&#10;(Simplify.)">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392897008" />
+          <attvalue for="2" value="Simplify." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_02" label="Example&#10;Using the Product [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_02" />
+          <attvalue for="6" value="Using the Product Rule to Simplify Square Roots" />
+          <attvalue for="8" value="Using the Product Rule to Simplify Square Roots Simplify the radical expression." />
+          <attvalue for="16" value="" />
+        </attvalues>
+      </node>
+      <node id="fs-id903746" label="Try It (precalculus try)&#10;fs-id903746">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id903746" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify $\sqrt{50{x}^{2}{y}^{3}z}.$" />
+          <attvalue for="16" value="$5\left|x\right|\left|y\right|\sqrt{2yz}.$ Notice the absolute value signs around x and y ? That’s because their value must be positive!" />
+        </attvalues>
+      </node>
+      <node id="fs-id1291623" label="How To (how-to-notitle)&#10;fs-id1291623">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1291623" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given the product of multiple radical expressions, use the product rule to combine them into one radical expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1343311" label="List (enumerated)&#10;(Express [...] ID: fs-id1343311)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1343311" />
+          <attvalue for="2" value="Express the product of multiple radical expressions as a single radical expression. Simplify." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392961264" label="item&#10;(Express the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392961264" />
+          <attvalue for="2" value="Express the product of multiple radical expressions as a single radical expression." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392961344" label="item&#10;(Simplify.)">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392961344" />
+          <attvalue for="2" value="Simplify." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_03" label="Example&#10;Using the Product [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_03" />
+          <attvalue for="6" value="Using the Product Rule to Simplify the Product of Multiple Square Roots" />
+          <attvalue for="8" value="Using the Product Rule to Simplify the Product of Multiple Square Roots Simplify the radical expression. $\sqrt{12}\cdot \sqrt{3}$" />
+          <attvalue for="16" value="$\begin{array}{cc}\sqrt{12\cdot 3}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Express~the~product~as~a~single~radical~expression}.\hfill \ \sqrt{36}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \ 6\hfill &amp; \end{array}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1385114" label="Try It (precalculus try)&#10;fs-id1385114">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1385114" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify $\sqrt{50x}\cdot \sqrt{2x}$ assuming $x&gt;0.$" />
+          <attvalue for="16" value="$10\left|x\right|$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1409429" label="Section (default)&#10;Using the Quotient [...]">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1409429" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Using the Quotient Rule to Simplify Square Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1402495" label="para&#10;(Just as we can [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1402495" />
+          <attvalue for="2" value="Just as we can rewrite the square root of a product as a product of square roots, so too can we rewrite the square root of a quotient as a quotient of square roots, using the quotient rule for simplifying square roots. It can be helpful to separate the numerator and denominator of a fraction under a radical so that we can take their square roots separately. We can rewrite $\sqrt{\frac{5}{2}}$ as $\frac{\sqrt{5}}{\sqrt{2}}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1442347" label="DefNote: The [...] ()&#10;The Quotient [...]">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1442347" />
+          <attvalue for="6" value="The Quotient Rule for Simplifying Square Roots" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="The Quotient Rule for Simplifying Square Roots The square root of the quotient $\frac{a}{b}$ is equal to the quotient of the square roots of $a$ and $b,$ where $b\ne 0.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1529521" label="How To (how-to-notitle)&#10;fs-id1529521">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1529521" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given a radical expression, use the quotient rule to simplify it." />
+        </attvalues>
+      </node>
+      <node id="fs-id1537621" label="List (enumerated)&#10;(Write the [...] ID: fs-id1537621)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1537621" />
+          <attvalue for="2" value="Write the radical expression as the quotient of two radical expressions. Simplify the numerator and denominator." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392972864" label="item&#10;(Write the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392972864" />
+          <attvalue for="2" value="Write the radical expression as the quotient of two radical expressions." />
+        </attvalues>
+      </node>
+      <node id="item_item_4392972944" label="item&#10;(Simplify the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4392972944" />
+          <attvalue for="2" value="Simplify the numerator and denominator." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_04" label="Example&#10;Using the Quotient [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_04" />
+          <attvalue for="6" value="Using the Quotient Rule to Simplify Square Roots" />
+          <attvalue for="8" value="Using the Quotient Rule to Simplify Square Roots Simplify the radical expression. $\sqrt{\frac{5}{36}}$" />
+          <attvalue for="16" value="$\begin{array}{cc}\frac{\sqrt{5}}{\sqrt{36}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Write~as~quotient~of~two~radical~expressions}.\hfill \ \frac{\sqrt{5}}{6}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Simplify~denominator}.\hfill \end{array}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1520332" label="Try It (precalculus try)&#10;fs-id1520332">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1520332" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify $\sqrt{\frac{2{x}^{2}}{9{y}^{4}}}.$" />
+          <attvalue for="16" value="$\frac{x\sqrt{2}}{3{y}^{2}}.$ We do not need the absolute value signs for ${y}^{2}$ because that term will always be nonnegative." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_05" label="Example&#10;Using the Quotient [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_05" />
+          <attvalue for="6" value="Using the Quotient Rule to Simplify an Expression with Two Square Roots" />
+          <attvalue for="8" value="Using the Quotient Rule to Simplify an Expression with Two Square Roots Simplify the radical expression. $\frac{\sqrt{234{x}^{11}y}}{\sqrt{26{x}^{7}y}}$" />
+          <attvalue for="16" value="$\begin{array}{cc}\sqrt{\frac{234{x}^{11}y}{26{x}^{7}y}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Combine~numerator~and~denominator~into~one~radical~expression}.\hfill \ \sqrt{9{x}^{4}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Simplify~fraction}.\hfill \ 3{x}^{2}\phantom{\rule{0.5em}{0ex}}\text{~}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{Simplify~square~root}.\hfill \end{array}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1343544" label="Try It (precalculus try)&#10;fs-id1343544">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1343544" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify $\frac{\sqrt{9{a}^{5}{b}^{14}}}{\sqrt{3{a}^{4}{b}^{5}}}.$" />
+          <attvalue for="16" value="${b}^{4}\sqrt{3ab}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1413677" label="Section (default)&#10;Adding and [...]">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1413677" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Adding and Subtracting Square Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1483382" label="para&#10;(We can add or [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1483382" />
+          <attvalue for="2" value="We can add or subtract radical expressions only when they have the same radicand and when they have the same radical type such as square roots. For example, the sum of $\sqrt{2}$ and $3\sqrt{2}$ is $4\sqrt{2}.$ However, it is often possible to simplify radical expressions, and that may change the radicand. The radical expression $\sqrt{18}$ can be written with a $2$ in the radicand, as $3\sqrt{2},$ so $\sqrt{2}+\sqrt{18}=\sqrt{2}+3\sqrt{2}=4\sqrt{2}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1322507" label="How To (how-to-notitle)&#10;fs-id1322507">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1322507" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given a radical expression requiring addition or subtraction of square roots, simplify." />
+        </attvalues>
+      </node>
+      <node id="fs-id1429237" label="List (enumerated)&#10;(Simplify [...] ID: fs-id1429237)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1429237" />
+          <attvalue for="2" value="Simplify each radical expression. Add or subtract expressions with equal radicands." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393093776" label="item&#10;(Simplify each [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393093776" />
+          <attvalue for="2" value="Simplify each radical expression." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393093936" label="item&#10;(Add or [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393093936" />
+          <attvalue for="2" value="Add or subtract expressions with equal radicands." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_06" label="Example&#10;Adding Square Roots">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_06" />
+          <attvalue for="6" value="Adding Square Roots" />
+          <attvalue for="8" value="Adding Square Roots Add $5\sqrt{12}+2\sqrt{3}.$" />
+          <attvalue for="16" value="We can rewrite $5\sqrt{12}$ as $5\sqrt{4·3}.$ According the product rule, this becomes $5\sqrt{4}\sqrt{3}.$ The square root of $\sqrt{4}$ is 2, so the expression becomes $5\left(2\right)\sqrt{3},$ which is $10\sqrt{3}.$ Now the terms have the same radicand so we can add. $10\sqrt{3}+2\sqrt{3}=12\sqrt{3}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1494905" label="Try It (precalculus try)&#10;fs-id1494905">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1494905" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Add $\sqrt{5}+6\sqrt{20}.$" />
+          <attvalue for="16" value="$13\sqrt{5}$" />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_07" label="Example&#10;Subtracting Square Roots">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_07" />
+          <attvalue for="6" value="Subtracting Square Roots" />
+          <attvalue for="8" value="Subtracting Square Roots Subtract $20\sqrt{72{a}^{3}{b}^{4}c}\phantom{\rule{0.5em}{0ex}}-14\sqrt{8{a}^{3}{b}^{4}c}.$" />
+          <attvalue for="16" value="Factor 9 out of the first term so that both terms have equal radicands. So" />
+        </attvalues>
+      </node>
+      <node id="fs-id1481719" label="Try It (precalculus try)&#10;fs-id1481719">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1481719" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Subtract $3\sqrt{80x}\phantom{\rule{0.5em}{0ex}}-4\sqrt{45x}.$" />
+          <attvalue for="16" value="$0$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1483223" label="Section (default)&#10;Rationalizing [...]">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1483223" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Rationalizing Denominators" />
+        </attvalues>
+      </node>
+      <node id="fs-id1483228" label="para&#10;(When an [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1483228" />
+          <attvalue for="2" value="When an expression involving square root radicals is written in simplest form, it will not contain a radical in the denominator. We can remove radicals from the denominators of fractions using a process called rationalizing the denominator ." />
+        </attvalues>
+      </node>
+      <node id="fs-id1517983" label="para&#10;(We know that [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1517983" />
+          <attvalue for="2" value="We know that multiplying by 1 does not change the value of an expression. We use this property of multiplication to change expressions that contain radicals in the denominator. To remove radicals from the denominators of fractions, multiply by the form of 1 that will eliminate the radical." />
+        </attvalues>
+      </node>
+      <node id="fs-id1517989" label="para&#10;(For a [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1517989" />
+          <attvalue for="2" value="For a denominator containing a single term, multiply by the radical in the denominator over itself. In other words, if the denominator is $b\sqrt{c},$ multiply by $\frac{\sqrt{c}}{\sqrt{c}}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1484146" label="para&#10;(For a [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1484146" />
+          <attvalue for="2" value="For a denominator containing the sum or difference of a rational and an irrational term, multiply the numerator and denominator by the conjugate of the denominator, which is found by changing the sign of the radical portion of the denominator. If the denominator is $a+b\sqrt{c},$ then the conjugate is $a-b\sqrt{c}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1507274" label="How To (how-to-notitle)&#10;fs-id1507274">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1507274" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given an expression with a single square root radical term in the denominator, rationalize the denominator." />
+        </attvalues>
+      </node>
+      <node id="fs-id1507286" label="List (enumerated)&#10;(Multiply [...] ID: fs-id1507286)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1507286" />
+          <attvalue for="2" value="Multiply the numerator and denominator by the radical in the denominator. Simplify." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393205904" label="item&#10;(Multiply the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393205904" />
+          <attvalue for="2" value="Multiply the numerator and denominator by the radical in the denominator." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393205984" label="item&#10;(Simplify.)">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393205984" />
+          <attvalue for="2" value="Simplify." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_08" label="Example&#10;Rationalizing a [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_08" />
+          <attvalue for="6" value="Rationalizing a Denominator Containing a Single Term" />
+          <attvalue for="8" value="Rationalizing a Denominator Containing a Single Term Write $\frac{2\sqrt{3}}{3\sqrt{10}}$ in simplest form." />
+          <attvalue for="16" value="The radical in the denominator is $\sqrt{10}.$ So multiply the fraction by $\frac{\sqrt{10}}{\sqrt{10}}.$ Then simplify." />
+        </attvalues>
+      </node>
+      <node id="fs-id1485671" label="Try It (precalculus try)&#10;fs-id1485671">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1485671" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Write $\frac{12\sqrt{3}}{\sqrt{2}}$ in simplest form." />
+          <attvalue for="16" value="$6\sqrt{6}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431925" label="How To (how-to-notitle)&#10;fs-id1167339431925">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1167339431925" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given an expression with a radical term and a constant in the denominator, rationalize the denominator." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431936" label="List (enumerated)&#10;(Find the [...] ID: fs-id1167339431936)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1167339431936" />
+          <attvalue for="2" value="Find the conjugate of the denominator. Multiply the numerator and denominator by the conjugate. Use the distributive property. Simplify." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393215344" label="item&#10;(Find the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393215344" />
+          <attvalue for="2" value="Find the conjugate of the denominator." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393215504" label="item&#10;(Multiply the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393215504" />
+          <attvalue for="2" value="Multiply the numerator and denominator by the conjugate." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393215584" label="item&#10;(Use the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393215584" />
+          <attvalue for="2" value="Use the distributive property." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393215744" label="item&#10;(Simplify.)">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393215744" />
+          <attvalue for="2" value="Simplify." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_09" label="Example&#10;Rationalizing a [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_09" />
+          <attvalue for="6" value="Rationalizing a Denominator Containing Two Terms" />
+          <attvalue for="8" value="Rationalizing a Denominator Containing Two Terms Write $\frac{4}{1+\sqrt{5}}$ in simplest form." />
+          <attvalue for="16" value="Begin by finding the conjugate of the denominator by writing the denominator and changing the sign. So the conjugate of $1+\sqrt{5}$ is $1-\sqrt{5}.$ Then multiply the fraction by $\frac{1-\sqrt{5}}{1-\sqrt{5}}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339431968" label="Try It (precalculus try)&#10;fs-id1167339431968">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1167339431968" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Write $\frac{7}{2+\sqrt{3}}$ in simplest form." />
+          <attvalue for="16" value="$14\mathrm{-7}\sqrt{3}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339432042" label="Section (default)&#10;Using Rational Roots">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339432042" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Using Rational Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339432047" label="para&#10;(Although [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339432047" />
+          <attvalue for="2" value="Although square roots are the most common rational roots, we can also find cube roots, 4th roots, 5th roots, and more. Just as the square root function is the inverse of the squaring function, these roots are the inverse of their respective power functions. These functions can be useful when we need to determine the number that, when raised to a certain power, gives a certain number." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339432053" label="Section (default)&#10;Understanding n th Roots">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339432053" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Understanding n th Roots" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339432064" label="para&#10;(Suppose we [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339432064" />
+          <attvalue for="2" value="Suppose we know that ${a}^{3}=8.$ We want to find what number raised to the 3rd power is equal to 8. Since ${2}^{3}=8,$ we say that 2 is the cube root of 8." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339432119" label="para&#10;(The n th root [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339432119" />
+          <attvalue for="2" value="The n th root of $a$ is a number that, when raised to the n th power, gives $a.$ For example, $\mathrm{-3}$ is the 5th root of $\mathrm{-243}$ because ${(\mathrm{-3})}^{5}=\mathrm{-243.}$ If $a$ is a real number with at least one n th root, then the principal n th root of $a$ is the number with the same sign as $a$ that, when raised to the n th power, equals $a.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339434352" label="para&#10;(The principal [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339434352" />
+          <attvalue for="2" value="The principal n th root of $a$ is written as $\sqrt[n]{a},$ where $n$ is a positive integer greater than or equal to 2. In the radical expression, $n$ is called the index of the radical." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339434398" label="DefNote: Principal [...] ()&#10;Principal $n$ [...]">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1167339434398" />
+          <attvalue for="6" value="Principal $n$ th Root" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="Principal $n$ th Root If $a$ is a real number with at least one n th root, then the principal n th root of $a,$ written as $\sqrt[n]{a},$ is the number with the same sign as $a$ that, when raised to the n th power, equals $a.$ The index of the radical is $n.$" />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_10" label="Example&#10;Simplifying n th Roots">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_10" />
+          <attvalue for="6" value="Simplifying n th Roots" />
+          <attvalue for="8" value="Simplifying n th Roots Simplify each of the following:" />
+          <attvalue for="16" value="" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435023" label="Try It (precalculus try)&#10;fs-id1167339435023">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1167339435023" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify." />
+          <attvalue for="16" value="" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538427" label="Section (default)&#10;Using Rational Exponents">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1538427" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Using Rational Exponents" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538433" label="para&#10;(Radical [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1538433" />
+          <attvalue for="2" value="Radical expressions can also be written without using the radical symbol. We can use rational (fractional) exponents. The index must be a positive integer. If the index $n$ is even, then $a$ cannot be negative." />
+        </attvalues>
+      </node>
+      <node id="fs-id1507540" label="Equation&#10;(ID: fs-id1507540)">
+        <attvalues>
+          <attvalue for="0" value="equation" />
+          <attvalue for="1" value="equation_equation_fs-id1507540" />
+          <attvalue for="11" value="\[ {a}^{\frac{1}{n}}=\sqrt[n]{a} \]" />
+        </attvalues>
+      </node>
+      <node id="label_label_4393375744" label="label&#10;(?)">
+        <attvalues>
+          <attvalue for="0" value="label" />
+          <attvalue for="1" value="label_label_4393375744" />
+        </attvalues>
+      </node>
+      <node id="fs-id1508564" label="para&#10;(We can also [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1508564" />
+          <attvalue for="2" value="We can also have rational exponents with numerators other than 1. In these cases, the exponent must be a fraction in lowest terms. We raise the base to a power and take an n th root. The numerator tells us the power and the denominator tells us the root." />
+        </attvalues>
+      </node>
+      <node id="fs-id1508573" label="Equation&#10;(ID: fs-id1508573)">
+        <attvalues>
+          <attvalue for="0" value="equation" />
+          <attvalue for="1" value="equation_equation_fs-id1508573" />
+          <attvalue for="11" value="${a}^{\frac{m}{n}}={\left(\sqrt[n]{a}\right)}^{m}=\sqrt[n]{{a}^{m}}$" />
+        </attvalues>
+      </node>
+      <node id="label_label_4393377024" label="label&#10;(?)">
+        <attvalues>
+          <attvalue for="0" value="label" />
+          <attvalue for="1" value="label_label_4393377024" />
+        </attvalues>
+      </node>
+      <node id="fs-id1529202" label="para&#10;(All of the [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1529202" />
+          <attvalue for="2" value="All of the properties of exponents that we learned for integer exponents also hold for rational exponents." />
+        </attvalues>
+      </node>
+      <node id="fs-id1529206" label="DefNote: Rational [...] ()&#10;Rational Exponents">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1529206" />
+          <attvalue for="6" value="Rational Exponents" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="Rational Exponents Rational exponents are another way to express principal n th roots. The general form for converting between a radical expression with a radical symbol and one with a rational exponent is" />
+        </attvalues>
+      </node>
+      <node id="fs-id1520158" label="How To (how-to-notitle)&#10;fs-id1520158">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1520158" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="how-to-notitle" />
+          <attvalue for="13" value="How To Given an expression with a rational exponent, write the expression as a radical." />
+        </attvalues>
+      </node>
+      <node id="fs-id1482550" label="List (enumerated)&#10;(Determine [...] ID: fs-id1482550)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1482550" />
+          <attvalue for="2" value="Determine the power by looking at the numerator of the exponent. Determine the root by looking at the denominator of the exponent. Using the base as the radicand, raise the radicand to the power and use the root as the index." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393382224" label="item&#10;(Determine the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393382224" />
+          <attvalue for="2" value="Determine the power by looking at the numerator of the exponent." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393382304" label="item&#10;(Determine the [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393382304" />
+          <attvalue for="2" value="Determine the root by looking at the denominator of the exponent." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393382384" label="item&#10;(Using the base [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393382384" />
+          <attvalue for="2" value="Using the base as the radicand, raise the radicand to the power and use the root as the index." />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_11" label="Example&#10;Writing Rational [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_11" />
+          <attvalue for="6" value="Writing Rational Exponents as Radicals" />
+          <attvalue for="8" value="Writing Rational Exponents as Radicals Write ${343}^{\frac{2}{3}}$ as a radical. Simplify." />
+          <attvalue for="16" value="The 2 tells us the power and the 3 tells us the root. ${343}^{\frac{2}{3}}={\left(\sqrt[3]{343}\right)}^{2}=\sqrt[3]{{343}^{2}}$ We know that $\sqrt[3]{343}=7$ because ${7}^{3}=343.$ Because the cube root is easy to find, it is easiest to find the cube root before squaring for this problem. In general, it is easier to find the root first and then raise it to a power. \[ {343}^{\frac{2}{3}}={\left(\sqrt[3]{343}\right)}^{2}={7}^{2}=49 \]" />
+        </attvalues>
+      </node>
+      <node id="fs-id1501835" label="Try It (precalculus try)&#10;fs-id1501835">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1501835" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Write ${9}^{\frac{5}{2}}$ as a radical. Simplify." />
+          <attvalue for="16" value="${\left(\sqrt{9}\right)}^{5}={3}^{5}=243$" />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_12" label="Example&#10;Writing Radicals as [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_12" />
+          <attvalue for="6" value="Writing Radicals as Rational Exponents" />
+          <attvalue for="8" value="Writing Radicals as Rational Exponents Write $\frac{4}{\sqrt[7]{{a}^{2}}}$ using a rational exponent." />
+          <attvalue for="16" value="The power is 2 and the root is 7, so the rational exponent will be $\frac{2}{7}.$ We get $\frac{4}{{a}^{\frac{2}{7}}}.$ Using properties of exponents, we get $\frac{4}{\sqrt[7]{{a}^{2}}}=4{a}^{\frac{\mathrm{-2}}{7}}.$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1483634" label="Try It (precalculus try)&#10;fs-id1483634">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1483634" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Write $x\sqrt{{(5y)}^{9}}$ using a rational exponent." />
+          <attvalue for="16" value="$x{(5y)}^{\frac{9}{2}}$" />
+        </attvalues>
+      </node>
+      <node id="Example_01_03_13" label="Example&#10;Simplifying [...]">
+        <attvalues>
+          <attvalue for="0" value="example" />
+          <attvalue for="1" value="example_example_Example_01_03_13" />
+          <attvalue for="6" value="Simplifying Rational Exponents" />
+          <attvalue for="8" value="Simplifying Rational Exponents Simplify:" />
+          <attvalue for="16" value="ⓐ $\begin{array}{cc}30{x}^{\frac{3}{4}}{x}^{\frac{1}{5}}\hfill &amp; \phantom{\rule{2.5em}{0ex}}\text{Multiply~the~coefficients}.\hfill \ 30{x}^{\frac{3}{4}+\frac{1}{5}}\hfill &amp; \phantom{\rule{2.5em}{0ex}}\text{Use~properties~of~exponents}.\hfill \ 30{x}^{\frac{19}{20}}\hfill &amp; \phantom{\rule{2.5em}{0ex}}\text{Simplify}.\hfill \end{array}$ ⓑ $\begin{array}{cc}{\left(\frac{9}{16}\right)}^{\frac{1}{2}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use~definition~of~negative~exponents}.\hfill \ \sqrt{\frac{9}{16}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Rewrite~as~a~radical}.\hfill \ \frac{\sqrt{9}}{\sqrt{16}}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use~the~quotient~rule}.\hfill \ \frac{3}{4}\hfill &amp; \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Simplify}.\hfill \end{array}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538438" label="Try It (precalculus try)&#10;fs-id1538438">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1538438" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="precalculus try" />
+          <attvalue for="8" value="Simplify ${\left(8x\right)}^{\frac{1}{3}}\left(14{x}^{\frac{6}{5}}\right).$" />
+          <attvalue for="16" value="$28{x}^{\frac{23}{15}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1487278" label="Note (media-notitle)&#10;fs-id1487278">
+        <attvalues>
+          <attvalue for="0" value="note" />
+          <attvalue for="1" value="note_note_fs-id1487278" />
+          <attvalue for="6" value="" />
+          <attvalue for="12" value="media-notitle" />
+          <attvalue for="13" value="Media Access these online resources for additional instruction and practice with radicals and rational exponents." />
+        </attvalues>
+      </node>
+      <node id="fs-id1476966" label="Section (key-concepts)&#10;Key Concepts">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1476966" />
+          <attvalue for="5" value="key-concepts" />
+          <attvalue for="6" value="Key Concepts" />
+        </attvalues>
+      </node>
+      <node id="fs-id1491013" label="List (bulleted)&#10;(The [...] ID: fs-id1491013)">
+        <attvalues>
+          <attvalue for="0" value="list" />
+          <attvalue for="1" value="list_list_fs-id1491013" />
+          <attvalue for="2" value="The principal square root of a number $a$ is the nonnegative number that when multiplied by itself equals $a.$ See . If $a$ and $b$ are nonnegative, the square root of the product $ab$ is equal to the product of the square roots of $a$ and $b$ See and . If $a$ and $b$ are nonnegative, the square root of the quotient $\frac{a}{b}$ is equal to the quotient of the square roots of $a$ and $b$ See and . We can add and subtract radical expressions if they have the same radicand and the same index. See and . Radical expressions written in simplest form do not contain a radical in the denominator. To eliminate the square root radical from the denominator, multiply both the numerator and the denominator by the conjugate of the denominator. See and . The principal n th root of $a$ is the number with the same sign as $a$ that when raised to the n th power equals $a.$ These roots have the same properties as square roots. See . Radicals can be rewritten as rational exponents and rational exponents can be rewritten as radicals. See and . The properties of exponents apply to rational exponents. See ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393542544" label="item&#10;(The principal [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393542544" />
+          <attvalue for="2" value="The principal square root of a number $a$ is the nonnegative number that when multiplied by itself equals $a.$ See ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393543344" label="item&#10;(If \$a\$ and [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393543344" />
+          <attvalue for="2" value="If $a$ and $b$ are nonnegative, the square root of the product $ab$ is equal to the product of the square roots of $a$ and $b$ See and ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393544864" label="item&#10;(If \$a\$ and [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393544864" />
+          <attvalue for="2" value="If $a$ and $b$ are nonnegative, the square root of the quotient $\frac{a}{b}$ is equal to the quotient of the square roots of $a$ and $b$ See and ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393546464" label="item&#10;(We can add and [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393546464" />
+          <attvalue for="2" value="We can add and subtract radical expressions if they have the same radicand and the same index. See and ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393546704" label="item&#10;(Radical [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393546704" />
+          <attvalue for="2" value="Radical expressions written in simplest form do not contain a radical in the denominator. To eliminate the square root radical from the denominator, multiply both the numerator and the denominator by the conjugate of the denominator. See and ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393546944" label="item&#10;(The principal [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393546944" />
+          <attvalue for="2" value="The principal n th root of $a$ is the number with the same sign as $a$ that when raised to the n th power equals $a.$ These roots have the same properties as square roots. See ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393548384" label="item&#10;(Radicals can [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393548384" />
+          <attvalue for="2" value="Radicals can be rewritten as rational exponents and rational exponents can be rewritten as radicals. See and ." />
+        </attvalues>
+      </node>
+      <node id="item_item_4393548624" label="item&#10;(The properties [...])">
+        <attvalues>
+          <attvalue for="0" value="item" />
+          <attvalue for="1" value="item_item_4393548624" />
+          <attvalue for="2" value="The properties of exponents apply to rational exponents. See ." />
+        </attvalues>
+      </node>
+      <node id="fs-id1499197" label="Section (section-exercises)&#10;Section Exercises">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1499197" />
+          <attvalue for="5" value="section-exercises" />
+          <attvalue for="6" value="Section Exercises" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499203" label="Section (default)&#10;Verbal">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1499203" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Verbal" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499209" label="exercise&#10;(fs-id1499209)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1499209" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499210" label="problem&#10;(What does it [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1499210" />
+          <attvalue for="2" value="What does it mean when a radical does not have an index? Is the expression equal to the radicand? Explain." />
+        </attvalues>
+      </node>
+      <node id="fs-id1538354" label="solution&#10;(When there is [...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1538354" />
+          <attvalue for="2" value="When there is no index, it is assumed to be 2 or the square root. The expression would only be equal to the radicand if the index were 1." />
+        </attvalues>
+      </node>
+      <node id="fs-id1538359" label="exercise&#10;(fs-id1538359)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1538359" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538360" label="problem&#10;(Where would [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1538360" />
+          <attvalue for="2" value="Where would radicals come in the order of operations? Explain why." />
+        </attvalues>
+      </node>
+      <node id="fs-id1538365" label="exercise&#10;(fs-id1538365)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1538365" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538366" label="problem&#10;(Every number [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1538366" />
+          <attvalue for="2" value="Every number will have two square roots. What is the principal square root?" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538370" label="solution&#10;(The principal [...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1538370" />
+          <attvalue for="2" value="The principal square root is the nonnegative root of the number." />
+        </attvalues>
+      </node>
+      <node id="fs-id1538374" label="exercise&#10;(fs-id1538374)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1538374" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538375" label="problem&#10;(Can a radical [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1538375" />
+          <attvalue for="2" value="Can a radical with a negative radicand have a real square root? Why or why not?" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538381" label="Section (default)&#10;Numeric">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1538381" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Numeric" />
+        </attvalues>
+      </node>
+      <node id="fs-id1538386" label="para&#10;(For the [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1538386" />
+          <attvalue for="2" value="For the following exercises, simplify each expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1514811" label="exercise&#10;(fs-id1514811)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1514811" />
+        </attvalues>
+      </node>
+      <node id="fs-id1514812" label="problem&#10;(\$\sqrt{256}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1514812" />
+          <attvalue for="2" value="$\sqrt{256}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1514831" label="solution&#10;(16)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1514831" />
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </node>
+      <node id="fs-id1514836" label="exercise&#10;(fs-id1514836)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1514836" />
+        </attvalues>
+      </node>
+      <node id="fs-id1514837" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1514837" />
+          <attvalue for="2" value="$\sqrt{\sqrt{256}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499788" label="exercise&#10;(fs-id1499788)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1499788" />
+        </attvalues>
+      </node>
+      <node id="fs-id1499789" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1499789" />
+          <attvalue for="2" value="$\sqrt{4\left(9+16\right)}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1549257" label="solution&#10;(10)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1549257" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="fs-id1549261" label="exercise&#10;(fs-id1549261)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1549261" />
+        </attvalues>
+      </node>
+      <node id="fs-id1549262" label="problem&#10;(\$\sqrt{289}- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1549262" />
+          <attvalue for="2" value="$\sqrt{289}-\sqrt{121}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1529781" label="exercise&#10;(fs-id1529781)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1529781" />
+        </attvalues>
+      </node>
+      <node id="fs-id1529782" label="problem&#10;(\$\sqrt{196}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1529782" />
+          <attvalue for="2" value="$\sqrt{196}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1430080" label="solution&#10;(14)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1430080" />
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </node>
+      <node id="fs-id1430084" label="exercise&#10;(fs-id1430084)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1430084" />
+        </attvalues>
+      </node>
+      <node id="fs-id1430085" label="problem&#10;(\$\sqrt{1}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1430085" />
+          <attvalue for="2" value="$\sqrt{1}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1430101" label="exercise&#10;(fs-id1430101)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1430101" />
+        </attvalues>
+      </node>
+      <node id="fs-id1430102" label="problem&#10;(\$\sqrt{98}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1430102" />
+          <attvalue for="2" value="$\sqrt{98}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1487473" label="solution&#10;(\$7\sqrt{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1487473" />
+          <attvalue for="2" value="$7\sqrt{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1487491" label="exercise&#10;(fs-id1487491)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1487491" />
+        </attvalues>
+      </node>
+      <node id="fs-id1487492" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1487492" />
+          <attvalue for="2" value="$\sqrt{\frac{27}{64}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1545152" label="exercise&#10;(fs-id1545152)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1545152" />
+        </attvalues>
+      </node>
+      <node id="fs-id1545153" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1545153" />
+          <attvalue for="2" value="$\sqrt{\frac{81}{5}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1511190" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1511190" />
+          <attvalue for="2" value="$\frac{9\sqrt{5}}{5}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1469422" label="exercise&#10;(fs-id1469422)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1469422" />
+        </attvalues>
+      </node>
+      <node id="fs-id1469424" label="problem&#10;(\$\sqrt{800}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1469424" />
+          <attvalue for="2" value="$\sqrt{800}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1469443" label="exercise&#10;(fs-id1469443)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1469443" />
+        </attvalues>
+      </node>
+      <node id="fs-id1469444" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1469444" />
+          <attvalue for="2" value="$\sqrt{169}+\sqrt{144}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435244" label="solution&#10;(25)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435244" />
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435248" label="exercise&#10;(fs-id1167339435248)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435248" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435249" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435249" />
+          <attvalue for="2" value="$\sqrt{\frac{8}{50}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435278" label="exercise&#10;(fs-id1167339435278)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435278" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435279" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435279" />
+          <attvalue for="2" value="$\frac{18}{\sqrt{162}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435311" label="solution&#10;(\$\sqrt{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435311" />
+          <attvalue for="2" value="$\sqrt{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435349" label="exercise&#10;(fs-id1167339435349)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435349" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435350" label="problem&#10;(\$\sqrt{192}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435350" />
+          <attvalue for="2" value="$\sqrt{192}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435370" label="exercise&#10;(fs-id1167339435370)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435370" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435371" label="problem&#10;(\$14\sqrt{6}- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435371" />
+          <attvalue for="2" value="$14\sqrt{6}-6\sqrt{24}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435403" label="solution&#10;(\$2\sqrt{6}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435403" />
+          <attvalue for="2" value="$2\sqrt{6}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435421" label="exercise&#10;(fs-id1167339435421)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435421" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435422" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435422" />
+          <attvalue for="2" value="$15\sqrt{5}+7\sqrt{45}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435454" label="exercise&#10;(fs-id1167339435454)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435454" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435455" label="problem&#10;(\$\sqrt{150}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435455" />
+          <attvalue for="2" value="$\sqrt{150}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435474" label="solution&#10;(\$5\sqrt{6}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435474" />
+          <attvalue for="2" value="$5\sqrt{6}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435492" label="exercise&#10;(fs-id1167339435492)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435492" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435493" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435493" />
+          <attvalue for="2" value="$\sqrt{\frac{96}{100}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435525" label="exercise&#10;(fs-id1167339435525)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435525" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435526" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435526" />
+          <attvalue for="2" value="$\left(\sqrt{42}\right)\left(\sqrt{30}\right)$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435576" label="solution&#10;(\$6\sqrt{35}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435576" />
+          <attvalue for="2" value="$6\sqrt{35}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435597" label="exercise&#10;(fs-id1167339435597)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435597" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435598" label="problem&#10;(\$12\sqrt{3}- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435598" />
+          <attvalue for="2" value="$12\sqrt{3}-4\sqrt{75}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435630" label="exercise&#10;(fs-id1167339435630)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435630" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435631" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435631" />
+          <attvalue for="2" value="$\sqrt{\frac{4}{225}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435660" label="solution&#10;(\$\frac{2}{15}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435660" />
+          <attvalue for="2" value="$\frac{2}{15}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435682" label="exercise&#10;(fs-id1167339435682)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435682" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435683" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435683" />
+          <attvalue for="2" value="$\sqrt{\frac{405}{324}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435715" label="exercise&#10;(fs-id1167339435715)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435715" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435716" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435716" />
+          <attvalue for="2" value="$\sqrt{\frac{360}{361}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435748" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435748" />
+          <attvalue for="2" value="$\frac{6\sqrt{10}}{19}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435782" label="exercise&#10;(fs-id1167339435782)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435782" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435784" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435784" />
+          <attvalue for="2" value="$\frac{5}{1+\sqrt{3}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435813" label="exercise&#10;(fs-id1167339435813)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435813" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435814" label="problem&#10;(\$\frac{8}{1- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435814" />
+          <attvalue for="2" value="$\frac{8}{1-\sqrt{17}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435848" label="solution&#10;(\$- [...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435848" />
+          <attvalue for="2" value="$-\frac{1+\sqrt{17}}{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435883" label="exercise&#10;(fs-id1167339435883)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435883" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435884" label="problem&#10;(\$\sqrt[4]{16}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435884" />
+          <attvalue for="2" value="$\sqrt[4]{16}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435906" label="exercise&#10;(fs-id1167339435906)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435906" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435907" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435907" />
+          <attvalue for="2" value="$\sqrt[3]{128}+3\sqrt[3]{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435944" label="solution&#10;(\$7\sqrt[3]{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339435944" />
+          <attvalue for="2" value="$7\sqrt[3]{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435965" label="exercise&#10;(fs-id1167339435965)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339435965" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339435966" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339435966" />
+          <attvalue for="2" value="$\sqrt[5]{\frac{\mathrm{-32}}{243}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436003" label="exercise&#10;(fs-id1167339436003)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436003" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436004" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436004" />
+          <attvalue for="2" value="$\frac{15\sqrt[4]{125}}{\sqrt[4]{5}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436048" label="solution&#10;(\$15\sqrt{5}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436048" />
+          <attvalue for="2" value="$15\sqrt{5}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436066" label="exercise&#10;(fs-id1167339436066)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436066" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436067" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436067" />
+          <attvalue for="2" value="$3\sqrt[3]{\mathrm{-432}}+\sqrt[3]{16}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436110" label="Section (default)&#10;Algebraic">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339436110" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Algebraic" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436115" label="para&#10;(For the [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339436115" />
+          <attvalue for="2" value="For the following exercises, simplify each expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436118" label="exercise&#10;(fs-id1167339436118)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436118" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436120" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436120" />
+          <attvalue for="2" value="$\sqrt{400{x}^{4}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436147" label="solution&#10;(\$20{x}^{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436147" />
+          <attvalue for="2" value="$20{x}^{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436169" label="exercise&#10;(fs-id1167339436169)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436169" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436170" label="problem&#10;(\$\sqrt{4{y}^{2}}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436170" />
+          <attvalue for="2" value="$\sqrt{4{y}^{2}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436197" label="exercise&#10;(fs-id1167339436197)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436197" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436198" label="problem&#10;(\$\sqrt{49p}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436198" />
+          <attvalue for="2" value="$\sqrt{49p}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436220" label="solution&#10;(\$7\sqrt{p}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436220" />
+          <attvalue for="2" value="$7\sqrt{p}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436238" label="exercise&#10;(fs-id1167339436238)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436238" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436239" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436239" />
+          <attvalue for="2" value="${\left(144{p}^{2}{q}^{6}\right)}^{\frac{1}{2}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436300" label="exercise&#10;(fs-id1167339436300)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436300" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436301" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436301" />
+          <attvalue for="2" value="${m}^{\frac{5}{2}}\sqrt{289}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436339" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436339" />
+          <attvalue for="2" value="$17{m}^{2}\sqrt{m}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436367" label="exercise&#10;(fs-id1167339436367)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436367" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436368" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436368" />
+          <attvalue for="2" value="$9\sqrt{3{m}^{2}}+\sqrt{27}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436410" label="exercise&#10;(fs-id1167339436410)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436410" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436411" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436411" />
+          <attvalue for="2" value="$3\sqrt{a{b}^{2}}-b\sqrt{a}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436451" label="solution&#10;(\$2b\sqrt{a}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436451" />
+          <attvalue for="2" value="$2b\sqrt{a}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436472" label="exercise&#10;(fs-id1167339436472)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436472" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436473" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436473" />
+          <attvalue for="2" value="$\frac{4\sqrt{2n}}{\sqrt{16{n}^{4}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436524" label="exercise&#10;(fs-id1167339436524)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436524" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436525" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436525" />
+          <attvalue for="2" value="$\sqrt{\frac{225{x}^{3}}{49x}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436568" label="solution&#10;(\$\frac{15x}{7}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436568" />
+          <attvalue for="2" value="$\frac{15x}{7}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436592" label="exercise&#10;(fs-id1167339436592)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436592" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436593" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436593" />
+          <attvalue for="2" value="$3\sqrt{44z}+\sqrt{99z}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436630" label="exercise&#10;(fs-id1167339436630)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436630" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436632" label="problem&#10;(\$\sqrt{50{y}^{8}}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436632" />
+          <attvalue for="2" value="$\sqrt{50{y}^{8}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436659" label="solution&#10;(\$5{y}^{4}\sqrt{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436659" />
+          <attvalue for="2" value="$5{y}^{4}\sqrt{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436687" label="exercise&#10;(fs-id1167339436687)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436687" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436688" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436688" />
+          <attvalue for="2" value="$\sqrt{490b{c}^{2}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436718" label="exercise&#10;(fs-id1167339436718)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436718" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436719" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436719" />
+          <attvalue for="2" value="$\sqrt{\frac{32}{14d}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436753" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436753" />
+          <attvalue for="2" value="$\frac{4\sqrt{7d}}{7d}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436792" label="exercise&#10;(fs-id1167339436792)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436792" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436793" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436793" />
+          <attvalue for="2" value="${q}^{\frac{3}{2}}\sqrt{63p}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436833" label="exercise&#10;(fs-id1167339436833)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436833" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436834" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436834" />
+          <attvalue for="2" value="$\frac{\sqrt{8}}{1-\sqrt{3x}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436876" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339436876" />
+          <attvalue for="2" value="$\frac{2\sqrt{2}+2\sqrt{6x}}{1\mathrm{-3}x}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436929" label="exercise&#10;(fs-id1167339436929)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436929" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436930" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436930" />
+          <attvalue for="2" value="$\sqrt{\frac{20}{121{d}^{4}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436971" label="exercise&#10;(fs-id1167339436971)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339436971" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339436972" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339436972" />
+          <attvalue for="2" value="${w}^{\frac{3}{2}}\sqrt{32}-{w}^{\frac{3}{2}}\sqrt{50}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437041" label="solution&#10;(\$-w\sqrt{2w}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437041" />
+          <attvalue for="2" value="$-w\sqrt{2w}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437067" label="exercise&#10;(fs-id1167339437067)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437067" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437068" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437068" />
+          <attvalue for="2" value="$\sqrt{108{x}^{4}}+\sqrt{27{x}^{4}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437116" label="exercise&#10;(fs-id1167339437116)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437116" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437117" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437117" />
+          <attvalue for="2" value="$\frac{\sqrt{12x}}{2+2\sqrt{3}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437161" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437161" />
+          <attvalue for="2" value="$\frac{3\sqrt{x}-\sqrt{3x}}{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437202" label="exercise&#10;(fs-id1167339437202)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437202" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437203" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437203" />
+          <attvalue for="2" value="$\sqrt{147{k}^{3}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437231" label="exercise&#10;(fs-id1167339437231)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437231" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437232" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437232" />
+          <attvalue for="2" value="$\sqrt{125{n}^{10}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437263" label="solution&#10;(\$5{n}^{5}\sqrt{5}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437263" />
+          <attvalue for="2" value="$5{n}^{5}\sqrt{5}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437291" label="exercise&#10;(fs-id1167339437291)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437291" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437292" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437292" />
+          <attvalue for="2" value="$\sqrt{\frac{42q}{36{q}^{3}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437334" label="exercise&#10;(fs-id1167339437334)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437334" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437336" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437336" />
+          <attvalue for="2" value="$\sqrt{\frac{81m}{361{m}^{2}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437378" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437378" />
+          <attvalue for="2" value="$\frac{9\sqrt{m}}{19m}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437411" label="exercise&#10;(fs-id1167339437411)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437411" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437412" label="problem&#10;(\$\sqrt{72c}- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437412" />
+          <attvalue for="2" value="$\sqrt{72c}-2\sqrt{2c}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437450" label="exercise&#10;(fs-id1167339437450)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437450" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437451" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437451" />
+          <attvalue for="2" value="$\sqrt{\frac{144}{324{d}^{2}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437491" label="solution&#10;(\$\frac{2}{3d}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437491" />
+          <attvalue for="2" value="$\frac{2}{3d}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437516" label="exercise&#10;(fs-id1167339437516)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437516" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437517" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437517" />
+          <attvalue for="2" value="$\sqrt[3]{24{x}^{6}}+\sqrt[3]{81{x}^{6}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437571" label="exercise&#10;(fs-id1167339437571)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437571" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437572" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437572" />
+          <attvalue for="2" value="$\sqrt[4]{\frac{162{x}^{6}}{16{x}^{4}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437625" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437625" />
+          <attvalue for="2" value="$\frac{3\sqrt[4]{2{x}^{2}}}{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437667" label="exercise&#10;(fs-id1167339437667)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437667" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437668" label="problem&#10;(\$\sqrt[3]{64y}\$)">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437668" />
+          <attvalue for="2" value="$\sqrt[3]{64y}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437693" label="exercise&#10;(fs-id1167339437693)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437693" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437694" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437694" />
+          <attvalue for="2" value="$\sqrt[3]{128{z}^{3}}-\sqrt[3]{\mathrm{-16}{z}^{3}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437750" label="solution&#10;(\$6z\sqrt[3]{2}\$)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437750" />
+          <attvalue for="2" value="$6z\sqrt[3]{2}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437774" label="exercise&#10;(fs-id1167339437774)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437774" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437775" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437775" />
+          <attvalue for="2" value="$\sqrt[5]{\mathrm{1,024}{c}^{10}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437814" label="Section (default)&#10;Real-World Applications">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339437814" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Real-World Applications" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437820" label="exercise&#10;(fs-id1167339437820)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437820" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437821" label="problem&#10;(A guy wire for [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437821" />
+          <attvalue for="2" value="A guy wire for a suspension bridge runs from the ground diagonally to the top of the closest pylon to make a triangle. We can use the Pythagorean Theorem to find the length of guy wire needed. The square of the distance between the wire on the ground and the pylon on the ground is 90,000 feet. The square of the height of the pylon is 160,000 feet. So the length of the guy wire can be found by evaluating $\sqrt{\mathrm{90,000}+\mathrm{160,000}}.$ What is the length of the guy wire?" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437865" label="solution&#10;(500 feet)">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339437865" />
+          <attvalue for="2" value="500 feet" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437869" label="exercise&#10;(fs-id1167339437869)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437869" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437870" label="problem&#10;(A car [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437870" />
+          <attvalue for="2" value="A car accelerates at a rate of $6-\frac{\sqrt{4}}{\sqrt{t}}{\phantom{\rule{0.5em}{0ex}}\text{m/s}}^{2}$ where t is the time in seconds after the car moves from rest. Simplify the expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437932" label="Section (default)&#10;Extensions">
+        <attvalues>
+          <attvalue for="0" value="section" />
+          <attvalue for="1" value="section_section_fs-id1167339437932" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="Extensions" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437937" label="para&#10;(For the [...])">
+        <attvalues>
+          <attvalue for="0" value="para" />
+          <attvalue for="1" value="para_para_fs-id1167339437937" />
+          <attvalue for="2" value="For the following exercises, simplify each expression." />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437940" label="exercise&#10;(fs-id1167339437940)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339437940" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339437942" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339437942" />
+          <attvalue for="2" value="$\frac{\sqrt{8}-\sqrt{16}}{4-\sqrt{2}}-{2}^{\frac{1}{2}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438011" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339438011" />
+          <attvalue for="2" value="$\frac{\mathrm{-5}\sqrt{2}\mathrm{-6}}{7}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438046" label="exercise&#10;(fs-id1167339438046)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438046" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438047" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438047" />
+          <attvalue for="2" value="$\frac{{4}^{\frac{3}{2}}-{16}^{\frac{3}{2}}}{{8}^{\frac{1}{3}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438131" label="exercise&#10;(fs-id1167339438131)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438131" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438132" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438132" />
+          <attvalue for="2" value="$\frac{\sqrt{m{n}^{3}}}{{a}^{2}\sqrt{{c}^{\mathrm{-3}}}}\cdot \frac{{a}^{\mathrm{-7}}{n}^{\mathrm{-2}}}{\sqrt{{m}^{2}{c}^{4}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438268" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339438268" />
+          <attvalue for="2" value="$\frac{\sqrt{mnc}}{{a}^{9}cmn}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438318" label="exercise&#10;(fs-id1167339438318)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438318" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438319" label="problem&#10;(\$\frac{a}{a- [...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438319" />
+          <attvalue for="2" value="$\frac{a}{a-\sqrt{c}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438349" label="exercise&#10;(fs-id1167339438349)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438349" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438350" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438350" />
+          <attvalue for="2" value="$\frac{x\sqrt{64y}+4\sqrt{y}}{\sqrt{128y}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438405" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339438405" />
+          <attvalue for="2" value="$\frac{2x+1}{2\sqrt{2}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438444" label="exercise&#10;(fs-id1167339438444)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438444" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438445" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438445" />
+          <attvalue for="2" value="$\left(\frac{\sqrt{250{x}^{2}}}{\sqrt{100{b}^{3}}}\right)\left(\frac{7\sqrt{b}}{\sqrt{125x}}\right)$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438550" label="exercise&#10;(fs-id1167339438550)">
+        <attvalues>
+          <attvalue for="0" value="exercise" />
+          <attvalue for="1" value="exercise_exercise_fs-id1167339438550" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438552" label="problem&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="problem" />
+          <attvalue for="1" value="problem_problem_fs-id1167339438552" />
+          <attvalue for="2" value="$\sqrt{\frac{\sqrt[3]{64}+\sqrt[4]{256}}{\sqrt{64}+\sqrt{256}}}$" />
+        </attvalues>
+      </node>
+      <node id="fs-id1167339438628" label="solution&#10;([...])">
+        <attvalues>
+          <attvalue for="0" value="solution" />
+          <attvalue for="1" value="solution_solution_fs-id1167339438628" />
+          <attvalue for="2" value="$\frac{\sqrt{3}}{3}$" />
+        </attvalues>
+      </node>
+      <node id="glossary_glossary_4394004576" label="Glossary">
+        <attvalues>
+          <attvalue for="0" value="glossary" />
+          <attvalue for="1" value="glossary_glossary_4394004576" />
+        </attvalues>
+      </node>
+      <node id="fs-id1496924" label="Term: index">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="index" />
+          <attvalue for="18" value="the number above the radical sign indicating the n th root" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1496924" />
+        </attvalues>
+      </node>
+      <node id="fs-id1496935" label="Term: principal n th root">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="principal n th root" />
+          <attvalue for="18" value="the number with the same sign as $a$ that when raised to the n th power equals $a$" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1496935" />
+        </attvalues>
+      </node>
+      <node id="fs-id1442093" label="Term: principal [...]">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="principal square root" />
+          <attvalue for="18" value="the nonnegative square root of a number $a$ that, when multiplied by itself, equals $a$" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1442093" />
+        </attvalues>
+      </node>
+      <node id="fs-id1481393" label="Term: radical">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="radical" />
+          <attvalue for="18" value="the symbol used to indicate a root" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1481393" />
+        </attvalues>
+      </node>
+      <node id="fs-id1481399" label="Term: radical expression">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="radical expression" />
+          <attvalue for="18" value="an expression containing a radical symbol" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1481399" />
+        </attvalues>
+      </node>
+      <node id="fs-id1481406" label="Term: radicand">
+        <attvalues>
+          <attvalue for="0" value="GlossaryDefinition" />
+          <attvalue for="17" value="radicand" />
+          <attvalue for="18" value="the number under the radical symbol" />
+          <attvalue for="1" value="GlossDef_definition_fs-id1481406" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="document_document_4392478384" target="title_title_4392472624" id="0" />
+      <edge source="document_document_4392478384" target="metadata_metadata_4392470624" id="1" />
+      <edge source="document_document_4392478384" target="content_content_4392432912" id="2" />
+      <edge source="document_document_4392478384" target="glossary_glossary_4394004576" id="3" />
+      <edge source="content_content_4392432912" target="eip-877" id="4" />
+      <edge source="content_content_4392432912" target="fs-id1167339431492" id="5" />
+      <edge source="content_content_4392432912" target="Figure_01_03_001" id="6" />
+      <edge source="content_content_4392432912" target="fs-id1167339431519" id="7" />
+      <edge source="content_content_4392432912" target="fs-id1167339431629" id="8" />
+      <edge source="content_content_4392432912" target="fs-id1167339431634" id="9" />
+      <edge source="content_content_4392432912" target="fs-id1424126" id="10" />
+      <edge source="content_content_4392432912" target="fs-id1409429" id="11" />
+      <edge source="content_content_4392432912" target="fs-id1413677" id="12" />
+      <edge source="content_content_4392432912" target="fs-id1483223" id="13" />
+      <edge source="content_content_4392432912" target="fs-id1167339432042" id="14" />
+      <edge source="content_content_4392432912" target="fs-id1476966" id="15" />
+      <edge source="content_content_4392432912" target="fs-id1499197" id="16" />
+      <edge source="eip-877" target="fs-idm653475424" id="17" />
+      <edge source="eip-877" target="eip-978" id="18" />
+      <edge source="eip-978" target="eip-733" id="19" />
+      <edge source="eip-978" target="eip-684" id="20" />
+      <edge source="eip-978" target="eip-453" id="21" />
+      <edge source="eip-453" target="eip-464" id="22" />
+      <edge source="eip-453" target="eip-935" id="23" />
+      <edge source="eip-453" target="eip-351" id="24" />
+      <edge source="eip-453" target="eip-320" id="25" />
+      <edge source="eip-453" target="eip-317" id="26" />
+      <edge source="eip-453" target="eip-681" id="27" />
+      <edge source="eip-453" target="eip-948" id="28" />
+      <edge source="fs-id1167339431519" target="label_label_4392383360" id="29" />
+      <edge source="fs-id1167339431634" target="fs-id1167339431640" id="30" />
+      <edge source="fs-id1167339431634" target="fs-id1484606" id="31" />
+      <edge source="fs-id1167339431634" target="fs-id1507362" id="32" />
+      <edge source="fs-id1167339431634" target="fs-id1495127" id="33" />
+      <edge source="fs-id1167339431634" target="fs-id1524853" id="34" />
+      <edge source="fs-id1167339431634" target="fs-id1167339431755" id="35" />
+      <edge source="fs-id1167339431634" target="Example_01_03_01" id="36" />
+      <edge source="fs-id1167339431634" target="fs-id1509816" id="37" />
+      <edge source="fs-id1167339431634" target="fs-id1314899" id="38" />
+      <edge source="fs-id1495127" target="image_image_4392650128" id="39" />
+      <edge source="fs-id1424126" target="fs-id1499813" id="40" />
+      <edge source="fs-id1424126" target="fs-id1494721" id="41" />
+      <edge source="fs-id1424126" target="fs-id1521678" id="42" />
+      <edge source="fs-id1424126" target="Example_01_03_02" id="43" />
+      <edge source="fs-id1424126" target="fs-id903746" id="44" />
+      <edge source="fs-id1424126" target="fs-id1291623" id="45" />
+      <edge source="fs-id1424126" target="Example_01_03_03" id="46" />
+      <edge source="fs-id1424126" target="fs-id1385114" id="47" />
+      <edge source="fs-id1521678" target="fs-id1516957" id="48" />
+      <edge source="fs-id1516957" target="item_item_4392896848" id="49" />
+      <edge source="fs-id1516957" target="item_item_4392896928" id="50" />
+      <edge source="fs-id1516957" target="item_item_4392897008" id="51" />
+      <edge source="fs-id1291623" target="fs-id1343311" id="52" />
+      <edge source="fs-id1343311" target="item_item_4392961264" id="53" />
+      <edge source="fs-id1343311" target="item_item_4392961344" id="54" />
+      <edge source="fs-id1409429" target="fs-id1402495" id="55" />
+      <edge source="fs-id1409429" target="fs-id1442347" id="56" />
+      <edge source="fs-id1409429" target="fs-id1529521" id="57" />
+      <edge source="fs-id1409429" target="Example_01_03_04" id="58" />
+      <edge source="fs-id1409429" target="fs-id1520332" id="59" />
+      <edge source="fs-id1409429" target="Example_01_03_05" id="60" />
+      <edge source="fs-id1409429" target="fs-id1343544" id="61" />
+      <edge source="fs-id1529521" target="fs-id1537621" id="62" />
+      <edge source="fs-id1537621" target="item_item_4392972864" id="63" />
+      <edge source="fs-id1537621" target="item_item_4392972944" id="64" />
+      <edge source="fs-id1413677" target="fs-id1483382" id="65" />
+      <edge source="fs-id1413677" target="fs-id1322507" id="66" />
+      <edge source="fs-id1413677" target="Example_01_03_06" id="67" />
+      <edge source="fs-id1413677" target="fs-id1494905" id="68" />
+      <edge source="fs-id1413677" target="Example_01_03_07" id="69" />
+      <edge source="fs-id1413677" target="fs-id1481719" id="70" />
+      <edge source="fs-id1322507" target="fs-id1429237" id="71" />
+      <edge source="fs-id1429237" target="item_item_4393093776" id="72" />
+      <edge source="fs-id1429237" target="item_item_4393093936" id="73" />
+      <edge source="fs-id1483223" target="fs-id1483228" id="74" />
+      <edge source="fs-id1483223" target="fs-id1517983" id="75" />
+      <edge source="fs-id1483223" target="fs-id1517989" id="76" />
+      <edge source="fs-id1483223" target="fs-id1484146" id="77" />
+      <edge source="fs-id1483223" target="fs-id1507274" id="78" />
+      <edge source="fs-id1483223" target="Example_01_03_08" id="79" />
+      <edge source="fs-id1483223" target="fs-id1485671" id="80" />
+      <edge source="fs-id1483223" target="fs-id1167339431925" id="81" />
+      <edge source="fs-id1483223" target="Example_01_03_09" id="82" />
+      <edge source="fs-id1483223" target="fs-id1167339431968" id="83" />
+      <edge source="fs-id1507274" target="fs-id1507286" id="84" />
+      <edge source="fs-id1507286" target="item_item_4393205904" id="85" />
+      <edge source="fs-id1507286" target="item_item_4393205984" id="86" />
+      <edge source="fs-id1167339431925" target="fs-id1167339431936" id="87" />
+      <edge source="fs-id1167339431936" target="item_item_4393215344" id="88" />
+      <edge source="fs-id1167339431936" target="item_item_4393215504" id="89" />
+      <edge source="fs-id1167339431936" target="item_item_4393215584" id="90" />
+      <edge source="fs-id1167339431936" target="item_item_4393215744" id="91" />
+      <edge source="fs-id1167339432042" target="fs-id1167339432047" id="92" />
+      <edge source="fs-id1167339432042" target="fs-id1167339432053" id="93" />
+      <edge source="fs-id1167339432042" target="fs-id1538427" id="94" />
+      <edge source="fs-id1167339432042" target="fs-id1487278" id="95" />
+      <edge source="fs-id1167339432053" target="fs-id1167339432064" id="96" />
+      <edge source="fs-id1167339432053" target="fs-id1167339432119" id="97" />
+      <edge source="fs-id1167339432053" target="fs-id1167339434352" id="98" />
+      <edge source="fs-id1167339432053" target="fs-id1167339434398" id="99" />
+      <edge source="fs-id1167339432053" target="Example_01_03_10" id="100" />
+      <edge source="fs-id1167339432053" target="fs-id1167339435023" id="101" />
+      <edge source="fs-id1538427" target="fs-id1538433" id="102" />
+      <edge source="fs-id1538427" target="fs-id1507540" id="103" />
+      <edge source="fs-id1538427" target="fs-id1508564" id="104" />
+      <edge source="fs-id1538427" target="fs-id1508573" id="105" />
+      <edge source="fs-id1538427" target="fs-id1529202" id="106" />
+      <edge source="fs-id1538427" target="fs-id1529206" id="107" />
+      <edge source="fs-id1538427" target="fs-id1520158" id="108" />
+      <edge source="fs-id1538427" target="Example_01_03_11" id="109" />
+      <edge source="fs-id1538427" target="fs-id1501835" id="110" />
+      <edge source="fs-id1538427" target="Example_01_03_12" id="111" />
+      <edge source="fs-id1538427" target="fs-id1483634" id="112" />
+      <edge source="fs-id1538427" target="Example_01_03_13" id="113" />
+      <edge source="fs-id1538427" target="fs-id1538438" id="114" />
+      <edge source="fs-id1507540" target="label_label_4393375744" id="115" />
+      <edge source="fs-id1508573" target="label_label_4393377024" id="116" />
+      <edge source="fs-id1520158" target="fs-id1482550" id="117" />
+      <edge source="fs-id1482550" target="item_item_4393382224" id="118" />
+      <edge source="fs-id1482550" target="item_item_4393382304" id="119" />
+      <edge source="fs-id1482550" target="item_item_4393382384" id="120" />
+      <edge source="fs-id1476966" target="fs-id1491013" id="121" />
+      <edge source="fs-id1491013" target="item_item_4393542544" id="122" />
+      <edge source="fs-id1491013" target="item_item_4393543344" id="123" />
+      <edge source="fs-id1491013" target="item_item_4393544864" id="124" />
+      <edge source="fs-id1491013" target="item_item_4393546464" id="125" />
+      <edge source="fs-id1491013" target="item_item_4393546704" id="126" />
+      <edge source="fs-id1491013" target="item_item_4393546944" id="127" />
+      <edge source="fs-id1491013" target="item_item_4393548384" id="128" />
+      <edge source="fs-id1491013" target="item_item_4393548624" id="129" />
+      <edge source="fs-id1499197" target="fs-id1499203" id="130" />
+      <edge source="fs-id1499197" target="fs-id1538381" id="131" />
+      <edge source="fs-id1499197" target="fs-id1167339436110" id="132" />
+      <edge source="fs-id1499197" target="fs-id1167339437814" id="133" />
+      <edge source="fs-id1499197" target="fs-id1167339437932" id="134" />
+      <edge source="fs-id1499203" target="fs-id1499209" id="135" />
+      <edge source="fs-id1499203" target="fs-id1538359" id="136" />
+      <edge source="fs-id1499203" target="fs-id1538365" id="137" />
+      <edge source="fs-id1499203" target="fs-id1538374" id="138" />
+      <edge source="fs-id1499209" target="fs-id1499210" id="139" />
+      <edge source="fs-id1499209" target="fs-id1538354" id="140" />
+      <edge source="fs-id1538359" target="fs-id1538360" id="141" />
+      <edge source="fs-id1538365" target="fs-id1538366" id="142" />
+      <edge source="fs-id1538365" target="fs-id1538370" id="143" />
+      <edge source="fs-id1538374" target="fs-id1538375" id="144" />
+      <edge source="fs-id1538381" target="fs-id1538386" id="145" />
+      <edge source="fs-id1538381" target="fs-id1514811" id="146" />
+      <edge source="fs-id1538381" target="fs-id1514836" id="147" />
+      <edge source="fs-id1538381" target="fs-id1499788" id="148" />
+      <edge source="fs-id1538381" target="fs-id1549261" id="149" />
+      <edge source="fs-id1538381" target="fs-id1529781" id="150" />
+      <edge source="fs-id1538381" target="fs-id1430084" id="151" />
+      <edge source="fs-id1538381" target="fs-id1430101" id="152" />
+      <edge source="fs-id1538381" target="fs-id1487491" id="153" />
+      <edge source="fs-id1538381" target="fs-id1545152" id="154" />
+      <edge source="fs-id1538381" target="fs-id1469422" id="155" />
+      <edge source="fs-id1538381" target="fs-id1469443" id="156" />
+      <edge source="fs-id1538381" target="fs-id1167339435248" id="157" />
+      <edge source="fs-id1538381" target="fs-id1167339435278" id="158" />
+      <edge source="fs-id1538381" target="fs-id1167339435349" id="159" />
+      <edge source="fs-id1538381" target="fs-id1167339435370" id="160" />
+      <edge source="fs-id1538381" target="fs-id1167339435421" id="161" />
+      <edge source="fs-id1538381" target="fs-id1167339435454" id="162" />
+      <edge source="fs-id1538381" target="fs-id1167339435492" id="163" />
+      <edge source="fs-id1538381" target="fs-id1167339435525" id="164" />
+      <edge source="fs-id1538381" target="fs-id1167339435597" id="165" />
+      <edge source="fs-id1538381" target="fs-id1167339435630" id="166" />
+      <edge source="fs-id1538381" target="fs-id1167339435682" id="167" />
+      <edge source="fs-id1538381" target="fs-id1167339435715" id="168" />
+      <edge source="fs-id1538381" target="fs-id1167339435782" id="169" />
+      <edge source="fs-id1538381" target="fs-id1167339435813" id="170" />
+      <edge source="fs-id1538381" target="fs-id1167339435883" id="171" />
+      <edge source="fs-id1538381" target="fs-id1167339435906" id="172" />
+      <edge source="fs-id1538381" target="fs-id1167339435965" id="173" />
+      <edge source="fs-id1538381" target="fs-id1167339436003" id="174" />
+      <edge source="fs-id1538381" target="fs-id1167339436066" id="175" />
+      <edge source="fs-id1514811" target="fs-id1514812" id="176" />
+      <edge source="fs-id1514811" target="fs-id1514831" id="177" />
+      <edge source="fs-id1514836" target="fs-id1514837" id="178" />
+      <edge source="fs-id1499788" target="fs-id1499789" id="179" />
+      <edge source="fs-id1499788" target="fs-id1549257" id="180" />
+      <edge source="fs-id1549261" target="fs-id1549262" id="181" />
+      <edge source="fs-id1529781" target="fs-id1529782" id="182" />
+      <edge source="fs-id1529781" target="fs-id1430080" id="183" />
+      <edge source="fs-id1430084" target="fs-id1430085" id="184" />
+      <edge source="fs-id1430101" target="fs-id1430102" id="185" />
+      <edge source="fs-id1430101" target="fs-id1487473" id="186" />
+      <edge source="fs-id1487491" target="fs-id1487492" id="187" />
+      <edge source="fs-id1545152" target="fs-id1545153" id="188" />
+      <edge source="fs-id1545152" target="fs-id1511190" id="189" />
+      <edge source="fs-id1469422" target="fs-id1469424" id="190" />
+      <edge source="fs-id1469443" target="fs-id1469444" id="191" />
+      <edge source="fs-id1469443" target="fs-id1167339435244" id="192" />
+      <edge source="fs-id1167339435248" target="fs-id1167339435249" id="193" />
+      <edge source="fs-id1167339435278" target="fs-id1167339435279" id="194" />
+      <edge source="fs-id1167339435278" target="fs-id1167339435311" id="195" />
+      <edge source="fs-id1167339435349" target="fs-id1167339435350" id="196" />
+      <edge source="fs-id1167339435370" target="fs-id1167339435371" id="197" />
+      <edge source="fs-id1167339435370" target="fs-id1167339435403" id="198" />
+      <edge source="fs-id1167339435421" target="fs-id1167339435422" id="199" />
+      <edge source="fs-id1167339435454" target="fs-id1167339435455" id="200" />
+      <edge source="fs-id1167339435454" target="fs-id1167339435474" id="201" />
+      <edge source="fs-id1167339435492" target="fs-id1167339435493" id="202" />
+      <edge source="fs-id1167339435525" target="fs-id1167339435526" id="203" />
+      <edge source="fs-id1167339435525" target="fs-id1167339435576" id="204" />
+      <edge source="fs-id1167339435597" target="fs-id1167339435598" id="205" />
+      <edge source="fs-id1167339435630" target="fs-id1167339435631" id="206" />
+      <edge source="fs-id1167339435630" target="fs-id1167339435660" id="207" />
+      <edge source="fs-id1167339435682" target="fs-id1167339435683" id="208" />
+      <edge source="fs-id1167339435715" target="fs-id1167339435716" id="209" />
+      <edge source="fs-id1167339435715" target="fs-id1167339435748" id="210" />
+      <edge source="fs-id1167339435782" target="fs-id1167339435784" id="211" />
+      <edge source="fs-id1167339435813" target="fs-id1167339435814" id="212" />
+      <edge source="fs-id1167339435813" target="fs-id1167339435848" id="213" />
+      <edge source="fs-id1167339435883" target="fs-id1167339435884" id="214" />
+      <edge source="fs-id1167339435906" target="fs-id1167339435907" id="215" />
+      <edge source="fs-id1167339435906" target="fs-id1167339435944" id="216" />
+      <edge source="fs-id1167339435965" target="fs-id1167339435966" id="217" />
+      <edge source="fs-id1167339436003" target="fs-id1167339436004" id="218" />
+      <edge source="fs-id1167339436003" target="fs-id1167339436048" id="219" />
+      <edge source="fs-id1167339436066" target="fs-id1167339436067" id="220" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436115" id="221" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436118" id="222" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436169" id="223" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436197" id="224" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436238" id="225" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436300" id="226" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436367" id="227" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436410" id="228" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436472" id="229" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436524" id="230" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436592" id="231" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436630" id="232" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436687" id="233" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436718" id="234" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436792" id="235" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436833" id="236" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436929" id="237" />
+      <edge source="fs-id1167339436110" target="fs-id1167339436971" id="238" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437067" id="239" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437116" id="240" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437202" id="241" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437231" id="242" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437291" id="243" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437334" id="244" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437411" id="245" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437450" id="246" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437516" id="247" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437571" id="248" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437667" id="249" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437693" id="250" />
+      <edge source="fs-id1167339436110" target="fs-id1167339437774" id="251" />
+      <edge source="fs-id1167339436118" target="fs-id1167339436120" id="252" />
+      <edge source="fs-id1167339436118" target="fs-id1167339436147" id="253" />
+      <edge source="fs-id1167339436169" target="fs-id1167339436170" id="254" />
+      <edge source="fs-id1167339436197" target="fs-id1167339436198" id="255" />
+      <edge source="fs-id1167339436197" target="fs-id1167339436220" id="256" />
+      <edge source="fs-id1167339436238" target="fs-id1167339436239" id="257" />
+      <edge source="fs-id1167339436300" target="fs-id1167339436301" id="258" />
+      <edge source="fs-id1167339436300" target="fs-id1167339436339" id="259" />
+      <edge source="fs-id1167339436367" target="fs-id1167339436368" id="260" />
+      <edge source="fs-id1167339436410" target="fs-id1167339436411" id="261" />
+      <edge source="fs-id1167339436410" target="fs-id1167339436451" id="262" />
+      <edge source="fs-id1167339436472" target="fs-id1167339436473" id="263" />
+      <edge source="fs-id1167339436524" target="fs-id1167339436525" id="264" />
+      <edge source="fs-id1167339436524" target="fs-id1167339436568" id="265" />
+      <edge source="fs-id1167339436592" target="fs-id1167339436593" id="266" />
+      <edge source="fs-id1167339436630" target="fs-id1167339436632" id="267" />
+      <edge source="fs-id1167339436630" target="fs-id1167339436659" id="268" />
+      <edge source="fs-id1167339436687" target="fs-id1167339436688" id="269" />
+      <edge source="fs-id1167339436718" target="fs-id1167339436719" id="270" />
+      <edge source="fs-id1167339436718" target="fs-id1167339436753" id="271" />
+      <edge source="fs-id1167339436792" target="fs-id1167339436793" id="272" />
+      <edge source="fs-id1167339436833" target="fs-id1167339436834" id="273" />
+      <edge source="fs-id1167339436833" target="fs-id1167339436876" id="274" />
+      <edge source="fs-id1167339436929" target="fs-id1167339436930" id="275" />
+      <edge source="fs-id1167339436971" target="fs-id1167339436972" id="276" />
+      <edge source="fs-id1167339436971" target="fs-id1167339437041" id="277" />
+      <edge source="fs-id1167339437067" target="fs-id1167339437068" id="278" />
+      <edge source="fs-id1167339437116" target="fs-id1167339437117" id="279" />
+      <edge source="fs-id1167339437116" target="fs-id1167339437161" id="280" />
+      <edge source="fs-id1167339437202" target="fs-id1167339437203" id="281" />
+      <edge source="fs-id1167339437231" target="fs-id1167339437232" id="282" />
+      <edge source="fs-id1167339437231" target="fs-id1167339437263" id="283" />
+      <edge source="fs-id1167339437291" target="fs-id1167339437292" id="284" />
+      <edge source="fs-id1167339437334" target="fs-id1167339437336" id="285" />
+      <edge source="fs-id1167339437334" target="fs-id1167339437378" id="286" />
+      <edge source="fs-id1167339437411" target="fs-id1167339437412" id="287" />
+      <edge source="fs-id1167339437450" target="fs-id1167339437451" id="288" />
+      <edge source="fs-id1167339437450" target="fs-id1167339437491" id="289" />
+      <edge source="fs-id1167339437516" target="fs-id1167339437517" id="290" />
+      <edge source="fs-id1167339437571" target="fs-id1167339437572" id="291" />
+      <edge source="fs-id1167339437571" target="fs-id1167339437625" id="292" />
+      <edge source="fs-id1167339437667" target="fs-id1167339437668" id="293" />
+      <edge source="fs-id1167339437693" target="fs-id1167339437694" id="294" />
+      <edge source="fs-id1167339437693" target="fs-id1167339437750" id="295" />
+      <edge source="fs-id1167339437774" target="fs-id1167339437775" id="296" />
+      <edge source="fs-id1167339437814" target="fs-id1167339437820" id="297" />
+      <edge source="fs-id1167339437814" target="fs-id1167339437869" id="298" />
+      <edge source="fs-id1167339437820" target="fs-id1167339437821" id="299" />
+      <edge source="fs-id1167339437820" target="fs-id1167339437865" id="300" />
+      <edge source="fs-id1167339437869" target="fs-id1167339437870" id="301" />
+      <edge source="fs-id1167339437932" target="fs-id1167339437937" id="302" />
+      <edge source="fs-id1167339437932" target="fs-id1167339437940" id="303" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438046" id="304" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438131" id="305" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438318" id="306" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438349" id="307" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438444" id="308" />
+      <edge source="fs-id1167339437932" target="fs-id1167339438550" id="309" />
+      <edge source="fs-id1167339437940" target="fs-id1167339437942" id="310" />
+      <edge source="fs-id1167339437940" target="fs-id1167339438011" id="311" />
+      <edge source="fs-id1167339438046" target="fs-id1167339438047" id="312" />
+      <edge source="fs-id1167339438131" target="fs-id1167339438132" id="313" />
+      <edge source="fs-id1167339438131" target="fs-id1167339438268" id="314" />
+      <edge source="fs-id1167339438318" target="fs-id1167339438319" id="315" />
+      <edge source="fs-id1167339438349" target="fs-id1167339438350" id="316" />
+      <edge source="fs-id1167339438349" target="fs-id1167339438405" id="317" />
+      <edge source="fs-id1167339438444" target="fs-id1167339438445" id="318" />
+      <edge source="fs-id1167339438550" target="fs-id1167339438552" id="319" />
+      <edge source="fs-id1167339438550" target="fs-id1167339438628" id="320" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1496924" id="321" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1496935" id="322" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1442093" id="323" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1481393" id="324" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1481399" id="325" />
+      <edge source="glossary_glossary_4394004576" target="fs-id1481406" id="326" />
+    </edges>
+  </graph>
+</gexf>

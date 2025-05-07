@@ -84,9 +84,10 @@ def mathml_to_tex(math_el: etree.Element, source_file_path: Path | None = None) 
 
     final_latex = "" # Initialize to empty
     try:
-        xslt_result_obj = mml_bowang.mathml2latex(xml_string) 
+        xslt_result_obj = mml_bowang.mathml2latex(xml_string)
+        #print("xslt_result_obj:\n\n",xslt_result_obj)
         final_latex = mml_bowang.unicode2latex(xslt_result_obj)
-
+        #print("final_latex:\n\n",final_latex)
         # --- Debug Print for specific file ---
         if DEBUG_THIS_FILE:
             print(f"\n--- DEBUG m51239 ---")
@@ -116,27 +117,27 @@ def underline(txt: str, ch: str = "=") -> str:
     return f"\n{txt}\n{ch * len(txt)}\n"
 
 # --- NEW/MODIFIED RENDER HANDLERS ---
-def r_para_new(el, source_file_path: Path | None = None):
+def r_para_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
         if child.tail: parts.append(child.tail)
     return "".join(parts).strip() + "\n"
 
-def r_em_new(el, source_file_path: Path | None = None):
+def r_em_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
         if child.tail: parts.append(child.tail)
     return f'*{"".join(parts).strip()}*'
 
-def r_term_new(el, source_file_path: Path | None = None):
+def r_term_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
         if child.tail: parts.append(child.tail)
     
     parent = el.getparent()
@@ -144,11 +145,11 @@ def r_term_new(el, source_file_path: Path | None = None):
     text_content = "".join(parts).strip()
     return "" if parent_tag.endswith("DEFINITION") else f"**{text_content}**"
     
-def r_title_new(el, source_file_path: Path | None = None):
+def r_title_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
         if child.tail: parts.append(child.tail)
     txt = "".join(parts).strip()
     
@@ -161,70 +162,86 @@ def r_title_new(el, source_file_path: Path | None = None):
     else:
         return underline(title_text)
 
+# --- Helper for cleaning alt text (can be made global if used more widely) ---
+def clean_alt_text_global(text_content: str | None, default_alt: str = "Image") -> str:
+    if text_content is None:
+        return default_alt
+    cleaned = str(text_content).replace('\\n', ' ').replace('\\r', ' ').strip()
+    return cleaned if cleaned else default_alt
+
 # r_fig and r_math are assumed to be mostly compatible as they build their own strings.
 # r_fig might need to be updated if it calls the old render or relies on its side effects.
 # For now, keep existing r_fig and r_math definitions.
 
-def r_fig(el, source_file_path: Path | None = None):
-    NSMAP = {'cnxml': 'http://cnx.rice.edu/cnxml'} # Define namespace map
-    print(el) # User's debug print
-    subs = el.findall(".//cnxml:subfigure", namespaces=NSMAP) # Use NSMAP
+def r_fig(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+    NSMAP = {'cnxml': 'http://cnx.rice.edu/cnxml'}
+    subs = el.findall(".//cnxml:subfigure", namespaces=NSMAP)
     out: list[str] = []
+
     if subs:
         for sf in subs:
-            # print(sf) # User's debug print
-            alt_node = sf.find(".//cnxml:media", namespaces=NSMAP) # Use NSMAP
-            alt = alt_node.get("alt", "") if alt_node is not None else ""
-            src_node = sf.find(".//cnxml:image", namespaces=NSMAP) # Use NSMAP
+            alt_node = sf.find(".//cnxml:media", namespaces=NSMAP)
+            raw_alt = alt_node.get("alt", "Image") if alt_node is not None else "Image"
+            alt = clean_alt_text_global(raw_alt)
             
+            src_node = sf.find(".//cnxml:image", namespaces=NSMAP)
             xml_img_src = src_node.get("src") if src_node is not None else None
-            # User changed this from MISSING_SRC_IN_FILE, keeping user's preference
             md_img_src = "MISSING_SRC" 
             if xml_img_src:
                 image_filename = Path(xml_img_src).name
                 md_img_src = f"../../media/{image_filename}" 
             out.append(f"![{alt}]({md_img_src})")
 
-        cap_node = el.find(".//cnxml:caption", namespaces=NSMAP) # Use NSMAP for consistency, even if caption itself might not be complex
+        cap_node = el.find(".//cnxml:caption", namespaces=NSMAP)
         if cap_node is not None:
-            # Pass include_mathml_source=False as it's not relevant for caption rendering here
-            caption_text = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
-            if caption_text:
-                 out.append(f"\\n*{caption_text}*\\n")
+            caption_display_text = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
+            if caption_display_text:
+                 out.append(f"\\n\\n*{caption_display_text}*\\n\\n")
     else:
-        cap_node = el.find(".//cnxml:caption", namespaces=NSMAP) # Use NSMAP
-        cap = ""
+        cap_node = el.find(".//cnxml:caption", namespaces=NSMAP)
+        rendered_caption_content = ""
         if cap_node is not None:
-            # Pass include_mathml_source=False as it's not relevant for caption rendering here
-            cap = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
-        
-        src_node = el.find(".//cnxml:image", namespaces=NSMAP) # Use NSMAP
+            rendered_caption_content = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
+        alt_from_caption = clean_alt_text_global(rendered_caption_content, default_alt="")
+
+        src_node = el.find(".//cnxml:image", namespaces=NSMAP)
         xml_img_src = src_node.get("src") if src_node is not None else None
-        md_img_src = "MISSING_SRC" # User's preference
+        md_img_src = "MISSING_SRC"
         if xml_img_src:
             image_filename = Path(xml_img_src).name
             md_img_src = f"../../media/{image_filename}"
 
-        # Ensure media[@alt] lookup is also namespaced
-        alt_text_from_media = el.findtext('.//cnxml:media[@alt]', namespaces=NSMAP, default=None)
-        alt_text_for_image = cap if cap else (alt_text_from_media if alt_text_from_media else 'Image')
-        
-        out.append(f"\\n\\n![{alt_text_for_image}]({md_img_src})\\n\\n")
-        # If caption existed and was used as alt text, don't print it again.
-        # If alt text came from media@alt AND a caption exists, print caption separately.
-        if cap and alt_text_from_media and alt_text_for_image == alt_text_from_media:
-            out.append(f"\\n*{cap}*\\n")
-        elif cap and not alt_text_from_media: # cap exists, used as alt, no separate media@alt
-            pass # Already incorporated into alt_text_for_image
+        raw_alt_from_media = el.findtext('.//cnxml:media[@alt]', namespaces=NSMAP, default=None)
+        alt_from_media = clean_alt_text_global(raw_alt_from_media, default_alt="")
 
-    return "\\n\\n".join(out)
+        alt_text_for_image_tag = "Image"
+        if alt_from_media:
+            alt_text_for_image_tag = alt_from_media
+        elif alt_from_caption:
+            alt_text_for_image_tag = alt_from_caption
+        
+        out.append(f"\\n\\n![{alt_text_for_image_tag}]({md_img_src})\\n\\n")
+
+        if rendered_caption_content and (alt_from_media or alt_text_for_image_tag != alt_from_caption):
+            out.append(f"\\n\\n*{rendered_caption_content}*\\n\\n")
+        elif rendered_caption_content and not alt_from_media and alt_text_for_image_tag == alt_from_caption:
+            pass
+
+    return "\\n".join(out)
 
 
 def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
-    # Get the LaTeX conversion attempt (could be fallback text or empty)
-    tex = mathml_to_tex(el, source_file_path=source_file_path)
-    
-    # Get the original MathML source for debugging
+    tex_from_lib = mathml_to_tex(el, source_file_path=source_file_path)
+    display_attr = el.get("display")
+
+    # --- Debug Print --- 
+    # Print only if the debug flag for MathML source is also on, to avoid flooding console otherwise
+    if include_mathml_source: 
+        # Using repr() for tex_from_lib to make whitespace visible
+        pass
+        #print(f"[r_math DEBUG] display_attr: '{display_attr}', tex_from_lib (raw): {repr(tex_from_lib[:200])}{'...' if len(tex_from_lib)>200 else ''}")
+    # --- End Debug Print ---
+
     original_mathml_block = ""
     if include_mathml_source:
         try:
@@ -243,31 +260,80 @@ def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool
 </details>
 '''
 
-    # Determine the LaTeX output part (inline, block, or placeholder)
     latex_part = ""
-    if tex and tex.strip():
-        # Heuristic: block maths usually start with \begin{...} or \[ or $$
-        if tex.startswith("\\begin") or tex.startswith("\\[") or tex.startswith("$$"):
-            clean_tex = tex.strip()
-            if clean_tex.startswith("$$") and clean_tex.endswith("$$"):
-                 clean_tex = clean_tex[2:-2].strip()
-            elif clean_tex.startswith("\\[") and clean_tex.endswith("\\]"):
-                 clean_tex = clean_tex[2:-2].strip()
-            latex_part = f"\n\n$$\n{clean_tex}\n$$\n\n"
-        else: # Inline math
-            latex_part = f"${tex}$"
-    else:
-        # Use fallback text if conversion failed and produced nothing
+
+    # Case 1: Library returned no TeX or only whitespace
+    if not tex_from_lib or not tex_from_lib.strip():
         fallback_text = etree.tostring(el, method="text", encoding="unicode").strip()
         if fallback_text:
-             latex_part = f"*[MathML fallback: {fallback_text}]*" # Italicize fallback
+             latex_part = f"*[MathML fallback (no TeX from lib): {fallback_text}]*" 
         else: 
-             latex_part = "*[MathML conversion failed]*" # Placeholder if empty
+             latex_part = "*[MathML conversion failed (no TeX from lib)]*"
+        # No actual TeX, so just return this part with the optional source block
+        output = f'{latex_part}{original_mathml_block}'
+        return output.strip()
 
-    # Construct the final Markdown output with the <details> block
-    output = f'{latex_part}{original_mathml_block}'
+    # Case 2: Library returned TeX, now process it
+    cleaned_tex_for_processing = tex_from_lib.strip()
+    processed_tex_content = "" # This will hold the TeX *between* delimiters
+    is_block_render_style = False # Flag to indicate if final style is block
+
+    # Determine processing based on display_attr or heuristic
+    if display_attr == "inline":
+        is_block_render_style = False
+        temp_tex = cleaned_tex_for_processing
+        if temp_tex.startswith("$$") and temp_tex.endswith("$$"):
+            temp_tex = temp_tex[2:-2].strip()
+        elif temp_tex.startswith("\\[") and temp_tex.endswith("\\]"):
+            temp_tex = temp_tex[2:-2].strip()
+        if temp_tex.startswith("$") and temp_tex.endswith("$") and len(temp_tex) > 1:
+            temp_tex = temp_tex[1:-1].strip()
+        processed_tex_content = temp_tex
+
+    elif display_attr == "block":
+        is_block_render_style = True
+        temp_tex = cleaned_tex_for_processing
+        if temp_tex.startswith("\\begin"): # LaTeX environments like align, gather
+            pass 
+        elif temp_tex.startswith("$$") and temp_tex.endswith("$$"):
+            temp_tex = temp_tex[2:-2].strip()
+        elif temp_tex.startswith("\\[") and temp_tex.endswith("\\]"):
+            temp_tex = temp_tex[2:-2].strip()
+        processed_tex_content = temp_tex
     
-    return output.strip() # Strip to avoid leading/trailing newlines from the block itself.
+    else: # Fallback to heuristic based on library output
+        temp_tex = cleaned_tex_for_processing
+        if temp_tex.startswith("\\begin") or temp_tex.startswith("\\[") or temp_tex.startswith("$$"):
+            is_block_render_style = True
+            if temp_tex.startswith("$$") and temp_tex.endswith("$$"):
+                temp_tex = temp_tex[2:-2].strip()
+            elif temp_tex.startswith("\\[") and temp_tex.endswith("\\]"):
+                temp_tex = temp_tex[2:-2].strip()
+            # If \begin{...}, it's already good for content
+            processed_tex_content = temp_tex
+        else: # Heuristic implies inline
+            is_block_render_style = False
+            # For inline heuristic, also strip single $ if present
+            if temp_tex.startswith("$") and temp_tex.endswith("$") and len(temp_tex) > 1:
+                temp_tex = temp_tex[1:-1].strip()
+            processed_tex_content = temp_tex
+
+    # Now, form the latex_part based on processed_tex_content and render style
+    # and apply the "empty after processing" diagnostic
+    
+    if not processed_tex_content.strip(): # Content inside delimiters is empty/whitespace
+        # If tex_from_lib was originally non-empty, but processed_tex_content is empty, it's a diagnostic case.
+        # This helps catch cases like library returning "$ $" which becomes empty.
+        # We use repr(tex_from_lib) to make sure spaces or minimal content is visible.
+        latex_part = f"*[MathML processed to empty TeX. Original from lib: {repr(tex_from_lib)}]*"
+    else:
+        if is_block_render_style:
+            latex_part = f"\n\n$$\n{processed_tex_content}\n$$\n\n"
+        else:
+            latex_part = f"${processed_tex_content}$"
+
+    output = f'{latex_part}{original_mathml_block}'
+    return output.strip()
 
 
 # --- NEW MAIN RENDER FUNCTION ---
@@ -281,29 +347,67 @@ def render(node, source_file_path: Path | None = None, include_mathml_source: bo
     tag_name_ns = node.tag
     local_tag_name = tag_name_ns.split("}")[-1] if '}' in tag_name_ns else tag_name_ns
     
-    # Use local_tag_name for RENDER dict keys for simplicity, assuming no clashes.
-    # Or update RENDER keys to be fully qualified where needed.
     renderer_func = RENDER.get(local_tag_name) or RENDER.get(tag_name_ns)
-
 
     output_parts = []
     if renderer_func:
-        # Specific renderer handles this node.
-        if local_tag_name == "math":
+        # ALWAYS pass the include_mathml_source flag to the specific renderer.
+        # The renderer itself will decide if/how to use it or pass it further.
+        # This requires renderers (like r_para_new, etc.) to accept this param.
+        # r_math, r_fig will also receive it.
+        try:
             output_parts.append(renderer_func(node, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
-        else:
-            output_parts.append(renderer_func(node, source_file_path=source_file_path))
+        except TypeError as e:
+            # Handle cases where a renderer in RENDER might not yet accept include_mathml_source
+            if "unexpected keyword argument 'include_mathml_source'" in str(e):
+                # Call without the flag as a fallback for non-updated renderers
+                # log(f"⚠︎ Renderer for {local_tag_name} does not accept 'include_mathml_source'. Calling without it.")
+                output_parts.append(renderer_func(node, source_file_path=source_file_path))
+            else:
+                raise # Re-raise other TypeErrors
     else:
         # Generic handling: process node.text + children + child.tail
         if node.text:
             output_parts.append(node.text)
         
         for child in node:
-            output_parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+            output_parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source)) # Pass flag recursively
             if child.tail:
                 output_parts.append(child.tail)
                 
     return "".join(output_parts)
+
+# --- NEW MEDIA RENDERER ---
+def r_media(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+    NSMAP = {'cnxml': 'http://cnx.rice.edu/cnxml'} 
+    
+    # Get alt from the <media> tag itself
+    alt_text = clean_alt_text_global(el.get("alt"))
+    
+    # Find the <image> child, or handle if el is <image>
+    image_element = None
+    if el.tag.endswith("image"): # If this renderer is called for an <image> tag directly
+        image_element = el
+    else: # Assume el is <media> and find child <image>
+        image_element = el.find(".//cnxml:image", namespaces=NSMAP) 
+
+    if image_element is None:
+        # log(f"⚠︎ No <image> tag found within element: {etree.tostring(el, pretty_print=True)}")
+        return "" # Or some placeholder like *[Missing Image Element]*
+
+    xml_img_src = image_element.get("src")
+    md_img_src = "MISSING_SRC_IN_MEDIA_HANDLER" 
+    if xml_img_src:
+        image_filename = Path(xml_img_src).name
+        # Path relative from out_root/modules/mID/index.md to out_root/media/filename.jpg
+        # This assumes the standard output structure.
+        md_img_src = f"../../media/{image_filename}" 
+    else:
+        # log(f"⚠︎ Image tag found but 'src' attribute is missing: {etree.tostring(image_element, pretty_print=True)}")
+        pass # md_img_src remains MISSING_SRC_IN_MEDIA_HANDLER
+    
+    # Ensure there are surrounding newlines for block display
+    return f"\n\n![{alt_text}]({md_img_src})\n\n"
 
 # --- POPULATE RENDER DICTIONARY ---
 # This should be after all r_... and new_r_... functions are defined.
@@ -314,6 +418,8 @@ RENDER.update({
     "title": r_title_new,
     "figure": r_fig,
     "math": r_math,
+    "media": r_media, # <-- Added media renderer
+    # "image": r_media, # Optionally, if <image> can be directly under <para>
     # Add other CNXML tags and their handlers here. For example:
     # "section": r_section_new, (if you define r_section_new)
     # "list": r_list_new,

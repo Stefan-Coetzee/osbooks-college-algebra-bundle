@@ -23,14 +23,14 @@ Solve a system of three linear equations with three variables (IA 4.4.2)
 
 Objective 1: Determine whether an ordered triple is a solution of a system of three linear equations with three variables (IA 4.4.1)
 ====================================================================================================================================
-A **linear equation with three variables** where *a*, *b*, *c*, and *d* are real numbers and *a*, *b*, and *c* are not all 0, is of the form $$ax+by+cz=d$$ . The graph of a linear equation with three variables is a **plane**.
+A **linear equation with three variables** where *a*, *b*, *c*, and *d* are real numbers and *a*, *b*, and *c* are not all 0, is of the form $ax+by+cz=d$ . The graph of a linear equation with three variables is a **plane**.
 A system of linear equations with three variables is a set of linear equations with three variables. For example,
-$$\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$$ is a system of linear equations with three variables.
+$\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$ is a system of linear equations with three variables.
 **Solutions** of a system of equations are the values of the variables that make all the equations true. A solution is represented by an **ordered triple** (*x,y,z*).
 Determine whether the ordered triples are solutions to the given system.
 
-  $$\left\{\begin{array}{l}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$$
-  at $$(1,-3,2)$$ and at $$(4,-1,-5)$$
+  $\left\{\begin{array}{l}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$
+  at $(1,-3,2)$ and at $(4,-1,-5)$
 
   We substitute 1, –3, 2  into all three equations:
 
@@ -39,18 +39,18 @@ Determine whether the ordered triples are solutions to the given system.
     
 
   
-     $$3x+y+z=2$$ 
-     $$x+2y+z=-3$$ 
-     $$3x+y+2z=4$$ 
+     $3x+y+z=2$ 
+     $x+2y+z=-3$ 
+     $3x+y+2z=4$ 
   
   
-     $$\begin{array}{c}3\left(1\right)+(-3)+2=2\\ 2=2\end{array}$$ True
-     $$\begin{array}{c}1+2(-3)+2=-3\\ -3=-3\end{array}$$ True
-     $$\begin{array}{c}3\left(1\right)+(-3)+2\left(2\right)=4\\ 4=4\end{array}$$ True
+     $\begin{array}{c}3\left(1\right)+(-3)+2=2\\ 2=2\end{array}$ True
+     $\begin{array}{c}1+2(-3)+2=-3\\ -3=-3\end{array}$ True
+     $\begin{array}{c}3\left(1\right)+(-3)+2\left(2\right)=4\\ 4=4\end{array}$ True
   
   
     Conclusion: Since (1,-3,2) is a solution to all three equations, then it *is a solution* to the system
- $$\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$$
+ $\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$
 
   
 
@@ -61,25 +61,25 @@ Next we substitute (4, –1,  –5) into all three equations:
     
 
   
-     $$3x+y+z=2$$ 
-     $$x+2y+z=-3$$ 
-     $$3x+y+2z=4$$ 
+     $3x+y+z=2$ 
+     $x+2y+z=-3$ 
+     $3x+y+2z=4$ 
   
   
-     $$\begin{array}{c}3\left(4\right)+(-1)+(-5)=2\\ 6=2\end{array}$$ False
-     $$\begin{array}{c}4+2(-1)+(-5)=-3\\ -3=-3\end{array}$$ True
-     $$\begin{array}{c}3\left(4\right)+(-1)+2(-5)=4\\ 1=4\end{array}$$ False
+     $\begin{array}{c}3\left(4\right)+(-1)+(-5)=2\\ 6=2\end{array}$ False
+     $\begin{array}{c}4+2(-1)+(-5)=-3\\ -3=-3\end{array}$ True
+     $\begin{array}{c}3\left(4\right)+(-1)+2(-5)=4\\ 1=4\end{array}$ False
   
   
     Conclusion: Since (4,–1,–5) is not a solution to all three equations, then *it is not a solution* to the system
- $$\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$$
+ $\left\{\begin{array}{c}3x+y+z=2\\ x+2y+z=-3\\ 3x+y+2z=4\end{array}\right.$
 
   
 
 Practice Makes Perfect
 ======================
 Determine whether the ordered pairs are solutions to the given system.
-$$\left\{\begin{array}{l}2x\u20136y+z=3\\ 3x\u20134y\u20133z=2\phantom{\rule{0.4em}{0ex}}\mathrm{at}\phantom{\rule{0.4em}{0ex}}(3,\phantom{\rule{0.4em}{0ex}}1,\phantom{\rule{0.4em}{0ex}}3)\phantom{\rule{0.4em}{0ex}}\mathrm{and\; at}\phantom{\rule{0.4em}{0ex}}(4,\phantom{\rule{0.4em}{0ex}}3,\phantom{\rule{0.4em}{0ex}}7)\\ 2x+y\u20132z=3\end{array}\right.$$ 
+$\left\{\begin{array}{l}2x\u20136y+z=3\\ 3x\u20134y\u20133z=2\phantom{\rule{0.4em}{0ex}}\mathrm{at}\phantom{\rule{0.4em}{0ex}}(3,\phantom{\rule{0.4em}{0ex}}1,\phantom{\rule{0.4em}{0ex}}3)\phantom{\rule{0.4em}{0ex}}\mathrm{and\; at}\phantom{\rule{0.4em}{0ex}}(4,\phantom{\rule{0.4em}{0ex}}3,\phantom{\rule{0.4em}{0ex}}7)\\ 2x+y\u20132z=3\end{array}\right.$ 
   At (3, 1, 3):
 
     
@@ -87,9 +87,9 @@ $$\left\{\begin{array}{l}2x\u20136y+z=3\\ 3x\u20134y\u20133z=2\phantom{\rule{0.4
     
 
   
-     $$2x\u20136y+z=3$$ 
-     $$3x\u20134y\u20133z=2$$ 
-     $$2x+3y\u20132z=3$$ 
+     $2x\u20136y+z=3$ 
+     $3x\u20134y\u20133z=2$ 
+     $2x+3y\u20132z=3$ 
   
   
      ________________________
@@ -108,9 +108,9 @@ $$\left\{\begin{array}{l}2x\u20136y+z=3\\ 3x\u20134y\u20133z=2\phantom{\rule{0.4
     
 
   
-     $$2x\u20136y+z=3$$ 
-     $$3x\u20134y\u20133z=2$$ 
-     $$2x+3y\u20132z=3$$ 
+     $2x\u20136y+z=3$ 
+     $3x\u20134y\u20133z=2$ 
+     $2x+3y\u20132z=3$ 
   
   
      ________________________
@@ -137,23 +137,47 @@ The solutions are summarized in the table below.
   
   
     The three planes intersect at a common point.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002h_img-02.jpg)
+
   
   
     *No Solution*
   
   
     The planes are parallel; they have no points in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002a_img-02.jpg)
+
     Two planes are the same and they are parallel to the third plane. They have no points in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002b_img-02.jpg)
+
     Two planes are parallel and they each intersect the third plane. They have no points in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002c_img-02.jpg)
+
     Each plane intersects the other two but they have no points in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002d_img-02.jpg)
+
   
   
     *Infinitely many solutions*
   
   
     The three planes intersect in one line. They have many points on that line in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002e_img-02.jpg)
+
     Two planes are the same and intersect the third one in a line. they have many points on that line in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002f_img-02.jpg)
+
     The three planes are exactly the same. They have many points in common.
+
+![.](../../media/CNX_IntAlg_Figure_04_04_002g_img-02.jpg)
+
   
 
 Solve a system of linear equations with three variables.
@@ -171,31 +195,37 @@ Use the values of the two variables found in Step 4 to find the third variable.
 Write the solution as an ordered triple.
 Check that the ordered triple is a solution to all three original equations
 
-Solve the system of equations: $$\{\begin{array}{c}x+2y-z=1\hfill \\ 2x+7y+4z=11\hfill \\ x+3y+z=4\hfill \end{array}.$$
+Solve the system of equations: $\{\begin{array}{c}x+2y-z=1\hfill \\ 2x+7y+4z=11\hfill \\ x+3y+z=4\hfill \end{array}.$
 
-$$\{\begin{array}{c}x+2y-z=1\phantom{\rule{1.7em}{0ex}}\left(1\right)\hfill \\ 2x+7y+4z=11\phantom{\rule{0.3em}{0ex}}\left(2\right)\hfill \\ x+3y+z=4\phantom{\rule{1.7em}{0ex}}\left(3\right)\hfill \end{array}$$ 
+$\{\begin{array}{c}x+2y-z=1\phantom{\rule{1.7em}{0ex}}\left(1\right)\hfill \\ 2x+7y+4z=11\phantom{\rule{0.3em}{0ex}}\left(2\right)\hfill \\ x+3y+z=4\phantom{\rule{1.7em}{0ex}}\left(3\right)\hfill \end{array}$ 
 Use equation (1) and (3) to eliminate *x*.
+
+![The equations are x plus 2y minus z equals 1, 2x plus 7y plus 4z equals 11 and x plus 3y plus z equals 4. Multiply equation 1 with minus 1 and add it to equation 3. We get equation 4, y plus 2z equals 3.](../../media/7_2_1.jpg)
 
 Use equation (1) and (2) to eliminate *x* again.
 
-Use equation (4) and (5) to eliminate $$y$$ .
+![Multiply equation 1 with minus 2 and add it to equation 2. We get equation 5, 3y plus 6z equals 9.](../../media/7_2_2.jpg)
+
+Use equation (4) and (5) to eliminate $y$ .
+
+![Multiply equation 4 with minus 3 and add it to equation 5. We get 0 equal to 0. There are infinite many solutions. Solving equation 4 for y, we get y equal to minus 2z plus 3. Substituting this into equation 1, we get x equal to 5z minus 5. The true statement 0 equal to 0 tells us that this is a dependent system that has infinitely many solutions. The solutions are of the form x, y, z where x is 5z minus 5, y is minus 2z plus 3 and z is any real number.](../../media/7_2_3.jpg)
 
 There are infinitely many solutions.
 
 Solve equation (4) for *y*.
-Represent the solution showing how *x* and *y* are dependent on *z*. $$\begin{array}{ccc}\hfill y+2z& =\hfill & 3\hfill \\ \hfill y& =\hfill & \mathrm{-2}z+3\hfill \end{array}$$ 
+Represent the solution showing how *x* and *y* are dependent on *z*. $\begin{array}{ccc}\hfill y+2z& =\hfill & 3\hfill \\ \hfill y& =\hfill & \mathrm{-2}z+3\hfill \end{array}$ 
 
 Use equation (1) to solve for *x*.
- $$\phantom{\rule{4em}{0ex}}x+2y-z=1$$ 
+ $\phantom{\rule{4em}{0ex}}x+2y-z=1$ 
 
-Substitute $$y=\mathrm{-2}z+3.$$ 
- $$\begin{array}{ccc}\hfill x+2(\mathrm{-2}z+3)-z& =\hfill & 1\hfill \\ \hfill x-4z+6-z& =\hfill & 1\hfill \\ \hfill x-5z+6& =\hfill & 1\hfill \\ \hfill x& =\hfill & 5z-5\hfill \end{array}$$
+Substitute $y=\mathrm{-2}z+3.$ 
+ $\begin{array}{ccc}\hfill x+2(\mathrm{-2}z+3)-z& =\hfill & 1\hfill \\ \hfill x-4z+6-z& =\hfill & 1\hfill \\ \hfill x-5z+6& =\hfill & 1\hfill \\ \hfill x& =\hfill & 5z-5\hfill \end{array}$
 
-The true statement $$0=0$$ tells us that this is a dependent system that has infinitely many solutions. The solutions are of the form $$\left(x,y,z\right)$$ where $$x=5z-5;y=\mathrm{-2}z+3$$ and *z* is any real number.
+The true statement $0=0$ tells us that this is a dependent system that has infinitely many solutions. The solutions are of the form $\left(x,y,z\right)$ where $x=5z-5;y=\mathrm{-2}z+3$ and *z* is any real number.
 
 Solve the system of linear equations with three variables.
 
- $$\left\{\begin{array}{l}x+2y-3z=-1\\ x-3y+z=1\\ 2x-y-2z=2\end{array}\right.\begin{array}{c}\left(1\right)\\ \left(2\right)\\ \left(3\right)\end{array}$$
+ $\left\{\begin{array}{l}x+2y-3z=-1\\ x-3y+z=1\\ 2x-y-2z=2\end{array}\right.\begin{array}{c}\left(1\right)\\ \left(2\right)\\ \left(3\right)\end{array}$
 
   
     Step 1
@@ -203,15 +233,15 @@ Solve the system of linear equations with three variables.
   
   
     Step 2
-    Let's use equations (1) and (2) to eliminate $$x$$________________________________________
+    Let's use equations (1) and (2) to eliminate $x$________________________________________
   
   
     Step 3
-    Let's use equations (1) and (3) to eliminate $$x$$________________________________________
+    Let's use equations (1) and (3) to eliminate $x$________________________________________
   
   
     Step 4
-    Let's now use the new equations (4) and (5) to eliminate $$y$$________________________________________
+    Let's now use the new equations (4) and (5) to eliminate $y$________________________________________
   
   
     Step 5
@@ -225,7 +255,7 @@ Solve the system of linear equations with three variables.
 Practice Makes Perfect
 ======================
 
-  Determine whether the ordered pair is a solution to the given system  $$\left\{\begin{array}{l}y-10z=-8\\ 2x-y=2\\ x-5z=3\end{array}\right.\begin{array}{c}\\ \text{at}\phantom{\rule{0.5em}{0ex}}(7,\phantom{\rule{0.5em}{0ex}}12,\phantom{\rule{0.5em}{0ex}}2)\phantom{\rule{0.5em}{0ex}}\text{and at}\phantom{\rule{0.5em}{0ex}}(2,\phantom{\rule{0.5em}{0ex}}2,\phantom{\rule{0.5em}{0ex}}1)\\ \end{array}$$
+  Determine whether the ordered pair is a solution to the given system  $\left\{\begin{array}{l}y-10z=-8\\ 2x-y=2\\ x-5z=3\end{array}\right.\begin{array}{c}\\ \text{at}\phantom{\rule{0.5em}{0ex}}(7,\phantom{\rule{0.5em}{0ex}}12,\phantom{\rule{0.5em}{0ex}}2)\phantom{\rule{0.5em}{0ex}}\text{and at}\phantom{\rule{0.5em}{0ex}}(2,\phantom{\rule{0.5em}{0ex}}2,\phantom{\rule{0.5em}{0ex}}1)\\ \end{array}$
 
 \n\n![(credit: “Elembis,” Wikimedia Commons)](../../media/CNX_Precalc_Figure_09_02_005n.jpg)\n\nJordi received an inheritance of $12,000 that he divided into three parts and invested in three ways: in a money-market fund paying 3% annual interest; in municipal bonds paying 4% annual interest; and in mutual funds paying 7% annual interest. Jordi invested $4,000 more in mutual funds than in municipal bonds. He earned $670 in interest the first year. How much did Jordi invest in each type of fund?
 
@@ -234,17 +264,17 @@ Understanding the correct approach to setting up problems such as this one makes
 Solving Systems of Three Equations in Three Variables
 =====================================================
 
-In order to solve systems of equations in three variables, known as three-by-three systems, the primary tool we will be using is called **Gaussian elimination**, named after the prolific German mathematician Karl Friedrich **Gauss**. While there is no definitive order in which operations are to be performed, there are specific guidelines as to what type of moves can be made. We may number the equations to keep track of the steps we apply. The goal is to eliminate one variable at a time to achieve **upper triangular form**, the ideal form for a three-by-three system because it allows for straightforward back-substitution to find a solution $$\left(x,y,z\right),$$ which we call an **ordered triple**. A system in upper triangular form looks like the following:
+In order to solve systems of equations in three variables, known as three-by-three systems, the primary tool we will be using is called **Gaussian elimination**, named after the prolific German mathematician Karl Friedrich **Gauss**. While there is no definitive order in which operations are to be performed, there are specific guidelines as to what type of moves can be made. We may number the equations to keep track of the steps we apply. The goal is to eliminate one variable at a time to achieve **upper triangular form**, the ideal form for a three-by-three system because it allows for straightforward back-substitution to find a solution $\left(x,y,z\right),$ which we call an **ordered triple**. A system in upper triangular form looks like the following:
 $$
 \begin{array}{l}Ax+By+Cz=D\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}Ey+Fz=G\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}Hz=K\hfill \end{array}
 $$
-The third equation can be solved for $$z,$$ and then we back-substitute to find $$y$$ 
- and $$x.$$ 
+The third equation can be solved for $z,$ and then we back-substitute to find $y$ 
+ and $x.$ 
  To write the system in upper triangular form, we can perform the following operations:
 Interchange the order of any two equations.
 Multiply both sides of an equation by a nonzero constant.
 Add a nonzero multiple of one equation to another equation.
-The *solution set* to a three-by-three system is an ordered triple $$\left\{\left(x,y,z\right)\right\}.$$ 
+The *solution set* to a three-by-three system is an ordered triple $\left\{\left(x,y,z\right)\right\}.$ 
  Graphically, the ordered triple defines the point that is the intersection of three planes in space. You can visualize such an intersection by imagining any corner in a rectangular room.  A corner is defined by three planes: two adjoining walls and the floor (or ceiling). Any point where two walls and the floor meet represents the intersection of three planes.
 
 Number of Possible Solutions
@@ -252,23 +282,23 @@ Number of Possible Solutions
 
 and  illustrate possible solution scenarios for three-by-three systems.
 
-Systems that have a single solution are those which, after elimination, result in a **solution set** consisting of an ordered triple $$\left\{\left(x,y,z\right)\right\}.$$ Graphically, the ordered triple defines a point that is the intersection of three planes in space.
-Systems that have an infinite number of solutions are those which, after elimination, result in an expression that is always true, such as $$0=0.$$ Graphically, an infinite number of solutions represents a line or coincident plane that serves as the intersection of three planes in space.
-Systems that have no solution are those that, after elimination, result in a statement that is a contradiction, such as $$3=0.$$ Graphically, a system with no solution is represented by three planes with no point in common.
+Systems that have a single solution are those which, after elimination, result in a **solution set** consisting of an ordered triple $\left\{\left(x,y,z\right)\right\}.$ Graphically, the ordered triple defines a point that is the intersection of three planes in space.
+Systems that have an infinite number of solutions are those which, after elimination, result in an expression that is always true, such as $0=0.$ Graphically, an infinite number of solutions represents a line or coincident plane that serves as the intersection of three planes in space.
+Systems that have no solution are those that, after elimination, result in a statement that is a contradiction, such as $3=0.$ Graphically, a system with no solution is represented by three planes with no point in common.
 \n\n![(a)Three planes intersect at a single point, representing a three-by-three system with a single solution. (b) Three planes intersect in a line, representing a three-by-three system with infinite solutions.](../../media/CNX_Precalc_Figure_09_02_006n.jpg)\n\n\n\n![All three figures represent three-by-three systems with no solution. (a) The three planes intersect with each other, but not at a common point. (b) Two of the planes are parallel and intersect with the third plane, but not with each other. (c) All three planes are parallel, so there is no point of intersection.](../../media/CNX_Precalc_Figure_09_02_007n.jpg)\n\n
 
 Determining Whether an Ordered Triple Is a Solution to a System
 ===============================================================
 
-Determine whether the ordered triple $$\left(3,\mathrm{-2},1\right)$$ 
+Determine whether the ordered triple $\left(3,\mathrm{-2},1\right)$ 
  is a solution to the system.
 $$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=2\hfill \\ \phantom{\rule{0.5em}{0ex}}6x-4y+5z=31\hfill \\ 5x+2y+2z=13\hfill \end{array}
 $$
 
-We will check each equation by substituting in the values of the ordered triple for $$x,y,$$ and $$z.$$
-$$\begin{array}{ccccc}\begin{array}{r}\hfill x+y+z=2\\ \hfill (3)+(\mathrm{-2})+(1)=2\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}& \phantom{\rule{3em}{0ex}}& \begin{array}{r}\hfill \phantom{\rule{0.8}{0ex}}\text{}6x\mathrm{-4}y+5z=31\\ \hfill 6(3)\mathrm{-4}(\mathrm{-2})+5(1)=31\\ \hfill 18+8+5=31\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}& \phantom{\rule{3em}{0ex}}& \begin{array}{r}\hfill \phantom{\rule{0.8}{0ex}}\text{}5x+2y+2z=13\\ \hfill 5(3)+2(\mathrm{-2})+2(1)=13\\ \hfill \phantom{\rule{0.8}{0ex}}\text{}15\mathrm{-4}+2=13\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}\end{array}$$
-The ordered triple $$\left(3,\mathrm{-2},1\right)$$ 
+We will check each equation by substituting in the values of the ordered triple for $x,y,$ and $z.$
+$\begin{array}{ccccc}\begin{array}{r}\hfill x+y+z=2\\ \hfill (3)+(\mathrm{-2})+(1)=2\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}& \phantom{\rule{3em}{0ex}}& \begin{array}{r}\hfill \phantom{\rule{0.8}{0ex}}\text{}6x\mathrm{-4}y+5z=31\\ \hfill 6(3)\mathrm{-4}(\mathrm{-2})+5(1)=31\\ \hfill 18+8+5=31\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}& \phantom{\rule{3em}{0ex}}& \begin{array}{r}\hfill \phantom{\rule{0.8}{0ex}}\text{}5x+2y+2z=13\\ \hfill 5(3)+2(\mathrm{-2})+2(1)=13\\ \hfill \phantom{\rule{0.8}{0ex}}\text{}15\mathrm{-4}+2=13\\ \hfill \phantom{\rule{0.8}{0ex}}\text{True}\end{array}\end{array}$
+The ordered triple $\left(3,\mathrm{-2},1\right)$ 
  is indeed a solution to the system.
 
 How To
@@ -288,18 +318,18 @@ $$
 \begin{array}{ll}\phantom{\rule{0.5em}{0ex}}\text{}\phantom{\rule{0.5em}{0ex}}x\mathrm{-2}y+3z=9\hfill & \text{(1)}\hfill \\ -x+3y-z=\mathrm{-6}\hfill & \text{(2)}\hfill \\ \phantom{\rule{0.5em}{0ex}}2x\mathrm{-5}y+5z=17\hfill & \text{(3)}\hfill \end{array}
 $$
 
-There will always be several choices as to where to begin, but the most obvious first step here is to eliminate $$x$$ 
+There will always be several choices as to where to begin, but the most obvious first step here is to eliminate $x$ 
  by adding equations (1) and (2).
 
 $$
 \frac{\begin{array}{ll}x-2y+3z=9\hfill & \text{(1)}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-x+3y-z=\mathrm{-6}\hfill & \phantom{\rule{0.5em}{0ex}}\text{(2)}\hfill \end{array}}{\begin{array}{ll}\phantom{\rule{0.5em}{0ex}}\text{}\text{}y+2z=3\hfill & \phantom{\rule{0.5em}{0ex}}\text{(4)}\hfill \end{array}}
 $$
-The second step is multiplying equation (1) by $$\mathrm{-2}$$ 
- and adding the result to equation (3). These two steps will eliminate the variable $$x.$$
+The second step is multiplying equation (1) by $\mathrm{-2}$ 
+ and adding the result to equation (3). These two steps will eliminate the variable $x.$
 $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{ll}\hfill & \hfill \\ \mathrm{-2}x+4y-6z=\mathrm{-18}\hfill & (1)\phantom{\rule{0.5em}{0ex}}\text{multiplied}\phantom{\rule{0.5em}{0ex}}\text{by}\phantom{\rule{0.5em}{0ex}}-2\hfill \\ \phantom{\rule{0.5em}{0ex}}2x-5y+5z=17\hfill & (3)\hfill \end{array}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\text{}\text{}-y-z=\mathrm{-1}\phantom{\rule{0.5em}{0ex}}\text{}(5)\hfill \end{array}
 $$
-In equations (4) and (5), we have created a new two-by-two system. We can solve for $$z$$ 
+In equations (4) and (5), we have created a new two-by-two system. We can solve for $z$ 
  by adding the two equations.
 
  $$
@@ -310,22 +340,21 @@ Choosing one equation from each new system, we obtain the upper triangular form:
  $$
 \begin{array}{ll}\text{}\text{}x\mathrm{-2}y+3z=9\phantom{\rule{0.5em}{0ex}}\text{}\hfill & (1)\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y+2z=3\hfill & (4)\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}z=2\hfill & (6)\hfill \end{array}
 $$
-Next, we back-substitute $$z=2$$ 
- into equation (4) and solve for $$y.$$
+Next, we back-substitute $z=2$ 
+ into equation (4) and solve for $y.$
 
  $$
 \begin{array}{l}y+2(2)=3\hfill \\ y+4=3\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y=\mathrm{-1}\hfill \end{array}
 $$
-Finally, we can back-substitute $$z=2$$ 
- and $$y=\mathrm{-1}$$ 
- into equation (1). This will yield the solution for $$x.$$
+Finally, we can back-substitute $z=2$ 
+ and $y=\mathrm{-1}$ 
+ into equation (1). This will yield the solution for $x.$
  $$
 \begin{array}{r}\hfill x\mathrm{-2}(\mathrm{-1})+3(2)=9\\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}x+2+6=9\\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}x=1\end{array}
 $$
-The solution is the ordered triple $$\left(1,\mathrm{-1},2\right).$$ 
+The solution is the ordered triple $\left(1,\mathrm{-1},2\right).$ 
  See .
-\n\n![
-](../../media/CNX_Precalc_Figure_09_02_008.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_09_02_008.jpg)\n\n
 
 Solving a Real-World Problem Using a System of Three Equations in Three Variables
 =================================================================================
@@ -339,12 +368,12 @@ To solve this problem, we use all of the information given and set up three equa
 $$
 The first equation indicates that the sum of the three principal amounts is $12,000.
 
-	$$x+y+z=\mathrm{12,000}$$ We form the second equation according to the information that Jordi invested $4,000 more in mutual funds than he invested in municipal bonds.
+	$x+y+z=\mathrm{12,000}$ We form the second equation according to the information that Jordi invested $4,000 more in mutual funds than he invested in municipal bonds.
 
-	$$z=y+\mathrm{4,000}$$
+	$z=y+\mathrm{4,000}$
 The third equation shows that the total amount of interest earned from each fund equals $670.
 
-	$$0.03x+0.04y+0.07z=670$$
+	$0.03x+0.04y+0.07z=670$
 
 Then, we write the three equations as a system.
 
@@ -361,7 +390,7 @@ Step 1. Interchange equation (2) and equation (3) so that the two equations with
 	 $$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+\phantom{\rule{0.5em}{0ex}}\text{}y+\phantom{\rule{0.5em}{0ex}}\text{}z=\mathrm{12,000}\hfill \\ 3x+4y+7z=\mathrm{67,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-y\phantom{\rule{0.5em}{0ex}}\text{}+\phantom{\rule{0.5em}{0ex}}\text{}z=\mathrm{4,000}\hfill \end{array}
 $$
-Step 2. Multiply equation (1) by $$\mathrm{-3}$$ 
+Step 2. Multiply equation (1) by $\mathrm{-3}$ 
  and add to equation (2). Write the result as row 2.
  $$
 \begin{array}{l}x+y+z\phantom{\rule{0.5em}{0ex}}\text{}=\mathrm{12,000}\hfill \\ y+4z=\mathrm{31,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-y+z\phantom{\rule{0.5em}{0ex}}\text{}=\mathrm{4,000}\hfill \end{array}
@@ -371,11 +400,11 @@ Step 3. Add equation (2) to equation (3) and write the result as equation (3).
 	 $$
 \begin{array}{l}x+y+\phantom{\rule{0.5em}{0ex}}\text{}z=\mathrm{12,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y+4z=\mathrm{31,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}5z\phantom{\rule{0.5em}{0ex}}\text{}=\mathrm{35,000}\hfill \end{array}
 $$
-Step 4. Solve for $$z$$ 
- in equation (3). Back-substitute that value in equation (2) and solve for $$y.$$ 
- Then, back-substitute the values for $$z$$ 
- and $$y$$ 
- into equation (1) and solve for $$x.$$
+Step 4. Solve for $z$ 
+ in equation (3). Back-substitute that value in equation (2) and solve for $y.$ 
+ Then, back-substitute the values for $z$ 
+ and $y$ 
+ into equation (1) and solve for $x.$
 
 	 $$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5z=\mathrm{35,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}z=\mathrm{7,000}\hfill \\ \hfill \\ \hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y+4(\mathrm{7,000})=\mathrm{31,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y=\mathrm{3,000}\hfill \\ \hfill \\ \hfill \\ x+\mathrm{3,000}+\mathrm{7,000}=\mathrm{12,000}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x=\mathrm{2,000}\hfill \end{array}
@@ -390,12 +419,12 @@ Solve the system of equations in three variables.
 \begin{array}{l}2x+y\mathrm{-2}z=\mathrm{-1}\hfill \\ 3x\mathrm{-3}y-z=5\hfill \\ x\mathrm{-2}y+3z=6\hfill \end{array}
 $$
 
-$$\left(1,\mathrm{-1},1\right)$$
+$\left(1,\mathrm{-1},1\right)$
 
 Identifying Inconsistent Systems of Equations Containing Three Variables
 ========================================================================
 
-Just as with systems of equations in two variables, we may come across an **inconsistent system** of equations in three variables, which means that it does not have a solution that satisfies all three equations. The equations could represent three parallel planes, two parallel planes and one intersecting plane, or three planes that intersect the other two but not at the same location. The process of elimination will result in a false statement, such as $$3=7$$ 
+Just as with systems of equations in two variables, we may come across an **inconsistent system** of equations in three variables, which means that it does not have a solution that satisfies all three equations. The equations could represent three parallel planes, two parallel planes and one intersecting plane, or three planes that intersect the other two but not at the same location. The process of elimination will result in a false statement, such as $3=7$ 
  or some other contradiction.
 
 Solving an Inconsistent System of Three Equations in Three Variables
@@ -407,11 +436,11 @@ Solve the following system.
 \begin{array}{ll}\phantom{\rule{0.5em}{0ex}}\text{}x\mathrm{-3}y+z=4\hfill & (1)\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-x+2y\mathrm{-5}z=3\hfill & (2)\hfill \\ 5x\mathrm{-13}y+13z=8\hfill & (3)\hfill \end{array}
 $$
 
-Looking at the coefficients of $$x,$$ we can see that we can eliminate $$x$$ by adding equation (1) to equation (2).
+Looking at the coefficients of $x,$ we can see that we can eliminate $x$ by adding equation (1) to equation (2).
  $$
 \frac{\begin{array}{l}x\mathrm{-3}y+z=4\phantom{\rule{0.5em}{0ex}}\text{}(1)\hfill \\ -x+2y\mathrm{-5}z=3\phantom{\rule{0.5em}{0ex}}\text{}(2)\hfill \end{array}}{\phantom{\rule{0.5em}{0ex}}\text{}-y\mathrm{-4}z=7\phantom{\rule{0.5em}{0ex}}\text{}(4)}
 $$
-Next, we multiply equation (1) by $$\mathrm{-5}$$ 
+Next, we multiply equation (1) by $\mathrm{-5}$ 
  and add it to equation (3).
  $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{llll}-5x+15y-5z=\mathrm{-20}\hfill & \hfill & \hfill & (1)\phantom{\rule{0.5em}{0ex}}\text{multiplied}\phantom{\rule{0.5em}{0ex}}\text{by}\phantom{\rule{0.5em}{0ex}}\mathrm{-5}\hfill \\ \text{}5x-13y+13z=8\hfill & \hfill & \hfill & (3)\hfill \end{array}}\hfill \\ \begin{array}{llll}\phantom{\rule{0.5em}{0ex}}\text{}2y+8z=\mathrm{-12}\hfill & \hfill & \hfill & (5)\hfill \end{array}\hfill \end{array}
@@ -422,7 +451,7 @@ Then, we multiply equation (4) by 2 and add it to equation (5).
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{l}\mathrm{-2}y-8z=14(4)\phantom{\rule{0.5em}{0ex}}\text{multiplied}\phantom{\rule{0.5em}{0ex}}\text{by}\phantom{\rule{0.5em}{0ex}}2\hfill \\ \phantom{\rule{0.5em}{0ex}}2y+8z=-12\phantom{\rule{0.5em}{0ex}}\text{}(5)\hfill \end{array}}\hfill \\ \phantom{\rule{0.5em}{0ex}}0=2\hfill \end{array}
 $$ 
 
-The final equation $$0=2$$ is a contradiction, so we conclude that the system of equations in inconsistent and, therefore, has no solution.
+The final equation $0=2$ is a contradiction, so we conclude that the system of equations in inconsistent and, therefore, has no solution.
 
 Analysis
 ========
@@ -453,47 +482,46 @@ Find the solution to the given system of three equations in three variables.
 \begin{array}{rr}\hfill \phantom{\rule{0.5em}{0ex}}\text{}2x+y\mathrm{-3}z=0& \hfill (1)\\ \hfill 4x+2y\mathrm{-6}z=0& \hfill (2)\\ \hfill x-y+z=0& \hfill (3)\end{array}
 $$
 
-First, we can multiply equation (1) by $$\mathrm{-2}$$ 
+First, we can multiply equation (1) by $\mathrm{-2}$ 
  and add it to equation (2).
  $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{l}\mathrm{-4}x\mathrm{-2}y+6z=0\phantom{\rule{0.5em}{0ex}}\text{equation}(1)\phantom{\rule{0.5em}{0ex}}\text{multiplied}\phantom{\rule{0.5em}{0ex}}\text{by}\phantom{\rule{0.5em}{0ex}}\mathrm{-2}\hfill \\ \text{}\text{}\text{}\text{}\phantom{\rule{0.5em}{0ex}}4x+2y\mathrm{-6}z=0\phantom{\rule{0.5em}{0ex}}\text{}\phantom{\rule{0.5em}{0ex}}(2)\hfill \end{array}}\hfill \\ \phantom{\rule{0.5em}{0ex}}0=0\hfill \end{array}
 $$
-We do not need to proceed any further. The result we get is an identity, $$0=0,$$ which tells us that this system has an infinite number of solutions. There are other ways to begin to solve this system, such as multiplying equation (3) by $$\mathrm{-2},$$ and adding it to equation (1). We then perform the same steps as above and find the same result, $$0=0.$$
+We do not need to proceed any further. The result we get is an identity, $0=0,$ which tells us that this system has an infinite number of solutions. There are other ways to begin to solve this system, such as multiplying equation (3) by $\mathrm{-2},$ and adding it to equation (1). We then perform the same steps as above and find the same result, $0=0.$
 When a system is dependent, we can find general expressions for the solutions. Adding equations (1) and (3), we have
 
 	 $$
 \begin{array}{l}\underset{\_\_\_\_\_\_\_\_\_\_\_\_\_}{\begin{array}{l}\begin{array}{l}\\ 2x+y\mathrm{-3}z=0\end{array}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-y+z=0\hfill \end{array}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\phantom{\rule{0.5em}{0ex}}3x\mathrm{-2}z=0\hfill \end{array}
 $$
-We then solve the resulting equation for $$z.$$
+We then solve the resulting equation for $z.$
 
 	 $$
 \begin{array}{l}3x\mathrm{-2}z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}z=\frac{3}{2}x\hfill \end{array}
 $$
-We back-substitute the expression for $$z$$ 
- into one of the equations and solve for $$y.$$
+We back-substitute the expression for $z$ 
+ into one of the equations and solve for $y.$
 
 	 $$
 \begin{array}{l}2x+y-3\left(\frac{3}{2}x\right)=0\hfill \\ 2x+y-\frac{9}{2}x=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y=\frac{9}{2}x-2x\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}y=\frac{5}{2}x\hfill \end{array}
 $$
-So the general solution is $$\left(x,\frac{5}{2}x,\frac{3}{2}x\right).$$ 
- In this solution, $$x$$ 
- can be any real number. The values of $$y$$ 
- and $$z$$ 
- are dependent on the value selected for $$x.$$
+So the general solution is $\left(x,\frac{5}{2}x,\frac{3}{2}x\right).$ 
+ In this solution, $x$ 
+ can be any real number. The values of $y$ 
+ and $z$ 
+ are dependent on the value selected for $x.$
 
 Analysis
 ========
 
 As shown in , two of the planes are the same and they intersect the third plane on a line. The solution set is infinite, as all points along the intersection line will satisfy all three equations.
 
-\n\n![
-](../../media/CNX_Precalc_Figure_09_02_009.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_09_02_009.jpg)\n\n
 
 Q&A
-*Does the generic solution to a dependent system always have to be written in terms of $$x?$$*
+*Does the generic solution to a dependent system always have to be written in terms of $x?$*
 
-*No, you can write the generic solution in terms of any of the variables, but it is common to write it in terms of x and if needed $$x$$ 
- and $$y.$$*
+*No, you can write the generic solution in terms of any of the variables, but it is common to write it in terms of x and if needed $x$ 
+ and $y.$*
 
 Try It
 
@@ -503,7 +531,7 @@ Solve the following system.
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}\phantom{\rule{0.5em}{0ex}}x+y+z=7\hfill \\ \phantom{\rule{0.5em}{0ex}}3x-2y-z=4\hfill \\ \phantom{\rule{0.5em}{0ex}}x+6y+5z=24\hfill \end{array}
 $$
 
-Infinite number of solutions of the form $$\left(x,4x\mathrm{-11},\mathrm{-5}x+18\right).$$
+Infinite number of solutions of the form $\left(x,4x\mathrm{-11},\mathrm{-5}x+18\right).$
 
 Media
 Access these online resources for additional instruction and practice with systems of equations in three variables.
@@ -516,7 +544,7 @@ Access these online resources for additional instruction and practice with syste
 Key Concepts
 ============
 
-A solution set is an ordered triple $$\left\{\left(x,y,z\right)\right\}$$ 
+A solution set is an ordered triple $\left\{\left(x,y,z\right)\right\}$ 
  that represents the intersection of three planes in space. See .
 A system of three equations in three variables can be solved by using a series of steps that forces a variable to be eliminated.   The steps include interchanging the order of equations, multiplying both sides of an equation by a nonzero constant, and adding a nonzero multiple of one equation to another equation. See .
 Systems of three equations in three variables are useful for solving many different types of real-world problems. See .
@@ -539,10 +567,10 @@ If a given ordered triple solves the system of equations, is that solution uniqu
 
 If a given ordered triple does not solve the system of equations, is there no solution? If so, explain why. If not, give an example.
 
-Not necessarily. There could be zero, one, or infinitely many solutions. For example, $$\left(0,0,0\right)$$ 
+Not necessarily. There could be zero, one, or infinitely many solutions. For example, $\left(0,0,0\right)$ 
  is not a solution to the system below, but that does not mean that it has no solution.
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x+3y\mathrm{-6}z=1\hfill \\ \mathrm{-4}x\mathrm{-6}y+12z=\mathrm{-2}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+2y+5z=10\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x+3y\mathrm{-6}z=1\hfill \\ \mathrm{-4}x\mathrm{-6}y+12z=\mathrm{-2}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+2y+5z=10\hfill \end{array}$
 
 Using the method of addition, is there only one way to solve the system?
 
@@ -554,153 +582,153 @@ Algebraic
 =========
 For the following exercises, determine whether the ordered triple given is the solution to the system of equations.
 
-$$\begin{array}{l}2x\mathrm{-6}y+6z=\mathrm{-12}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+4y+5z=\mathrm{-1}\hfill \\ -x+2y+3z=\mathrm{-1}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$$ and $$(0,1,\mathrm{-1})$$
+$\begin{array}{l}2x\mathrm{-6}y+6z=\mathrm{-12}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+4y+5z=\mathrm{-1}\hfill \\ -x+2y+3z=\mathrm{-1}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$ and $(0,1,\mathrm{-1})$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}6x-y+3z=6\hfill \\ 3x+5y+2z=0\phantom{\rule{0.5em}{0ex}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+y=0\hfill \end{array}$$ and $$(3,\mathrm{-3},\mathrm{-5})$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}6x-y+3z=6\hfill \\ 3x+5y+2z=0\phantom{\rule{0.5em}{0ex}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+y=0\hfill \end{array}$ and $(3,\mathrm{-3},\mathrm{-5})$
 
 No
 
-$$\begin{array}{l}6x\mathrm{-7}y+z=2\hfill \\ -x-y+3z=4\phantom{\rule{0.5em}{0ex}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+y-z=1\hfill \end{array}$$ and $$(4,2,\mathrm{-6})$$
+$\begin{array}{l}6x\mathrm{-7}y+z=2\hfill \\ -x-y+3z=4\phantom{\rule{0.5em}{0ex}}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+y-z=1\hfill \end{array}$ and $(4,2,\mathrm{-6})$
 
-$$\begin{array}{l}x-y=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=5\hfill \\ x-y+z=\mathrm{-1}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$$ and $$(4,4,\mathrm{-1})$$
+$\begin{array}{l}x-y=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=5\hfill \\ x-y+z=\mathrm{-1}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$ and $(4,4,\mathrm{-1})$
 
 Yes
 
-$$\begin{array}{l}-x-y+2z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}5x+8y\mathrm{-3}z=4\hfill \\ -x+3y\mathrm{-5}z=\mathrm{-5}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$$ and $$(4,1,\mathrm{-7})$$
+$\begin{array}{l}-x-y+2z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}5x+8y\mathrm{-3}z=4\hfill \\ -x+3y\mathrm{-5}z=\mathrm{-5}\phantom{\rule{0.5em}{0ex}}\hfill \end{array}$ and $(4,1,\mathrm{-7})$
 
 For the following exercises, solve each system by elimination.
 
-$$\begin{array}{l}3x\mathrm{-4}y+2z=\mathrm{-15}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+4y+z=16\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+3y+5z=20\hfill \end{array}$$
+$\begin{array}{l}3x\mathrm{-4}y+2z=\mathrm{-15}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+4y+z=16\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x+3y+5z=20\hfill \end{array}$
 
-$$\left(\mathrm{-1},4,2\right)$$
+$\left(\mathrm{-1},4,2\right)$
 
-$$\begin{array}{l}5x\mathrm{-2}y+3z=20\hfill \\ 2x\mathrm{-4}y\mathrm{-3}z=\mathrm{-9}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+6y\mathrm{-8}z=21\hfill \end{array}$$
+$\begin{array}{l}5x\mathrm{-2}y+3z=20\hfill \\ 2x\mathrm{-4}y\mathrm{-3}z=\mathrm{-9}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+6y\mathrm{-8}z=21\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x+2y+4z=9\hfill \\ \mathrm{-3}x+2y+z=10\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x\mathrm{-3}y+5z=\mathrm{-3}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x+2y+4z=9\hfill \\ \mathrm{-3}x+2y+z=10\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x\mathrm{-3}y+5z=\mathrm{-3}\hfill \end{array}$
 
-$$\left(-\frac{85}{107},\frac{312}{107},\frac{191}{107}\right)$$
+$\left(-\frac{85}{107},\frac{312}{107},\frac{191}{107}\right)$
 
-$$\begin{array}{l}4x\mathrm{-3}y+5z=31\hfill \\ -x+2y+4z=20\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+5y\mathrm{-2}z=\mathrm{-29}\hfill \end{array}$$
+$\begin{array}{l}4x\mathrm{-3}y+5z=31\hfill \\ -x+2y+4z=20\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+5y\mathrm{-2}z=\mathrm{-29}\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x\mathrm{-2}y+3z=4\hfill \\ \mathrm{-4}x+6y\mathrm{-7}z=\mathrm{-1}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}3x+2y-z=4\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x\mathrm{-2}y+3z=4\hfill \\ \mathrm{-4}x+6y\mathrm{-7}z=\mathrm{-1}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}3x+2y-z=4\hfill \end{array}$
 
-$$\left(1,\frac{1}{2},0\right)$$
+$\left(1,\frac{1}{2},0\right)$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}4x+6y+9z=0\hfill \\ \mathrm{-5}x+2y\mathrm{-6}z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}7x\mathrm{-4}y+3z=\mathrm{-3}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}4x+6y+9z=0\hfill \\ \mathrm{-5}x+2y\mathrm{-6}z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}7x\mathrm{-4}y+3z=\mathrm{-3}\hfill \end{array}$
 
   For the following exercises, solve each system by Gaussian elimination.
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x-y+3z=17\hfill \\ \mathrm{-5}x+4y\mathrm{-2}z=\mathrm{-46}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2y+5z=\mathrm{-7}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x-y+3z=17\hfill \\ \mathrm{-5}x+4y\mathrm{-2}z=\mathrm{-46}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2y+5z=\mathrm{-7}\hfill \end{array}$
 
-$$\left(4,\mathrm{-6},1\right)$$
+$\left(4,\mathrm{-6},1\right)$
 
-$$\begin{array}{l}5x\mathrm{-6}y+3z=50\hfill \\ -x+4y=10\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x-z=10\hfill \end{array}$$
+$\begin{array}{l}5x\mathrm{-6}y+3z=50\hfill \\ -x+4y=10\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x-z=10\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x+3y\mathrm{-6}z=1\hfill \\ \mathrm{-4}x\mathrm{-6}y+12z=\mathrm{-2}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+2y+5z=10\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}2x+3y\mathrm{-6}z=1\hfill \\ \mathrm{-4}x\mathrm{-6}y+12z=\mathrm{-2}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x+2y+5z=10\hfill \end{array}$
 
-$$\left(x,\frac{1}{27}(65\mathrm{-16}x),\frac{x+28}{27}\right)$$
+$\left(x,\frac{1}{27}(65\mathrm{-16}x),\frac{x+28}{27}\right)$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}4x+6y\mathrm{-2}z=8\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}6x+9y\mathrm{-3}z=12\hfill \\ \mathrm{-2}x\mathrm{-3}y+z=\mathrm{-4}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}4x+6y\mathrm{-2}z=8\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}6x+9y\mathrm{-3}z=12\hfill \\ \mathrm{-2}x\mathrm{-3}y+z=\mathrm{-4}\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}2x+3y\mathrm{-4}z=5\hfill \\ \mathrm{-3}x+2y+z=11\hfill \\ -x+5y+3z=4\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}2x+3y\mathrm{-4}z=5\hfill \\ \mathrm{-3}x+2y+z=11\hfill \\ -x+5y+3z=4\hfill \end{array}$
 
-$$\left(-\frac{45}{13},\frac{17}{13},\mathrm{-2}\right)$$
+$\left(-\frac{45}{13},\frac{17}{13},\mathrm{-2}\right)$
 
-$$\begin{array}{l}10x+2y\mathrm{-14}z=8\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-x}\mathrm{-2}y\mathrm{-4}z=\mathrm{-1}\hfill \\ \mathrm{-12}x\mathrm{-6}y+6z=\mathrm{-12}\hfill \end{array}$$
+$\begin{array}{l}10x+2y\mathrm{-14}z=8\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-x}\mathrm{-2}y\mathrm{-4}z=\mathrm{-1}\hfill \\ \mathrm{-12}x\mathrm{-6}y+6z=\mathrm{-12}\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=14\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2y+3z=\mathrm{-14}\hfill \\ \mathrm{-16}y\mathrm{-24}z=\mathrm{-112}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=14\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2y+3z=\mathrm{-14}\hfill \\ \mathrm{-16}y\mathrm{-24}z=\mathrm{-112}\hfill \end{array}$
 
 No solutions exist
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x\mathrm{-3}y+4z=\mathrm{-1}\hfill \\ \mathrm{-4}x+2y\mathrm{-3}z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-x}+5y+7z=\mathrm{-11}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}5x\mathrm{-3}y+4z=\mathrm{-1}\hfill \\ \mathrm{-4}x+2y\mathrm{-3}z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-x}+5y+7z=\mathrm{-11}\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x-y+3z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=0\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}2x-y+3z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=0\hfill \end{array}$
 
-$$\left(0,0,0\right)$$
+$\left(0,0,0\right)$
 
-$$\begin{array}{l}3x+2y\mathrm{-5}z=6\\ 5x\mathrm{-4}y+3z=\mathrm{-12}\\ 4x+5y\mathrm{-2}z=15\end{array}$$
+$\begin{array}{l}3x+2y\mathrm{-5}z=6\\ 5x\mathrm{-4}y+3z=\mathrm{-12}\\ 4x+5y\mathrm{-2}z=15\end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=0\hfill \\ 2x-y+3z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=1\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=0\hfill \\ 2x-y+3z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}x-z=1\hfill \end{array}$
 
-$$\left(\frac{4}{7},-\frac{1}{7},-\frac{3}{7}\right)$$
+$\left(\frac{4}{7},-\frac{1}{7},-\frac{3}{7}\right)$
 
-$$\begin{array}{l}\begin{array}{l}\\ 3x-\frac{1}{2}y-z=-\frac{1}{2}\end{array}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x+z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-x+\frac{3}{2}y=\frac{5}{2}\hfill \end{array}$$
+$\begin{array}{l}\begin{array}{l}\\ 3x-\frac{1}{2}y-z=-\frac{1}{2}\end{array}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x+z=3\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}-x+\frac{3}{2}y=\frac{5}{2}\hfill \end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}6x\mathrm{-5}y+6z=38\hfill \\ \frac{1}{5}x-\frac{1}{2}y+\frac{3}{5}z=1\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-4}x-\frac{3}{2}y-z=\mathrm{-74}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}6x\mathrm{-5}y+6z=38\hfill \\ \frac{1}{5}x-\frac{1}{2}y+\frac{3}{5}z=1\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\mathrm{-4}x-\frac{3}{2}y-z=\mathrm{-74}\hfill \end{array}$
 
-$$\left(7,20,16\right)$$
+$\left(7,20,16\right)$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\frac{1}{2}x-\frac{1}{5}y+\frac{2}{5}z=-\frac{13}{10}\hfill \\ \phantom{\rule{0.5em}{0ex}}\frac{1}{4}x-\frac{2}{5}y-\frac{1}{5}z=-\frac{7}{20}\hfill \\ -\frac{1}{2}x-\frac{3}{4}y-\frac{1}{2}z=-\frac{5}{4}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\frac{1}{2}x-\frac{1}{5}y+\frac{2}{5}z=-\frac{13}{10}\hfill \\ \phantom{\rule{0.5em}{0ex}}\frac{1}{4}x-\frac{2}{5}y-\frac{1}{5}z=-\frac{7}{20}\hfill \\ -\frac{1}{2}x-\frac{3}{4}y-\frac{1}{2}z=-\frac{5}{4}\hfill \end{array}$
 
-$$\begin{array}{l}-\frac{1}{3}x-\frac{1}{2}y-\frac{1}{4}z=\frac{3}{4}\\ -\frac{1}{2}x-\frac{1}{4}y-\frac{1}{2}z=2\hfill \\ -\frac{1}{4}x-\frac{3}{4}y-\frac{1}{2}z=-\frac{1}{2}\hfill \end{array}$$
+$\begin{array}{l}-\frac{1}{3}x-\frac{1}{2}y-\frac{1}{4}z=\frac{3}{4}\\ -\frac{1}{2}x-\frac{1}{4}y-\frac{1}{2}z=2\hfill \\ -\frac{1}{4}x-\frac{3}{4}y-\frac{1}{2}z=-\frac{1}{2}\hfill \end{array}$
 
-$$\left(\mathrm{-6},2,1\right)$$
+$\left(\mathrm{-6},2,1\right)$
 
-$$\begin{array}{l}\frac{1}{2}x-\frac{1}{4}y+\frac{3}{4}z=0\\ \frac{1}{4}x-\frac{1}{10}y+\frac{2}{5}z=\mathrm{-2}\\ \frac{1}{8}x+\frac{1}{5}y-\frac{1}{8}z=2\end{array}$$
+$\begin{array}{l}\frac{1}{2}x-\frac{1}{4}y+\frac{3}{4}z=0\\ \frac{1}{4}x-\frac{1}{10}y+\frac{2}{5}z=\mathrm{-2}\\ \frac{1}{8}x+\frac{1}{5}y-\frac{1}{8}z=2\end{array}$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}\frac{4}{5}x-\frac{7}{8}y+\frac{1}{2}z=1\hfill \\ -\frac{4}{5}x-\frac{3}{4}y+\frac{1}{3}z=\mathrm{-8}\hfill \\ -\frac{2}{5}x-\frac{7}{8}y+\frac{1}{2}z=\mathrm{-5}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}\frac{4}{5}x-\frac{7}{8}y+\frac{1}{2}z=1\hfill \\ -\frac{4}{5}x-\frac{3}{4}y+\frac{1}{3}z=\mathrm{-8}\hfill \\ -\frac{2}{5}x-\frac{7}{8}y+\frac{1}{2}z=\mathrm{-5}\hfill \end{array}$
 
-$$\left(5,12,15\right)$$
+$\left(5,12,15\right)$
 
-$$\begin{array}{l}\\ -\frac{1}{3}x-\frac{1}{8}y+\frac{1}{6}z=-\frac{4}{3}\\ -\frac{2}{3}x-\frac{7}{8}y+\frac{1}{3}z=-\frac{23}{3}\hfill \\ -\frac{1}{3}x-\frac{5}{8}y+\frac{5}{6}z=0\hfill \end{array}$$
+$\begin{array}{l}\\ -\frac{1}{3}x-\frac{1}{8}y+\frac{1}{6}z=-\frac{4}{3}\\ -\frac{2}{3}x-\frac{7}{8}y+\frac{1}{3}z=-\frac{23}{3}\hfill \\ -\frac{1}{3}x-\frac{5}{8}y+\frac{5}{6}z=0\hfill \end{array}$
 
-$$\begin{array}{l}\\ -\frac{1}{4}x-\frac{5}{4}y+\frac{5}{2}z=\mathrm{-5}\\ -\frac{1}{2}x-\frac{5}{3}y+\frac{5}{4}z=\frac{55}{12}\hfill \\ -\frac{1}{3}x-\frac{1}{3}y+\frac{1}{3}z=\frac{5}{3}\hfill \end{array}$$
+$\begin{array}{l}\\ -\frac{1}{4}x-\frac{5}{4}y+\frac{5}{2}z=\mathrm{-5}\\ -\frac{1}{2}x-\frac{5}{3}y+\frac{5}{4}z=\frac{55}{12}\hfill \\ -\frac{1}{3}x-\frac{1}{3}y+\frac{1}{3}z=\frac{5}{3}\hfill \end{array}$
 
-$$\left(\mathrm{-5},\mathrm{-5},\mathrm{-5}\right)$$
+$\left(\mathrm{-5},\mathrm{-5},\mathrm{-5}\right)$
 
-$$\begin{array}{l}\frac{1}{40}x+\frac{1}{60}y+\frac{1}{80}z=\frac{1}{100}\hfill \\ \phantom{\rule{0.5em}{0ex}}-\frac{1}{2}x-\frac{1}{3}y-\frac{1}{4}z=-\frac{1}{5}\hfill \\ \phantom{\rule{0.5em}{0ex}}\frac{3}{8}x+\frac{3}{12}y+\frac{3}{16}z=\frac{3}{20}\hfill \end{array}$$
+$\begin{array}{l}\frac{1}{40}x+\frac{1}{60}y+\frac{1}{80}z=\frac{1}{100}\hfill \\ \phantom{\rule{0.5em}{0ex}}-\frac{1}{2}x-\frac{1}{3}y-\frac{1}{4}z=-\frac{1}{5}\hfill \\ \phantom{\rule{0.5em}{0ex}}\frac{3}{8}x+\frac{3}{12}y+\frac{3}{16}z=\frac{3}{20}\hfill \end{array}$
 
-$$\begin{array}{l}0.1x\mathrm{-0.2}y+0.3z=2\\ 0.5x\mathrm{-0.1}y+0.4z=8\\ 0.7x\mathrm{-0.2}y+0.3z=8\end{array}$$
+$\begin{array}{l}0.1x\mathrm{-0.2}y+0.3z=2\\ 0.5x\mathrm{-0.1}y+0.4z=8\\ 0.7x\mathrm{-0.2}y+0.3z=8\end{array}$
 
-$$\left(10,10,10\right)$$
+$\left(10,10,10\right)$
 
-$$\begin{array}{l}0.2x+0.1y\mathrm{-0.3}z=0.2\\ 0.8x+0.4y\mathrm{-1.2}z=0.1\\ 1.6x+0.8y\mathrm{-2.4}z=0.2\end{array}$$
+$\begin{array}{l}0.2x+0.1y\mathrm{-0.3}z=0.2\\ 0.8x+0.4y\mathrm{-1.2}z=0.1\\ 1.6x+0.8y\mathrm{-2.4}z=0.2\end{array}$
 
-$$\begin{array}{l}1.1x+0.7y\mathrm{-3.1}z=\mathrm{-1.79}\\ 2.1x+0.5y\mathrm{-1.6}z=\mathrm{-0.13}\\ 0.5x+0.4y\mathrm{-0.5}z=\mathrm{-0.07}\end{array}$$
+$\begin{array}{l}1.1x+0.7y\mathrm{-3.1}z=\mathrm{-1.79}\\ 2.1x+0.5y\mathrm{-1.6}z=\mathrm{-0.13}\\ 0.5x+0.4y\mathrm{-0.5}z=\mathrm{-0.07}\end{array}$
 
-$$\left(\frac{1}{2},\frac{1}{5},\frac{4}{5}\right)$$
+$\left(\frac{1}{2},\frac{1}{5},\frac{4}{5}\right)$
 
-$$\begin{array}{l}0.5x\mathrm{-0.5}y+0.5z=10\\ 0.2x\mathrm{-0.2}y+0.2z=4\\ 0.1x\mathrm{-0.1}y+0.1z=2\end{array}$$
+$\begin{array}{l}0.5x\mathrm{-0.5}y+0.5z=10\\ 0.2x\mathrm{-0.2}y+0.2z=4\\ 0.1x\mathrm{-0.1}y+0.1z=2\end{array}$
 
-$$\begin{array}{l}0.1x+0.2y+0.3z=0.37\\ 0.1x\mathrm{-0.2}y\mathrm{-0.3}z=\mathrm{-0.27}\\ 0.5x\mathrm{-0.1}y\mathrm{-0.3}z=\mathrm{-0.03}\end{array}$$
+$\begin{array}{l}0.1x+0.2y+0.3z=0.37\\ 0.1x\mathrm{-0.2}y\mathrm{-0.3}z=\mathrm{-0.27}\\ 0.5x\mathrm{-0.1}y\mathrm{-0.3}z=\mathrm{-0.03}\end{array}$
 
-$$\left(\frac{1}{2},\frac{2}{5},\frac{4}{5}\right)$$
+$\left(\frac{1}{2},\frac{2}{5},\frac{4}{5}\right)$
 
-$$\begin{array}{l}0.5x\mathrm{-0.5}y\mathrm{-0.3}z=0.13\\ 0.4x\mathrm{-0.1}y\mathrm{-0.3}z=0.11\\ 0.2x\mathrm{-0.8}y\mathrm{-0.9}z=\mathrm{-0.32}\end{array}$$
+$\begin{array}{l}0.5x\mathrm{-0.5}y\mathrm{-0.3}z=0.13\\ 0.4x\mathrm{-0.1}y\mathrm{-0.3}z=0.11\\ 0.2x\mathrm{-0.8}y\mathrm{-0.9}z=\mathrm{-0.32}\end{array}$
 
-$$\begin{array}{l}0.5x+0.2y\mathrm{-0.3}z=1\\ 0.4x\mathrm{-0.6}y+0.7z=0.8\\ 0.3x\mathrm{-0.1}y\mathrm{-0.9}z=0.6\end{array}$$
+$\begin{array}{l}0.5x+0.2y\mathrm{-0.3}z=1\\ 0.4x\mathrm{-0.6}y+0.7z=0.8\\ 0.3x\mathrm{-0.1}y\mathrm{-0.9}z=0.6\end{array}$
 
-$$\left(2,0,0\right)$$
+$\left(2,0,0\right)$
 
-$$\begin{array}{l}0.3x+0.3y+0.5z=0.6\\ 0.4x+0.4y+0.4z=1.8\\ 0.4x+0.2y+0.1z=1.6\end{array}$$
+$\begin{array}{l}0.3x+0.3y+0.5z=0.6\\ 0.4x+0.4y+0.4z=1.8\\ 0.4x+0.2y+0.1z=1.6\end{array}$
 
-$$\begin{array}{l}0.8x+0.8y+0.8z=2.4\\ 0.3x\mathrm{-0.5}y+0.2z=0\\ 0.1x+0.2y+0.3z=0.6\end{array}$$
+$\begin{array}{l}0.8x+0.8y+0.8z=2.4\\ 0.3x\mathrm{-0.5}y+0.2z=0\\ 0.1x+0.2y+0.3z=0.6\end{array}$
 
-$$\left(1,1,1\right)$$
+$\left(1,1,1\right)$
 
 Extensions
 ==========
 
-For the following exercises, solve the system for $$x,y,$$ and $$z.$$
+For the following exercises, solve the system for $x,y,$ and $z.$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=3\hfill \\ \frac{x\mathrm{-1}}{2}+\frac{y\mathrm{-3}}{2}+\frac{z+1}{2}=0\hfill \\ \frac{x\mathrm{-2}}{3}+\frac{y+4}{3}+\frac{z\mathrm{-3}}{3}=\frac{2}{3}\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}x+y+z=3\hfill \\ \frac{x\mathrm{-1}}{2}+\frac{y\mathrm{-3}}{2}+\frac{z+1}{2}=0\hfill \\ \frac{x\mathrm{-2}}{3}+\frac{y+4}{3}+\frac{z\mathrm{-3}}{3}=\frac{2}{3}\hfill \end{array}$
 
-$$\begin{array}{l}5x\mathrm{-3}y-\frac{z+1}{2}=\frac{1}{2}\hfill \\ 6x+\frac{y\mathrm{-9}}{2}+2z=\mathrm{-3}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\frac{x+8}{2}\mathrm{-4}y+z=4\hfill \end{array}$$
+$\begin{array}{l}5x\mathrm{-3}y-\frac{z+1}{2}=\frac{1}{2}\hfill \\ 6x+\frac{y\mathrm{-9}}{2}+2z=\mathrm{-3}\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}\frac{x+8}{2}\mathrm{-4}y+z=4\hfill \end{array}$
 
-$$\left(\frac{128}{557},\frac{23}{557},\frac{28}{557}\right)$$
+$\left(\frac{128}{557},\frac{23}{557},\frac{28}{557}\right)$
 
-$$\begin{array}{l}\frac{x+4}{7}-\frac{y\mathrm{-1}}{6}+\frac{z+2}{3}=1\\ \frac{x\mathrm{-2}}{4}+\frac{y+1}{8}-\frac{z+8}{12}=0\\ \frac{x+6}{3}-\frac{y+2}{3}+\frac{z+4}{2}=3\end{array}$$
+$\begin{array}{l}\frac{x+4}{7}-\frac{y\mathrm{-1}}{6}+\frac{z+2}{3}=1\\ \frac{x\mathrm{-2}}{4}+\frac{y+1}{8}-\frac{z+8}{12}=0\\ \frac{x+6}{3}-\frac{y+2}{3}+\frac{z+4}{2}=3\end{array}$
 
-$$\begin{array}{l}\frac{x\mathrm{-3}}{6}+\frac{y+2}{2}-\frac{z\mathrm{-3}}{3}=2\\ \frac{x+2}{4}+\frac{y\mathrm{-5}}{2}+\frac{z+4}{2}=1\\ \frac{x+6}{2}-\frac{y\mathrm{-3}}{2}+z+1=9\end{array}$$
+$\begin{array}{l}\frac{x\mathrm{-3}}{6}+\frac{y+2}{2}-\frac{z\mathrm{-3}}{3}=2\\ \frac{x+2}{4}+\frac{y\mathrm{-5}}{2}+\frac{z+4}{2}=1\\ \frac{x+6}{2}-\frac{y\mathrm{-3}}{2}+z+1=9\end{array}$
 
-$$\left(6,\mathrm{-1},0\right)$$
+$\left(6,\mathrm{-1},0\right)$
 
-$$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}\frac{x\mathrm{-1}}{3}+\frac{y+3}{4}+\frac{z+2}{6}=1\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x+3y\mathrm{-2}z=11\hfill \\ 0.02x+0.015y\mathrm{-0.01}z=0.065\hfill \end{array}$$
+$\begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{}\frac{x\mathrm{-1}}{3}+\frac{y+3}{4}+\frac{z+2}{6}=1\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{}4x+3y\mathrm{-2}z=11\hfill \\ 0.02x+0.015y\mathrm{-0.01}z=0.065\hfill \end{array}$
 
 Real-World Applications
 =======================
 
-Three even numbers sum up to 108. The smaller is half the larger and the middle number is $$\frac{3}{4}$$ 
+Three even numbers sum up to 108. The smaller is half the larger and the middle number is $\frac{3}{4}$ 
 
 the larger. What are the three numbers?
 
@@ -736,9 +764,9 @@ Last year, at Haven’s Pond Car Dealership, for a particular model of BMW, Jeep
 
 The BMW was $49,636, the Jeep was $42,636, and the Toyota was $47,727.
 
-When his youngest child moved out, Deandre sold his home and made three investments using gains from the sale. He invested $80,500 into three accounts, one that paid 4% simple interest, one that paid $$3\frac{1}{8}\text{\%}$$ 
+When his youngest child moved out, Deandre sold his home and made three investments using gains from the sale. He invested $80,500 into three accounts, one that paid 4% simple interest, one that paid $3\frac{1}{8}\text{\%}$ 
 
-simple interest, and one that paid $$2\frac{1}{2}\text{\%}$$ 
+simple interest, and one that paid $2\frac{1}{2}\text{\%}$ 
  simple interest. He earned $2,670 interest at the end of one year. If the amount of the money invested in the second account was four times the amount invested in the third account, how much was invested in each account?
 
 You inherit one million dollars. You invest it all in three accounts for one year. The first account pays 3% compounded annually, the second account pays 4% compounded annually, and the third account pays 2% compounded annually. After one year, you earn $34,000 in interest. If you invest four times the money into the account that pays 3% compared to 2%, how much did you invest in each account?

@@ -83,7 +83,7 @@ Figures
 =======
 *College Algebra 2e with Corequisite Support* contains many figures and illustrations, the vast majority of which are graphs and diagrams. Art throughout the text adheres to a clear, understated style, drawing the eye to the most important information in each figure while minimizing visual distractions. Color contrast is employed with discretion to distinguish between the different functions or features of a graph.
 
-  
+![Example figure](../../media/CNX_Precalc_Figure_01_01_012-73a7.jpg)
 
 Supporting Features
 ===================

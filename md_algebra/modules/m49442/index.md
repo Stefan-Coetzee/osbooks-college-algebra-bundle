@@ -21,41 +21,41 @@ Deﬁne conics in terms of a focus and a directrix.
   
 Identifying a Conic in Polar Form
 =================================
-Any conic may be determined by three characteristics: a single **focus**, a fixed line called the **directrix**, and the ratio of the distances of each to a point on the graph. Consider the **parabola** $$x=2+{y}^{2}$$ shown in .
+Any conic may be determined by three characteristics: a single **focus**, a fixed line called the **directrix**, and the ratio of the distances of each to a point on the graph. Consider the **parabola** $x=2+{y}^{2}$ shown in .
 
-![image](../../media/CNX_Precalc_Figure_10_05_001.jpg)\n\n
+    \n\n![Image](../../media/CNX_Precalc_Figure_10_05_001.jpg)\n\n
 
-In The Parabola, we learned how a parabola is defined by the focus (a fixed point) and the directrix (a fixed line). In this section, we will learn how to define any conic in the polar coordinate system in terms of a fixed point, the focus $$P(r,\theta )$$ at the pole, and a line, the directrix, which is perpendicular to the polar axis.
-If $$F$$ is a fixed point, the focus, and $$D$$ is a fixed line, the directrix, then we can let $$e$$ be a fixed positive number, called the *eccentricity*, which we can define as the ratio of the distances from a point on the graph to the focus and the point on the graph to the directrix. Then the set of all points $$P$$ such that $$e=\frac{PF}{PD}$$ is a conic. In other words, we can define a conic as the set of all points $$P$$ with the property that the ratio of the distance from $$P$$ to $$F$$ to the distance from $$P$$ to $$D$$ is equal to the constant $$e.$$
+    In The Parabola, we learned how a parabola is defined by the focus (a fixed point) and the directrix (a fixed line). In this section, we will learn how to define any conic in the polar coordinate system in terms of a fixed point, the focus $P(r,\theta )$ at the pole, and a line, the directrix, which is perpendicular to the polar axis.
+If $F$ is a fixed point, the focus, and $D$ is a fixed line, the directrix, then we can let $e$ be a fixed positive number, called the *eccentricity*, which we can define as the ratio of the distances from a point on the graph to the focus and the point on the graph to the directrix. Then the set of all points $P$ such that $e=\frac{PF}{PD}$ is a conic. In other words, we can define a conic as the set of all points $P$ with the property that the ratio of the distance from $P$ to $F$ to the distance from $P$ to $D$ is equal to the constant $e.$
 
-    For a conic with eccentricity $$e,$$
+    For a conic with eccentricity $e,$
 
-if $$0\le e<1,$$ the conic is an ellipse
-  if $$e=1,$$ the conic is a parabola
-  if $$e>1,$$ the conic is an hyperbola
-With this definition, we may now define a conic in terms of the directrix, $$x=\pm p,$$ the eccentricity $$e,$$ and the angle $$\theta .$$ Thus, each conic may be written as a *polar equation*, an equation written in terms of $$r$$ and $$\theta .$$
+if $0\le e<1,$ the conic is an ellipse
+  if $e=1,$ the conic is a parabola
+  if $e>1,$ the conic is an hyperbola
+With this definition, we may now define a conic in terms of the directrix, $x=\pm p,$ the eccentricity $e,$ and the angle $\theta .$ Thus, each conic may be written as a *polar equation*, an equation written in terms of $r$ and $\theta .$
 
       
 The Polar Equation for a Conic
 ==============================
 
-      For a conic with a focus at the origin, if the directrix is $$x=\pm p,$$ where $$p$$ is a positive real number, and the **eccentricity** is a positive real number $$e,$$ the conic has a **polar equation**
+      For a conic with a focus at the origin, if the directrix is $x=\pm p,$ where $p$ is a positive real number, and the **eccentricity** is a positive real number $e,$ the conic has a **polar equation**
 
  $$
 r=\frac{ep}{1\pm e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}
 $$
-For a conic with a focus at the origin, if the directrix is $$y=\pm p,$$ where $$p$$ is a positive real number, and the eccentricity is a positive real number $$e,$$ the conic has a polar equation
+For a conic with a focus at the origin, if the directrix is $y=\pm p,$ where $p$ is a positive real number, and the eccentricity is a positive real number $e,$ the conic has a polar equation
 
- $$r=\frac{ep}{1\pm e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+ $r=\frac{ep}{1\pm e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
     
       How To
       *Given the polar equation for a conic, identify the type of conic, the directrix, and the eccentricity.*
 
       Multiply the numerator and denominator by the reciprocal of the constant in the denominator to rewrite the equation in standard form.
-        Identify the eccentricity $$e$$ as the coefficient of the trigonometric function in the denominator.
-        Compare $$e$$ with 1 to determine the shape of the conic.
-        Determine the directrix as $$x=p$$ if cosine is in the denominator and $$y=p$$ if sine is in the denominator. Set $$ep$$ equal to the numerator in standard form to solve for $$x$$ or $$y.$$
+        Identify the eccentricity $e$ as the coefficient of the trigonometric function in the denominator.
+        Compare $e$ with 1 to determine the shape of the conic.
+        Determine the directrix as $x=p$ if cosine is in the denominator and $y=p$ if sine is in the denominator. Set $ep$ equal to the numerator in standard form to solve for $x$ or $y.$
         
       
 
@@ -67,54 +67,54 @@ Identifying a Conic Given the Polar Form
 
           For each of the following equations, identify the conic with focus at the origin, the **directrix**, and the **eccentricity**.
 
-           $$r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+           $r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
             
-             $$r=\frac{12}{4+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+             $r=\frac{12}{4+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
             
-             $$r=\frac{7}{2-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+             $r=\frac{7}{2-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
             
           
         
-          For each of the three conics, we will rewrite the equation in standard form. Standard form has a 1 as the constant in the denominator. Therefore, in all three parts, the first step will be to multiply the numerator and denominator by the reciprocal of the constant of the original equation, $$\frac{1}{c},$$ where $$c$$ is that constant.
+          For each of the three conics, we will rewrite the equation in standard form. Standard form has a 1 as the constant in the denominator. Therefore, in all three parts, the first step will be to multiply the numerator and denominator by the reciprocal of the constant of the original equation, $\frac{1}{c},$ where $c$ is that constant.
 
-          Multiply the numerator and denominator by $$\frac{1}{3}.$$
+          Multiply the numerator and denominator by $\frac{1}{3}.$
 
              $$
 r=\frac{6}{3+2\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\cdot \frac{\left(\frac{1}{3}\right)}{\left(\frac{1}{3}\right)}=\frac{6\left(\frac{1}{3}\right)}{3\left(\frac{1}{3}\right)+2\left(\frac{1}{3}\right)\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}=\frac{2}{1+\frac{2}{3}\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}
 $$
 
-Because $$\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta $$ is in the denominator, the directrix is $$y=p.$$ Comparing to standard form, note that $$e=\frac{2}{3}.$$ Therefore, from the numerator,
+Because $\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta$ is in the denominator, the directrix is $y=p.$ Comparing to standard form, note that $e=\frac{2}{3}.$ Therefore, from the numerator,
 
  $$
 \begin{array}{l}2=ep\hfill \\ 2=\frac{2}{3}p\hfill \\ \left(\frac{3}{2}\right)2=\left(\frac{3}{2}\right)\frac{2}{3}p\hfill \\ 3=p\hfill \end{array}
 $$
-Since $$e<1,$$ the conic is an **ellipse**. The eccentricity is $$e=\frac{2}{3}$$ and the directrix is $$y=3.$$
+Since $e<1,$ the conic is an **ellipse**. The eccentricity is $e=\frac{2}{3}$ and the directrix is $y=3.$
 
-          Multiply the numerator and denominator by $$\frac{1}{4}.$$
+          Multiply the numerator and denominator by $\frac{1}{4}.$
 
              $$
 \begin{array}{l}\begin{array}{l}\hfill \\ \hfill \\ r=\frac{12}{4+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\cdot \frac{\left(\frac{1}{4}\right)}{\left(\frac{1}{4}\right)}\hfill \end{array}\hfill \\ r=\frac{12\left(\frac{1}{4}\right)}{4\left(\frac{1}{4}\right)+5\left(\frac{1}{4}\right)\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \\ r=\frac{3}{1+\frac{5}{4}\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}
 $$
 
-Because $$\text{cos}\phantom{\rule{0.5em}{0ex}}\theta \ $$ is in the denominator, the directrix is $$x=p.$$ Comparing to standard form, $$e=\frac{5}{4}.$$ Therefore, from the numerator,
+Because $\text{cos}\phantom{\rule{0.5em}{0ex}}\theta \$ is in the denominator, the directrix is $x=p.$ Comparing to standard form, $e=\frac{5}{4}.$ Therefore, from the numerator,
 
  $$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \}3=ep\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \}3=\frac{5}{4}p\hfill \\ \phantom{\rule{0.5em}{0ex}}\left(\frac{4}{5}\right)3=\left(\frac{4}{5}\right)\frac{5}{4}p\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \}\phantom{\rule{0.5em}{0ex}}\frac{12}{5}=p\hfill \end{array}
 $$
 
-Since $$e>1,$$ the conic is a **hyperbola**. The eccentricity is $$e=\frac{5}{4}$$ and the directrix is $$x=\frac{12}{5}=\mathrm{2.4.}$$
+Since $e>1,$ the conic is a **hyperbola**. The eccentricity is $e=\frac{5}{4}$ and the directrix is $x=\frac{12}{5}=\mathrm{2.4.}$
 
-          Multiply the numerator and denominator by $$\frac{1}{2}.$$
+          Multiply the numerator and denominator by $\frac{1}{2}.$
 
              $$
 \begin{array}{l}\hfill \\ \hfill \\ \begin{array}{l}r=\frac{7}{2-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\cdot \frac{\left(\frac{1}{2}\right)}{\left(\frac{1}{2}\right)}\hfill \\ r=\frac{7\left(\frac{1}{2}\right)}{2\left(\frac{1}{2}\right)-2\left(\frac{1}{2}\right)\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \\ r=\frac{\frac{7}{2}}{1-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \end{array}
 $$
 
-Because sine is in the denominator, the directrix is $$y=-p.$$ Comparing to standard form, $$e=1.$$ Therefore, from the numerator,
+Because sine is in the denominator, the directrix is $y=-p.$ Comparing to standard form, $e=1.$ Therefore, from the numerator,
 
- $$\begin{array}{l}\frac{7}{2}=ep\\ \frac{7}{2}=\left(1\right)p\\ \frac{7}{2}=p\end{array}$$
+ $\begin{array}{l}\frac{7}{2}=ep\\ \frac{7}{2}=\left(1\right)p\\ \frac{7}{2}=p\end{array}$
             
-            Because $$e=1,$$ the conic is a **parabola**. The eccentricity is $$e=1$$ and the directrix is $$y=-\frac{7}{2}=\mathrm{-3.5.}$$
+            Because $e=1,$ the conic is a **parabola**. The eccentricity is $e=1$ and the directrix is $y=-\frac{7}{2}=\mathrm{-3.5.}$
 
         
 
@@ -123,9 +123,9 @@ Because sine is in the denominator, the directrix is $$y=-p.$$ Comparing to stan
     
       Try It
       
-        Identify the conic with focus at the origin, the directrix, and the eccentricity for $$r=\frac{2}{3-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$$
+        Identify the conic with focus at the origin, the directrix, and the eccentricity for $r=\frac{2}{3-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$
 
-        ellipse; $$e=\frac{1}{3};\phantom{\rule{0.5em}{0ex}}x=-2$$
+        ellipse; $e=\frac{1}{3};\phantom{\rule{0.5em}{0ex}}x=-2$
 
       
     
@@ -135,28 +135,28 @@ Because sine is in the denominator, the directrix is $$y=-p.$$ Comparing to stan
 Graphing the Polar Equations of Conics
 ======================================
 
-    When graphing in Cartesian coordinates, each conic section has a unique equation. This is not the case when graphing in polar coordinates. We must use the eccentricity of a conic section to determine which type of curve to graph, and then determine its specific characteristics. The first step is to rewrite the conic in standard form as we have done in the previous example. In other words, we need to rewrite the equation so that the denominator begins with 1. This enables us to determine $$e$$ and, therefore, the shape of the curve. The next step is to substitute values for $$\theta $$ and solve for $$r$$ to plot a few key points. Setting $$\theta $$ equal to $$0,\frac{\pi}{2},\pi ,$$ and $$\frac{3\pi}{2}$$ provides the vertices so we can create a rough sketch of the graph.
+    When graphing in Cartesian coordinates, each conic section has a unique equation. This is not the case when graphing in polar coordinates. We must use the eccentricity of a conic section to determine which type of curve to graph, and then determine its specific characteristics. The first step is to rewrite the conic in standard form as we have done in the previous example. In other words, we need to rewrite the equation so that the denominator begins with 1. This enables us to determine $e$ and, therefore, the shape of the curve. The next step is to substitute values for $\theta$ and solve for $r$ to plot a few key points. Setting $\theta$ equal to $0,\frac{\pi}{2},\pi ,$ and $\frac{3\pi}{2}$ provides the vertices so we can create a rough sketch of the graph.
 
       
           
 Graphing a Parabola in Polar Form
 =================================
 
-          Graph $$r=\frac{5}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$$
+          Graph $r=\frac{5}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$
 
         
-          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 3, which is $$\frac{1}{3}.$$
+          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 3, which is $\frac{1}{3}.$
 
          $$
 \begin{array}{l}\begin{array}{l}\hfill \\ \hfill \\ r=\frac{5}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}=\frac{5\left(\frac{1}{3}\right)}{3\left(\frac{1}{3}\right)+3\left(\frac{1}{3}\right)\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \\ r=\frac{\frac{5}{3}}{1+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}
 $$
-Because $$e=1,$$ we will graph a **parabola** with a focus at the origin. The function has a $$\ \mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$$ and there is an addition sign in the denominator, so the directrix is $$x=p.$$
+Because $e=1,$ we will graph a **parabola** with a focus at the origin. The function has a $\ \mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$ and there is an addition sign in the denominator, so the directrix is $x=p.$
 
      $$
 \begin{array}{l}\frac{5}{3}=ep\\ \frac{5}{3}=(1)p\\ \frac{5}{3}=p\end{array}
 $$
         
-        The directrix is $$x=\frac{5}{3}.$$
+        The directrix is $x=\frac{5}{3}.$
 
         Plotting a few key points as in  will enable us to see the vertices. See .
 
@@ -177,32 +177,31 @@ $$
             
             
               
-                 $$\theta $$
+                 $\theta$
                 
-                 $$0$$
+                 $0$
 
-                 $$\frac{\pi}{2}$$
+                 $\frac{\pi}{2}$
                 
-                 $$\pi $$
+                 $\pi$
                 
-                 $$\frac{3\pi}{2}$$
+                 $\frac{3\pi}{2}$
                 
               
               
-                 $$r=\frac{5}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+                 $r=\frac{5}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
                 
-                 $$\frac{5}{6}\approx 0.83$$
+                 $\frac{5}{6}\approx 0.83$
                 
-                 $$\frac{5}{3}\approx 1.67$$
+                 $\frac{5}{3}\approx 1.67$
                 
                 undefined
-                 $$\frac{5}{3}\approx 1.67$$
+                 $\frac{5}{3}\approx 1.67$
                 
               
             
 
-\n\n![
-            ](../../media/CNX_Precalc_Figure_10_05_002.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_10_05_002.jpg)\n\n
         
         
           
@@ -211,8 +210,7 @@ Analysis
 
           We can check our result with a graphing utility. See .
 
-          \n\n![
-              ](../../media/CNX_Precalc_Figure_10_05_003.jpg)\n\n
+          \n\n![Image](../../media/CNX_Precalc_Figure_10_05_003.jpg)\n\n
         
       
 
@@ -223,21 +221,21 @@ Analysis
 Graphing a Hyperbola in Polar Form
 ==================================
 
-          Graph $$r=\frac{8}{2-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$$
+          Graph $r=\frac{8}{2-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$
 
         
-          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 2, which is $$\frac{1}{2}.$$
+          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 2, which is $\frac{1}{2}.$
 
            $$
 \begin{array}{l}\begin{array}{l}\hfill \\ \hfill \\ r=\frac{8}{2-3\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}=\frac{8\left(\frac{1}{2}\right)}{2\left(\frac{1}{2}\right)-3\left(\frac{1}{2}\right)\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \\ r=\frac{4}{1-\frac{3}{2}\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}
 $$
 
-        Because $$e=\frac{3}{2},e>1,$$ so we will graph a **hyperbola** with a focus at the origin. The function has a $$\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta $$ term and there is a subtraction sign in the denominator, so the directrix is $$y=-p.$$
+        Because $e=\frac{3}{2},e>1,$ so we will graph a **hyperbola** with a focus at the origin. The function has a $\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta$ term and there is a subtraction sign in the denominator, so the directrix is $y=-p.$
 
  $$
 \begin{array}{l}4=ep\hfill \\ 4=\left(\frac{3}{2}\right)p\hfill \\ 4\left(\frac{2}{3}\right)=p\hfill \\ \frac{8}{3}=p\hfill \end{array}
 $$
-The directrix is $$y=-\frac{8}{3}.$$
+The directrix is $y=-\frac{8}{3}.$
 
         Plotting a few key points as in  will enable us to see the vertices. See .
 
@@ -258,15 +256,15 @@ The directrix is $$y=-\frac{8}{3}.$$
               
               
                 
-                   $$\theta $$
+                   $\theta$
                   
-                   $$0$$
+                   $0$
 
-                   $$\frac{\pi}{2}$$
+                   $\frac{\pi}{2}$
                   
-                   $$\pi $$
+                   $\pi$
                   
-                   $$\frac{3\pi}{2}$$
+                   $\frac{3\pi}{2}$
                   
                 
                 
@@ -274,19 +272,18 @@ The directrix is $$y=-\frac{8}{3}.$$
 r=\frac{8}{2-3\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta}
 $$
                   
-                   $$4$$
+                   $4$
 
-                   $$-8$$
+                   $-8$
                   
-                   $$4$$
+                   $4$
 
-                   $$\frac{8}{5}=1.6$$
+                   $\frac{8}{5}=1.6$
                   
                 
               
 
-\n\n![
-            ](../../media/CNX_Precalc_Figure_10_05_004.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_10_05_004.jpg)\n\n
         
       
     
@@ -297,21 +294,21 @@ $$
 Graphing an Ellipse in Polar Form
 =================================
 
-          Graph $$r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$$
+          Graph $r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$
 
         
-          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 5, which is $$\frac{1}{5}.$$
+          First, we rewrite the conic in standard form by multiplying the numerator and denominator by the reciprocal of 5, which is $\frac{1}{5}.$
 
            $$
 \begin{array}{l}\hfill \\ \begin{array}{l}r=\frac{10}{5-4\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}=\frac{10\left(\frac{1}{5}\right)}{5\left(\frac{1}{5}\right)-4\left(\frac{1}{5}\right)\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \\ r=\frac{2}{1-\frac{4}{5}\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \end{array}
 $$
 
-        Because $$e=\frac{4}{5},e<1,$$ so we will graph an **ellipse** with a **focus** at the origin. The function has a $$\text{cos}\phantom{\rule{0.5em}{0ex}}\theta ,$$ and there is a subtraction sign in the denominator, so the **directrix** is $$x=-p.$$
+        Because $e=\frac{4}{5},e<1,$ so we will graph an **ellipse** with a **focus** at the origin. The function has a $\text{cos}\phantom{\rule{0.5em}{0ex}}\theta ,$ and there is a subtraction sign in the denominator, so the **directrix** is $x=-p.$
 
      $$
 \begin{array}{l}2=ep\hfill \\ 2=\left(\frac{4}{5}\right)p\hfill \\ 2\left(\frac{5}{4}\right)=p\hfill \\ \frac{5}{2}=p\hfill \end{array}
 $$
-The directrix is $$x=-\frac{5}{2}.$$
+The directrix is $x=-\frac{5}{2}.$
 
         Plotting a few key points as in  will enable us to see the vertices. See .
 
@@ -330,33 +327,32 @@ The directrix is $$x=-\frac{5}{2}.$$
               
               
                 
-                   $$\theta $$
+                   $\theta$
                   
-                   $$0$$
+                   $0$
 
-                   $$\frac{\pi}{2}$$
+                   $\frac{\pi}{2}$
                   
-                   $$\pi $$
+                   $\pi$
                   
-                   $$\frac{3\pi}{2}$$
+                   $\frac{3\pi}{2}$
                   
                 
                 
-                   $$r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+                   $r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
                   
-                   $$10$$
+                   $10$
 
-                   $$2$$
+                   $2$
 
-                   $$\frac{10}{9}\approx 1.1$$
+                   $\frac{10}{9}\approx 1.1$
                   
-                   $$2$$
+                   $2$
 
                 
               
 
-\n\n![
-            ](../../media/CNX_Precalc_Figure_10_05_006.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_10_05_006.jpg)\n\n
         
         
           
@@ -365,17 +361,18 @@ Analysis
 
           We can check our result using a graphing utility. See .
 
-          \n\n![$$r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$ graphed on a viewing window of $$\left[\mathrm{\u20133},12,1\right]$$ by $$[\u20134,4,1],\theta \phantom{\rule{0.5em}{0ex}}\text{min\ =}\phantom{\rule{0.5em}{0ex}}0$$ and $$\theta \phantom{\rule{0.5em}{0ex}}\text{max\ =}\phantom{\rule{0.5em}{0ex}}2\pi .$$](../../media/CNX_Precalc_Figure_10_05_007.jpg)\n\n
+          \n\n![$r=\frac{10}{5-4\phantom{ ule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{ ule{0.4em}{0ex}}\text{}\theta}$ graphed on a viewing window of $\left[\mathrm{\u20133},12,1 ight]$ by $[\u20134,4,1],\theta \phantom{ ule{0.5em}{0ex}}\text{min\ =}\phantom{ ule{0.5em}{0ex}}0$ and $\theta \phantom{ ule{0.5em}{0ex}}\text{max\ =}\phantom{ ule{0.5em}{0ex}}2\pi .$](../../media/CNX_Precalc_Figure_10_05_007.jpg)\n\n
       
 
     
       Try It
-      Graph $$r=\frac{2}{4-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$$
+      Graph $r=\frac{2}{4-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}.$
 
       
         
-          
-        
+
+![Image](../../media/CNX_Precalc_Figure_10_05_009.jpg)
+
       
 
       
@@ -392,10 +389,10 @@ Deﬁning Conics in Terms of a Focus and a Directrix
       How To
       *Given the focus, eccentricity, and directrix of a conic, determine the polar equation.*
 
-      Determine whether the directrix is horizontal or vertical. If the directrix is given in terms of $$y,$$ we use the general polar form in terms of sine. If the directrix is given in terms of $$x,$$ we use the general polar form in terms of cosine.
-        Determine the sign in the denominator. If $$p<0,$$ use subtraction. If $$p>0,$$ use addition.
+      Determine whether the directrix is horizontal or vertical. If the directrix is given in terms of $y,$ we use the general polar form in terms of sine. If the directrix is given in terms of $x,$ we use the general polar form in terms of cosine.
+        Determine the sign in the denominator. If $p<0,$ use subtraction. If $p>0,$ use addition.
       Write the coefficient of the trigonometric function as the given eccentricity.
-        Write the absolute value of $$p$$ in the numerator, and simplify the equation.
+        Write the absolute value of $p$ in the numerator, and simplify the equation.
 
     
       
@@ -404,22 +401,22 @@ Deﬁning Conics in Terms of a Focus and a Directrix
 Finding the Polar Form of a Vertical Conic Given a Focus at the Origin and the Eccentricity and Directrix
 =========================================================================================================
 
-          Find the polar form of the **conic** given a **focus** at the origin, $$e=3$$ and **directrix** $$y=-2.$$
+          Find the polar form of the **conic** given a **focus** at the origin, $e=3$ and **directrix** $y=-2.$
 
         
         
-          The directrix is $$y=-p,$$ so we know the trigonometric function in the denominator is sine.
-Because $$y=\mathrm{-2},\mathrm{\u20132}<0,$$ so we know there is a subtraction sign in the denominator. We use the standard form of
+          The directrix is $y=-p,$ so we know the trigonometric function in the denominator is sine.
+Because $y=\mathrm{-2},\mathrm{\u20132}<0,$ so we know there is a subtraction sign in the denominator. We use the standard form of
 
  $$
 r=\frac{ep}{1-e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}
 $$
 
-and $$e=3$$ and $$\left|\mathrm{-2}\right|=2=p.$$
+and $e=3$ and $\left|\mathrm{-2}\right|=2=p.$
 
 Therefore,
 
-           $$\begin{array}{l}\hfill \\ \begin{array}{l}r=\frac{(3)(2)}{1-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \\ r=\frac{6}{1-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \end{array}$$
+           $\begin{array}{l}\hfill \\ \begin{array}{l}r=\frac{(3)(2)}{1-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \\ r=\frac{6}{1-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}\hfill \end{array}\hfill \end{array}$
 
       
     
@@ -431,14 +428,14 @@ Therefore,
 Finding the Polar Form of a Horizontal Conic Given a Focus at the Origin and the Eccentricity and Directrix
 ===========================================================================================================
 
-          Find the **polar form of a conic** given a **focus** at the origin, $$e=\frac{3}{5},$$ and **directrix** $$x=4.$$
+          Find the **polar form of a conic** given a **focus** at the origin, $e=\frac{3}{5},$ and **directrix** $x=4.$
 
         
-          Because the directrix is $$x=p,$$ we know the function in the denominator is cosine. Because $$x=4,4>0,$$ so we know there is an addition sign in the denominator. We use the standard form of
+          Because the directrix is $x=p,$ we know the function in the denominator is cosine. Because $x=4,4>0,$ so we know there is an addition sign in the denominator. We use the standard form of
 
-           $$r=\frac{ep}{1+e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+           $r=\frac{ep}{1+e\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-and $$e=\frac{3}{5}$$ and $$\left|4\right|=4=p.$$
+and $e=\frac{3}{5}$ and $\left|4\right|=4=p.$
 
 Therefore,
 
@@ -452,9 +449,9 @@ $$
     
       Try It
       
-        Find the polar form of the conic given a focus at the origin, $$e=1,$$ and directrix $$x=\mathrm{-1.}$$
+        Find the polar form of the conic given a focus at the origin, $e=1,$ and directrix $x=\mathrm{-1.}$
 
-        $$r=\frac{1}{1-\mathrm{cos}\theta}$$
+        $r=\frac{1}{1-\mathrm{cos}\theta}$
 
       
     
@@ -466,10 +463,10 @@ $$
 Converting a Conic in Polar Form to Rectangular Form
 ====================================================
 
-          Convert the conic $$r=\frac{1}{5-5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta}$$ to rectangular form.
+          Convert the conic $r=\frac{1}{5-5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta}$ to rectangular form.
 
         
-          We will rearrange the formula to use the identities $$\ r=\sqrt{{x}^{2}+{y}^{2}},x=r\phantom{\rule{0.5em}{0ex}}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\theta ,\text{and\}y=r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta .$$
+          We will rearrange the formula to use the identities $\ r=\sqrt{{x}^{2}+{y}^{2}},x=r\phantom{\rule{0.5em}{0ex}}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\theta ,\text{and\}y=r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta .$
 
  $$
 \begin{array}{ll}\phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}r=\frac{1}{5-5\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta}\hfill & \hfill \\ \ r\cdot (5-5\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta )=\frac{1}{5-5\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta}\cdot (5-5\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta )\hfill & \text{Eliminate\ the\ fraction}.\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \}\phantom{\rule{0.5em}{0ex}}5r-5r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta =1\hfill & \text{Distribute}.\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}5r=1+5r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta \hfill & \text{Isolate\}5r.\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}25{r}^{2}={(1+5r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta )}^{2}\hfill & \text{Square\ both\ sides}.\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \}25({x}^{2}+{y}^{2})={(1+5y)}^{2}\hfill & \text{Substitute\}r=\sqrt{{x}^{2}+{y}^{2}}\phantom{\rule{0.5em}{0ex}}\text{and\}y=r\phantom{\rule{0.5em}{0ex}}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\theta .\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \}\phantom{\rule{0.5em}{0ex}}25{x}^{2}+25{y}^{2}=1+10y+25{y}^{2}\hfill & \text{Distribute\ and\ use\ FOIL}.\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \}\phantom{\rule{0.5em}{0ex}}25{x}^{2}-10y=1\hfill & \text{Rearrange\ terms\ and\ set\ equal\ to\ 1}.\hfill \end{array}
@@ -480,9 +477,9 @@ $$
 
     Try It
       
-        Convert the conic $$r=\frac{2}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$ to rectangular form.
+        Convert the conic $r=\frac{2}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$ to rectangular form.
 
-        $$4-8x+3{x}^{2}-{y}^{2}=0$$
+        $4-8x+3{x}^{2}-{y}^{2}=0$
 
       
     Media
@@ -497,11 +494,11 @@ Graphing Polar Equations of Conics - 2
 Key Concepts
 ============
 
-    Any conic may be determined by a single focus, the corresponding eccentricity,  and the directrix. We can also define a conic in terms of a fixed point, the focus $$P(r,\theta )$$ at the pole, and a line, the directrix, which is perpendicular to the polar axis.
-      A conic is the set of all points $$e=\frac{PF}{PD},$$ where eccentricity $$e$$ is a positive real number. Each conic may be written in terms of its polar equation. See .
+    Any conic may be determined by a single focus, the corresponding eccentricity,  and the directrix. We can also define a conic in terms of a fixed point, the focus $P(r,\theta )$ at the pole, and a line, the directrix, which is perpendicular to the polar axis.
+      A conic is the set of all points $e=\frac{PF}{PD},$ where eccentricity $e$ is a positive real number. Each conic may be written in terms of its polar equation. See .
       The polar equations of conics can be graphed. See , , and .
       Conics can be defined in terms of a focus, a directrix, and eccentricity. See  and .
-      We can use the identities $$r=\sqrt{{x}^{2}+{y}^{2}},x=r\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$$ and $$y=r\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta $$ to convert the equation for a conic from polar to rectangular form. See .
+      We can use the identities $r=\sqrt{{x}^{2}+{y}^{2}},x=r\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$ and $y=r\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta$ to convert the equation for a conic from polar to rectangular form. See .
     
 
   
@@ -520,7 +517,7 @@ If eccentricity is less than 1, it is an ellipse. If eccentricity is equal to 1,
 
       If a conic section is written as a polar equation, what must be true of the denominator?
 
-      If a conic section is written as a polar equation, and the denominator involves $$\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$$ what conclusion can be drawn about the directrix?
+      If a conic section is written as a polar equation, and the denominator involves $\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta ,$ what conclusion can be drawn about the directrix?
 
       
 The directrix will be parallel to the polar axis.
@@ -540,213 +537,213 @@ Algebraic
 
       For the following exercises, identify the conic with a focus at the origin, and then give the directrix and eccentricity.
 
-      $$r=\frac{6}{1-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{6}{1-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{3}{4-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      
-        Parabola with $$e=1$$ and directrix $$\frac{3}{4}$$ units below the pole.
-
-      $$r=\frac{8}{4-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      $$r=\frac{5}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{3}{4-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-        Hyperbola with $$e=2$$ and directrix $$\frac{5}{2}$$ units above the pole.
+        Parabola with $e=1$ and directrix $\frac{3}{4}$ units below the pole.
 
-      $$r=\frac{16}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{8}{4-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{3}{10+10\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{5}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      
+        Hyperbola with $e=2$ and directrix $\frac{5}{2}$ units above the pole.
+
+      $r=\frac{16}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      $r=\frac{3}{10+10\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
         
-          Parabola with $$e=1$$ and directrix $$\frac{3}{10}$$ units to the right of the pole.
+          Parabola with $e=1$ and directrix $\frac{3}{10}$ units to the right of the pole.
 
         
-      $$r=\frac{2}{1-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{2}{1-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{4}{7+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      
-        Ellipse with $$e=\frac{2}{7}$$ and directrix $$2$$ units to the right of the pole.
-
-      $$r(1-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=3$$
-
-      $$r(3+5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=11$$
+      $r=\frac{4}{7+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-        Hyperbola with $$e=\frac{5}{3}$$ and directrix $$\frac{11}{5}$$ units above the pole.
+        Ellipse with $e=\frac{2}{7}$ and directrix $2$ units to the right of the pole.
 
-      $$r(4-5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=1$$
+      $r(1-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=3$
 
-      $$r(7+8\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=7$$
+      $r(3+5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=11$
 
       
-        Hyperbola with $$e=\frac{8}{7}$$ and directrix $$\frac{7}{8}$$ units to the right of the pole.
+        Hyperbola with $e=\frac{5}{3}$ and directrix $\frac{11}{5}$ units above the pole.
+
+      $r(4-5\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=1$
+
+      $r(7+8\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=7$
+
+      
+        Hyperbola with $e=\frac{8}{7}$ and directrix $\frac{7}{8}$ units to the right of the pole.
 
       For the following exercises, convert the polar equation of a conic section to a rectangular equation.
 
-      $$r=\frac{4}{1+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{4}{1+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{2}{5-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{2}{5-3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-        $$25{x}^{2}+16{y}^{2}-12y-4=0$$
+        $25{x}^{2}+16{y}^{2}-12y-4=0$
 
-      $$r=\frac{8}{3-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{8}{3-2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{3}{2+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-        
-          $$21{x}^{2}-4{y}^{2}-30x+9=0$$
+      $r=\frac{3}{2+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
         
-      $$r=\frac{4}{2+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      $$r=\frac{3}{8-8\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+          $21{x}^{2}-4{y}^{2}-30x+9=0$
 
         
-          $$64{y}^{2}=48x+9$$
+      $r=\frac{4}{2+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      $r=\frac{3}{8-8\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
         
-      $$r=\frac{2}{6+7\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      $$r=\frac{5}{5-11\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+          $64{y}^{2}=48x+9$
 
         
-          $$96{y}^{2}-25{x}^{2}+110y+25=0$$
+      $r=\frac{2}{6+7\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      $r=\frac{5}{5-11\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
         
-      $$r(5+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=6$$
-
-      $$r(2-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=1$$
+          $96{y}^{2}-25{x}^{2}+110y+25=0$
 
         
-          $$3{x}^{2}+4{y}^{2}-2x-1=0$$
+      $r(5+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=6$
+
+      $r(2-\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=1$
 
         
-      $$r(2.5-2.5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$$
-
-      $$r=\frac{6\mathrm{sec}\phantom{\rule{0.5em}{0ex}}\text{}\theta}{-2+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sec}\phantom{\rule{0.5em}{0ex}}\text{}\theta}$$
+          $3{x}^{2}+4{y}^{2}-2x-1=0$
 
         
-          $$5{x}^{2}+9{y}^{2}-24x-36=0$$
+      $r(2.5-2.5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$
+
+      $r=\frac{6\mathrm{sec}\phantom{\rule{0.5em}{0ex}}\text{}\theta}{-2+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sec}\phantom{\rule{0.5em}{0ex}}\text{}\theta}$
 
         
-      $$r=\frac{6\mathrm{csc}\phantom{\rule{0.5em}{0ex}}\text{}\theta}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{csc}\phantom{\rule{0.5em}{0ex}}\text{}\theta}$$
+          $5{x}^{2}+9{y}^{2}-24x-36=0$
+
+        
+      $r=\frac{6\mathrm{csc}\phantom{\rule{0.5em}{0ex}}\text{}\theta}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{csc}\phantom{\rule{0.5em}{0ex}}\text{}\theta}$
 
       For the following exercises, graph the given conic section. If it is a parabola, label the vertex, focus, and directrix. If it is an ellipse, label the vertices and foci. If it is a hyperbola, label the vertices and foci.
-$$r=\frac{5}{2+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{5}{2+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
 
         
-          
-        
 
-      $$r=\frac{2}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+![Image](../../media/CNX_Precalc_Figure_10_05_201.jpg)
 
-      $$r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{2}{3+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      
-
-        
-          
-        
-
-      $$r=\frac{3}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      $$r=\frac{8}{4-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{10}{5-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
 
         
-          
-        
 
-      $$r=\frac{3}{4-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+![Image](../../media/CNX_Precalc_Figure_10_05_203.jpg)
 
-      $$r=\frac{2}{1-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{3}{1+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      
-
-        
-          
-        
-
-$$r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
-
-      $$r(1+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$$
+      $r=\frac{8}{4-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
 
         
-          
-        
 
-      $$r(3-4\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=9$$
+![Image](../../media/CNX_Precalc_Figure_10_05_205.jpg)
 
-      $$r(3-2\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=6$$
+      $r=\frac{3}{4-4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      $r=\frac{2}{1-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
 
         
-          
+
+![Image](../../media/CNX_Precalc_Figure_10_05_207.jpg)
+
+$r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
+
+      $r(1+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$
+
+      
+
         
 
-      $$r(6-4\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$$
+![Image](../../media/CNX_Precalc_Figure_10_05_209.jpg)
+
+      $r(3-4\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=9$
+
+      $r(3-2\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=6$
+
+      
+
+        
+
+![Image](../../media/CNX_Precalc_Figure_10_05_211.jpg)
+
+      $r(6-4\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta )=5$
 
       For the following exercises, find the polar equation of the conic with focus at the origin and the given eccentricity and directrix.
-Directrix: $$x=4;\phantom{\rule{0.5em}{0ex}}e=\frac{1}{5}$$
+Directrix: $x=4;\phantom{\rule{0.5em}{0ex}}e=\frac{1}{5}$
 
       
-        $$r=\frac{4}{5+\mathrm{cos}\theta}$$
+        $r=\frac{4}{5+\mathrm{cos}\theta}$
 
-      Directrix: $$x=-4;\phantom{\rule{0.5em}{0ex}}e=5$$
+      Directrix: $x=-4;\phantom{\rule{0.5em}{0ex}}e=5$
 
-      Directrix: $$y=2;\phantom{\rule{0.5em}{0ex}}e=2$$
-
-        
-          $$r=\frac{4}{1+2\mathrm{sin}\theta}$$
+      Directrix: $y=2;\phantom{\rule{0.5em}{0ex}}e=2$
 
         
-      Directrix: $$y=-2;\phantom{\rule{0.5em}{0ex}}e=\frac{1}{2}$$
-
-      Directrix: $$x=1;\phantom{\rule{0.5em}{0ex}}e=1$$
+          $r=\frac{4}{1+2\mathrm{sin}\theta}$
 
         
-          $$r=\frac{1}{1+\mathrm{cos}\theta}$$
+      Directrix: $y=-2;\phantom{\rule{0.5em}{0ex}}e=\frac{1}{2}$
+
+      Directrix: $x=1;\phantom{\rule{0.5em}{0ex}}e=1$
 
         
-      Directrix: $$x=-1;\phantom{\rule{0.5em}{0ex}}e=1$$
-
-      Directrix: $$x=-\frac{1}{4};\phantom{\rule{0.5em}{0ex}}e=\frac{7}{2}$$
+          $r=\frac{1}{1+\mathrm{cos}\theta}$
 
         
-          $$r=\frac{7}{8-28\mathrm{cos}\theta}$$
+      Directrix: $x=-1;\phantom{\rule{0.5em}{0ex}}e=1$
+
+      Directrix: $x=-\frac{1}{4};\phantom{\rule{0.5em}{0ex}}e=\frac{7}{2}$
 
         
-      Directrix: $$y=\frac{2}{5};\phantom{\rule{0.5em}{0ex}}e=\frac{7}{2}$$
-
-      Directrix: $$y=4;\phantom{\rule{0.5em}{0ex}}e=\frac{3}{2}$$
+          $r=\frac{7}{8-28\mathrm{cos}\theta}$
 
         
-          $$r=\frac{12}{2+3\mathrm{sin}\theta}$$
+      Directrix: $y=\frac{2}{5};\phantom{\rule{0.5em}{0ex}}e=\frac{7}{2}$
+
+      Directrix: $y=4;\phantom{\rule{0.5em}{0ex}}e=\frac{3}{2}$
 
         
-      Directrix: $$x=\mathrm{-2};\phantom{\rule{0.5em}{0ex}}e=\frac{8}{3}$$
-
-      Directrix: $$x=\mathrm{-5};\phantom{\rule{0.5em}{0ex}}e=\frac{3}{4}$$
+          $r=\frac{12}{2+3\mathrm{sin}\theta}$
 
         
-          $$r=\frac{15}{4-3\mathrm{cos}\theta}$$
+      Directrix: $x=\mathrm{-2};\phantom{\rule{0.5em}{0ex}}e=\frac{8}{3}$
+
+      Directrix: $x=\mathrm{-5};\phantom{\rule{0.5em}{0ex}}e=\frac{3}{4}$
 
         
-      Directrix: $$y=2;\phantom{\rule{0.5em}{0ex}}e=2.5$$
+          $r=\frac{15}{4-3\mathrm{cos}\theta}$
 
-      Directrix: $$x=\mathrm{-3};\phantom{\rule{0.5em}{0ex}}e=\frac{1}{3}$$
+        
+      Directrix: $y=2;\phantom{\rule{0.5em}{0ex}}e=2.5$
+
+      Directrix: $x=\mathrm{-3};\phantom{\rule{0.5em}{0ex}}e=\frac{1}{3}$
 
       
-        $$r=\frac{3}{3-3\mathrm{cos}\theta}$$
+        $r=\frac{3}{3-3\mathrm{cos}\theta}$
 
     
     
@@ -754,23 +751,23 @@ Directrix: $$x=4;\phantom{\rule{0.5em}{0ex}}e=\frac{1}{5}$$
 Extensions
 ==========
 
-      Recall from Rotation of Axes that equations of conics with an $$xy$$ term have rotated graphs. For the following exercises, express each equation in polar form with $$r$$ as a function of $$\theta .$$
-$$xy=2$$
+      Recall from Rotation of Axes that equations of conics with an $xy$ term have rotated graphs. For the following exercises, express each equation in polar form with $r$ as a function of $\theta .$
+$xy=2$
 
-      $${x}^{2}+xy+{y}^{2}=4$$
+      ${x}^{2}+xy+{y}^{2}=4$
 
       
-        $$r=\pm \frac{2}{\sqrt{1+\mathrm{sin}\theta \mathrm{cos}\theta}}$$
+        $r=\pm \frac{2}{\sqrt{1+\mathrm{sin}\theta \mathrm{cos}\theta}}$
 
-      $$2{x}^{2}+4xy+2{y}^{2}=9$$
+      $2{x}^{2}+4xy+2{y}^{2}=9$
 
-      $$16{x}^{2}+24xy+9{y}^{2}=4$$
-
-        
-          $$r=\pm \frac{2}{4\mathrm{cos}\theta +3\mathrm{sin}\theta}$$
+      $16{x}^{2}+24xy+9{y}^{2}=4$
 
         
-      $$2xy+y=1$$
+          $r=\pm \frac{2}{4\mathrm{cos}\theta +3\mathrm{sin}\theta}$
+
+        
+      $2xy+y=1$
 
     
   
@@ -784,48 +781,46 @@ Chapter Review Exercises
 The Ellipse
 ===========
 For the following exercises, write the equation of the ellipse in standard form. Then identify the center, vertices, and foci.
-$$\frac{{x}^{2}}{25}+\frac{{y}^{2}}{64}=1$$
+$\frac{{x}^{2}}{25}+\frac{{y}^{2}}{64}=1$
 
     
-      $$\frac{{x}^{2}}{{5}^{2}}+\frac{{y}^{2}}{{8}^{2}}=1;$$ center: $$\left(0,0\right);$$ vertices: $$\left(5,0\right),\left(\mathrm{-5},0\right),\left(0,8\right),\left(0,-8\right);$$ foci: $$\left(0,\sqrt{39}\right),\left(0,-\sqrt{39}\right)$$
+      $\frac{{x}^{2}}{{5}^{2}}+\frac{{y}^{2}}{{8}^{2}}=1;$ center: $\left(0,0\right);$ vertices: $\left(5,0\right),\left(\mathrm{-5},0\right),\left(0,8\right),\left(0,-8\right);$ foci: $\left(0,\sqrt{39}\right),\left(0,-\sqrt{39}\right)$
 
-     $$\frac{{(x-2)}^{2}}{100}+\frac{{\left(y+3\right)}^{2}}{36}=1$$
+     $\frac{{(x-2)}^{2}}{100}+\frac{{\left(y+3\right)}^{2}}{36}=1$
 
-     $$9{x}^{2}+{y}^{2}+54x-4y+76=0$$
+     $9{x}^{2}+{y}^{2}+54x-4y+76=0$
 
        
-         $$\frac{{(x+3)}^{2}}{{1}^{2}}+\frac{{(y-2)}^{2}}{{3}^{2}}=1\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}(-3,2);\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}(-2,2),(-4,2),(-3,5),(-3,-1);\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}\left(-3,2+2\sqrt{2}\right),\left(-3,2-2\sqrt{2}\right)$$
+         $\frac{{(x+3)}^{2}}{{1}^{2}}+\frac{{(y-2)}^{2}}{{3}^{2}}=1\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}(-3,2);\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}(-2,2),(-4,2),(-3,5),(-3,-1);\phantom{\rule{0.5em}{0ex}}\phantom{\rule{0.5em}{0ex}}\left(-3,2+2\sqrt{2}\right),\left(-3,2-2\sqrt{2}\right)$
 
-     $$9{x}^{2}+36{y}^{2}-36x+72y+36=0$$
+     $9{x}^{2}+36{y}^{2}-36x+72y+36=0$
 
     For the following exercises, graph the ellipse, noting center, vertices, and foci.
-$$\frac{{x}^{2}}{36}+\frac{{y}^{2}}{9}=1$$
+$\frac{{x}^{2}}{36}+\frac{{y}^{2}}{9}=1$
 
     
-      center: $$\left(0,0\right);$$ vertices: $$\left(6,0\right),\left(\mathrm{-6},0\right),\left(0,3\right),\left(0,\mathrm{-3}\right);$$ foci: $$\left(3\sqrt{3},0\right),\left(-3\sqrt{3},0\right)$$
+      center: $\left(0,0\right);$ vertices: $\left(6,0\right),\left(\mathrm{-6},0\right),\left(0,3\right),\left(0,\mathrm{-3}\right);$ foci: $\left(3\sqrt{3},0\right),\left(-3\sqrt{3},0\right)$
 
-        
-      
+![Image](../../media/CNX_Precalc_Figure_10_05_223.jpg)
 
-     $$\frac{{(x-4)}^{2}}{25}+\frac{{\left(y+3\right)}^{2}}{49}=1$$
+     $\frac{{(x-4)}^{2}}{25}+\frac{{\left(y+3\right)}^{2}}{49}=1$
 
-     $$4{x}^{2}+{y}^{2}+16x+4y-44=0$$
+     $4{x}^{2}+{y}^{2}+16x+4y-44=0$
 
     
-      center: $$\left(\mathrm{-2},\mathrm{-2}\right);$$ vertices: $$\left(2,\mathrm{-2}\right),\left(\mathrm{-6},\mathrm{-2}\right),\left(\mathrm{-2},6\right),\left(\mathrm{-2},\mathrm{-10}\right);$$ foci: $$\left(\mathrm{-2},\mathrm{-2}+4\sqrt{3},\right),\left(\mathrm{-2},\mathrm{-2}\mathrm{-4}\sqrt{3}\right)$$
+      center: $\left(\mathrm{-2},\mathrm{-2}\right);$ vertices: $\left(2,\mathrm{-2}\right),\left(\mathrm{-6},\mathrm{-2}\right),\left(\mathrm{-2},6\right),\left(\mathrm{-2},\mathrm{-10}\right);$ foci: $\left(\mathrm{-2},\mathrm{-2}+4\sqrt{3},\right),\left(\mathrm{-2},\mathrm{-2}\mathrm{-4}\sqrt{3}\right)$
 
-        
-      
+![Image](../../media/CNX_Precalc_Figure_10_05_225.jpg)
 
-     $$2{x}^{2}+3{y}^{2}-20x+12y+38=0$$
+     $2{x}^{2}+3{y}^{2}-20x+12y+38=0$
 
     For the following exercises, use the given information to find the equation for the ellipse.
-Center at $$\left(0,0\right),$$ focus at $$\left(3,0\right),$$ vertex at $$\left(\mathrm{-5},0\right)$$
+Center at $\left(0,0\right),$ focus at $\left(3,0\right),$ vertex at $\left(\mathrm{-5},0\right)$
 
     
-      $$\frac{{x}^{2}}{25}+\frac{{y}^{2}}{16}=1$$
+      $\frac{{x}^{2}}{25}+\frac{{y}^{2}}{16}=1$
 
-     Center at $$\left(2,\mathrm{-2}\right),$$ vertex at $$\left(7,\mathrm{-2}\right),$$ focus at $$\left(4,\mathrm{-2}\right)$$
+     Center at $\left(2,\mathrm{-2}\right),$ vertex at $\left(7,\mathrm{-2}\right),$ focus at $\left(4,\mathrm{-2}\right)$
 
     A whispering gallery is to be constructed such that the foci are located 35 feet from the center. If  the length of the gallery is to be 100 feet, what should the height of the ceiling be?
 
@@ -836,84 +831,86 @@ Center at $$\left(0,0\right),$$ focus at $$\left(3,0\right),$$ vertex at $$\left
 The Hyperbola
 =============
 For the following exercises, write the equation of the hyperbola in standard form. Then give the center, vertices, and foci.
-$$\frac{{x}^{2}}{81}-\frac{{y}^{2}}{9}=1$$
+$\frac{{x}^{2}}{81}-\frac{{y}^{2}}{9}=1$
 
-      $$\frac{{\left(y+1\right)}^{2}}{16}-\frac{{\left(x-4\right)}^{2}}{36}=1$$
-
-    
-      $$\frac{{\left(y+1\right)}^{2}}{{4}^{2}}-\frac{{\left(x-4\right)}^{2}}{{6}^{2}}=1;$$ center: $$\left(4,\mathrm{-1}\right);$$ vertices: $$\left(4,3\right),\left(4,\mathrm{-5}\right);$$ foci: $$\left(4,\mathrm{-1}+2\sqrt{13}\right),\left(4,\mathrm{-1}-2\sqrt{13}\right)$$
-
-      $$9{y}^{2}-4{x}^{2}+54y-16x+29=0$$
-
-      $$3{x}^{2}-{y}^{2}-12x-6y-9=0$$
+      $\frac{{\left(y+1\right)}^{2}}{16}-\frac{{\left(x-4\right)}^{2}}{36}=1$
 
     
-      $$\frac{{\left(x-2\right)}^{2}}{{2}^{2}}-\frac{{\left(y+3\right)}^{2}}{{\left(2\sqrt{3}\right)}^{2}}=1;$$ center: $$\left(2,\mathrm{-3}\right);$$ vertices: $$\left(4,\mathrm{-3}\right),\left(0,\mathrm{-3}\right);$$ foci: $$\left(6,\mathrm{-3}\right),\left(\mathrm{-2},\mathrm{-3}\right)$$
+      $\frac{{\left(y+1\right)}^{2}}{{4}^{2}}-\frac{{\left(x-4\right)}^{2}}{{6}^{2}}=1;$ center: $\left(4,\mathrm{-1}\right);$ vertices: $\left(4,3\right),\left(4,\mathrm{-5}\right);$ foci: $\left(4,\mathrm{-1}+2\sqrt{13}\right),\left(4,\mathrm{-1}-2\sqrt{13}\right)$
+
+      $9{y}^{2}-4{x}^{2}+54y-16x+29=0$
+
+      $3{x}^{2}-{y}^{2}-12x-6y-9=0$
+
+    
+      $\frac{{\left(x-2\right)}^{2}}{{2}^{2}}-\frac{{\left(y+3\right)}^{2}}{{\left(2\sqrt{3}\right)}^{2}}=1;$ center: $\left(2,\mathrm{-3}\right);$ vertices: $\left(4,\mathrm{-3}\right),\left(0,\mathrm{-3}\right);$ foci: $\left(6,\mathrm{-3}\right),\left(\mathrm{-2},\mathrm{-3}\right)$
 
     For the following exercises,  graph the hyperbola, labeling vertices and foci.
-$$\frac{{x}^{2}}{9}-\frac{{y}^{2}}{16}=1$$
+$\frac{{x}^{2}}{9}-\frac{{y}^{2}}{16}=1$
 
-      $$\frac{{\left(y-1\right)}^{2}}{49}-\frac{{\left(x+1\right)}^{2}}{4}=1$$
-
-    
-
-$${x}^{2}-4{y}^{2}+6x+32y-91=0$$
-
-      $$2{y}^{2}-{x}^{2}-12y-6=0$$
+      $\frac{{\left(y-1\right)}^{2}}{49}-\frac{{\left(x+1\right)}^{2}}{4}=1$
 
     
 
+![Image](../../media/CNX_Precalc_Figure_10_05_228.jpg)
+
+${x}^{2}-4{y}^{2}+6x+32y-91=0$
+
+      $2{y}^{2}-{x}^{2}-12y-6=0$
+
     
+
+    ![Image](../../media/CNX_Precalc_Figure_10_05_230.jpg)
 
 For the following exercises, find the equation of the hyperbola.
-Center at $$\left(0,0\right),$$ vertex at $$\left(0,4\right),$$ focus at $$\left(0,\mathrm{-6}\right)$$
+Center at $\left(0,0\right),$ vertex at $\left(0,4\right),$ focus at $\left(0,\mathrm{-6}\right)$
 
-      Foci at $$\left(3,7\right)$$ and $$\left(7,7\right),$$ vertex at $$\left(6,7\right)$$
+      Foci at $\left(3,7\right)$ and $\left(7,7\right),$ vertex at $\left(6,7\right)$
 
     
-      $$\frac{{\left(x-5\right)}^{2}}{1}-\frac{{\left(y-7\right)}^{2}}{3}=1$$
+      $\frac{{\left(x-5\right)}^{2}}{1}-\frac{{\left(y-7\right)}^{2}}{3}=1$
 
     
 The Parabola
 ============
 For the following exercises, write the equation of the parabola in standard form. Then give the vertex, focus, and directrix.
-$${y}^{2}=12x$$
+${y}^{2}=12x$
 
-      $${\left(x+2\right)}^{2}=\frac{1}{2}\left(y-1\right)$$
-
-    
-      $${\left(x+2\right)}^{2}=\frac{1}{2}\left(y-1\right);$$ vertex: $$\left(\mathrm{-2},1\right);$$ focus: $$\left(\mathrm{-2},\frac{9}{8}\right);$$ directrix: $$y=\frac{7}{8}$$
-
-      $${y}^{2}-6y-6x-3=0$$
-
-      $${x}^{2}+10x-y+23=0$$
+      ${\left(x+2\right)}^{2}=\frac{1}{2}\left(y-1\right)$
 
     
-      $${\left(x+5\right)}^{2}=\left(y+2\right);$$ vertex: $$\left(-5,-2\right);$$ focus: $$\left(-5,-\frac{7}{4}\right);$$ directrix: $$y=-\frac{9}{4}$$
+      ${\left(x+2\right)}^{2}=\frac{1}{2}\left(y-1\right);$ vertex: $\left(\mathrm{-2},1\right);$ focus: $\left(\mathrm{-2},\frac{9}{8}\right);$ directrix: $y=\frac{7}{8}$
+
+      ${y}^{2}-6y-6x-3=0$
+
+      ${x}^{2}+10x-y+23=0$
+
+    
+      ${\left(x+5\right)}^{2}=\left(y+2\right);$ vertex: $\left(-5,-2\right);$ focus: $\left(-5,-\frac{7}{4}\right);$ directrix: $y=-\frac{9}{4}$
 
     For the following exercises, graph the parabola, labeling vertex, focus, and directrix.
-$${x}^{2}+4y=0$$
+${x}^{2}+4y=0$
 
-      $${\left(y-1\right)}^{2}=\frac{1}{2}\left(x+3\right)$$
-
-    
-    
-
-$${x}^{2}-8x-10y+46=0$$
-
-      $$2{y}^{2}+12y+6x+15=0$$
+      ${\left(y-1\right)}^{2}=\frac{1}{2}\left(x+3\right)$
 
     
+    ![Image](../../media/CNX_Precalc_Figure_10_05_232.jpg)
 
-     
+${x}^{2}-8x-10y+46=0$
+
+      $2{y}^{2}+12y+6x+15=0$
+
+    
+
+     ![Image](../../media/CNX_Precalc_Figure_10_05_234.jpg)
 
 For the following exercises, write the equation of the parabola using the given information.
-Focus at $$\left(\mathrm{-4},0\right);$$ directrix is $$x=4$$
+Focus at $\left(\mathrm{-4},0\right);$ directrix is $x=4$
 
-      Focus at $$\left(2,\frac{9}{8}\right);$$ directrix is $$y=\frac{7}{8}$$
+      Focus at $\left(2,\frac{9}{8}\right);$ directrix is $y=\frac{7}{8}$
 
     
-      $${\left(x-2\right)}^{2}=\left(\frac{1}{2}\right)\left(y-1\right)$$
+      ${\left(x-2\right)}^{2}=\left(\frac{1}{2}\right)\left(y-1\right)$
 
     A cable TV receiving dish is the shape of a paraboloid of revolution. Find the location of the receiver, which is placed at the focus, if the dish is 5 feet across at its opening and 1.5 feet deep.
 
@@ -922,86 +919,86 @@ Rotation of Axes
 ================
 For the following exercises, determine which of the conic sections is represented.
 
-      $$16{x}^{2}+24xy+9{y}^{2}+24x-60y-60=0$$
+      $16{x}^{2}+24xy+9{y}^{2}+24x-60y-60=0$
 
       
-        $${B}^{2}-4AC=0,$$
+        ${B}^{2}-4AC=0,$
           parabola
 
-      $$4{x}^{2}+14xy+5{y}^{2}+18x-6y+30=0$$
+      $4{x}^{2}+14xy+5{y}^{2}+18x-6y+30=0$
 
-      $$4{x}^{2}+xy+2{y}^{2}+8x-26y+9=0$$
+      $4{x}^{2}+xy+2{y}^{2}+8x-26y+9=0$
 
       
-        $${B}^{2}-4AC=-31<0,$$
+        ${B}^{2}-4AC=-31<0,$
           ellipse
 
-      For the following exercises, determine the angle $$\theta $$ that will eliminate the $$xy$$ term, and write the corresponding equation without the $$xy$$ term.
+      For the following exercises, determine the angle $\theta$ that will eliminate the $xy$ term, and write the corresponding equation without the $xy$ term.
 
-      $${x}^{2}+4xy-2{y}^{2}-6=0$$
+      ${x}^{2}+4xy-2{y}^{2}-6=0$
 
-      $${x}^{2}-xy+{y}^{2}-6=0$$
-
-      
-        $$\theta ={45}^{\circ},{{x}^{\prime}}^{2}+3{{y}^{\prime}}^{2}-12=0$$
-
-      For the following exercises, graph the equation relative to the $${x}^{\prime}{y}^{\prime}$$ system in which the equation has no $${x}^{\prime}{y}^{\prime}$$ term.
-
-      $$9{x}^{2}-24xy+16{y}^{2}-80x-60y+100=0$$
-
-      $${x}^{2}-xy+{y}^{2}-2=0$$
+      ${x}^{2}-xy+{y}^{2}-6=0$
 
       
-        $$\theta ={45}^{\circ}$$
+        $\theta ={45}^{\circ},{{x}^{\prime}}^{2}+3{{y}^{\prime}}^{2}-12=0$
+
+      For the following exercises, graph the equation relative to the ${x}^{\prime}{y}^{\prime}$ system in which the equation has no ${x}^{\prime}{y}^{\prime}$ term.
+
+      $9{x}^{2}-24xy+16{y}^{2}-80x-60y+100=0$
+
+      ${x}^{2}-xy+{y}^{2}-2=0$
+
+      
+        $\theta ={45}^{\circ}$
 
         
-          
-        
 
-$$6{x}^{2}+24xy-{y}^{2}-12x+26y+11=0$$
+![Image](../../media/CNX_Precalc_Figure_10_05_236.jpg)
+
+$6{x}^{2}+24xy-{y}^{2}-12x+26y+11=0$
 
     
 Conic Sections in Polar Coordinates
 ===================================
 For the following exercises, given the polar equation of the conic with focus at the origin, identify the eccentricity and directrix.
-$$r=\frac{10}{1-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{10}{1-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-        Hyperbola with $$e=5$$ and directrix $$2$$ units to the left of the pole.
+        Hyperbola with $e=5$ and directrix $2$ units to the left of the pole.
 
-      $$r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{6}{3+2\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{1}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{1}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-        Ellipse with $$e=\frac{3}{4}$$ and directrix $$\frac{1}{3}$$ unit above the pole.
+        Ellipse with $e=\frac{3}{4}$ and directrix $\frac{1}{3}$ unit above the pole.
 
-      $$r=\frac{3}{5-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{3}{5-5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       For the following exercises, graph the conic given in polar form. If it is a parabola, label the vertex, focus, and directrix. If it is an ellipse or a hyperbola, label the vertices and foci.
-$$r=\frac{3}{1-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{3}{1-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
 
-    
+    ![Image](../../media/CNX_Precalc_Figure_10_05_238.jpg)
 
-$$r=\frac{8}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{8}{4+3\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-      $$r=\frac{10}{4+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+      $r=\frac{10}{4+5\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       
-    
+    ![Image](../../media/CNX_Precalc_Figure_10_05_240.jpg)
 
-$$r=\frac{9}{3-6\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{9}{3-6\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
       For the following exercises, given information about the graph of a conic with focus at the origin, find the equation in polar form.
 
-      Directrix is $$x=3$$ and eccentricity $$e=1$$
+      Directrix is $x=3$ and eccentricity $e=1$
 
       
-        $$r=\frac{3}{1+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\ \theta}$$
+        $r=\frac{3}{1+\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\ \theta}$
 
-      Directrix is $$y=\mathrm{-2}$$ and eccentricity $$e=4$$
+      Directrix is $y=\mathrm{-2}$ and eccentricity $e=4$
 
     
 
@@ -1009,125 +1006,123 @@ $$r=\frac{9}{3-6\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4
 Practice Test
 =============
 For the following exercises, write the equation in standard form and state the center, vertices, and foci.
-$$\frac{{x}^{2}}{9}+\frac{{y}^{2}}{4}=1$$
+$\frac{{x}^{2}}{9}+\frac{{y}^{2}}{4}=1$
 
     
-      $$\frac{{x}^{2}}{{3}^{2}}+\frac{{y}^{2}}{{2}^{2}}=1;$$ center: $$\left(0,0\right);$$ vertices: $$\left(3,0\right),\left(\mathrm{\u20133},0\right),\left(0,2\right),\left(0,\mathrm{-2}\right);$$ foci: $$\left(\sqrt{5},0\right),\left(-\sqrt{5},0\right)$$
+      $\frac{{x}^{2}}{{3}^{2}}+\frac{{y}^{2}}{{2}^{2}}=1;$ center: $\left(0,0\right);$ vertices: $\left(3,0\right),\left(\mathrm{\u20133},0\right),\left(0,2\right),\left(0,\mathrm{-2}\right);$ foci: $\left(\sqrt{5},0\right),\left(-\sqrt{5},0\right)$
 
-    $$9{y}^{2}+16{x}^{2}-36y+32x-92=0$$
+    $9{y}^{2}+16{x}^{2}-36y+32x-92=0$
 
     For the following exercises, sketch the graph, identifying the center, vertices, and foci.
-$$\frac{{\left(x-3\right)}^{2}}{64}+\frac{{\left(y-2\right)}^{2}}{36}=1$$
+$\frac{{\left(x-3\right)}^{2}}{64}+\frac{{\left(y-2\right)}^{2}}{36}=1$
 
     
-      center: $$\left(3,2\right);$$ vertices: $$\left(11,2\right),\left(\mathrm{-5},2\right),\left(3,8\right),\left(3,\mathrm{-4}\right);$$ foci: $$\left(3+2\sqrt{7},2\right),\left(3-2\sqrt{7},2\right)$$
+      center: $\left(3,2\right);$ vertices: $\left(11,2\right),\left(\mathrm{-5},2\right),\left(3,8\right),\left(3,\mathrm{-4}\right);$ foci: $\left(3+2\sqrt{7},2\right),\left(3-2\sqrt{7},2\right)$
 
-        
-      
+![Image](../../media/CNX_Precalc_Figure_10_05_242.jpg)
 
-$$2{x}^{2}+{y}^{2}+8x-6y-7=0$$
+$2{x}^{2}+{y}^{2}+8x-6y-7=0$
 
-    Write the standard form equation of an ellipse with a center at $$\left(1,2\right),$$ vertex at $$\left(7,2\right),$$ and focus at $$(4,2).$$
+    Write the standard form equation of an ellipse with a center at $\left(1,2\right),$ vertex at $\left(7,2\right),$ and focus at $(4,2).$
 
     
-      $$\frac{{\left(x-1\right)}^{2}}{36}+\frac{{\left(y-2\right)}^{2}}{27}=1$$
+      $\frac{{\left(x-1\right)}^{2}}{36}+\frac{{\left(y-2\right)}^{2}}{27}=1$
 
     A whispering gallery is to be constructed with a length of 150 feet. If the foci are to be located 20 feet away from the wall, how high should the ceiling be?
 
     For the following exercises, write the equation of the hyperbola in standard form, and give the center, vertices, foci, and asymptotes.
-$$\frac{{x}^{2}}{49}-\frac{{y}^{2}}{81}=1$$
+$\frac{{x}^{2}}{49}-\frac{{y}^{2}}{81}=1$
 
     
-      $$\frac{{x}^{2}}{{7}^{2}}-\frac{{y}^{2}}{{9}^{2}}=1;$$ center: $$\left(0,0\right);$$ vertices $$\left(7,0\right),\left(\mathrm{-7},0\right);$$ foci: $$\left(\sqrt{130},0\right),\left(-\sqrt{130},0\right);$$ asymptotes: $$y=\pm \frac{9}{7}x$$
+      $\frac{{x}^{2}}{{7}^{2}}-\frac{{y}^{2}}{{9}^{2}}=1;$ center: $\left(0,0\right);$ vertices $\left(7,0\right),\left(\mathrm{-7},0\right);$ foci: $\left(\sqrt{130},0\right),\left(-\sqrt{130},0\right);$ asymptotes: $y=\pm \frac{9}{7}x$
 
-    $$16{y}^{2}-9{x}^{2}+128y+112=0$$
+    $16{y}^{2}-9{x}^{2}+128y+112=0$
 
     For the following exercises, graph the hyperbola, noting its center, vertices, and foci. State the equations of the asymptotes.
-$$\frac{{\left(x-3\right)}^{2}}{25}-\frac{{\left(y+3\right)}^{2}}{1}=1$$
+$\frac{{\left(x-3\right)}^{2}}{25}-\frac{{\left(y+3\right)}^{2}}{1}=1$
 
     
-      center: $$\left(3,\mathrm{-3}\right);$$ vertices: $$\left(8,\mathrm{-3}\right),\left(\mathrm{-2},\mathrm{-3}\right);$$ foci: $$\left(3+\sqrt{26},\mathrm{-3}\right),\left(3-\sqrt{26},\mathrm{-3}\right);$$ asymptotes: $$y=\pm \frac{1}{5}(x-3)-3$$
+      center: $\left(3,\mathrm{-3}\right);$ vertices: $\left(8,\mathrm{-3}\right),\left(\mathrm{-2},\mathrm{-3}\right);$ foci: $\left(3+\sqrt{26},\mathrm{-3}\right),\left(3-\sqrt{26},\mathrm{-3}\right);$ asymptotes: $y=\pm \frac{1}{5}(x-3)-3$
 
-        
+![Image](../../media/CNX_Precalc_Figure_10_05_244.jpg)
 
-    
+    ${y}^{2}-{x}^{2}+4y-4x-18=0$
 
-    $${y}^{2}-{x}^{2}+4y-4x-18=0$$
-
-    Write the standard form equation of a hyperbola with foci at $$\left(1,0\right)$$ and $$\left(1,6\right),$$ and a vertex at $$\left(1,2\right).$$
+    Write the standard form equation of a hyperbola with foci at $\left(1,0\right)$ and $\left(1,6\right),$ and a vertex at $\left(1,2\right).$
 
     
-      $$\frac{{\left(y-3\right)}^{2}}{1}-\frac{{\left(x-1\right)}^{2}}{8}=1$$
+      $\frac{{\left(y-3\right)}^{2}}{1}-\frac{{\left(x-1\right)}^{2}}{8}=1$
 
     For the following exercises, write the equation of the parabola in standard form, and give the vertex, focus, and equation of the directrix.
-$${y}^{2}+10x=0$$
+${y}^{2}+10x=0$
 
-    $$3{x}^{2}-12x-y+11=0$$
+    $3{x}^{2}-12x-y+11=0$
 
     
-      $${\left(x-2\right)}^{2}=\frac{1}{3}\left(y+1\right);$$ vertex: $$\left(2,\mathrm{-1}\right);$$ focus: $$\left(2,-\frac{11}{12}\right);$$ directrix: $$y=-\frac{13}{12}$$
+      ${\left(x-2\right)}^{2}=\frac{1}{3}\left(y+1\right);$ vertex: $\left(2,\mathrm{-1}\right);$ focus: $\left(2,-\frac{11}{12}\right);$ directrix: $y=-\frac{13}{12}$
 
     For the following exercises, graph the parabola, labeling the vertex, focus, and directrix.
-$${\left(x-1\right)}^{2}=\mathrm{-4}\left(y+3\right)$$
+${\left(x-1\right)}^{2}=\mathrm{-4}\left(y+3\right)$
 
-    $${y}^{2}+8x-8y+40=0$$
+    ${y}^{2}+8x-8y+40=0$
 
     
+![Image](../../media/CNX_Precalc_Figure_10_05_247.jpg)
 
-Write the equation of a parabola with a focus at $$\left(2,3\right)$$ and directrix $$y=\mathrm{-1.}$$
+Write the equation of a parabola with a focus at $\left(2,3\right)$ and directrix $y=\mathrm{-1.}$
 
     A searchlight is shaped like a paraboloid of revolution. If the light source is located 1.5 feet from the base along the axis of symmetry, and the depth of the searchlight is 3 feet, what should the width of the opening be?
 
     
-Approximately $$8.49$$ feet
+Approximately $8.49$ feet
 
-    For the following exercises, determine which conic section is represented by the given equation, and then determine the angle $$\theta $$ that will eliminate the $$xy$$ term.
+    For the following exercises, determine which conic section is represented by the given equation, and then determine the angle $\theta$ that will eliminate the $xy$ term.
 
-    $$3{x}^{2}-2xy+3{y}^{2}=4$$
+    $3{x}^{2}-2xy+3{y}^{2}=4$
 
-    $${x}^{2}+4xy+4{y}^{2}+6x-8y=0$$
-
-    
-      parabola; $$\theta \approx {63.4}^{\circ}$$
-
-    For the following exercises, rewrite in the $${x}^{\prime}{y}^{\prime}$$ system without the $${x}^{\prime}{y}^{\prime}$$ term, and graph the rotated graph.
-
-    $$11{x}^{2}+10\sqrt{3}xy+{y}^{2}=4$$
-
-    $$16{x}^{2}+24xy+9{y}^{2}-125x=0$$
+    ${x}^{2}+4xy+4{y}^{2}+6x-8y=0$
 
     
-      $${{x}^{\prime}}^{2}-4{x}^{\prime}+3{y}^{\prime}=0$$
+      parabola; $\theta \approx {63.4}^{\circ}$
+
+    For the following exercises, rewrite in the ${x}^{\prime}{y}^{\prime}$ system without the ${x}^{\prime}{y}^{\prime}$ term, and graph the rotated graph.
+
+    $11{x}^{2}+10\sqrt{3}xy+{y}^{2}=4$
+
+    $16{x}^{2}+24xy+9{y}^{2}-125x=0$
+
+    
+      ${{x}^{\prime}}^{2}-4{x}^{\prime}+3{y}^{\prime}=0$
 
       
-        
-      
+
+![Image](../../media/CNX_Precalc_Figure_10_05_249.jpg)
 
     For the following exercises, identify the conic with focus at the origin, and then give the directrix and eccentricity.
 
-    $$r=\frac{3}{2-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+    $r=\frac{3}{2-\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-    $$r=\frac{5}{4+6\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+    $r=\frac{5}{4+6\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{cos}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
     
-      Hyperbola with $$e=\frac{3}{2},$$ and directrix $$\frac{5}{6}$$ units to the right of the pole.
+      Hyperbola with $e=\frac{3}{2},$ and directrix $\frac{5}{6}$ units to the right of the pole.
 
     For the following exercises, graph the given conic section. If it is a parabola, label vertex, focus, and directrix. If it is an ellipse or a hyperbola, label vertices and foci.
-$$r=\frac{12}{4-8\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+$r=\frac{12}{4-8\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
-    $$r=\frac{2}{4+4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$$
+    $r=\frac{2}{4+4\phantom{\rule{0.5em}{0ex}}\text{}\mathrm{sin}\phantom{\rule{0.4em}{0ex}}\text{}\theta}$
 
     
 
       
-        
-      
 
-Find a polar equation of the conic with focus at the origin, eccentricity of $$e=2,$$ and directrix: $$x=3.$$
+![Image](../../media/CNX_Precalc_Figure_10_05_251n.jpg)
+
+Find a polar equation of the conic with focus at the origin, eccentricity of $e=2,$ and directrix: $x=3.$
 
   
 
   
     **eccentricity**
-    the ratio of the distances from a point $$P$$ on the graph to the focus $$F$$ and to the directrix $$D$$ represented by $$e=\frac{PF}{PD},$$ where $$e$$ is a positive real number
-  **polar equation**  an equation of a curve in polar coordinates $$r\phantom{\rule{0.5em}{0ex}}$$ and $$\theta $$
+    the ratio of the distances from a point $P$ on the graph to the focus $F$ and to the directrix $D$ represented by $e=\frac{PF}{PD},$ where $e$ is a positive real number
+  **polar equation**  an equation of a curve in polar coordinates $r\phantom{\rule{0.5em}{0ex}}$ and $\theta$

@@ -60,8 +60,7 @@ Practice Makes Perfect
 
 Imagine that we are trying to find the area of a lawn so that we can determine how much grass seed to purchase. The lawn is the green portion in .
 
-\n\n![
-](../../media/CNX_CAT_Figure_01_05_001.jpg)\n\n
+\n\n![Image](../../media/CNX_CAT_Figure_01_05_001.jpg)\n\n
 
 The area of the entire region can be found using the formula for the area of a rectangle.
 
@@ -69,14 +68,14 @@ The area of the entire region can be found using the formula for the area of a r
 \begin{array}{ccc}\hfill A& =& lw\hfill \\ & =& 10x\cdot 6x\hfill \\ & =& 60{x}^{2}{\phantom{\rule{0.5em}{0ex}}\text{units}}^{2}\hfill \end{array}
 $$
 
-The areas of the portions that do not require grass seed need to be subtracted from the area of the entire region. The two square regions each have an area of $$A={s}^{2}={4}^{2}=16$$ units2. The other rectangular region has one side of length $$10x-8$$ and one side of length $$4,$$ giving an area of $$A=lw=4(10x-8)=40x-32$$ units2. So the region that must be subtracted has an area of $$2(16)+40x-32=40x$$ units2.
-The area of the region that requires grass seed is found by subtracting $$60{x}^{2}-40x$$ units2. This area can also be expressed in factored form as $$20x(3x-2)$$ units2. We can confirm that this is an equivalent expression by multiplying.
+The areas of the portions that do not require grass seed need to be subtracted from the area of the entire region. The two square regions each have an area of $A={s}^{2}={4}^{2}=16$ units2. The other rectangular region has one side of length $10x-8$ and one side of length $4,$ giving an area of $A=lw=4(10x-8)=40x-32$ units2. So the region that must be subtracted has an area of $2(16)+40x-32=40x$ units2.
+The area of the region that requires grass seed is found by subtracting $60{x}^{2}-40x$ units2. This area can also be expressed in factored form as $20x(3x-2)$ units2. We can confirm that this is an equivalent expression by multiplying.
 Many polynomial expressions can be written in simpler forms by factoring. In this section, we will look at a variety of methods that can be used to factor polynomial expressions.
 
 Factoring the Greatest Common Factor of a Polynomial
 ====================================================
 
-When we study fractions, we learn that the **greatest common factor** (GCF) of two numbers is the largest number that divides evenly into both numbers. For instance, $$4$$ is the GCF of $$16$$ and $$20$$ because it is the largest number that divides evenly into both $$16$$ and $$20$$ The GCF of polynomials works the same way: $$4x$$ is the GCF of $$16x$$ and $$20{x}^{2}$$ because it is the largest polynomial that divides evenly into both $$16x$$ and $$20{x}^{2}.$$
+When we study fractions, we learn that the **greatest common factor** (GCF) of two numbers is the largest number that divides evenly into both numbers. For instance, $4$ is the GCF of $16$ and $20$ because it is the largest number that divides evenly into both $16$ and $20$ The GCF of polynomials works the same way: $4x$ is the GCF of $16x$ and $20{x}^{2}$ because it is the largest polynomial that divides evenly into both $16x$ and $20{x}^{2}.$
 
 When factoring a polynomial expression, our first step should be to check for a GCF. Look for the GCF of the coefficients, and then look for the GCF of the variables.
 
@@ -97,38 +96,38 @@ Write the factored expression as the product of the GCF and the sum of the terms
 Factoring the Greatest Common Factor
 ====================================
 
-Factor $$6{x}^{3}{y}^{3}+45{x}^{2}{y}^{2}+21xy.$$
+Factor $6{x}^{3}{y}^{3}+45{x}^{2}{y}^{2}+21xy.$
 
-First, find the GCF of the expression. The GCF of 6, 45, and 21 is 3. The GCF of $${x}^{3},{x}^{2}$$ , and $$x$$ is $$x$$ . (Note that the GCF of a set of expressions in the form $${x}^{n}$$ will always be the exponent of lowest degree.) And the GCF of $${y}^{3},{y}^{2}$$ , and $$y$$ is $$y$$ . Combine these to find the GCF of the polynomial, $$3xy$$ .
-Next, determine what the GCF needs to be multiplied by to obtain each term of the polynomial. We find that $$3xy\left(2{x}^{2}{y}^{2}\right)=6{x}^{3}{y}^{3},3xy(15xy)=45{x}^{2}{y}^{2}$$ , and $$3xy(7)=21xy.$$
+First, find the GCF of the expression. The GCF of 6, 45, and 21 is 3. The GCF of ${x}^{3},{x}^{2}$ , and $x$ is $x$ . (Note that the GCF of a set of expressions in the form ${x}^{n}$ will always be the exponent of lowest degree.) And the GCF of ${y}^{3},{y}^{2}$ , and $y$ is $y$ . Combine these to find the GCF of the polynomial, $3xy$ .
+Next, determine what the GCF needs to be multiplied by to obtain each term of the polynomial. We find that $3xy\left(2{x}^{2}{y}^{2}\right)=6{x}^{3}{y}^{3},3xy(15xy)=45{x}^{2}{y}^{2}$ , and $3xy(7)=21xy.$
 Finally, write the factored expression as the product of the GCF and the sum of the terms we needed to multiply by.
 
- $$(3xy)(2{x}^{2}{y}^{2}+15xy+7)$$
+ $(3xy)(2{x}^{2}{y}^{2}+15xy+7)$
 
 Analysis
 ========
 
-After factoring, we can check our work by multiplying. Use the distributive property to confirm that $$(3xy)(2{x}^{2}{y}^{2}+15xy+7)=6{x}^{3}{y}^{3}+45{x}^{2}{y}^{2}+21xy.$$
+After factoring, we can check our work by multiplying. Use the distributive property to confirm that $(3xy)(2{x}^{2}{y}^{2}+15xy+7)=6{x}^{3}{y}^{3}+45{x}^{2}{y}^{2}+21xy.$
 
 Try It
  
-Factor $$x({b}^{2}-a)+6({b}^{2}-a)$$ by pulling out the GCF.
+Factor $x({b}^{2}-a)+6({b}^{2}-a)$ by pulling out the GCF.
 
-$$({b}^{2}-a)(x+6)$$
+$({b}^{2}-a)(x+6)$
 
  
 
 Factoring a Trinomial with Leading Coefficient 1
 ================================================
 
-Although we should always begin by looking for a GCF, pulling out the GCF is not the only way that polynomial expressions can be factored. The polynomial $${x}^{2}+5x+6$$ has a GCF of 1, but it can be written as the product of the factors $$(x+2)$$ and $$(x+3).$$
+Although we should always begin by looking for a GCF, pulling out the GCF is not the only way that polynomial expressions can be factored. The polynomial ${x}^{2}+5x+6$ has a GCF of 1, but it can be written as the product of the factors $(x+2)$ and $(x+3).$
 
-Trinomials of the form $${x}^{2}+bx+c$$ can be factored by finding two numbers with a product of $$c$$ and a sum of $$b.$$ The trinomial $${x}^{2}+10x+16,$$ for example, can be factored using the numbers $$2$$ and $$8$$ because the product of those numbers is $$16$$ and their sum is $$10.$$ The trinomial can be rewritten as the product of $$(x+2)$$ and $$(x+8).$$
+Trinomials of the form ${x}^{2}+bx+c$ can be factored by finding two numbers with a product of $c$ and a sum of $b.$ The trinomial ${x}^{2}+10x+16,$ for example, can be factored using the numbers $2$ and $8$ because the product of those numbers is $16$ and their sum is $10.$ The trinomial can be rewritten as the product of $(x+2)$ and $(x+8).$
 
 Factoring a Trinomial with Leading Coefficient 1
 ================================================
 
-A trinomial of the form $${x}^{2}+bx+c$$ can be written in factored form as $$(x+p)(x+q)$$ where $$pq=c$$ and $$p+q=b.$$
+A trinomial of the form ${x}^{2}+bx+c$ can be written in factored form as $(x+p)(x+q)$ where $pq=c$ and $p+q=b.$
 
 Q&A
 *Can every trinomial be factored as a product of binomials?*
@@ -136,47 +135,47 @@ Q&A
 *No. Some polynomials cannot be factored. These polynomials are said to be prime.*
 
 How To
-*Given a trinomial in the form $${x}^{2}+bx+c,$$ factor it.*
+*Given a trinomial in the form ${x}^{2}+bx+c,$ factor it.*
 
-List factors of $$c.$$
+List factors of $c.$
 
-Find $$p$$ and $$q,$$ a pair of factors of $$c$$ with a sum of $$b.$$
+Find $p$ and $q,$ a pair of factors of $c$ with a sum of $b.$
 
-Write the factored expression $$(x+p)(x+q).$$
+Write the factored expression $(x+p)(x+q).$
 
 Factoring a Trinomial with Leading Coefficient 1
 ================================================
 
-Factor $${x}^{2}+2x-15.$$
+Factor ${x}^{2}+2x-15.$
 
-We have a trinomial with leading coefficient $$1,b=2,$$ and $$c=\mathrm{-15.}$$ We need to find two numbers with a product of $$\mathrm{-15}$$ and a sum of $$2.$$ In the table below, we list factors until we find a pair with the desired sum.
+We have a trinomial with leading coefficient $1,b=2,$ and $c=\mathrm{-15.}$ We need to find two numbers with a product of $\mathrm{-15}$ and a sum of $2.$ In the table below, we list factors until we find a pair with the desired sum.
 
-Factors of $$\mathrm{-15}$$
+Factors of $\mathrm{-15}$
 
 Sum of Factors
 
- $$1,\mathrm{-15}$$
+ $1,\mathrm{-15}$
 
- $$\mathrm{-14}$$
+ $\mathrm{-14}$
 
- $$\mathrm{-1},15$$
+ $\mathrm{-1},15$
 
 14
 
- $$3,\mathrm{-5}$$
+ $3,\mathrm{-5}$
 
- $$\mathrm{-2}$$
+ $\mathrm{-2}$
 
- $$\mathrm{-3},5$$
+ $\mathrm{-3},5$
 
 2
 
-Now that we have identified $$p$$ and $$q$$ as $$\mathrm{-3}$$ and $$5,$$ write the factored form as $$(x-3)(x+5).$$
+Now that we have identified $p$ and $q$ as $\mathrm{-3}$ and $5,$ write the factored form as $(x-3)(x+5).$
 
 Analysis
 ========
 
-We can check our work by multiplying. Use FOIL to confirm that $$(x-3)(x+5)={x}^{2}+2x-15.$$
+We can check our work by multiplying. Use FOIL to confirm that $(x-3)(x+5)={x}^{2}+2x-15.$
 
 Q&A
 *Does the order of the factors matter?*
@@ -185,71 +184,71 @@ Q&A
 
 Try It
 
-Factor $${x}^{2}-7x+6.$$
+Factor ${x}^{2}-7x+6.$
 
-$$(x\mathrm{-6})(x\mathrm{-1})$$
+$(x\mathrm{-6})(x\mathrm{-1})$
 
 Factoring by Grouping
 =====================
 
-Trinomials with leading coefficients other than 1 are slightly more complicated to factor. For these trinomials, we can **factor by grouping** by dividing the *x* term into the sum of two terms, factoring each portion of the expression separately, and then factoring out the GCF of the entire expression. The trinomial $$2{x}^{2}+5x+3$$ can be rewritten as $$(2x+3)(x+1)$$ using this process. We begin by rewriting the original expression as $$2{x}^{2}+2x+3x+3$$ and then factor each portion of the expression to obtain $$2x(x+1)+3(x+1).$$ We then pull out the GCF of $$(x+1)$$ to find the factored expression.
+Trinomials with leading coefficients other than 1 are slightly more complicated to factor. For these trinomials, we can **factor by grouping** by dividing the *x* term into the sum of two terms, factoring each portion of the expression separately, and then factoring out the GCF of the entire expression. The trinomial $2{x}^{2}+5x+3$ can be rewritten as $(2x+3)(x+1)$ using this process. We begin by rewriting the original expression as $2{x}^{2}+2x+3x+3$ and then factor each portion of the expression to obtain $2x(x+1)+3(x+1).$ We then pull out the GCF of $(x+1)$ to find the factored expression.
 
 Factor by Grouping
 ==================
 
-To factor a trinomial in the form $$a{x}^{2}+bx+c$$ by grouping, we find two numbers with a product of $$ac$$ and a sum of $$b.$$ We use these numbers to divide the $$x$$ term into the sum of two terms and factor each portion of the expression separately, then factor out the GCF of the entire expression.
+To factor a trinomial in the form $a{x}^{2}+bx+c$ by grouping, we find two numbers with a product of $ac$ and a sum of $b.$ We use these numbers to divide the $x$ term into the sum of two terms and factor each portion of the expression separately, then factor out the GCF of the entire expression.
 
 How To
-*Given a trinomial in the form $$a{x}^{2}+bx+c,$$ factor by grouping.*
+*Given a trinomial in the form $a{x}^{2}+bx+c,$ factor by grouping.*
 
-List factors of $$ac.$$
+List factors of $ac.$
 
-Find $$p$$ and $$q,$$ a pair of factors of $$ac$$ with a sum of $$b.$$
+Find $p$ and $q,$ a pair of factors of $ac$ with a sum of $b.$
 
-Rewrite the original expression as $$a{x}^{2}+px+qx+c.$$
+Rewrite the original expression as $a{x}^{2}+px+qx+c.$
 
-Pull out the GCF of $$a{x}^{2}+px.$$
+Pull out the GCF of $a{x}^{2}+px.$
 
-Pull out the GCF of $$qx+c.$$
+Pull out the GCF of $qx+c.$
 
 Factor out the GCF of the expression.
 
 Factoring a Trinomial by Grouping
 =================================
 
-Factor $$5{x}^{2}+7x-6$$ by grouping.
+Factor $5{x}^{2}+7x-6$ by grouping.
 
-We have a trinomial with $$a=5,b=7,$$ and $$c=\mathrm{-6.}$$ First, determine $$ac=\mathrm{-30.}$$ We need to find two numbers with a product of $$\mathrm{-30}$$ and a sum of $$7.$$ In the table below, we list factors until we find a pair with the desired sum.
+We have a trinomial with $a=5,b=7,$ and $c=\mathrm{-6.}$ First, determine $ac=\mathrm{-30.}$ We need to find two numbers with a product of $\mathrm{-30}$ and a sum of $7.$ In the table below, we list factors until we find a pair with the desired sum.
 
-Factors of $$\mathrm{-30}$$
+Factors of $\mathrm{-30}$
 
 Sum of Factors
 
- $$1,\mathrm{-30}$$
+ $1,\mathrm{-30}$
 
- $$\mathrm{-29}$$
+ $\mathrm{-29}$
 
- $$\mathrm{-1},30$$
+ $\mathrm{-1},30$
 
 29
 
- $$2,\mathrm{-15}$$
+ $2,\mathrm{-15}$
 
- $$\mathrm{-13}$$
+ $\mathrm{-13}$
 
- $$\mathrm{-2},15$$
+ $\mathrm{-2},15$
 
 13
 
- $$3,\mathrm{-10}$$
+ $3,\mathrm{-10}$
 
- $$\mathrm{-7}$$
+ $\mathrm{-7}$
 
- $$\mathrm{-3},10$$
+ $\mathrm{-3},10$
 
 7
 
-So $$p=\mathrm{-3}$$ and $$q=10.$$
+So $p=\mathrm{-3}$ and $q=10.$
 
  $$
 \begin{array}{cc}5{x}^{2}-3x+10x-6\ \hfill & \phantom{\rule{2em}{0ex}}\text{Rewrite\ the\ original\ expression\ as\}a{x}^{2}+px+qx+c.\hfill \\ x(5x-3)+2(5x-3)\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ out\ the\ GCF\ of\ each\ part}.\hfill \\ (5x-3)(x+2)\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ out\ the\ GCF}\text{}\phantom{\rule{0.5em}{0ex}}\text{of\ the\ expression}.\hfill \end{array}
@@ -258,20 +257,20 @@ $$
 Analysis
 ========
 
-We can check our work by multiplying. Use FOIL to confirm that $$(5x-3)(x+2)=5{x}^{2}+7x-6.$$
+We can check our work by multiplying. Use FOIL to confirm that $(5x-3)(x+2)=5{x}^{2}+7x-6.$
 
 Factor
   
        
-            ⓐ  $$2{x}^{2}+9x+9$$
+            ⓐ  $2{x}^{2}+9x+9$
        
        
-          ⓑ $$6{x}^{2}+x-1$$
+          ⓑ $6{x}^{2}+x-1$
 
-ⓐ $$(2x+3)(x+3)$$
+ⓐ $(2x+3)(x+3)$
      
      
-          ⓑ $$\left(3x\mathrm{-1}\right)\left(2x+1\right)$$
+          ⓑ $\left(3x\mathrm{-1}\right)\left(2x+1\right)$
 
 Factoring a Perfect Square Trinomial
 ====================================
@@ -289,28 +288,28 @@ Perfect Square Trinomials
 
 A perfect square trinomial can be written as the square of a binomial:
 
- $${a}^{2}+2ab+{b}^{2}={(a+b)}^{2}$$
+ ${a}^{2}+2ab+{b}^{2}={(a+b)}^{2}$
 
 How To
 *Given a perfect square trinomial, factor it into the square of a binomial.*
 
 Confirm that the first and last term are perfect squares.
-Confirm that the middle term is twice the product of $$ab.$$
+Confirm that the middle term is twice the product of $ab.$
 
-Write the factored form as $${(a+b)}^{2}.$$
+Write the factored form as ${(a+b)}^{2}.$
 
 Factoring a Perfect Square Trinomial
 ====================================
 
-Factor $$25{x}^{2}+20x+4.$$
+Factor $25{x}^{2}+20x+4.$
 
-Notice that $$25{x}^{2}$$ and $$4$$ are perfect squares because $$25{x}^{2}={(5x)}^{2}$$ and $$4={2}^{2}.$$ Then check to see if the middle term is twice the product of $$5x$$ and $$2.$$ The middle term is, indeed, twice the product: $$2(5x)(2)=20x.$$ Therefore, the trinomial is a perfect square trinomial and can be written as $${(5x+2)}^{2}.$$
+Notice that $25{x}^{2}$ and $4$ are perfect squares because $25{x}^{2}={(5x)}^{2}$ and $4={2}^{2}.$ Then check to see if the middle term is twice the product of $5x$ and $2.$ The middle term is, indeed, twice the product: $2(5x)(2)=20x.$ Therefore, the trinomial is a perfect square trinomial and can be written as ${(5x+2)}^{2}.$
 
 Try It
 
-Factor $$49{x}^{2}-14x+1.$$
+Factor $49{x}^{2}-14x+1.$
 
-$${(7x\mathrm{-1})}^{2}$$
+${(7x\mathrm{-1})}^{2}$
 
 Factoring a Difference of Squares
 =================================
@@ -336,20 +335,20 @@ How To
 *Given a difference of squares, factor it into binomials.*
 
 Confirm that the first and last term are perfect squares.
-Write the factored form as $$(a+b)(a-b).$$
+Write the factored form as $(a+b)(a-b).$
 
 Factoring a Difference of Squares
 =================================
 
-Factor $$9{x}^{2}-25.$$
+Factor $9{x}^{2}-25.$
 
-Notice that $$9{x}^{2}$$ and $$25$$ are perfect squares because $$9{x}^{2}={(3x)}^{2}$$ and $$25={5}^{2}.$$ The polynomial represents a difference of squares and can be rewritten as $$(3x+5)(3x-5).$$
+Notice that $9{x}^{2}$ and $25$ are perfect squares because $9{x}^{2}={(3x)}^{2}$ and $25={5}^{2}.$ The polynomial represents a difference of squares and can be rewritten as $(3x+5)(3x-5).$
 
 Try It
 
-Factor $$81{y}^{2}-100.$$
+Factor $81{y}^{2}-100.$
 
-$$(9y+10)(9y-10)$$
+$(9y+10)(9y-10)$
 
 Q&A
 *Is there a formula to factor the sum of squares?*
@@ -375,7 +374,7 @@ We can use the acronym SOAP to remember the signs when factoring the sum or diff
 {x}^{3}-{2}^{3}=(x-2)\left({x}^{2}+2x+4\right)
 $$
 
-The sign of the first 2 is the *same* as the sign between $${x}^{3}-{2}^{3}.$$ The sign of the $$2x$$ term is *opposite* the sign between $${x}^{3}-{2}^{3}.$$ And the sign of the last term, 4, is *always positive*.
+The sign of the first 2 is the *same* as the sign between ${x}^{3}-{2}^{3}.$ The sign of the $2x$ term is *opposite* the sign between ${x}^{3}-{2}^{3}.$ And the sign of the last term, 4, is *always positive*.
 
 Sum and Difference of Cubes
 ===========================
@@ -394,16 +393,16 @@ $$
 How To
 *Given a sum of cubes or difference of cubes, factor it.*
 
-Confirm that the first and last term are cubes, $${a}^{3}+{b}^{3}$$ or $${a}^{3}-{b}^{3}.$$
+Confirm that the first and last term are cubes, ${a}^{3}+{b}^{3}$ or ${a}^{3}-{b}^{3}.$
 
-For a sum of cubes, write the factored form as $$(a+b)({a}^{2}-ab+{b}^{2}).$$ For a difference of cubes, write the factored form as $$(a-b)({a}^{2}+ab+{b}^{2}).$$
+For a sum of cubes, write the factored form as $(a+b)({a}^{2}-ab+{b}^{2}).$ For a difference of cubes, write the factored form as $(a-b)({a}^{2}+ab+{b}^{2}).$
 
 Factoring a Sum of Cubes
 ========================
 
-Factor $${x}^{3}+512.$$
+Factor ${x}^{3}+512.$
 
-Notice that $${x}^{3}$$ and $$512$$ are cubes because $${8}^{3}=512.$$ Rewrite the sum of cubes as $$(x+8)({x}^{2}-8x+64).$$
+Notice that ${x}^{3}$ and $512$ are cubes because ${8}^{3}=512.$ Rewrite the sum of cubes as $(x+8)({x}^{2}-8x+64).$
 
 Analysis
 ========
@@ -412,16 +411,16 @@ After writing the sum of cubes this way, we might think we should check to see i
 
 Try It
 
-Factor the sum of cubes: $$216{a}^{3}+{b}^{3}.$$
+Factor the sum of cubes: $216{a}^{3}+{b}^{3}.$
 
-$$(6a+b)(36{a}^{2}\mathrm{-6}ab+{b}^{2})$$
+$(6a+b)(36{a}^{2}\mathrm{-6}ab+{b}^{2})$
 
 Factoring a Difference of Cubes
 ===============================
 
-Factor $$8{x}^{3}-125.$$
+Factor $8{x}^{3}-125.$
 
-Notice that $$8{x}^{3}$$ and $$125$$ are cubes because $$8{x}^{3}={(2x)}^{3}$$ and $$125={5}^{3}.$$ Write the difference of cubes as $$(2x-5)(4{x}^{2}+10x+25).$$
+Notice that $8{x}^{3}$ and $125$ are cubes because $8{x}^{3}={(2x)}^{3}$ and $125={5}^{3}.$ Write the difference of cubes as $(2x-5)(4{x}^{2}+10x+25).$
 
 Analysis
 ========
@@ -430,21 +429,21 @@ Just as with the sum of cubes, we will not be able to further factor the trinomi
 
 Try It
 
-Factor the difference of cubes: $$\mathrm{1,000}{x}^{3}-1.$$
+Factor the difference of cubes: $\mathrm{1,000}{x}^{3}-1.$
 
-$$(10x-1)\left(100{x}^{2}+10x+1\right)$$
+$(10x-1)\left(100{x}^{2}+10x+1\right)$
 
 Factoring Expressions with Fractional or Negative Exponents
 ===========================================================
 
-Expressions with fractional or negative exponents can be factored by pulling out a GCF. Look for the variable or exponent that is common to each term of the expression and pull out that variable or exponent raised to the lowest power. These expressions follow the same factoring rules as those with integer exponents. For instance, $$2{x}^{\frac{1}{4}}+5{x}^{\frac{3}{4}}$$ can be factored by pulling out $${x}^{\frac{1}{4}}$$ and being rewritten as $${x}^{\frac{1}{4}}(2+5{x}^{\frac{1}{2}}).$$
+Expressions with fractional or negative exponents can be factored by pulling out a GCF. Look for the variable or exponent that is common to each term of the expression and pull out that variable or exponent raised to the lowest power. These expressions follow the same factoring rules as those with integer exponents. For instance, $2{x}^{\frac{1}{4}}+5{x}^{\frac{3}{4}}$ can be factored by pulling out ${x}^{\frac{1}{4}}$ and being rewritten as ${x}^{\frac{1}{4}}(2+5{x}^{\frac{1}{2}}).$
 
 Factoring an Expression with Fractional or Negative Exponents
 =============================================================
 
-Factor $$3x{(x+2)}^{\frac{\mathrm{-1}}{3}}+4{(x+2)}^{\frac{2}{3}}.$$
+Factor $3x{(x+2)}^{\frac{\mathrm{-1}}{3}}+4{(x+2)}^{\frac{2}{3}}.$
 
-Factor out the term with the lowest value of the exponent. In this case, that would be $${\left(x+2\right)}^{-\frac{1}{3}}.$$
+Factor out the term with the lowest value of the exponent. In this case, that would be ${\left(x+2\right)}^{-\frac{1}{3}}.$
 
  $$
 \begin{array}{cc}{(x+2)}^{-\frac{1}{3}}(3x+4(x+2))\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ out\ the\ GCF}.\hfill \\ {(x+2)}^{-\frac{1}{3}}(3x+4x+8)\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \\ {(x+2)}^{-\frac{1}{3}}(7x+8)\hfill & \end{array}
@@ -452,9 +451,9 @@ $$
 
 Try It
 
-Factor $$2{(5a-1)}^{\frac{3}{4}}+7a{(5a-1)}^{-\frac{1}{4}}.$$
+Factor $2{(5a-1)}^{\frac{3}{4}}+7a{(5a-1)}^{-\frac{1}{4}}.$
 
-$${(5a\mathrm{-1})}^{-\frac{1}{4}}(17a\mathrm{-2})$$
+${(5a\mathrm{-1})}^{-\frac{1}{4}}(17a\mathrm{-2})$
 
 Media
 Access these online resources for additional instruction and practice with factoring polynomials.
@@ -469,16 +468,16 @@ Key Equations
 =============
 
 difference of squares
- $${a}^{2}-{b}^{2}=(a+b)(a-b)$$
+ ${a}^{2}-{b}^{2}=(a+b)(a-b)$
 
 perfect square trinomial
- $${a}^{2}+2ab+{b}^{2}={(a+b)}^{2}$$
+ ${a}^{2}+2ab+{b}^{2}={(a+b)}^{2}$
 
 sum of cubes
- $${a}^{3}+{b}^{3}=(a+b)({a}^{2}-ab+{b}^{2})$$
+ ${a}^{3}+{b}^{3}=(a+b)({a}^{2}-ab+{b}^{2})$
 
 difference of cubes
- $${a}^{3}-{b}^{3}=(a-b)({a}^{2}+ab+{b}^{2})$$
+ ${a}^{3}-{b}^{3}=(a-b)({a}^{2}+ab+{b}^{2})$
 
 The greatest common factor, or GCF, can be factored out of a polynomial. Checking for a GCF should be the first step in any factoring problem. See .
 Trinomials with leading coefficient 1 can be factored by finding numbers that have a product of the third term and a sum of the second term. See .
@@ -495,183 +494,187 @@ Verbal
 
 If the terms of a polynomial do not have a GCF, does that mean it is not factorable? Explain.
 
-The terms of a polynomial do not have to have a common factor for the entire polynomial to be factorable. For example, $$4{x}^{2}$$ and $$\mathrm{-9}{y}^{2}$$ don’t have a common factor, but the whole polynomial is still factorable: $$4{x}^{2}\mathrm{-9}{y}^{2}=\left(2x+3y\right)\left(2x\mathrm{-3}y\right).$$
+The terms of a polynomial do not have to have a common factor for the entire polynomial to be factorable. For example, $4{x}^{2}$ and $\mathrm{-9}{y}^{2}$ don’t have a common factor, but the whole polynomial is still factorable: $4{x}^{2}\mathrm{-9}{y}^{2}=\left(2x+3y\right)\left(2x\mathrm{-3}y\right).$
 
 A polynomial is factorable, but it is not a perfect square trinomial or a difference of two squares. Can you factor the polynomial without finding the GCF?
 
 How do you factor by grouping?
 
-Divide the $$x$$ term into the sum of two terms, factor each portion of the expression separately, and then factor out the GCF of the entire expression.
+Divide the $x$ term into the sum of two terms, factor each portion of the expression separately, and then factor out the GCF of the entire expression.
 
 Algebraic
 =========
 
 For the following exercises, find the greatest common factor.
 
-$$14x+4xy-18x{y}^{2}$$
+$14x+4xy-18x{y}^{2}$
 
-$$49m{b}^{2}-35{m}^{2}ba+77m{a}^{2}$$
+$49m{b}^{2}-35{m}^{2}ba+77m{a}^{2}$
 
-$$7m$$
+$7m$
 
-$$30{x}^{3}y-45{x}^{2}{y}^{2}+135x{y}^{3}$$
+$30{x}^{3}y-45{x}^{2}{y}^{2}+135x{y}^{3}$
 
-$$200{p}^{3}{m}^{3}-30{p}^{2}{m}^{3}+40{m}^{3}$$
+$200{p}^{3}{m}^{3}-30{p}^{2}{m}^{3}+40{m}^{3}$
 
-$$10{m}^{3}$$
+$10{m}^{3}$
 
-$$36{j}^{4}{k}^{2}-18{j}^{3}{k}^{3}+54{j}^{2}{k}^{4}$$
+$36{j}^{4}{k}^{2}-18{j}^{3}{k}^{3}+54{j}^{2}{k}^{4}$
 
-$$6{y}^{4}-2{y}^{3}+3{y}^{2}-y$$
+$6{y}^{4}-2{y}^{3}+3{y}^{2}-y$
 
-$$y$$
+$y$
 
 For the following exercises, factor by grouping.
 
-$$6{x}^{2}+5x-4$$
+$6{x}^{2}+5x-4$
 
-$$2{a}^{2}+9a-18$$
+$2{a}^{2}+9a-18$
 
-$$\left(2a\mathrm{-3}\right)\left(a+6\right)$$
+$\left(2a\mathrm{-3}\right)\left(a+6\right)$
 
-$$6{c}^{2}+41c+63$$
+$6{c}^{2}+41c+63$
 
-$$6{n}^{2}-19n-11$$
+$6{n}^{2}-19n-11$
 
-$$\left(3n\mathrm{-11}\right)\left(2n+1\right)$$
+$\left(3n\mathrm{-11}\right)\left(2n+1\right)$
 
-$$20{w}^{2}-47w+24$$
+$20{w}^{2}-47w+24$
 
-$$2{p}^{2}-5p-7$$
+$2{p}^{2}-5p-7$
 
-$$\left(p+1\right)\left(2p\mathrm{-7}\right)$$
+$\left(p+1\right)\left(2p\mathrm{-7}\right)$
 
 For the following exercises, factor the polynomial.
 
-$$7{x}^{2}+48x-7$$
+$7{x}^{2}+48x-7$
 
-$$10{h}^{2}-9h-9$$
+$10{h}^{2}-9h-9$
 
-$$\left(5h+3\right)\left(2h\mathrm{-3}\right)$$
+$\left(5h+3\right)\left(2h\mathrm{-3}\right)$
 
-$$2{b}^{2}-25b-247$$
+$2{b}^{2}-25b-247$
 
-$$9{d}^{2}\mathrm{-73}d+8$$
+$9{d}^{2}\mathrm{-73}d+8$
 
-$$\left(9d\mathrm{-1}\right)\left(d\mathrm{-8}\right)$$
+$\left(9d\mathrm{-1}\right)\left(d\mathrm{-8}\right)$
 
-$$90{v}^{2}\mathrm{-181}v+90$$
+$90{v}^{2}\mathrm{-181}v+90$
 
-$$12{t}^{2}+t-13$$
+$12{t}^{2}+t-13$
 
-$$\left(12t+13\right)\left(t\mathrm{-1}\right)$$
+$\left(12t+13\right)\left(t\mathrm{-1}\right)$
 
-$$2{n}^{2}-n-15$$
+$2{n}^{2}-n-15$
 
-$$16{x}^{2}-100$$
+$16{x}^{2}-100$
 
-$$(4x+10)(4x-10)$$
+$(4x+10)(4x-10)$
 
-$$25{y}^{2}-196$$
+$25{y}^{2}-196$
 
-$$121{p}^{2}-169$$
+$121{p}^{2}-169$
 
-$$(11p+13)(11p-13)$$
+$(11p+13)(11p-13)$
 
-$$4{m}^{2}-9$$
+$4{m}^{2}-9$
 
-$$361{d}^{2}-81$$
+$361{d}^{2}-81$
 
-$$(19d+9)(19d-9)$$
+$(19d+9)(19d-9)$
 
-$$324{x}^{2}-121$$
+$324{x}^{2}-121$
 
-$$144{b}^{2}-25{c}^{2}$$
+$144{b}^{2}-25{c}^{2}$
 
-$$(12b+5c)(12b-5c)$$
+$(12b+5c)(12b-5c)$
 
-$$16{a}^{2}-8a+1$$
+$16{a}^{2}-8a+1$
 
-$$49{n}^{2}+168n+144$$
+$49{n}^{2}+168n+144$
 
-$${\left(7n+12\right)}^{2}$$
+${\left(7n+12\right)}^{2}$
 
-$$121{x}^{2}-88x+16$$
+$121{x}^{2}-88x+16$
 
-$$225{y}^{2}+120y+16$$
+$225{y}^{2}+120y+16$
 
-$${\left(15y+4\right)}^{2}$$
+${\left(15y+4\right)}^{2}$
 
-$${m}^{2}-20m+100$$
+${m}^{2}-20m+100$
 
-$$25{p}^{2}-120p+144$$
+$25{p}^{2}-120p+144$
 
-$${(5p-12)}^{2}$$
+${(5p-12)}^{2}$
 
-$$36{q}^{2}+60q+25$$
+$36{q}^{2}+60q+25$
 
 For the following exercises, factor the polynomials.
 
-$${x}^{3}+216$$
+${x}^{3}+216$
 
-$$(x+6)({x}^{2}-6x+36)$$
+$(x+6)({x}^{2}-6x+36)$
 
-$$27{y}^{3}-8$$
+$27{y}^{3}-8$
 
-$$125{a}^{3}+343$$
+$125{a}^{3}+343$
 
-$$(5a+7)(25{a}^{2}-35a+49)$$
+$(5a+7)(25{a}^{2}-35a+49)$
 
-$${b}^{3}-8{d}^{3}$$
+${b}^{3}-8{d}^{3}$
 
-$$64{x}^{3}\mathrm{-125}$$
+$64{x}^{3}\mathrm{-125}$
 
-$$(4x-5)(16{x}^{2}+20x+25)$$
+$(4x-5)(16{x}^{2}+20x+25)$
 
-$$729{q}^{3}+1331$$
+$729{q}^{3}+1331$
 
-$$125{r}^{3}+\mathrm{1,728}{s}^{3}$$
+$125{r}^{3}+\mathrm{1,728}{s}^{3}$
 
-$$(5r+12s)(25{r}^{2}-60rs+144{s}^{2})$$
+$(5r+12s)(25{r}^{2}-60rs+144{s}^{2})$
 
-$$4x{\left(x-1\right)}^{-\frac{2}{3}}+3{\left(x-1\right)}^{\frac{1}{3}}$$
+$4x{\left(x-1\right)}^{-\frac{2}{3}}+3{\left(x-1\right)}^{\frac{1}{3}}$
 
-$$3c{\left(2c+3\right)}^{-\frac{1}{4}}-5{\left(2c+3\right)}^{\frac{3}{4}}$$
+$3c{\left(2c+3\right)}^{-\frac{1}{4}}-5{\left(2c+3\right)}^{\frac{3}{4}}$
 
-$${\left(2c+3\right)}^{-\frac{1}{4}}\left(\mathrm{-7}c-15\right)$$
+${\left(2c+3\right)}^{-\frac{1}{4}}\left(\mathrm{-7}c-15\right)$
 
-$$3t{\left(10t+3\right)}^{\frac{1}{3}}+7{\left(10t+3\right)}^{\frac{4}{3}}$$
+$3t{\left(10t+3\right)}^{\frac{1}{3}}+7{\left(10t+3\right)}^{\frac{4}{3}}$
 
-$$14x{\left(x+2\right)}^{-\frac{2}{5}}+5{\left(x+2\right)}^{\frac{3}{5}}$$
+$14x{\left(x+2\right)}^{-\frac{2}{5}}+5{\left(x+2\right)}^{\frac{3}{5}}$
 
-$${\left(x+2\right)}^{-\frac{2}{5}}\left(19x+10\right)$$
+${\left(x+2\right)}^{-\frac{2}{5}}\left(19x+10\right)$
 
-$$9y{(3y-13)}^{\frac{1}{5}}-2{(3y-13)}^{\frac{6}{5}}$$
+$9y{(3y-13)}^{\frac{1}{5}}-2{(3y-13)}^{\frac{6}{5}}$
 
-$$5z{(2z-9)}^{-\frac{3}{2}}+11{(2z-9)}^{-\frac{1}{2}}$$
+$5z{(2z-9)}^{-\frac{3}{2}}+11{(2z-9)}^{-\frac{1}{2}}$
 
-$${\left(2z-9\right)}^{-\frac{3}{2}}\left(27z-99\right)$$
+${\left(2z-9\right)}^{-\frac{3}{2}}\left(27z-99\right)$
 
-$$6d{\left(2d+3\right)}^{-\frac{1}{6}}+5{\left(2d+3\right)}^{\frac{5}{6}}$$
+$6d{\left(2d+3\right)}^{-\frac{1}{6}}+5{\left(2d+3\right)}^{\frac{5}{6}}$
 
 Real-World Applications
 =======================
 For the following exercises, consider this scenario:
 
-Charlotte has appointed a chairperson to lead a city beautification project. The first act is to install statues and fountains in one of the city’s parks. The park is a rectangle with an area of $$98{x}^{2}+105x-27$$ m2, as shown in the figure below. The length and width of the park are perfect factors of the area.
+Charlotte has appointed a chairperson to lead a city beautification project. The first act is to install statues and fountains in one of the city’s parks. The park is a rectangle with an area of $98{x}^{2}+105x-27$ m2, as shown in the figure below. The length and width of the park are perfect factors of the area.
+
+![A rectangle that’s textured to look like a field. The field is labeled: l times w = ninety-eight times x squared plus one hundred five times x minus twenty-seven.](../../media/CNX_CAT_Figure_01_05_201.jpg)
 
 Factor by grouping to find the length and width of the park.
 
-$$\left(14x\mathrm{-3}\right)\left(7x+9\right)$$
+$\left(14x\mathrm{-3}\right)\left(7x+9\right)$
 
-A statue is to be placed in the center of the park. The area of the base of the statue is $$4{x}^{2}+12x+9\text\ {\text{m}}^{2}.$$ Factor the area to find the lengths of the sides of the statue.
+A statue is to be placed in the center of the park. The area of the base of the statue is $4{x}^{2}+12x+9\text\ {\text{m}}^{2}.$ Factor the area to find the lengths of the sides of the statue.
 
-At the northwest corner of the park, the city is going to install a fountain. The area of the base of the fountain is $$9{x}^{2}-25\text\ {\text{m}}^{2}.$$ Factor the area to find the lengths of the sides of the fountain.
+At the northwest corner of the park, the city is going to install a fountain. The area of the base of the fountain is $9{x}^{2}-25\text\ {\text{m}}^{2}.$ Factor the area to find the lengths of the sides of the fountain.
 
-$$\left(3x+5\right)\left(3x\mathrm{-5}\right)$$
+$\left(3x+5\right)\left(3x\mathrm{-5}\right)$
 
 For the following exercise, consider the following scenario:
-A school is installing a flagpole in the central plaza. The plaza is a square with side length 100 yd. as shown in the figure below.  The flagpole will take up a square plot with area $${x}^{2}-6x+9$$ yd2.
+A school is installing a flagpole in the central plaza. The plaza is a square with side length 100 yd. as shown in the figure below.  The flagpole will take up a square plot with area ${x}^{2}-6x+9$ yd2.
+
+![A square that’s textured to look like a field with a missing piece in the shape of a square in the center. The sides of the larger square are labeled: 100 yards. The center square is labeled: Area: x squared minus six times x plus nine.](../../media/CNX_CAT_Figure_01_05_202.jpg)
 
 Find the length of the base of the flagpole by factoring.
 
@@ -680,21 +683,21 @@ Extensions
 
 For the following exercises, factor the polynomials completely.
 
-$$16{x}^{4}-200{x}^{2}+625$$
+$16{x}^{4}-200{x}^{2}+625$
 
-$${(2x+5)}^{2}{(2x-5)}^{2}$$
+${(2x+5)}^{2}{(2x-5)}^{2}$
 
-$$81{y}^{4}-256$$
+$81{y}^{4}-256$
 
-$$16{z}^{4}-\mathrm{2,401}{a}^{4}$$
+$16{z}^{4}-\mathrm{2,401}{a}^{4}$
 
-$$(4{z}^{2}+49{a}^{2})(2z+7a)(2z-7a)$$
+$(4{z}^{2}+49{a}^{2})(2z+7a)(2z-7a)$
 
-$$5x{\left(3x+2\right)}^{-\frac{2}{4}}+{\left(12x+8\right)}^{\frac{3}{2}}$$
+$5x{\left(3x+2\right)}^{-\frac{2}{4}}+{\left(12x+8\right)}^{\frac{3}{2}}$
 
-$${(32{x}^{3}+48{x}^{2}-162x-243)}^{\mathrm{-1}}$$
+${(32{x}^{3}+48{x}^{2}-162x-243)}^{\mathrm{-1}}$
 
-$$\frac{1}{\left(4x+9\right)\left(4x\mathrm{-9}\right)\left(2x+3\right)}$$
+$\frac{1}{\left(4x+9\right)\left(4x\mathrm{-9}\right)\left(2x+3\right)}$
 
-**factor by grouping**a method for factoring a trinomial in the form $$a{x}^{2}+bx+c$$ by dividing the *x* term into the sum of two terms, factoring each portion of the expression separately, and then factoring out the GCF of the entire expression 
+**factor by grouping**a method for factoring a trinomial in the form $a{x}^{2}+bx+c$ by dividing the *x* term into the sum of two terms, factoring each portion of the expression separately, and then factoring out the GCF of the entire expression 
 **greatest common factor**the largest polynomial that divides evenly into each polynomial

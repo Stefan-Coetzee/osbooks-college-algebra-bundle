@@ -26,33 +26,37 @@ If a matrix has the same number of rows and columns, we call it a **square matri
 
 Determinant
 ===========
-The determinant of any square matrix $$\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]$$ , where a, b, c, and d are real numbers, is $$\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]=ad-bc$$
+The determinant of any square matrix $\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]$ , where a, b, c, and d are real numbers, is $\left[\begin{array}{cc}a& b\\ c& d\end{array}\right]=ad-bc$
 To get the real number value of the determinate we subtract the products of the diagonals, as shown.
+ 
 
-  Find the determinant of the 2x2 matrix $$\left[\begin{array}{cc}4& -2\\ 3& -1\end{array}\right]$$
+![A 2 by 2 determinant is show, with its first row being a, b and second one being c, d. These values are written between two vertical lines instead of brackets as in the case of matrices. Two arrows are shown, one from a to d, the other from c to b. This determinant is equal to ad minus bc.](../../media/7_7_1-b95e.jpg)
+
+  Find the determinant of the 2x2 matrix $\left[\begin{array}{cc}4& -2\\ 3& -1\end{array}\right]$
 
   
     Write the determinant
      
-    
-  
+
+![.](../../media/7_7_2-3602.jpg)
+
   
   
     Subtract the products of the diagonals
-     $$4(-1)-3(-2)$$ 
+     $4(-1)-3(-2)$ 
   
   
     Simplify
-     $$\begin{array}{c}-4+6\\ 2\end{array}$$ 
+     $\begin{array}{c}-4+6\\ 2\end{array}$ 
   
 
 Practice Makes Perfect
 ======================
 Find the determinant of the 2x2 matrices.
 
-  $$\left[\begin{array}{cc}6& -2\\ 3& -1\end{array}\right]$$
+  $\left[\begin{array}{cc}6& -2\\ 3& -1\end{array}\right]$
 
-  $$\left[\begin{array}{cc}-4& 8\\ -3& 5\end{array}\right]$$
+  $\left[\begin{array}{cc}-4& 8\\ -3& 5\end{array}\right]$
 
 Objective 2: Evaluate the determinant of a 3×3 matrix (IA 4.6.2)
 ================================================================
@@ -60,42 +64,59 @@ To evaluate the determinant of a 3×3 matrix, we must be able to evaluate the **
 The minor of an entry is the 2×2 determinant found by eliminating the row and column in the 3×3 determinant that contains the entry.
 For example, to find the minor of entry a1, we eliminate the row and column which contain it. So, we eliminate the first row and first column. Then we write the 2×2 determinant that remains.
 
-    
-  
+![The first row of the 3 by 3 determinant is a1, b1, c1. Row 2 is a2, b2, c2. Row 3 is a3, b3, c3. a1 is highlighted. Lines strike out the first row and the first column. What remains is called minor of a1. It is shown as a separate determinant whose first row is b2, c2 and second row is b3, c3.](../../media/7_7_3-3da6.jpg)
+
 To find the minor of entry b2, we eliminate the row and column that contain it. So, we eliminate the second row and second column. Then we write the 2×2 determinant that remains.
 
-    
-  
+![The first row of the 3 by 3 determinant is a1, b1, c1. Row 2 is a2, b2, c2. Row 3 is a3, b3, c3. b2 is highlighted. Lines strike out the second row and second column. What remains is minor of b2. It is written as a separate determinant whose first row is a1, c1 and second row is a3, c3.](../../media/7_7_4-f3fe.jpg)
 
-For the determinant $$\left|\begin{array}{ccccccc}\hfill 4& & & \hfill \mathrm{-2}& & & \hfill 3\\ \hfill 1& & & \hfill 0& & & \hfill \mathrm{-3}\\ \hfill \mathrm{-2}& & & \hfill \mathrm{-4}& & & \hfill 2\end{array}\right|,$$ find and then evaluate the minor of ⓐ $${a}_{1}$$ ⓑ $${b}_{3}$$
+For the determinant $\left|\begin{array}{ccccccc}\hfill 4& & & \hfill \mathrm{-2}& & & \hfill 3\\ \hfill 1& & & \hfill 0& & & \hfill \mathrm{-3}\\ \hfill \mathrm{-2}& & & \hfill \mathrm{-4}& & & \hfill 2\end{array}\right|,$ find and then evaluate the minor of ⓐ ${a}_{1}$ ⓑ ${b}_{3}$
 
 ⓐ
 
-Eliminate the row and column that contains $${a}_{1}.$$ 
+![.](../../media/7_7_5-baac.jpg)
 
-Write the $$2\phantom{\rule{0.2em}{0ex}}\times \phantom{\rule{0.2em}{0ex}}2$$ determinant that remains.
+Eliminate the row and column that contains ${a}_{1}.$ 
+
+![.](../../media/7_7_6-210d.jpg)
+
+Write the $2\phantom{\rule{0.2em}{0ex}}\times \phantom{\rule{0.2em}{0ex}}2$ determinant that remains.
+
+![.](../../media/7_7_8-a223.jpg)
 
 Evaluate.
 
+![.](../../media/7_7_9-6e68.jpg)
+
 Simplify.
+
+![.](../../media/7_7_10-d102.jpg)
 
 ⓑ
 
-Eliminate the row and column that contains $${b}_{3}.$$ 
+Eliminate the row and column that contains ${b}_{3}.$ 
 
-Write the $$2\phantom{\rule{0.2em}{0ex}}\times \phantom{\rule{0.2em}{0ex}}2$$ determinant that remains.
+![.](../../media/7_7_11-759e.jpg)
+
+Write the $2\phantom{\rule{0.2em}{0ex}}\times \phantom{\rule{0.2em}{0ex}}2$ determinant that remains.
+
+![.](../../media/7_7_12-aef0.jpg)
 
 Evaluate.
 
+![.](../../media/7_7_12-aef0.jpg)
+
 Simplify.
+
+![.](../../media/7_7_13-a382.jpg)
 
 For the following determinant, find and then evaluate the minor of c2
 
-$$\left|\begin{array}{rrr}4& -2& 3\\ 1& 0& -3\\ -2& -4& 2\end{array}\right|$$
+$\left|\begin{array}{rrr}4& -2& 3\\ 1& 0& -3\\ -2& -4& 2\end{array}\right|$
 
-Eliminate the row and column that contains $${c}_{2}$$. 
+Eliminate the row and column that contains ${c}_{2}$. 
 
-Write the $$2\times 2$$ determinant that remains.
+Write the $2\times 2$ determinant that remains.
 
 Evaluate and simplify.
 ________________________________________
@@ -105,35 +126,48 @@ Strategy for evaluating the determinant of a 3x3 matrix
 
 To evaluate a 3×3 determinant we can expand by minors using any row or column. Choosing a row or column other than the first row sometimes makes the work easier.
 When we expand by any row or column, we must be careful about the sign of the terms in the expansion. To determine the sign of the terms, we use the following sign pattern chart.
-$$\left|\begin{array}{ccc}+& -& +\\ -& +& -\\ +& -& +\end{array}\right|$$
+$\left|\begin{array}{ccc}+& -& +\\ -& +& -\\ +& -& +\end{array}\right|$
 
 Expanding by minors along the first row to evaluate a 3x3 determinant.
 ======================================================================
 
 To evaluate a 3×3 determinant by expanding by minors along the first row, we use the following pattern:
 
-    
-  NOTE: We can evaluate the determinant of a matrix by expanding minors along any row or column. When a row or a column has a zero entry, expanding by that row or column results in less calculations.
+![A 3 by 3 determinant has row 1: plus, minus, plus, row 2: minus, plus, minus and row 3: plus, minus, plus. The three signs in the first row each point to a minor determinant in the expansion of a 3 by 3 determinant. Plus points to minor of a1, minus to the minor of b1 and plus to the minor of c1.](../../media/7_7_14-ef6d.jpg)
+
+NOTE: We can evaluate the determinant of a matrix by expanding minors along any row or column. When a row or a column has a zero entry, expanding by that row or column results in less calculations.
 
   Evaluate the determinant of the 3x3 matrix by expanding by minors along the first row
 
-$$\left|\begin{array}{rrr}2& -3& -1\\ 3& 2& 0\\ -1& -1& -2\end{array}\right|$$
+$\left|\begin{array}{rrr}2& -3& -1\\ 3& 2& 0\\ -1& -1& -2\end{array}\right|$
+
+![.](../../media/7_7_15-df2e.jpg)
 
 Expand by minors along the first row
 
+![.](../../media/7_7_16-99cd.jpg)
+
 Evaluate each determinant.
 
-Simplify.
+![.](../../media/7_7_17-cecd.jpg)
 
 Simplify.
 
+![.](../../media/7_7_18-57c1.jpg)
+
 Simplify.
+
+![.](../../media/7_7_19-b931.jpg)
+
+Simplify.
+
+![.](../../media/7_7_20-6e46.jpg)
 
 Practice Makes Perfect
 ======================
 
   Evaluate the determinant of the 3x3 matrix by expanding by minors along the first row.
- $$\left|\begin{array}{rrr}-5& -1& -4\\ 4& 0& -3\\ 2& -2& 6\end{array}\right|$$
+ $\left|\begin{array}{rrr}-5& -1& -4\\ 4& 0& -3\\ 2& -2& 6\end{array}\right|$
 
 Soriya plans to invest $10,500 into two different bonds to spread out her risk. The first bond has an annual return of 10%, and the second bond has an annual return of 6%. In order to receive an 8.5% return from the two bonds, how much should Soriya invest in each bond? What is the best method to solve this problem?
 
@@ -144,33 +178,33 @@ Soriya plans to invest $10,500 into two different bonds to spread out her risk. 
 Finding the Inverse of a Matrix
 ===============================
 
-    We know that the multiplicative inverse of a real number $$a$$ is $${a}^{\mathrm{-1}},$$ and $$a{a}^{\mathrm{-1}}={a}^{\mathrm{-1}}a=\left(\frac{1}{a}\right)a=1.$$ For example, $${2}^{\mathrm{-1}}=\frac{1}{2}$$ and $$\left(\frac{1}{2}\right)2=1.$$ The **multiplicative inverse of a matrix** is similar in concept, except that the product of matrix $$A$$ and its inverse $${A}^{\mathrm{-1}}$$ equals the **identity matrix**. The identity matrix is a square matrix containing ones down the main diagonal and zeros everywhere else. We identify identity matrices by $${I}_{n}$$ where $$n$$ represents the dimension of the matrix. Observe the following equations.
+    We know that the multiplicative inverse of a real number $a$ is ${a}^{\mathrm{-1}},$ and $a{a}^{\mathrm{-1}}={a}^{\mathrm{-1}}a=\left(\frac{1}{a}\right)a=1.$ For example, ${2}^{\mathrm{-1}}=\frac{1}{2}$ and $\left(\frac{1}{2}\right)2=1.$ The **multiplicative inverse of a matrix** is similar in concept, except that the product of matrix $A$ and its inverse ${A}^{\mathrm{-1}}$ equals the **identity matrix**. The identity matrix is a square matrix containing ones down the main diagonal and zeros everywhere else. We identify identity matrices by ${I}_{n}$ where $n$ represents the dimension of the matrix. Observe the following equations.
  $$
 {I}_{2}=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]
 $$
  $$
 {I}_{3}=\left[\begin{array}{rrrrr}\hfill 1& \hfill & \hfill 0& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 0& \hfill & \hfill 1\end{array}\right]
 $$
-The identity matrix acts as a 1 in matrix algebra. For example, $$AI=IA=A.$$
+The identity matrix acts as a 1 in matrix algebra. For example, $AI=IA=A.$
 
     A matrix that has a multiplicative inverse has the properties
 
-     $$\begin{array}{l}A{A}^{\mathrm{-1}}=I\\ {A}^{\mathrm{-1}}A=I\end{array}$$
+     $\begin{array}{l}A{A}^{\mathrm{-1}}=I\\ {A}^{\mathrm{-1}}A=I\end{array}$
     
-    A matrix that has a multiplicative inverse is called an **invertible matrix**. Only a square matrix may have a multiplicative inverse, as the reversibility, $$A{A}^{\mathrm{-1}}={A}^{\mathrm{-1}}A=I,$$ is a requirement. Not all square matrices have an inverse, but if $$A$$ is invertible, then $${A}^{\mathrm{-1}}$$ is unique. We will look at two methods for finding the inverse of a $$2\times 2$$ matrix and a third method that can be used on both $$2\times 2$$ and $$3\times 3$$ matrices.
+    A matrix that has a multiplicative inverse is called an **invertible matrix**. Only a square matrix may have a multiplicative inverse, as the reversibility, $A{A}^{\mathrm{-1}}={A}^{\mathrm{-1}}A=I,$ is a requirement. Not all square matrices have an inverse, but if $A$ is invertible, then ${A}^{\mathrm{-1}}$ is unique. We will look at two methods for finding the inverse of a $2\times 2$ matrix and a third method that can be used on both $2\times 2$ and $3\times 3$ matrices.
 
       
 The Identity Matrix and Multiplicative Inverse
 ==============================================
 
-      The **identity matrix**, $${I}_{n},$$ is a square matrix containing ones down the main diagonal and zeros everywhere else.
+      The **identity matrix**, ${I}_{n},$ is a square matrix containing ones down the main diagonal and zeros everywhere else.
 
        $$
 \begin{array}{l}\hfill \\ \begin{array}{l}\begin{array}{l}\hfill \\ {I}_{2}=\left[\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 0& \hfill 1\end{array}\right]\begin{array}{cccc}& & & \end{array}{I}_{3}=\left[\begin{array}{rrr}\hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0\\ \hfill 0& \hfill 0& \hfill 1\end{array}\right]\hfill \end{array}\hfill \\ \text{\ \ \ \ \ \ \}2\times 2\phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 3}\times 3\hfill \end{array}\hfill \end{array}
 $$
-If $$A$$ is an $$\phantom{\rule{0.5em}{0ex}}n\times n$$
-matrix and $$B$$ is an $$\phantom{\rule{0.5em}{0ex}}n\times n$$
-matrix such that $$AB=BA={I}_{n},$$ then $$B={A}^{\mathrm{-1}},$$ the **multiplicative inverse of a matrix** $$A.$$
+If $A$ is an $\phantom{\rule{0.5em}{0ex}}n\times n$
+matrix and $B$ is an $\phantom{\rule{0.5em}{0ex}}n\times n$
+matrix such that $AB=BA={I}_{n},$ then $B={A}^{\mathrm{-1}},$ the **multiplicative inverse of a matrix** $A.$
 
     
       
@@ -179,7 +213,7 @@ matrix such that $$AB=BA={I}_{n},$$ then $$B={A}^{\mathrm{-1}},$$ the **multipli
 Showing That the Identity Matrix Acts as a 1
 ============================================
 
-          Given matrix *A*, show that $$AI=IA=A.$$
+          Given matrix *A*, show that $AI=IA=A.$
 
            $$
 A=\left[\begin{array}{cc}3& 4\\ \mathrm{-2}& 5\end{array}\right]
@@ -188,7 +222,7 @@ $$
         
         
 
-          Use matrix multiplication to show that the product of $$A$$ and the identity is equal to the product of the identity and *A.*
+          Use matrix multiplication to show that the product of $A$ and the identity is equal to the product of the identity and *A.*
 
            $$
 AI=\left[\begin{array}{rrr}\hfill 3& \hfill & \hfill 4\\ \hfill \mathrm{-2}& \hfill & \hfill 5\end{array}\right]\begin{array}{r}\hfill \end{array}\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]=\left[\begin{array}{rrrr}\hfill 3\cdot 1+4\cdot 0& \hfill & \hfill & \hfill 3\cdot 0+4\cdot 1\\ \hfill \mathrm{-2}\cdot 1+5\cdot 0& \hfill & \hfill & \hfill \mathrm{-2}\cdot 0+5\cdot 1\end{array}\right]=\left[\begin{array}{rrr}\hfill 3& \hfill & \hfill 4\\ \hfill \mathrm{-2}& \hfill & \hfill 5\end{array}\right]
@@ -203,9 +237,9 @@ $$
       How To
       *Given two matrices, show that one is the multiplicative inverse of the other.*
 
-      Given matrix $$A$$ of order $$n\times n$$ and matrix $$B$$ of order $$n\times n$$ multiply $$AB.$$
+      Given matrix $A$ of order $n\times n$ and matrix $B$ of order $n\times n$ multiply $AB.$
         
-        If $$AB=I,$$ then find the product $$BA.$$ If $$BA=I,$$ then $$B={A}^{\mathrm{-1}}$$ and $$A={B}^{\mathrm{-1}}.$$
+        If $AB=I,$ then find the product $BA.$ If $BA=I,$ then $B={A}^{\mathrm{-1}}$ and $A={B}^{\mathrm{-1}}.$
         
       
 
@@ -222,7 +256,7 @@ A=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 5\\ \hfill \mathrm{-2}& \hfi
 $$
 
         
-          Multiply $$AB$$ and $$BA.$$ If both products equal the identity, then the two matrices are inverses of each other.
+          Multiply $AB$ and $BA.$ If both products equal the identity, then the two matrices are inverses of each other.
 
            $$
 \begin{array}{l}AB=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 5\\ \hfill \mathrm{-2}& \hfill & \hfill \mathrm{-9}\end{array}\right]\xb7\left[\begin{array}{rrr}\hfill \mathrm{-9}& \hfill & \hfill \mathrm{-5}\\ \hfill 2& \hfill & \hfill 1\end{array}\right]\hfill \\ =\left[\begin{array}{rrr}\hfill 1(\mathrm{-9})+5(2)& \hfill & \hfill 1(\mathrm{-5})+5(1)\\ \hfill \mathrm{-2}(\mathrm{-9})\mathrm{-9}(2)& \hfill & \hfill \mathrm{-2}(\mathrm{-5})\mathrm{-9}(1)\end{array}\right]\hfill \\ =\left[\begin{array}{ccc}1& & 0\\ 0& & 1\end{array}\right]\hfill \end{array}
@@ -230,7 +264,7 @@ $$
  $$
 \begin{array}{l}BA=\left[\begin{array}{rrr}\hfill \mathrm{-9}& \hfill & \hfill \mathrm{-5}\\ \hfill 2& \hfill & \hfill 1\end{array}\right]\xb7\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 5\\ \hfill \mathrm{-2}& \hfill & \hfill \mathrm{-9}\end{array}\right]\hfill \\ =\left[\begin{array}{rrr}\hfill \mathrm{-9}(1)\mathrm{-5}(\mathrm{-2})& \hfill & \hfill \mathrm{-9}(5)\mathrm{-5}(\mathrm{-9})\\ \hfill 2(1)+1(\mathrm{-2})& \hfill & \hfill 2(5)+1(\mathrm{-9})\end{array}\right]\hfill \\ =\left[\begin{array}{ccc}1& & 0\\ 0& & 1\end{array}\right]\hfill \end{array}
 $$
-$$A$$ and $$B$$ are inverses of each other.
+$A$ and $B$ are inverses of each other.
 
         
       
@@ -243,7 +277,7 @@ $$A$$ and $$B$$ are inverses of each other.
 A=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 4\\ \hfill \mathrm{-1}& \hfill & \hfill \mathrm{-3}\end{array}\right],B=\left[\begin{array}{rrr}\hfill \mathrm{-3}& \hfill & \hfill \mathrm{-4}\\ \hfill 1& \hfill & \hfill 1\end{array}\right]
 $$
 
-         $$\begin{array}{l}AB=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 4\\ \hfill \mathrm{-1}& \hfill & \hfill \mathrm{-3}\end{array}\right]\begin{array}{r}\hfill \end{array}\left[\begin{array}{rrr}\hfill \mathrm{-3}& \hfill & \hfill \mathrm{-4}\\ \hfill 1& \hfill & \hfill 1\end{array}\right]=\left[\begin{array}{rrr}\hfill 1(\mathrm{-3})+4(1)& \hfill & \hfill 1(\mathrm{-4})+4(1)\\ \hfill \mathrm{-1}(\mathrm{-3})+\mathrm{-3}(1)& \hfill & \hfill \mathrm{-1}(\mathrm{-4})+\mathrm{-3}(1)\end{array}\right]=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]\hfill \\ BA=\left[\begin{array}{rrr}\hfill \mathrm{-3}& \hfill & \hfill \mathrm{-4}\\ \hfill 1& \hfill & \hfill 1\end{array}\right]\begin{array}{r}\hfill \end{array}\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 4\\ \hfill \mathrm{-1}& \hfill & \hfill \mathrm{-3}\end{array}\right]=\left[\begin{array}{rrr}\hfill \mathrm{-3}(1)+\mathrm{-4}(\mathrm{-1})& \hfill & \hfill \mathrm{-3}(4)+\mathrm{-4}(\mathrm{-3})\\ \hfill 1(1)+1(\mathrm{-1})& \hfill & \hfill 1(4)+1(\mathrm{-3})\end{array}\right]=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]\hfill \end{array}$$
+         $\begin{array}{l}AB=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 4\\ \hfill \mathrm{-1}& \hfill & \hfill \mathrm{-3}\end{array}\right]\begin{array}{r}\hfill \end{array}\left[\begin{array}{rrr}\hfill \mathrm{-3}& \hfill & \hfill \mathrm{-4}\\ \hfill 1& \hfill & \hfill 1\end{array}\right]=\left[\begin{array}{rrr}\hfill 1(\mathrm{-3})+4(1)& \hfill & \hfill 1(\mathrm{-4})+4(1)\\ \hfill \mathrm{-1}(\mathrm{-3})+\mathrm{-3}(1)& \hfill & \hfill \mathrm{-1}(\mathrm{-4})+\mathrm{-3}(1)\end{array}\right]=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]\hfill \\ BA=\left[\begin{array}{rrr}\hfill \mathrm{-3}& \hfill & \hfill \mathrm{-4}\\ \hfill 1& \hfill & \hfill 1\end{array}\right]\begin{array}{r}\hfill \end{array}\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 4\\ \hfill \mathrm{-1}& \hfill & \hfill \mathrm{-3}\end{array}\right]=\left[\begin{array}{rrr}\hfill \mathrm{-3}(1)+\mathrm{-4}(\mathrm{-1})& \hfill & \hfill \mathrm{-3}(4)+\mathrm{-4}(\mathrm{-3})\\ \hfill 1(1)+1(\mathrm{-1})& \hfill & \hfill 1(4)+1(\mathrm{-3})\end{array}\right]=\left[\begin{array}{rrr}\hfill 1& \hfill & \hfill 0\\ \hfill 0& \hfill & \hfill 1\end{array}\right]\hfill \end{array}$
 
       
 
@@ -268,7 +302,7 @@ $$
 
           
 
-            For this method, we multiply $$A$$ by a matrix containing unknown constants and set it equal to the identity.
+            For this method, we multiply $A$ by a matrix containing unknown constants and set it equal to the identity.
 
              $$
 \left[\begin{array}{rr}\hfill 1& \hfill \mathrm{-2}\\ \hfill 2& \hfill \mathrm{-3}\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{rr}\hfill a& \hfill b\\ \hfill c& \hfill d\end{array}\right]=\left[\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 0& \hfill 1\end{array}\right]
@@ -283,11 +317,11 @@ Next, set up a system of equations with the entry in row 1, column 1 of the new 
 \begin{array}{c}1a\mathrm{-2}c=1\phantom{\rule{0.5em}{0ex}}\text{\ \ \}{R}_{1}\\ 2a\mathrm{-3}c=0\phantom{\rule{0.5em}{0ex}}\text{\ \ \}{R}_{2}\end{array}
 $$
             
-            Using row operations, multiply and add as follows: $$(\mathrm{-2}){R}_{1}+{R}_{2}\to {R}_{2}.$$ Add the equations, and solve for $$c.$$
+            Using row operations, multiply and add as follows: $(\mathrm{-2}){R}_{1}+{R}_{2}\to {R}_{2}.$ Add the equations, and solve for $c.$
  $$
 \begin{array}{r}\hfill 1a-2c=1\phantom{\rule{0.5em}{0ex}}\\ \hfill 0+1c=-2\\ \hfill c=-2\end{array}
 $$
-Back-substitute to solve for $$a.$$
+Back-substitute to solve for $a.$
 
              $$
 \begin{array}{r}\hfill a\mathrm{-2}(\mathrm{-2})=1\phantom{\rule{0.5em}{0ex}}\\ \hfill a+4=1\phantom{\rule{0.5em}{0ex}}\\ \hfill a=\mathrm{-3}\end{array}
@@ -297,12 +331,12 @@ Write another system of equations setting the entry in row 1, column 2 of the ne
              $$
 \begin{array}{rr}\hfill 1b\mathrm{-2}d=0& \hfill {R}_{1}\\ \hfill 2b\mathrm{-3}d=1& \hfill {R}_{2}\end{array}
 $$
-Using row operations, multiply and add as follows: $$\left(\mathrm{-2}\right){R}_{1}+{R}_{2}={R}_{2}.$$ Add the two equations and solve for $$d.$$
+Using row operations, multiply and add as follows: $\left(\mathrm{-2}\right){R}_{1}+{R}_{2}={R}_{2}.$ Add the two equations and solve for $d.$
 
              $$
 \begin{array}{r}\hfill 1b\mathrm{-2}d=0\\ \hfill \frac{0+1d=1}{\phantom{\rule{0.5em}{0ex}}d=1}\\ \hfill \end{array}
 $$
-Once more, back-substitute and solve for $$b.$$
+Once more, back-substitute and solve for $b.$
 
              $$
 \begin{array}{r}\hfill b\mathrm{-2}(1)=0\\ \hfill b\mathrm{-2}=0\\ \hfill b=2\end{array}
@@ -317,31 +351,31 @@ $$
     
 Finding the Multiplicative Inverse by Augmenting with the Identity
 ==================================================================
-Another way to find the **multiplicative inverse** is by augmenting with the identity. When matrix $$A$$ is transformed into $$I,$$ the augmented matrix $$I$$ transforms into $${A}^{\mathrm{-1}}.$$
+Another way to find the **multiplicative inverse** is by augmenting with the identity. When matrix $A$ is transformed into $I,$ the augmented matrix $I$ transforms into ${A}^{\mathrm{-1}}.$
 
       For example, given
 
        $$
 A=\left[\begin{array}{rrr}\hfill 2& \hfill & \hfill 1\\ \hfill 5& \hfill & \hfill 3\end{array}\right]
 $$
-augment $$A$$ with the identity
+augment $A$ with the identity
 
        $$
 \left[\begin{array}{rr}\hfill 2& \hfill 1\\ \hfill 5& \hfill 3\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 0& \hfill 1\end{array}\right]
 $$
-Perform **row operations** with the goal of turning $$A$$ into the identity.
+Perform **row operations** with the goal of turning $A$ into the identity.
 
      Switch row 1 and row 2.
           $$
 \left[\begin{array}{rr}\hfill 5& \hfill 3\\ \hfill 2& \hfill 1\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill 0& \hfill 1\\ \hfill 1& \hfill 0\end{array}\right]
 $$
 
-      Multiply row 2 by $$\mathrm{-2}$$ and add to row 1.
+      Multiply row 2 by $\mathrm{-2}$ and add to row 1.
          $$
 \left[\begin{array}{rr}\hfill 1& \hfill 1\\ \hfill 2& \hfill 1\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill \mathrm{-2}& \hfill 1\\ \hfill 1& \hfill 0\end{array}\right]
 $$
 
-      Multiply row 1 by $$\mathrm{-2}$$ and add to row 2.
+      Multiply row 1 by $\mathrm{-2}$ and add to row 2.
          $$
 \left[\begin{array}{rr}\hfill 1& \hfill 1\\ \hfill 0& \hfill \mathrm{-1}\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill \mathrm{-2}& \hfill 1\\ \hfill 5& \hfill \mathrm{-2}\end{array}\right]
 $$
@@ -351,13 +385,13 @@ $$
 \left[\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 0& \hfill \mathrm{-1}\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill 3& \hfill \mathrm{-1}\\ \hfill 5& \hfill \mathrm{-2}\end{array}\right]
 $$
 
-       Multiply row 2 by $$\phantom{\rule{0.5em}{0ex}}\mathrm{-1.}$$
+       Multiply row 2 by $\phantom{\rule{0.5em}{0ex}}\mathrm{-1.}$
 
           $$
 \left[\begin{array}{rr}\hfill 1& \hfill 0\\ \hfill 0& \hfill 1\end{array}\phantom{\rule{0.5em}{0ex}}\text{}|\phantom{\rule{0.5em}{0ex}}\text{}\begin{array}{rr}\hfill 3& \hfill \mathrm{-1}\\ \hfill \mathrm{-5}& \hfill 2\end{array}\right]
 $$
 
-     The matrix we have found is $${A}^{\mathrm{-1}}.$$
+     The matrix we have found is ${A}^{\mathrm{-1}}.$
  $$
 {A}^{\mathrm{-1}}=\left[\begin{array}{rrr}\hfill 3& \hfill & \hfill \mathrm{-1}\\ \hfill \mathrm{-5}& \hfill & \hfill 2\end{array}\right]
 $$
@@ -365,16 +399,16 @@ $$
       
 Finding the Multiplicative Inverse of 2×2 Matrices Using a Formula
 ==================================================================
-When we need to find the **multiplicative inverse** of a $$2\times 2$$ matrix, we can use a special formula instead of using matrix multiplication or augmenting with the identity.
-If $$A$$ is a $$2\times 2$$ matrix, such as
+When we need to find the **multiplicative inverse** of a $2\times 2$ matrix, we can use a special formula instead of using matrix multiplication or augmenting with the identity.
+If $A$ is a $2\times 2$ matrix, such as
 
-       $$A=\left[\begin{array}{rrr}\hfill a& \hfill & \hfill b\\ \hfill c& \hfill & \hfill d\end{array}\right]$$
-the multiplicative inverse of $$A$$ is given by the formula
+       $A=\left[\begin{array}{rrr}\hfill a& \hfill & \hfill b\\ \hfill c& \hfill & \hfill d\end{array}\right]$
+the multiplicative inverse of $A$ is given by the formula
 
        $$
 {A}^{\mathrm{-1}}=\frac{1}{ad-bc}\left[\begin{array}{rrr}\hfill d& \hfill & \hfill -b\\ \hfill -c& \hfill & \hfill a\end{array}\right]
 $$
-where $$ad-bc\ne 0.$$ If $$ad-bc=0,$$ then $$A$$ has no inverse.
+where $ad-bc\ne 0.$ If $ad-bc=0,$ then $A$ has no inverse.
 
       
         
@@ -402,14 +436,14 @@ $$
 Analysis
 ========
 
-            We can check that our formula works by using one of the other methods to calculate the inverse. Let’s augment $$A$$ with the identity.
+            We can check that our formula works by using one of the other methods to calculate the inverse. Let’s augment $A$ with the identity.
  $$
 \left[\begin{array}{cc}1& \mathrm{-2}\\ 2& \mathrm{-3}\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]
 $$
             
-            Perform **row operations** with the goal of turning $$A$$ into the identity.
+            Perform **row operations** with the goal of turning $A$ into the identity.
 
-            Multiply row 1 by $$\mathrm{-2}$$ and add to row 2.
+            Multiply row 1 by $\mathrm{-2}$ and add to row 2.
                $$
 \left[\begin{array}{cc}1& \mathrm{-2}\\ 0& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{cc}1& 0\\ \mathrm{-2}& 1\end{array}\right]
 $$
@@ -430,14 +464,14 @@ $$
       
         Try It
         
-          Use the formula to find the inverse of matrix $$A.$$ Verify your answer by augmenting with the identity matrix.
+          Use the formula to find the inverse of matrix $A.$ Verify your answer by augmenting with the identity matrix.
 
              $$
 A=\left[\begin{array}{cc}1& \mathrm{-1}\\ 2& \phantom{\rule{0.5em}{0ex}}3\end{array}\right]
 $$
             
           
-          $${A}^{\mathrm{-1}}=\left[\begin{array}{cc}\frac{3}{5}& \frac{1}{5}\\ -\frac{2}{5}& \frac{1}{5}\end{array}\right]$$
+          ${A}^{\mathrm{-1}}=\left[\begin{array}{cc}\frac{3}{5}& \frac{1}{5}\\ -\frac{2}{5}& \frac{1}{5}\end{array}\right]$
 
         
       
@@ -484,27 +518,27 @@ $$
       
 Finding the Multiplicative Inverse of 3×3 Matrices
 ==================================================
-Unfortunately, we do not have a formula similar to the one for a $$2\text{}\times \text{}2$$ matrix to find the inverse of a $$3\text{}\times \text{}3$$ matrix. Instead, we will augment the original matrix with the identity matrix and use **row operations** to obtain the inverse.
-Given a $$3\times 3$$
+Unfortunately, we do not have a formula similar to the one for a $2\text{}\times \text{}2$ matrix to find the inverse of a $3\text{}\times \text{}3$ matrix. Instead, we will augment the original matrix with the identity matrix and use **row operations** to obtain the inverse.
+Given a $3\times 3$
         matrix
  $$
 A=\left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\right]
 $$
       
-      augment $$A$$ with the identity matrix
+      augment $A$ with the identity matrix
 
        $$
 A|I=\left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\phantom{\rule{0.5em}{0ex}}\text\ |\phantom{\rule{0.5em}{0ex}}\text\ \begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]
 $$
-To begin, we write the **augmented matrix** with the identity on the right and $$A$$ on the left. Performing elementary **row operations** so that the **identity matrix** appears on the left, we will obtain the **inverse matrix** on the right. We will find the inverse of this matrix in the next example.
+To begin, we write the **augmented matrix** with the identity on the right and $A$ on the left. Performing elementary **row operations** so that the **identity matrix** appears on the left, we will obtain the **inverse matrix** on the right. We will find the inverse of this matrix in the next example.
 
       
         How To
-        *Given a $$3\times 3$$ matrix, find the inverse*
+        *Given a $3\times 3$ matrix, find the inverse*
 Write the original matrix augmented with the identity matrix on the right.
         Use elementary row operations so that the identity appears on the left.
         What is obtained on the right is the inverse of the original matrix.
-          Use matrix multiplication to show that $$A{A}^{\mathrm{-1}}=I$$ and $${A}^{\mathrm{-1}}A=I.$$
+          Use matrix multiplication to show that $A{A}^{\mathrm{-1}}=I$ and ${A}^{\mathrm{-1}}A=I.$
           
         
 
@@ -514,14 +548,14 @@ Write the original matrix augmented with the identity matrix on the right.
 Finding the Inverse of a 3 × 3 Matrix
 =====================================
 
-            Given the $$3\times 3$$ matrix $$A,$$ find the inverse.
+            Given the $3\times 3$ matrix $A,$ find the inverse.
  $$
 A=\left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\right]
 $$
             
           
           
-            Augment $$A$$ with the identity matrix, and then begin row operations until the identity matrix replaces $$A.$$ The matrix on the right will be the inverse of $$A.$$
+            Augment $A$ with the identity matrix, and then begin row operations until the identity matrix replaces $A.$ The matrix on the right will be the inverse of $A.$
 
              $$
 \left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ \phantom{\rule{0.5em}{0ex}}0& 0& 1\end{array}\right]\stackrel{\text{Interchange\}{R}_{2}\phantom{\rule{0.5em}{0ex}}\text{and\}{R}_{1}}{\to}\left[\begin{array}{ccc}3& 3& 1\\ 2& 3& 1\\ 2& 4& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\begin{array}{ccc}0& 1& 0\\ 1& 0& 0\\ \phantom{\rule{0.5em}{0ex}}0& 0& 1\end{array}\right]
@@ -555,7 +589,7 @@ Analysis
 
             
 
-            To prove that $$B={A}^{\mathrm{-1}},$$ let’s multiply the two matrices together to see if the product equals the identity, if $$A{A}^{\mathrm{-1}}=I$$ and $${A}^{\mathrm{-1}}A=I.$$
+            To prove that $B={A}^{\mathrm{-1}},$ let’s multiply the two matrices together to see if the product equals the identity, if $A{A}^{\mathrm{-1}}=I$ and ${A}^{\mathrm{-1}}A=I.$
  $$
 \begin{array}{l}\begin{array}{l}\begin{array}{l}\hfill \\ \hfill \end{array}\hfill \\ A{A}^{\mathrm{-1}}=\left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{rrr}\hfill \mathrm{-1}& \hfill 1& \hfill 0\\ \hfill \mathrm{-1}& \hfill 0& \hfill 1\\ \hfill 6& \hfill \mathrm{-2}& \hfill \mathrm{-3}\end{array}\right]\hfill \end{array}\hfill \\ \phantom{\rule{0.5em}{0ex}}=\left[\begin{array}{ccc}2(\mathrm{-1})+3(\mathrm{-1})+1(6)& \phantom{\rule{0.5em}{0ex}}2(1)+3(0)+1(\mathrm{-2})& \phantom{\rule{0.5em}{0ex}}2(0)+3(1)+1(\mathrm{-3})\\ 3(\mathrm{-1})+3(\mathrm{-1})+1(6)& \phantom{\rule{0.5em}{0ex}}3(1)+3(0)+1(\mathrm{-2})& \phantom{\rule{0.5em}{0ex}}3(0)+3(1)+1(\mathrm{-3})\\ 2(\mathrm{-1})+4(\mathrm{-1})+1(6)& \phantom{\rule{0.5em}{0ex}}2(1)+4(0)+1(\mathrm{-2})& \phantom{\rule{0.5em}{0ex}}2(0)+4(1)+1(\mathrm{-3})\end{array}\right]\hfill \\ \phantom{\rule{0.5em}{0ex}}=\left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]\hfill \end{array}
 $$
@@ -568,14 +602,14 @@ $$
       
         Try It
         
-          Find the inverse of the $$3\times 3$$ matrix.
+          Find the inverse of the $3\times 3$ matrix.
 
              $$
 A=\left[\begin{array}{ccc}\phantom{\rule{0.5em}{0ex}}2& \mathrm{-17}& 11\\ \mathrm{-1}& \phantom{\rule{0.5em}{0ex}}11& \mathrm{-7}\\ \phantom{\rule{0.5em}{0ex}}0& \phantom{\rule{0.5em}{0ex}}3& \mathrm{-2}\end{array}\right]
 $$
             
           
-          $${A}^{\mathrm{-1}}=\left[\begin{array}{ccc}1& 1& \phantom{\rule{0.5em}{0ex}}2\\ 2& 4& \mathrm{-3}\\ 3& 6& \mathrm{-5}\end{array}\right]$$
+          ${A}^{\mathrm{-1}}=\left[\begin{array}{ccc}1& 1& \phantom{\rule{0.5em}{0ex}}2\\ 2& 4& \mathrm{-3}\\ 3& 6& \mathrm{-5}\end{array}\right]$
 
         
       
@@ -584,11 +618,11 @@ $$
   
 Solving a System of Linear Equations Using the Inverse of a Matrix
 ==================================================================
-Solving a system of linear equations using the inverse of a matrix requires the definition of two new matrices: $$X$$ is the matrix representing the variables of the system, and $$B$$ is the matrix representing the constants. Using **matrix multiplication**, we may define a system of equations with the same number of equations as variables as
+Solving a system of linear equations using the inverse of a matrix requires the definition of two new matrices: $X$ is the matrix representing the variables of the system, and $B$ is the matrix representing the constants. Using **matrix multiplication**, we may define a system of equations with the same number of equations as variables as
 
-     $$AX=B$$
+     $AX=B$
     
-    To solve a system of linear equations using an **inverse matrix**, let $$A$$ be the **coefficient matrix**, let $$X$$ be the variable matrix, and let $$B$$ be the constant matrix. Thus, we want to solve a system $$AX=B.$$ For example, look at the following system of equations.
+    To solve a system of linear equations using an **inverse matrix**, let $A$ be the **coefficient matrix**, let $X$ be the variable matrix, and let $B$ be the constant matrix. Thus, we want to solve a system $AX=B.$ For example, look at the following system of equations.
  $$
 \begin{array}{c}{a}_{1}x+{b}_{1}y={c}_{1}\\ {a}_{2}x+{b}_{2}y={c}_{2}\end{array}
 $$
@@ -610,30 +644,30 @@ $$
 B=\left[\begin{array}{c}{c}_{1}\\ {c}_{2}\end{array}\right]
 $$
     
-Then $$AX=B$$ looks like
+Then $AX=B$ looks like
 
      $$
 \left[\begin{array}{cc}{a}_{1}& {b}_{1}\\ {a}_{2}& {b}_{2}\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\end{array}\right]=\left[\begin{array}{c}{c}_{1}\\ {c}_{2}\end{array}\right]
 $$
-Recall the discussion earlier in this section regarding multiplying a real number by its inverse, $$({2}^{\mathrm{-1}})\phantom{\rule{0.5em}{0ex}}2=\left(\frac{1}{2}\right)\phantom{\rule{0.5em}{0ex}}2=1.$$ To solve a single linear equation $$ax=b$$ for $$x,$$ we would simply multiply both sides of the equation by the multiplicative inverse (reciprocal) of $$a.$$ Thus,
+Recall the discussion earlier in this section regarding multiplying a real number by its inverse, $({2}^{\mathrm{-1}})\phantom{\rule{0.5em}{0ex}}2=\left(\frac{1}{2}\right)\phantom{\rule{0.5em}{0ex}}2=1.$ To solve a single linear equation $ax=b$ for $x,$ we would simply multiply both sides of the equation by the multiplicative inverse (reciprocal) of $a.$ Thus,
  $$
 \begin{array}{c}\phantom{\rule{0.5em}{0ex}}\text\ ax=b\\ \phantom{\rule{0.5em}{0ex}}\text\ \left(\frac{1}{a}\right)ax=\left(\frac{1}{a}\right)b\\ ({a}^{\mathrm{-1}}\phantom{\rule{0.5em}{0ex}}\text{\ \})ax=({a}^{\mathrm{-1}})b\\ [({a}^{\mathrm{-1}})a]x=({a}^{\mathrm{-1}})b\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \}1x=({a}^{\mathrm{-1}})b\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \}x=({a}^{\mathrm{-1}})b\end{array}
 $$
 The only difference between a solving a linear equation and a **system of equations** written in matrix form is that finding the inverse of a matrix is more complicated, and matrix multiplication is a longer process. However, the goal is the same—to isolate the variable.
 
-    We will investigate this idea in detail, but it is helpful to begin with a $$2\times 2$$ system and then move on to a $$3\times 3$$ system.
+    We will investigate this idea in detail, but it is helpful to begin with a $2\times 2$ system and then move on to a $3\times 3$ system.
 
       
 Solving a System of Equations Using the Inverse of a Matrix
 ===========================================================
 
-      Given a system of equations, write the coefficient matrix $$A,$$ the variable matrix $$X,$$ and the constant matrix $$B.$$ Then
+      Given a system of equations, write the coefficient matrix $A,$ the variable matrix $X,$ and the constant matrix $B.$ Then
 
        $$
 AX=B
 $$
       
-      Multiply both sides by the inverse of $$A$$ to obtain the solution.
+      Multiply both sides by the inverse of $A$ to obtain the solution.
 
        $$
 \begin{array}{r}\hfill \left({A}^{\mathrm{-1}}\right)AX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill \left[\left({A}^{\mathrm{-1}}\right)A\right]X=\left({A}^{\mathrm{-1}}\right)B\\ \hfill IX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill X=\left({A}^{\mathrm{-1}}\right)B\end{array}
@@ -671,7 +705,7 @@ Then
            $$
 \left[\begin{array}{cc}3& 8\\ 4& 11\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\end{array}\right]=\left[\begin{array}{c}5\\ 7\end{array}\right]
 $$
-First, we need to calculate $${A}^{\mathrm{-1}}.$$ Using the formula to calculate the inverse of a 2 by 2 matrix, we have:
+First, we need to calculate ${A}^{\mathrm{-1}}.$ Using the formula to calculate the inverse of a 2 by 2 matrix, we have:
 
            $$
 \begin{array}{l}{A}^{\mathrm{-1}}=\frac{1}{ad-bc}\left[\begin{array}{cc}d& -b\\ -c& a\end{array}\right]\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \}=\frac{1}{3(11)\mathrm{-8}(4)}\left[\begin{array}{cc}11& \mathrm{-8}\\ \mathrm{-4}& 3\end{array}\right]\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \}=\frac{1}{1}\left[\begin{array}{cc}11& \mathrm{-8}\\ \mathrm{-4}& 3\end{array}\right]\hfill \end{array}
@@ -682,23 +716,23 @@ So,
 {A}^{\mathrm{-1}}=\left[\begin{array}{cc}11& \mathrm{-8}\\ \mathrm{-4}& \text{}\text{}\phantom{\rule{0.5em}{0ex}}3\end{array}\right]
 $$
           
-          Now we are ready to solve. Multiply both sides of the equation by $${A}^{\mathrm{-1}}.$$
+          Now we are ready to solve. Multiply both sides of the equation by ${A}^{\mathrm{-1}}.$
 
            $$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}({A}^{\mathrm{-1}})AX=({A}^{\mathrm{-1}})B\hfill \\ \left[\begin{array}{rr}\hfill 11& \hfill \mathrm{-8}\\ \hfill \mathrm{-4}& \hfill 3\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{cc}3& 8\\ 4& 11\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\end{array}\right]=\left[\begin{array}{rr}\hfill 11& \hfill \mathrm{-8}\\ \hfill \mathrm{-4}& \hfill 3\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}5\\ 7\end{array}\right]\hfill \\ \phantom{\rule{0.5em}{0ex}}\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\end{array}\right]=\left[\begin{array}{r}\hfill 11(5)+(\mathrm{-8})7\\ \hfill \mathrm{-4}(5)+3(7)\end{array}\right]\hfill \\ \phantom{\rule{0.5em}{0ex}}\left[\begin{array}{c}x\\ y\end{array}\right]=\left[\begin{array}{r}\hfill \mathrm{-1}\\ \hfill 1\end{array}\right]\hfill \end{array}
 $$
-The solution is $$\left(\mathrm{-1},1\right).$$
+The solution is $\left(\mathrm{-1},1\right).$
 
         
       
 
     
       Q&A
-      *Can we solve for $$X$$ by finding the product $$B{A}^{\mathrm{-1}}?$$*
+      *Can we solve for $X$ by finding the product $B{A}^{\mathrm{-1}}?$*
 
-      *No, recall that matrix multiplication is not commutative, so $${A}^{\mathrm{-1}}B\ne B{A}^{\mathrm{-1}}.$$ Consider our steps for solving the matrix equation.*
- $$\begin{array}{r}\hfill \left({A}^{\mathrm{-1}}\right)AX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill \left[\left({A}^{\mathrm{-1}}\right)A\right]X=\left({A}^{\mathrm{-1}}\right)B\\ \hfill IX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill X=\left({A}^{\mathrm{-1}}\right)B\end{array}$$
-*Notice in the first step we multiplied both sides of the equation by $${A}^{\mathrm{-1}},$$ but the $${A}^{\mathrm{-1}}$$ was to the left of $$A$$ on the left side and to the left of $$B$$ on the right side. Because matrix multiplication is not commutative, order matters.*
+      *No, recall that matrix multiplication is not commutative, so ${A}^{\mathrm{-1}}B\ne B{A}^{\mathrm{-1}}.$ Consider our steps for solving the matrix equation.*
+ $\begin{array}{r}\hfill \left({A}^{\mathrm{-1}}\right)AX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill \left[\left({A}^{\mathrm{-1}}\right)A\right]X=\left({A}^{\mathrm{-1}}\right)B\\ \hfill IX=\left({A}^{\mathrm{-1}}\right)B\\ \hfill X=\left({A}^{\mathrm{-1}}\right)B\end{array}$
+*Notice in the first step we multiplied both sides of the equation by ${A}^{\mathrm{-1}},$ but the ${A}^{\mathrm{-1}}$ was to the left of $A$ on the left side and to the left of $B$ on the right side. Because matrix multiplication is not commutative, order matters.*
 
     
       
@@ -713,17 +747,17 @@ Solving a 3 × 3 System Using the Inverse of a Matrix
 $$
 
         
-          Write the equation $$AX=B.$$
+          Write the equation $AX=B.$
 
            $$
 \left[\begin{array}{ccc}5& 15& 56\\ \mathrm{-4}& \mathrm{-11}& \mathrm{-41}\\ \mathrm{-1}& \mathrm{-3}& \mathrm{-11}\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\\ z\end{array}\right]=\left[\begin{array}{r}\hfill 35\\ \hfill \mathrm{-26}\\ \hfill \mathrm{-7}\end{array}\right]
 $$
-First, we will find the inverse of $$A$$ by augmenting with the identity.
+First, we will find the inverse of $A$ by augmenting with the identity.
 
            $$
 \left[\begin{array}{rrr}\hfill 5& \hfill 15& \hfill 56\\ \hfill \mathrm{-4}& \hfill \mathrm{-11}& \hfill \mathrm{-41}\\ \hfill \mathrm{-1}& \hfill \mathrm{-3}& \hfill \mathrm{-11}\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]
 $$
-Multiply row 1 by $$\frac{1}{5}.$$
+Multiply row 1 by $\frac{1}{5}.$
 
            $$
 \left[\begin{array}{ccc}1& 3& \frac{56}{5}\\ \mathrm{-4}& \mathrm{-11}& \mathrm{-41}\\ \mathrm{-1}& \mathrm{-3}& \mathrm{-11}\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{ccc}\frac{1}{5}& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]
@@ -753,13 +787,13 @@ $$
 \left[\begin{array}{ccc}1& 0& -\frac{1}{5}\\ 0& 1& \frac{19}{5}\\ 0& 0& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{ccc}-\frac{11}{5}& \mathrm{-3}& 0\\ \frac{4}{5}& 1& 0\\ 1& 0& 5\end{array}\right]
 $$
           
-          Multiply row 3 by $$\frac{1}{5}$$ and add to row 1.
+          Multiply row 3 by $\frac{1}{5}$ and add to row 1.
 
            $$
 \left[\begin{array}{ccc}1& 0& 0\\ 0& 1& \frac{19}{5}\\ 0& 0& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{ccc}\mathrm{-2}& \mathrm{-3}& 1\\ \frac{4}{5}& 1& 0\\ 1& 0& 5\end{array}\right]
 $$
           
-          Multiply row 3 by $$-\frac{19}{5}$$ and add to row 2.
+          Multiply row 3 by $-\frac{19}{5}$ and add to row 2.
 
            $$
 \left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\phantom{\rule{0.5em}{0ex}}|\phantom{\rule{0.5em}{0ex}}\begin{array}{ccc}\mathrm{-2}& \mathrm{-3}& 1\\ \mathrm{-3}& 1& \mathrm{-19}\\ 1& 0& 5\end{array}\right]
@@ -770,7 +804,7 @@ $$
            $$
 {A}^{\mathrm{-1}}=\left[\begin{array}{ccc}\mathrm{-2}& \mathrm{-3}& 1\\ \mathrm{-3}& 1& \mathrm{-19}\\ 1& 0& 5\end{array}\right]
 $$
-          Multiply both sides of the equation by $${A}^{\mathrm{-1}}.$$ We want $${A}^{\mathrm{-1}}AX={A}^{\mathrm{-1}}B:$$
+          Multiply both sides of the equation by ${A}^{\mathrm{-1}}.$ We want ${A}^{\mathrm{-1}}AX={A}^{\mathrm{-1}}B:$
 
            $$
 \left[\begin{array}{rrr}\hfill \mathrm{-2}& \hfill \mathrm{-3}& \hfill 1\\ \hfill \mathrm{-3}& \hfill 1& \hfill \mathrm{-19}\\ \hfill 1& \hfill 0& \hfill 5\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{rrr}\hfill 5& \hfill 15& \hfill 56\\ \hfill \mathrm{-4}& \hfill \mathrm{-11}& \hfill \mathrm{-41}\\ \hfill \mathrm{-1}& \hfill \mathrm{-3}& \hfill \mathrm{-11}\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{c}x\\ y\\ z\end{array}\right]=\left[\begin{array}{rrr}\hfill \mathrm{-2}& \hfill \mathrm{-3}& \hfill 1\\ \hfill \mathrm{-3}& \hfill 1& \hfill \mathrm{-19}\\ \hfill 1& \hfill 0& \hfill 5\end{array}\right]\phantom{\rule{0.5em}{0ex}}\text{\ \}\left[\begin{array}{r}\hfill 35\\ \hfill \mathrm{-26}\\ \hfill \mathrm{-7}\end{array}\right]
@@ -780,7 +814,7 @@ Thus,
            $$
 {A}^{\mathrm{-1}}B=\left[\begin{array}{r}\hfill \mathrm{-70}+78\mathrm{-7}\\ \hfill \mathrm{-105}\mathrm{-26}+133\\ \hfill 35+0\mathrm{-35}\end{array}\right]=\left[\begin{array}{c}1\\ 2\\ 0\end{array}\right]
 $$
-The solution is $$\left(1,2,0\right).$$
+The solution is $\left(1,2,0\right).$
 
         
       
@@ -794,7 +828,7 @@ The solution is $$\left(1,2,0\right).$$
 \begin{array}{l}\phantom{\rule{0.5em}{0ex}}\text\ 2x-17y+11z=0\hfill \\ \phantom{\rule{0.5em}{0ex}}\text\ -x+11y-7z=8\hfill \\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \}3y-2z=\mathrm{-2}\hfill \end{array}
 $$
 
-          $$X=\left[\begin{array}{c}4\\ 38\\ 58\end{array}\right]$$
+          $X=\left[\begin{array}{c}4\\ 38\\ 58\end{array}\right]$
 
       
     
@@ -803,7 +837,7 @@ $$
       How To
       *Given a system of equations, solve with matrix inverses using a calculator.*
 
-      Save the coefficient matrix and the constant matrix as matrix variables $$\left[A\right]$$ and $$\left[B\right].$$
+      Save the coefficient matrix and the constant matrix as matrix variables $\left[A\right]$ and $\left[B\right].$
         
       Enter the multiplication into the calculator, calling up each matrix variable as needed.
       If the coefficient matrix is invertible, the calculator will present the solution matrix; if the coefficient matrix is not invertible, the calculator will present an error message.
@@ -824,12 +858,12 @@ $$
 
         
 
-          On the matrix page of the calculator, enter the **coefficient matrix** as the matrix variable $$\left[A\right],$$ and enter the constant matrix as the matrix variable $$\left[B\right].$$
+          On the matrix page of the calculator, enter the **coefficient matrix** as the matrix variable $\left[A\right],$ and enter the constant matrix as the matrix variable $\left[B\right].$
  $$
 [A]=\left[\begin{array}{ccc}2& 3& 1\\ 3& 3& 1\\ 2& 4& 1\end{array}\right],\text{\hspace{1em}}[B]=\left[\begin{array}{c}32\\ \mathrm{-27}\\ \mathrm{-2}\end{array}\right]
 $$
           
-          On the home screen of the calculator, type in the multiplication to solve for $$X,$$ calling up each matrix variable as needed.
+          On the home screen of the calculator, type in the multiplication to solve for $X,$ calling up each matrix variable as needed.
 
            $$
 {[A]}^{\mathrm{-1}}\times [B]
@@ -859,26 +893,26 @@ $$
 Key Equations
 =============
 
-Identity matrix for a $$2\times 2$$ matrix
- $${I}_{2}=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]$$ 
+Identity matrix for a $2\times 2$ matrix
+ ${I}_{2}=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]$ 
 
-Identity matrix for a $$\text{3}\times 3$$ matrix
- $${I}_{3}=\left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]$$ 
+Identity matrix for a $\text{3}\times 3$ matrix
+ ${I}_{3}=\left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]$ 
 
-Multiplicative inverse of a $$2\times 2$$ matrix
- $${A}^{\mathrm{-1}}=\frac{1}{ad-bc}\left[\begin{array}{cc}d& -b\\ -c& a\end{array}\right],\phantom{\rule{0.5em}{0ex}}\text{where\}ad-bc\ne 0$$ 
+Multiplicative inverse of a $2\times 2$ matrix
+ ${A}^{\mathrm{-1}}=\frac{1}{ad-bc}\left[\begin{array}{cc}d& -b\\ -c& a\end{array}\right],\phantom{\rule{0.5em}{0ex}}\text{where\}ad-bc\ne 0$ 
 
     
 Key Concepts
 ============
 
-      An identity matrix has the property $$AI=IA=A.$$ See .
-    An invertible matrix has the property $$A{A}^{\mathrm{-1}}={A}^{\mathrm{-1}}A=I.$$ See .
-    Use matrix multiplication and the identity to find the inverse of a $$2\times 2$$ matrix. See .
+      An identity matrix has the property $AI=IA=A.$ See .
+    An invertible matrix has the property $A{A}^{\mathrm{-1}}={A}^{\mathrm{-1}}A=I.$ See .
+    Use matrix multiplication and the identity to find the inverse of a $2\times 2$ matrix. See .
       The multiplicative inverse can be found using a formula.  See .
       Another method of finding the inverse is by augmenting with the identity. See .
-    We can augment a $$3\times 3$$ matrix with the identity on the right and use row operations to turn the original matrix into the identity, and the matrix on the right becomes the inverse. See .
-    	Write the system of equations as $$AX=B,$$ and multiply both sides by the inverse of $$A:{A}^{\mathrm{-1}}AX={A}^{\mathrm{-1}}B.$$ See  and .
+    We can augment a $3\times 3$ matrix with the identity on the right and use row operations to turn the original matrix into the identity, and the matrix on the right becomes the inverse. See .
+    	Write the system of equations as $AX=B,$ and multiply both sides by the inverse of $A:{A}^{\mathrm{-1}}AX={A}^{\mathrm{-1}}B.$ See  and .
       We can also use a calculator to solve a system of equations with matrix inverses. See .
     
       
@@ -893,200 +927,200 @@ Section Exercises
 Verbal
 ======
 
-      In a previous section, we showed that matrix multiplication is not commutative, that is, $$AB\ne BA$$ in most cases. Can you explain why matrix multiplication is commutative for matrix inverses, that is, $${A}^{\mathrm{-1}}A=A{A}^{\mathrm{-1}}?$$
+      In a previous section, we showed that matrix multiplication is not commutative, that is, $AB\ne BA$ in most cases. Can you explain why matrix multiplication is commutative for matrix inverses, that is, ${A}^{\mathrm{-1}}A=A{A}^{\mathrm{-1}}?$
 
       
-        If $${A}^{\mathrm{-1}}$$ is the inverse of $$A,$$ then $$A{A}^{\mathrm{-1}}=I,$$ the identity matrix. Since $$A$$ is also the inverse of $${A}^{\mathrm{-1}},{A}^{\mathrm{-1}}A=I.$$ You can also check by proving this for a $$2\times 2$$ matrix.
+        If ${A}^{\mathrm{-1}}$ is the inverse of $A,$ then $A{A}^{\mathrm{-1}}=I,$ the identity matrix. Since $A$ is also the inverse of ${A}^{\mathrm{-1}},{A}^{\mathrm{-1}}A=I.$ You can also check by proving this for a $2\times 2$ matrix.
 
-      Does every $$2\times 2$$ matrix have an inverse? Explain why or why not. Explain what condition is necessary for an inverse to exist.
+      Does every $2\times 2$ matrix have an inverse? Explain why or why not. Explain what condition is necessary for an inverse to exist.
 
-      Can you explain whether a $$2\times 2$$ matrix with an entire row of zeros can have an inverse?
+      Can you explain whether a $2\times 2$ matrix with an entire row of zeros can have an inverse?
  
-        No, because $$ad$$ and $$bc$$ are both 0, so $$ad-bc=0,$$ which requires us to divide by 0 in the formula.
+        No, because $ad$ and $bc$ are both 0, so $ad-bc=0,$ which requires us to divide by 0 in the formula.
 
       Can a matrix with an entire column of zeros have an inverse? Explain why or why not.
 
-      Can a matrix with zeros on the diagonal have an inverse? If so, find an example. If not, prove why not. For simplicity, assume a $$2\times 2$$ matrix.
+      Can a matrix with zeros on the diagonal have an inverse? If so, find an example. If not, prove why not. For simplicity, assume a $2\times 2$ matrix.
 
       
-        Yes.  Consider the matrix $$\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right].$$ The inverse is found with the following calculation: $${A}^{\mathrm{-1}}=\frac{1}{0(0)\mathrm{-1}(1)}\left[\begin{array}{cc}0& \mathrm{-1}\\ \mathrm{-1}& 0\end{array}\right]=\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right].$$
+        Yes.  Consider the matrix $\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right].$ The inverse is found with the following calculation: ${A}^{\mathrm{-1}}=\frac{1}{0(0)\mathrm{-1}(1)}\left[\begin{array}{cc}0& \mathrm{-1}\\ \mathrm{-1}& 0\end{array}\right]=\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right].$
 
     
     
 Algebraic
 =========
-In the following exercises, show that matrix $$A$$ is the inverse of matrix $$B.$$
+In the following exercises, show that matrix $A$ is the inverse of matrix $B.$
 
-      $$A=\left[\begin{array}{cc}1& 0\\ \mathrm{-1}& 1\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}1& 0\\ 1& 1\end{array}\right]$$
+      $A=\left[\begin{array}{cc}1& 0\\ \mathrm{-1}& 1\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}1& 0\\ 1& 1\end{array}\right]$
 
-      $$A=\left[\begin{array}{cc}1& 2\\ 3& 4\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}\mathrm{-2}& 1\\ \frac{3}{2}& -\frac{1}{2}\end{array}\right]$$
+      $A=\left[\begin{array}{cc}1& 2\\ 3& 4\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}\mathrm{-2}& 1\\ \frac{3}{2}& -\frac{1}{2}\end{array}\right]$
 
       
-        $$AB=BA=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]=I$$
+        $AB=BA=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]=I$
 
-      $$A=\left[\begin{array}{cc}4& 5\\ 7& 0\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}0& \frac{1}{7}\\ \frac{1}{5}& -\frac{4}{35}\end{array}\right]$$
+      $A=\left[\begin{array}{cc}4& 5\\ 7& 0\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}0& \frac{1}{7}\\ \frac{1}{5}& -\frac{4}{35}\end{array}\right]$
 
-      $$A=\left[\begin{array}{cc}\mathrm{-2}& \frac{1}{2}\\ 3& \mathrm{-1}\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}\mathrm{-2}& \mathrm{-1}\\ \mathrm{-6}& \mathrm{-4}\end{array}\right]$$
-
-        
-          $$AB=BA=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]=I$$
+      $A=\left[\begin{array}{cc}\mathrm{-2}& \frac{1}{2}\\ 3& \mathrm{-1}\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\left[\begin{array}{cc}\mathrm{-2}& \mathrm{-1}\\ \mathrm{-6}& \mathrm{-4}\end{array}\right]$
 
         
-      $$A=\left[\begin{array}{ccc}1& 0& 1\\ 0& 1& \mathrm{-1}\\ 0& 1& 1\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{2}\left[\begin{array}{ccc}2& 1& \mathrm{-1}\\ 0& 1& 1\\ 0& \mathrm{-1}& 1\end{array}\right]$$
-
-      $$A=\left[\begin{array}{ccc}1& 2& 3\\ 4& 0& 2\\ 1& 6& 9\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{4}\left[\begin{array}{ccc}6& 0& \mathrm{-2}\\ 17& \mathrm{-3}& \mathrm{-5}\\ \mathrm{-12}& 2& 4\end{array}\right]$$
+          $AB=BA=\left[\begin{array}{cc}1& 0\\ 0& 1\end{array}\right]=I$
 
         
-          $$AB=BA=\left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]=I$$
+      $A=\left[\begin{array}{ccc}1& 0& 1\\ 0& 1& \mathrm{-1}\\ 0& 1& 1\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{2}\left[\begin{array}{ccc}2& 1& \mathrm{-1}\\ 0& 1& 1\\ 0& \mathrm{-1}& 1\end{array}\right]$
+
+      $A=\left[\begin{array}{ccc}1& 2& 3\\ 4& 0& 2\\ 1& 6& 9\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{4}\left[\begin{array}{ccc}6& 0& \mathrm{-2}\\ 17& \mathrm{-3}& \mathrm{-5}\\ \mathrm{-12}& 2& 4\end{array}\right]$
 
         
-      $$A=\left[\begin{array}{ccc}3& 8& 2\\ 1& 1& 1\\ 5& 6& 12\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{36}\left[\begin{array}{ccc}\mathrm{-6}& 84& \mathrm{-6}\\ 7& \mathrm{-26}& 1\\ \mathrm{-1}& \mathrm{-22}& 5\end{array}\right]$$
+          $AB=BA=\left[\begin{array}{ccc}1& 0& 0\\ 0& 1& 0\\ 0& 0& 1\end{array}\right]=I$
+
+        
+      $A=\left[\begin{array}{ccc}3& 8& 2\\ 1& 1& 1\\ 5& 6& 12\end{array}\right],\phantom{\rule{0.5em}{0ex}}B=\frac{1}{36}\left[\begin{array}{ccc}\mathrm{-6}& 84& \mathrm{-6}\\ 7& \mathrm{-26}& 1\\ \mathrm{-1}& \mathrm{-22}& 5\end{array}\right]$
 
       For the following exercises, find the multiplicative inverse of each matrix, if it exists.
 
-      $$\left[\begin{array}{cc}3& \mathrm{-2}\\ 1& 9\end{array}\right]$$
+      $\left[\begin{array}{cc}3& \mathrm{-2}\\ 1& 9\end{array}\right]$
 
         
-          $$\frac{1}{29}\left[\begin{array}{cc}9& 2\\ \mathrm{-1}& 3\end{array}\right]$$
+          $\frac{1}{29}\left[\begin{array}{cc}9& 2\\ \mathrm{-1}& 3\end{array}\right]$
 
         
-      $$\left[\begin{array}{cc}\mathrm{-2}& 2\\ 3& 1\end{array}\right]$$
+      $\left[\begin{array}{cc}\mathrm{-2}& 2\\ 3& 1\end{array}\right]$
 
-      $$\left[\begin{array}{cc}\mathrm{-3}& 7\\ 9& 2\end{array}\right]$$
-
-        
-          $$\frac{1}{69}\left[\begin{array}{cc}\mathrm{-2}& 7\\ 9& 3\end{array}\right]$$
+      $\left[\begin{array}{cc}\mathrm{-3}& 7\\ 9& 2\end{array}\right]$
 
         
-      $$\left[\begin{array}{cc}\mathrm{-4}& \mathrm{-3}\\ \mathrm{-5}& 8\end{array}\right]$$
+          $\frac{1}{69}\left[\begin{array}{cc}\mathrm{-2}& 7\\ 9& 3\end{array}\right]$
 
-      $$\left[\begin{array}{cc}1& 1\\ 2& 2\end{array}\right]$$
+        
+      $\left[\begin{array}{cc}\mathrm{-4}& \mathrm{-3}\\ \mathrm{-5}& 8\end{array}\right]$
+
+      $\left[\begin{array}{cc}1& 1\\ 2& 2\end{array}\right]$
 
         
           There is no inverse
 
         
-      $$\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right]$$
+      $\left[\begin{array}{cc}0& 1\\ 1& 0\end{array}\right]$
 
-      $$\left[\begin{array}{cc}0.5& 1.5\\ 1& \mathrm{-0.5}\end{array}\right]$$
-
-        
-          $$\frac{4}{7}\left[\begin{array}{cc}0.5& 1.5\\ 1& \mathrm{-0.5}\end{array}\right]$$
+      $\left[\begin{array}{cc}0.5& 1.5\\ 1& \mathrm{-0.5}\end{array}\right]$
 
         
-      $$\left[\begin{array}{ccc}1& 0& 6\\ \mathrm{-2}& 1& 7\\ 3& 0& 2\end{array}\right]$$
-
-      $$\left[\begin{array}{ccc}0& 1& \mathrm{-3}\\ 4& 1& 0\\ 1& 0& 5\end{array}\right]$$
+          $\frac{4}{7}\left[\begin{array}{cc}0.5& 1.5\\ 1& \mathrm{-0.5}\end{array}\right]$
 
         
-          $$\frac{1}{17}\left[\begin{array}{ccc}\mathrm{-5}& 5& \mathrm{-3}\\ 20& \mathrm{-3}& 12\\ 1& \mathrm{-1}& 4\end{array}\right]$$
+      $\left[\begin{array}{ccc}1& 0& 6\\ \mathrm{-2}& 1& 7\\ 3& 0& 2\end{array}\right]$
+
+      $\left[\begin{array}{ccc}0& 1& \mathrm{-3}\\ 4& 1& 0\\ 1& 0& 5\end{array}\right]$
 
         
-      $$\left[\begin{array}{ccc}1& 2& \mathrm{-1}\\ \mathrm{-3}& 4& 1\\ \mathrm{-2}& \mathrm{-4}& \mathrm{-5}\end{array}\right]$$
-
-      $$\left[\begin{array}{ccc}1& 9& \mathrm{-3}\\ 2& 5& 6\\ 4& \mathrm{-2}& 7\end{array}\right]$$
+          $\frac{1}{17}\left[\begin{array}{ccc}\mathrm{-5}& 5& \mathrm{-3}\\ 20& \mathrm{-3}& 12\\ 1& \mathrm{-1}& 4\end{array}\right]$
 
         
-          $$\frac{1}{209}\left[\begin{array}{ccc}47& \mathrm{-57}& 69\\ 10& 19& \mathrm{-12}\\ \mathrm{-24}& 38& \mathrm{-13}\end{array}\right]$$
+      $\left[\begin{array}{ccc}1& 2& \mathrm{-1}\\ \mathrm{-3}& 4& 1\\ \mathrm{-2}& \mathrm{-4}& \mathrm{-5}\end{array}\right]$
+
+      $\left[\begin{array}{ccc}1& 9& \mathrm{-3}\\ 2& 5& 6\\ 4& \mathrm{-2}& 7\end{array}\right]$
 
         
-      $$\left[\begin{array}{ccc}1& \mathrm{-2}& 3\\ \mathrm{-4}& 8& \mathrm{-12}\\ 1& 4& 2\end{array}\right]$$
-
-      $$\left[\begin{array}{ccc}\frac{1}{2}& \frac{1}{2}& \frac{1}{2}\\ \frac{1}{3}& \frac{1}{4}& \frac{1}{5}\\ \frac{1}{6}& \frac{1}{7}& \frac{1}{8}\end{array}\right]$$
+          $\frac{1}{209}\left[\begin{array}{ccc}47& \mathrm{-57}& 69\\ 10& 19& \mathrm{-12}\\ \mathrm{-24}& 38& \mathrm{-13}\end{array}\right]$
 
         
-          $$\left[\begin{array}{ccc}18& 60& \mathrm{-168}\\ \mathrm{-56}& \mathrm{-140}& 448\\ 40& 80& \mathrm{-280}\end{array}\right]$$
+      $\left[\begin{array}{ccc}1& \mathrm{-2}& 3\\ \mathrm{-4}& 8& \mathrm{-12}\\ 1& 4& 2\end{array}\right]$
+
+      $\left[\begin{array}{ccc}\frac{1}{2}& \frac{1}{2}& \frac{1}{2}\\ \frac{1}{3}& \frac{1}{4}& \frac{1}{5}\\ \frac{1}{6}& \frac{1}{7}& \frac{1}{8}\end{array}\right]$
 
         
-      $$\left[\begin{array}{ccc}1& 2& 3\\ 4& 5& 6\\ 7& 8& 9\end{array}\right]$$
-
-      For the following exercises, solve the system using the inverse of a $$2\times 2$$ matrix.
-$$\begin{array}{l}5x-6y=-61\hfill \\ 4x+3y=-2\hfill \end{array}$$
+          $\left[\begin{array}{ccc}18& 60& \mathrm{-168}\\ \mathrm{-56}& \mathrm{-140}& 448\\ 40& 80& \mathrm{-280}\end{array}\right]$
 
         
-          $$\left(\mathrm{-5},6\right)$$
+      $\left[\begin{array}{ccc}1& 2& 3\\ 4& 5& 6\\ 7& 8& 9\end{array}\right]$
+
+      For the following exercises, solve the system using the inverse of a $2\times 2$ matrix.
+$\begin{array}{l}5x-6y=-61\hfill \\ 4x+3y=-2\hfill \end{array}$
 
         
-      $$\begin{array}{l}8x+4y=\mathrm{-100}\\ 3x\mathrm{-4}y=1\end{array}$$
-
-      $$\begin{array}{l}3x\mathrm{-2}y=6\hfill \\ -x+5y=\mathrm{-2}\hfill \end{array}$$
+          $\left(\mathrm{-5},6\right)$
 
         
-          $$\left(2,0\right)$$
+      $\begin{array}{l}8x+4y=\mathrm{-100}\\ 3x\mathrm{-4}y=1\end{array}$
+
+      $\begin{array}{l}3x\mathrm{-2}y=6\hfill \\ -x+5y=\mathrm{-2}\hfill \end{array}$
 
         
-      $$\begin{array}{l}5x\mathrm{-4}y=\mathrm{-5}\hfill \\ 4x+y=2.3\hfill \end{array}$$
-
-      $$\begin{array}{l}\mathrm{-3}x\mathrm{-4}y=9\hfill \\ 12x+4y=\mathrm{-6}\hfill \end{array}$$
+          $\left(2,0\right)$
 
         
-          $$\left(\frac{1}{3},-\frac{5}{2}\right)$$
+      $\begin{array}{l}5x\mathrm{-4}y=\mathrm{-5}\hfill \\ 4x+y=2.3\hfill \end{array}$
+
+      $\begin{array}{l}\mathrm{-3}x\mathrm{-4}y=9\hfill \\ 12x+4y=\mathrm{-6}\hfill \end{array}$
 
         
-      $$\begin{array}{l}\mathrm{-2}x+3y=\frac{3}{10}\hfill \\ -x+5y=\frac{1}{2}\hfill \end{array}$$
-
-      $$\begin{array}{l}\frac{8}{5}x-\frac{4}{5}y=\frac{2}{5}\hfill \\ -\frac{8}{5}x+\frac{1}{5}y=\frac{7}{10}\hfill \end{array}$$
+          $\left(\frac{1}{3},-\frac{5}{2}\right)$
 
         
-          $$\left(-\frac{2}{3},-\frac{11}{6}\right)$$
+      $\begin{array}{l}\mathrm{-2}x+3y=\frac{3}{10}\hfill \\ -x+5y=\frac{1}{2}\hfill \end{array}$
+
+      $\begin{array}{l}\frac{8}{5}x-\frac{4}{5}y=\frac{2}{5}\hfill \\ -\frac{8}{5}x+\frac{1}{5}y=\frac{7}{10}\hfill \end{array}$
 
         
-      $$\begin{array}{l}\frac{1}{2}x+\frac{1}{5}y=-\frac{1}{4}\\ \frac{1}{2}x-\frac{3}{5}y=-\frac{9}{4}\end{array}$$
+          $\left(-\frac{2}{3},-\frac{11}{6}\right)$
 
-      For the following exercises, solve a system using the inverse of a $$3\text{}\times \text{}3$$
+        
+      $\begin{array}{l}\frac{1}{2}x+\frac{1}{5}y=-\frac{1}{4}\\ \frac{1}{2}x-\frac{3}{5}y=-\frac{9}{4}\end{array}$
+
+      For the following exercises, solve a system using the inverse of a $3\text{}\times \text{}3$
         matrix.
-$$\begin{array}{l}3x\mathrm{-2}y+5z=21\hfill \\ 5x+4y=37\hfill \\ x\mathrm{-2}y\mathrm{-5}z=5\hfill \end{array}$$
+$\begin{array}{l}3x\mathrm{-2}y+5z=21\hfill \\ 5x+4y=37\hfill \\ x\mathrm{-2}y\mathrm{-5}z=5\hfill \end{array}$
 
         
-          $$\left(7,\frac{1}{2},\frac{1}{5}\right)$$
+          $\left(7,\frac{1}{2},\frac{1}{5}\right)$
 
         
-      $$\begin{array}{l}4x+4y+4z=40\hfill \\ 2x-3y+4z=\mathrm{-12}\hfill \\ -x+3y+4z=9\hfill \end{array}$$
+      $\begin{array}{l}4x+4y+4z=40\hfill \\ 2x-3y+4z=\mathrm{-12}\hfill \\ -x+3y+4z=9\hfill \end{array}$
 
-      $$\begin{array}{l}6x-5y-z=31\hfill \\ -x+2y+z=\mathrm{-6}\hfill \\ 3x+3y+2z=13\hfill \end{array}$$
-
-        
-          $$\left(5,0,\mathrm{-1}\right)$$
+      $\begin{array}{l}6x-5y-z=31\hfill \\ -x+2y+z=\mathrm{-6}\hfill \\ 3x+3y+2z=13\hfill \end{array}$
 
         
-      $$\begin{array}{l}6x\mathrm{-5}y+2z=\mathrm{-4}\hfill \\ 2x+5y-z=12\hfill \\ 2x+5y+z=12\hfill \end{array}$$
-
-      $$\begin{array}{l}4x\mathrm{-2}y+3z=\mathrm{-12}\hfill \\ 2x+2y\mathrm{-9}z=33\hfill \\ 6y\mathrm{-4}z=1\hfill \end{array}$$
+          $\left(5,0,\mathrm{-1}\right)$
 
         
-          $$\frac{1}{34}\left(\mathrm{-35},\mathrm{-97},\mathrm{-154}\right)$$
+      $\begin{array}{l}6x\mathrm{-5}y+2z=\mathrm{-4}\hfill \\ 2x+5y-z=12\hfill \\ 2x+5y+z=12\hfill \end{array}$
+
+      $\begin{array}{l}4x\mathrm{-2}y+3z=\mathrm{-12}\hfill \\ 2x+2y\mathrm{-9}z=33\hfill \\ 6y\mathrm{-4}z=1\hfill \end{array}$
 
         
-      $$\begin{array}{l}\frac{1}{10}x-\frac{1}{5}y+4z=\frac{\mathrm{-41}}{2}\\ \frac{1}{5}x\mathrm{-20}y+\frac{2}{5}z=\mathrm{-101}\\ \frac{3}{10}x+4y-\frac{3}{10}z=23\end{array}$$
-
-      $$\begin{array}{l}\frac{1}{2}x-\frac{1}{5}y+\frac{1}{5}z=\frac{31}{100}\hfill \\ -\frac{3}{4}x-\frac{1}{4}y+\frac{1}{2}z=\frac{7}{40}\hfill \\ -\frac{4}{5}x-\frac{1}{2}y+\frac{3}{2}z=\frac{1}{4}\hfill \end{array}$$
+          $\frac{1}{34}\left(\mathrm{-35},\mathrm{-97},\mathrm{-154}\right)$
 
         
-          $$\frac{1}{690}\left(65,\mathrm{-1136},\mathrm{-229}\right)$$
+      $\begin{array}{l}\frac{1}{10}x-\frac{1}{5}y+4z=\frac{\mathrm{-41}}{2}\\ \frac{1}{5}x\mathrm{-20}y+\frac{2}{5}z=\mathrm{-101}\\ \frac{3}{10}x+4y-\frac{3}{10}z=23\end{array}$
+
+      $\begin{array}{l}\frac{1}{2}x-\frac{1}{5}y+\frac{1}{5}z=\frac{31}{100}\hfill \\ -\frac{3}{4}x-\frac{1}{4}y+\frac{1}{2}z=\frac{7}{40}\hfill \\ -\frac{4}{5}x-\frac{1}{2}y+\frac{3}{2}z=\frac{1}{4}\hfill \end{array}$
 
         
-      $$\begin{array}{l}0.1x+0.2y+0.3z=\mathrm{-1.4}\hfill \\ 0.1x\mathrm{-0.2}y+0.3z=0.6\hfill \\ 0.4y+0.9z=\mathrm{-2}\hfill \end{array}$$
+          $\frac{1}{690}\left(65,\mathrm{-1136},\mathrm{-229}\right)$
+
+        
+      $\begin{array}{l}0.1x+0.2y+0.3z=\mathrm{-1.4}\hfill \\ 0.1x\mathrm{-0.2}y+0.3z=0.6\hfill \\ 0.4y+0.9z=\mathrm{-2}\hfill \end{array}$
 
     
 Technology
 ==========
 For the following exercises, use a calculator to solve the system of equations with matrix inverses.
 
-      $$\begin{array}{l}2x-y=\mathrm{-3}\hfill \\ -x+2y=2.3\hfill \end{array}$$
+      $\begin{array}{l}2x-y=\mathrm{-3}\hfill \\ -x+2y=2.3\hfill \end{array}$
 
         
-          $$\left(-\frac{37}{30},\frac{8}{15}\right)$$
+          $\left(-\frac{37}{30},\frac{8}{15}\right)$
 
         
-      $$\begin{array}{l}-\frac{1}{2}x-\frac{3}{2}y=-\frac{43}{20}\hfill \\ \frac{5}{2}x+\frac{11}{5}y=\frac{31}{4}\hfill \end{array}$$
+      $\begin{array}{l}-\frac{1}{2}x-\frac{3}{2}y=-\frac{43}{20}\hfill \\ \frac{5}{2}x+\frac{11}{5}y=\frac{31}{4}\hfill \end{array}$
 
-      $$\begin{array}{l}12.3x\mathrm{-2}y\mathrm{-2.5}z=2\hfill \\ 36.9x+7y\mathrm{-7.5}z=\mathrm{-7}\hfill \\ 8y\mathrm{-5}z=\mathrm{-10}\hfill \end{array}$$
-
-        
-          $$\left(\frac{10}{123},\mathrm{-1},\frac{2}{5}\right)$$
+      $\begin{array}{l}12.3x\mathrm{-2}y\mathrm{-2.5}z=2\hfill \\ 36.9x+7y\mathrm{-7.5}z=\mathrm{-7}\hfill \\ 8y\mathrm{-5}z=\mathrm{-10}\hfill \end{array}$
 
         
-      $$\begin{array}{l}0.5x\mathrm{-3}y+6z=\mathrm{-0.8}\hfill \\ 0.7x\mathrm{-2}y=\mathrm{-0.06}\hfill \\ 0.5x+4y+5z=0\hfill \end{array}$$
+          $\left(\frac{10}{123},\mathrm{-1},\frac{2}{5}\right)$
+
+        
+      $\begin{array}{l}0.5x\mathrm{-3}y+6z=\mathrm{-0.8}\hfill \\ 0.7x\mathrm{-2}y=\mathrm{-0.06}\hfill \\ 0.5x+4y+5z=0\hfill \end{array}$
 
     
       
@@ -1095,24 +1129,24 @@ Extensions
 
         For the following exercises, find the inverse of the given matrix.
 
-      $$\left[\begin{array}{cccc}1& 0& 1& 0\\ 0& 1& 0& 1\\ 0& 1& 1& 0\\ 0& 0& 1& 1\end{array}\right]$$
+      $\left[\begin{array}{cccc}1& 0& 1& 0\\ 0& 1& 0& 1\\ 0& 1& 1& 0\\ 0& 0& 1& 1\end{array}\right]$
 
         
-          $$\frac{1}{2}\left[\begin{array}{rrrr}\hfill 2& \hfill 1& \hfill -1& \hfill -1\\ \hfill 0& \hfill 1& \hfill 1& \hfill -1\\ \hfill 0& \hfill -1& \hfill 1& \hfill 1\\ \hfill 0& \hfill 1& \hfill -1& \hfill 1\end{array}\right]$$
+          $\frac{1}{2}\left[\begin{array}{rrrr}\hfill 2& \hfill 1& \hfill -1& \hfill -1\\ \hfill 0& \hfill 1& \hfill 1& \hfill -1\\ \hfill 0& \hfill -1& \hfill 1& \hfill 1\\ \hfill 0& \hfill 1& \hfill -1& \hfill 1\end{array}\right]$
 
-      $$\left[\begin{array}{rrrr}\hfill -1& \hfill 0& \hfill 2& \hfill 5\\ \hfill 0& \hfill 0& \hfill 0& \hfill 2\\ \hfill 0& \hfill 2& \hfill -1& \hfill 0\\ \hfill 1& \hfill -3& \hfill 0& \hfill 1\end{array}\right]$$
+      $\left[\begin{array}{rrrr}\hfill -1& \hfill 0& \hfill 2& \hfill 5\\ \hfill 0& \hfill 0& \hfill 0& \hfill 2\\ \hfill 0& \hfill 2& \hfill -1& \hfill 0\\ \hfill 1& \hfill -3& \hfill 0& \hfill 1\end{array}\right]$
 
-      $$\left[\begin{array}{rrrr}\hfill 1& \hfill -2& \hfill 3& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 2\\ \hfill 1& \hfill 4& \hfill -2& \hfill 3\\ \hfill -5& \hfill 0& \hfill 1& \hfill 1\end{array}\right]$$
-
-        
-          $$\frac{1}{39}\left[\begin{array}{rrrr}\hfill 3& \hfill 2& \hfill 1& \hfill -7\\ \hfill 18& \hfill -53& \hfill 32& \hfill 10\\ \hfill 24& \hfill -36& \hfill 21& \hfill 9\\ \hfill -9& \hfill 46& \hfill -16& \hfill -5\end{array}\right]$$
-
-      $$\left[\begin{array}{rrrrr}\hfill 1& \hfill 2& \hfill 0& \hfill 2& \hfill 3\\ \hfill 0& \hfill 2& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 3& \hfill 0& \hfill 1\\ \hfill 0& \hfill 2& \hfill 0& \hfill 0& \hfill 1\\ \hfill 0& \hfill 0& \hfill 1& \hfill 2& \hfill 0\end{array}\right]$$
-
-      $$\left[\begin{array}{rrrrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0\\ \hfill 1& \hfill 1& \hfill 1& \hfill 1& \hfill 1& \hfill 1\end{array}\right]$$
+      $\left[\begin{array}{rrrr}\hfill 1& \hfill -2& \hfill 3& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 2\\ \hfill 1& \hfill 4& \hfill -2& \hfill 3\\ \hfill -5& \hfill 0& \hfill 1& \hfill 1\end{array}\right]$
 
         
-          $$\left[\begin{array}{rrrrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0\\ \hfill -1& \hfill -1& \hfill -1& \hfill -1& \hfill -1& \hfill 1\end{array}\right]$$
+          $\frac{1}{39}\left[\begin{array}{rrrr}\hfill 3& \hfill 2& \hfill 1& \hfill -7\\ \hfill 18& \hfill -53& \hfill 32& \hfill 10\\ \hfill 24& \hfill -36& \hfill 21& \hfill 9\\ \hfill -9& \hfill 46& \hfill -16& \hfill -5\end{array}\right]$
+
+      $\left[\begin{array}{rrrrr}\hfill 1& \hfill 2& \hfill 0& \hfill 2& \hfill 3\\ \hfill 0& \hfill 2& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 3& \hfill 0& \hfill 1\\ \hfill 0& \hfill 2& \hfill 0& \hfill 0& \hfill 1\\ \hfill 0& \hfill 0& \hfill 1& \hfill 2& \hfill 0\end{array}\right]$
+
+      $\left[\begin{array}{rrrrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0\\ \hfill 1& \hfill 1& \hfill 1& \hfill 1& \hfill 1& \hfill 1\end{array}\right]$
+
+        
+          $\left[\begin{array}{rrrrrr}\hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0& \hfill 0\\ \hfill 0& \hfill 0& \hfill 0& \hfill 0& \hfill 1& \hfill 0\\ \hfill -1& \hfill -1& \hfill -1& \hfill -1& \hfill -1& \hfill 1\end{array}\right]$
 
     
     
@@ -1150,7 +1184,7 @@ Infinite solutions.
       
 Micah ate 6, Joe ate 3, and Albert ate 3.
 
-      A farmer constructed a chicken coop out of chicken wire, wood, and plywood. The chicken wire cost $2 per square foot, the wood $10 per square foot, and the plywood $5 per square foot. The farmer spent a total of $51, and the total amount of materials used was $$14{\phantom{\rule{0.3em}{0ex}}\text{ft}}^{2}.$$ He used $${\text{3\ ft}}^{2}$$ more chicken wire than plywood. How much of each material in did the farmer use?
+      A farmer constructed a chicken coop out of chicken wire, wood, and plywood. The chicken wire cost $2 per square foot, the wood $10 per square foot, and the plywood $5 per square foot. The farmer spent a total of $51, and the total amount of materials used was $14{\phantom{\rule{0.3em}{0ex}}\text{ft}}^{2}.$ He used ${\text{3\ ft}}^{2}$ more chicken wire than plywood. How much of each material in did the farmer use?
 
       Jay has lemon, orange, and pomegranate trees in his backyard. An orange weighs 8 oz, a lemon 5 oz, and a pomegranate 11 oz. Jay picked 142 pieces of fruit weighing a total of 70 lb, 10 oz. He picked 15.5 times more oranges than pomegranates. How many of each fruit did Jay pick?
 

@@ -28,32 +28,31 @@ Objective 1: Recognize and use the appropriate method to factor a polynomial com
 ===================================================================================================
 The following outline provides a good strategy for factoring polynomials.
 
-    
-  
+![Image](../../media/CNX_Coreq_Figure_05_03_001.png)
 
 Practice Makes Perfect
 ======================
 Recognize and use the appropriate method to factor a polynomial completely.
 
-  $$24{x}^{2}-46x+10$$
+  $24{x}^{2}-46x+10$
 
-  $${t}^{7}-{t}^{3}$$
+  ${t}^{7}-{t}^{3}$
 
-  $${y}^{3}+5{y}^{2}-4y-20$$
+  ${y}^{3}+5{y}^{2}-4y-20$
 
-  $$12{m}^{2}+20m+3$$
+  $12{m}^{2}+20m+3$
 
-  $$3{r}^{3}-3$$
+  $3{r}^{3}-3$
 
-  $$3{m}^{2}-9mn-30{n}^{2}$$
+  $3{m}^{2}-9mn-30{n}^{2}$
 
-  $${x}^{3}-{x}^{2}-30x$$
+  ${x}^{3}-{x}^{2}-30x$
 
 Objective 2: Solve a quadratic equation by factoring (IA 6.5.2)
 ===============================================================
-If $$ab=0$$ , where $$a$$ and $$b$$ represent real numbers. What can you say about $$a$$ and $$b$$ ?
+If $ab=0$ , where $a$ and $b$ represent real numbers. What can you say about $a$ and $b$ ?
 
-The **Zero Product Property** states that if $$ab=0$$ , then $$a=0$$ ,  or $$b=0$$ , or both.
+The **Zero Product Property** states that if $ab=0$ , then $a=0$ ,  or $b=0$ , or both.
 We can use this property to solve equations.
 
 How To Use the Zero Product Property
@@ -66,44 +65,44 @@ Check.
 Solve a quadratic equation by factoring
 =======================================
 
-  Solve $$(4x-1)(x+6)=0$$
+  Solve $(4x-1)(x+6)=0$
 
-  $$\begin{array}{ccc}4x-1& or& x+6=0\\ 4x=1& & x=-6\\ x=\frac{1}{4}& & \end{array}$$
+  $\begin{array}{ccc}4x-1& or& x+6=0\\ 4x=1& & x=-6\\ x=\frac{1}{4}& & \end{array}$
 
 Practice Makes Perfect
 ======================
 Solve
 
-  $$(x-5)(2x+3)=0$$
+  $(x-5)(2x+3)=0$
 
-  $$x(2x-5)=0$$
+  $x(2x-5)=0$
 
 Solve a quadratic equation by factoring
 =======================================
 
-  $${x}^{2}-2x=63$$
+  ${x}^{2}-2x=63$
 
 How is this problem different from practice problems 8 and 9 above? What should be our first step?
 
   
     Write the equation in standard form so that one side of the equation is 0.
-     $${x}^{2}-2x-63=0$$ 
+     ${x}^{2}-2x-63=0$ 
   
   
     Factor the quadratic expression completely.
-     $$(x-9)(x+7)=0$$ 
+     $(x-9)(x+7)=0$ 
   
   
     Set each factor containing a variable equal to 0.
-     $$\begin{array}{ccc}x-9=0& & x+7=0\end{array}$$ 
+     $\begin{array}{ccc}x-9=0& & x+7=0\end{array}$ 
   
   
     Solve the resulting equations.
-     $$\begin{array}{ccc}x=9& & x=-7\end{array}$$ 
+     $\begin{array}{ccc}x=9& & x=-7\end{array}$ 
   
   
     Check each solution in the original equation.
-     $$\begin{array}{ccc}{9}^{2}-2\left(9\right)=63& & {(-7)}^{2}-2(-7)=63\end{array}$$ 
+     $\begin{array}{ccc}{9}^{2}-2\left(9\right)=63& & {(-7)}^{2}-2(-7)=63\end{array}$ 
   
 
 Practice Makes Perfect
@@ -112,15 +111,15 @@ Solve a quadratic equation by factoring.
 
 Use the zero factor property to solve each of the following exercises.
 
-  $$4{x}^{2}-25=0$$
+  $4{x}^{2}-25=0$
 
-  $$6{x}^{2}=12x$$
+  $6{x}^{2}=12x$
 
-  $$2{x}^{2}-2=-3x$$
+  $2{x}^{2}-2=-3x$
 
-  $$(2x+3)(x+1)=15$$
+  $(2x+3)(x+1)=15$
 
-  $$5f(5f-16)=-15$$
+  $5f(5f-16)=-15$
 
 The revenue in millions of dollars for a fictional cable company from 2006 through 2013 is shown in *.*
 
@@ -149,13 +148,12 @@ The revenue can be modeled by the polynomial function
    $$
 R(t)=-0.037{t}^{4}+1.414{t}^{3}-19.777{t}^{2}+118.696t-205.332
 $$
-  where $$R$$ represents the revenue in millions of dollars and $$t$$ represents the year, with $$t=6$$ corresponding to 2006. Over which intervals is the revenue for the company increasing? Over which intervals is the revenue for the company decreasing? These questions, along with many others, can be answered by examining the graph of the polynomial function. We have already explored the local behavior of quadratics, a special case of polynomials. In this section we will explore the local behavior of polynomials in general.
+  where $R$ represents the revenue in millions of dollars and $t$ represents the year, with $t=6$ corresponding to 2006. Over which intervals is the revenue for the company increasing? Over which intervals is the revenue for the company decreasing? These questions, along with many others, can be answered by examining the graph of the polynomial function. We have already explored the local behavior of quadratics, a special case of polynomials. In this section we will explore the local behavior of polynomials in general.
 
 Recognizing Characteristics of Graphs of Polynomial Functions
 =============================================================
 Polynomial functions of degree 2 or more have graphs that do not have sharp corners; recall that these types of graphs are called smooth curves. Polynomial functions also display graphs that have no breaks. Curves with no breaks are called continuous.  shows a graph that represents a **polynomial function** and a graph that represents a function that is not a polynomial.
-\n\n![
-        ](../../media/CNX_Precalc_Figure_03_04_001.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_001.jpg)\n\n
 
     
       
@@ -165,13 +163,12 @@ Recognizing Polynomial Functions
 
           Which of the graphs in  represents a polynomial function?
 
-          \n\n![
-              ](../../media/CNX_Precalc_Figure_03_04_002.jpg)\n\n
+          \n\n![Image](../../media/CNX_Precalc_Figure_03_04_002.jpg)\n\n
         
         
 
-        The graphs of $$f$$ and $$h$$ are graphs of polynomial functions. They are smooth and **continuous**.
-The graphs of $$g$$ and $$k$$ are graphs of functions that are not polynomials. The graph of function $$g$$ has a sharp corner. The graph of function $$k$$ is not continuous.
+        The graphs of $f$ and $h$ are graphs of polynomial functions. They are smooth and **continuous**.
+The graphs of $g$ and $k$ are graphs of functions that are not polynomials. The graph of function $g$ has a sharp corner. The graph of function $k$ is not continuous.
 
     
 
@@ -187,8 +184,8 @@ The graphs of $$g$$ and $$k$$ are graphs of functions that are not polynomials. 
 Using Factoring to Find Zeros of Polynomial Functions
 =====================================================
 
-    Recall that if $$f$$ is a polynomial function, the values of $$x$$ for which $$f\left(x\right)=0$$ are called **zeros** of $$f.$$ If the equation of the polynomial function can be factored, we can set each factor equal to zero and solve for the zeros*.*
-We can use this method to find $$x\text{-}$$ intercepts because at the $$x\text{-}$$ intercepts we find the input values when the output value is zero. For general polynomials, this can be a challenging prospect. While quadratics can be solved using the relatively simple quadratic formula, the corresponding formulas for cubic and fourth-degree polynomials are not simple enough to remember, and formulas do not exist for general higher-degree polynomials. Consequently, we will limit ourselves to three cases:
+    Recall that if $f$ is a polynomial function, the values of $x$ for which $f\left(x\right)=0$ are called **zeros** of $f.$ If the equation of the polynomial function can be factored, we can set each factor equal to zero and solve for the zeros*.*
+We can use this method to find $x\text{-}$ intercepts because at the $x\text{-}$ intercepts we find the input values when the output value is zero. For general polynomials, this can be a challenging prospect. While quadratics can be solved using the relatively simple quadratic formula, the corresponding formulas for cubic and fourth-degree polynomials are not simple enough to remember, and formulas do not exist for general higher-degree polynomials. Consequently, we will limit ourselves to three cases:
 
     
       The polynomial can be factored using known methods: greatest common factor and trinomial factoring.
@@ -197,15 +194,15 @@ We can use this method to find $$x\text{-}$$ intercepts because at the $$x\text{
     
     
       How To
-      *Given a polynomial function $$f,$$ find the *x*-intercepts by factoring.*
+      *Given a polynomial function $f,$ find the *x*-intercepts by factoring.*
 
-        Set $$f\left(x\right)=0.$$
+        Set $f\left(x\right)=0.$
         
         If the polynomial function is not given in factored form:
         Factor out any common monomial factors.
         Factor any factorable binomials or trinomials.
           
-        Set each factor equal to zero and solve to find the $$x\text{-}$$ intercepts.
+        Set each factor equal to zero and solve to find the $x\text{-}$ intercepts.
       
     
 
@@ -214,10 +211,10 @@ We can use this method to find $$x\text{-}$$ intercepts because at the $$x\text{
 Finding the *x*-Intercepts of a Polynomial Function by Factoring
 ================================================================
 
-          Find the *x*-intercepts of $$f(x)={x}^{6}-3{x}^{4}+2{x}^{2}.$$
+          Find the *x*-intercepts of $f(x)={x}^{6}-3{x}^{4}+2{x}^{2}.$
 
         
-          We can attempt to factor this polynomial to find solutions for $$f\left(x\right)=0.$$
+          We can attempt to factor this polynomial to find solutions for $f\left(x\right)=0.$
 
  $$
 \begin{array}{cccc}\hfill {x}^{6}-3{x}^{4}+2{x}^{2}& =& 0\hfill & \phantom{\rule{2em}{0ex}}\begin{array}{c}\text{Factor\ out\ the\ greatest}\hfill \\ \text{common\ factor}\text{.}\hfill \end{array}\hfill \\ \hfill {x}^{2}({x}^{4}-3{x}^{2}+2)& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ the\ trinomial}\text{.}\hfill \\ \hfill {x}^{2}({x}^{2}-1)({x}^{2}-2)& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{Set\ each\ factor\ equal\ to\ zero}\text{.}\end{array}
@@ -225,19 +222,18 @@ $$
  $$
 \begin{array}{ccccccccccc}& & & & \hfill ({x}^{2}-1)& =& 0\hfill & & \hfill ({x}^{2}-2)& =& 0\hfill \\ \hfill {x}^{2}& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{or}& \hfill {x}^{2}& =& 1\hfill & \phantom{\rule{2em}{0ex}}\text{or}& \hfill {x}^{2}& =& 2\hfill \\ \hfill x& =& 0\hfill & & \hfill x& =& \mathrm{\pm 1}\hfill & & \hfill x& =& \pm \sqrt{2}\hfill \end{array}
 $$
-This gives us five *x*-intercepts: $$(0,0),(1,0),(\mathrm{-1},0),(\sqrt{2},0),$$ and $$(-\sqrt{2},0).$$ See . We can see that this is an even function because it is symmetric about the *y*-axis.
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_003-4a9b.jpg)\n\n
+This gives us five *x*-intercepts: $(0,0),(1,0),(\mathrm{-1},0),(\sqrt{2},0),$ and $(-\sqrt{2},0).$ See . We can see that this is an even function because it is symmetric about the *y*-axis.
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_003-4a9b.jpg)\n\n
 
       
           
 Finding the *x*-Intercepts of a Polynomial Function by Factoring
 ================================================================
 
-          Find the *x*-intercepts of $$f(x)={x}^{3}-5{x}^{2}-x+5.$$
+          Find the *x*-intercepts of $f(x)={x}^{3}-5{x}^{2}-x+5.$
 
         
-          Find solutions for $$f(x)=0$$
+          Find solutions for $f(x)=0$
             by factoring.
 
  $$
@@ -246,9 +242,8 @@ $$
 
  $$
 \begin{array}{ccccccccccc}\hfill x+1& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{or}\phantom{\rule{2em}{0ex}}& \hfill x-1& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{or}\phantom{\rule{2em}{0ex}}& \hfill x-5& =& 0\hfill \\ \hfill x& =& \mathrm{-1}\hfill & & \hfill x& =& 1\hfill & & \hfill x& =& 5\hfill \end{array}
-$$ There are three *x*-intercepts: $$(\mathrm{-1},0),(1,0),$$ and $$\left(5,0\right).$$ See .
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_004.jpg)\n\n
+$$ There are three *x*-intercepts: $(\mathrm{-1},0),(1,0),$ and $\left(5,0\right).$ See .
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_004.jpg)\n\n
 
     
       
@@ -256,17 +251,17 @@ $$ There are three *x*-intercepts: $$(\mathrm{-1},0),(1,0),$$ and $$\left(5,0\ri
 Finding the *y*- and *x*-Intercepts of a Polynomial in Factored Form
 ====================================================================
 
-          Find the *y*- and *x*-intercepts of $$g(x)={(x-2)}^{2}(2x+3).$$
+          Find the *y*- and *x*-intercepts of $g(x)={(x-2)}^{2}(2x+3).$
 
         
-          The *y*-intercept can be found by evaluating $$g\left(0\right).$$
+          The *y*-intercept can be found by evaluating $g\left(0\right).$
 
  $$
 \begin{array}{ccc}\hfill g(0)& =& {(0-2)}^{2}(2(0)+3)\hfill \\ & =& 12\hfill \end{array}
 $$ 
-So the *y*-intercept is $$(0,12).$$
+So the *y*-intercept is $(0,12).$
 
-The *x*-intercepts can be found by solving $$g\left(x\right)=0.$$
+The *x*-intercepts can be found by solving $g\left(x\right)=0.$
 
  $$
 {(x-2)}^{2}(2x+3)=0
@@ -275,7 +270,7 @@ $$
  $$
 \begin{array}{ccccccc}\hfill {(x-2)}^{2}& =& 0\hfill & & \hfill (2x+3)& =& 0\hfill \\ \hfill x-2& =& 0\hfill & \phantom{\rule{2em}{0ex}}\text{or}\phantom{\rule{2em}{0ex}}& \hfill x& =& -\frac{3}{2}\hfill \\ \hfill x& =& 2\hfill & & & & \end{array}
 $$
-So the *x*-intercepts are $$(2,0)$$ and $$\left(-\frac{3}{2},0\right).$$
+So the *x*-intercepts are $(2,0)$ and $\left(-\frac{3}{2},0\right).$
 
         
           
@@ -283,28 +278,26 @@ Analysis
 ========
 
           We can always check that our answers are reasonable by using a graphing calculator to graph the polynomial as shown in .
-\n\n![
-              ](../../media/CNX_Precalc_Figure_03_04_005.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_005.jpg)\n\n
 
     
           
 Finding the *x*-Intercepts of a Polynomial Function Using a Graph
 =================================================================
 
-          Find the *x*-intercepts of $$h(x)={x}^{3}+4{x}^{2}+x-6.$$
+          Find the *x*-intercepts of $h(x)={x}^{3}+4{x}^{2}+x-6.$
 
         
           This polynomial is not in factored form, has no common factors, and does not appear to be factorable using techniques previously discussed. Fortunately, we can use technology to find the intercepts. Keep in mind that some values make graphing difficult by hand. In these cases, we can take advantage of graphing utilities.
 
-Looking at the graph of this function, as shown in , it appears that there are *x*-intercepts at $$x=\mathrm{-3},\mathrm{-2},$$ and $$1.$$
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_006.jpg)\n\n
+Looking at the graph of this function, as shown in , it appears that there are *x*-intercepts at $x=\mathrm{-3},\mathrm{-2},$ and $1.$
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_006.jpg)\n\n
 
-        We can check whether these are correct by substituting these values for $$x$$ and verifying that
+        We can check whether these are correct by substituting these values for $x$ and verifying that
 
  $$
 h(-3)=h(-2)=h(1)=0
-$$ Since $$h(x)={x}^{3}+4{x}^{2}+x-6,$$ we have:
+$$ Since $h(x)={x}^{3}+4{x}^{2}+x-6,$ we have:
 
  $$
 \begin{array}{ccc}\hfill h(\mathrm{-3})& =& {(\mathrm{-3})}^{3}+4{(\mathrm{-3})}^{2}+(\mathrm{-3})-6=\mathrm{-27}+36-3-6=0\hfill \\ \hfill h(\mathrm{-2})& =& {(\mathrm{-2})}^{3}+4{(\mathrm{-2})}^{2}+(\mathrm{-2})-6=\mathrm{-8}+16-2-6=0\hfill \\ \hfill h(1)& =& {(1)}^{3}+4{(1)}^{2}+(1)-6=1+4+1-6=0\hfill \end{array}
@@ -317,9 +310,9 @@ $$
 
       Try It
       
-        Find the *y*- and *x*-intercepts of the function $$f(x)={x}^{4}-19{x}^{2}+30x.$$
+        Find the *y*- and *x*-intercepts of the function $f(x)={x}^{4}-19{x}^{2}+30x.$
 
-        *y*-intercept $$(0,0);$$ *x*-intercepts $$(0,0),(\u20135,0),(2,0),$$ and $$(3,0)$$
+        *y*-intercept $(0,0);$ *x*-intercepts $(0,0),(\u20135,0),(2,0),$ and $(3,0)$
 
       
     
@@ -335,33 +328,32 @@ Suppose, for example, we graph the function shown.
 f(x)=(x+3){(x-2)}^{2}{(x+1)}^{3}
 $$
     Notice in  that the behavior of the function at each of the *x*-intercepts is different.
-\n\n![Identifying the behavior of the graph at an *x*-intercept by examining the multiplicity of the zero.](../../media/CNX_Precalc_Figure_03_04_007-29d6.jpg)\n\nThe *x*-intercept $$x=\mathrm{-3}$$
-      is the solution of equation $$(x+3)=0.$$ The graph passes directly through the *x*-intercept at $$x=\mathrm{-3.}$$ The factor is linear (has a degree of 1), so the behavior near the intercept is like that of a line—it passes directly through the intercept. We call this a single zero because the zero corresponds to a single factor of the function.
-The *x*-intercept $$x=2$$ is the repeated solution of equation $${(x-2)}^{2}=0.$$ The graph touches the axis at the intercept and changes direction. The factor is quadratic (degree 2), so the behavior near the intercept is like that of a quadratic—it bounces off of the horizontal axis at the intercept.
+\n\n![Identifying the behavior of the graph at an *x*-intercept by examining the multiplicity of the zero.](../../media/CNX_Precalc_Figure_03_04_007-29d6.jpg)\n\nThe *x*-intercept $x=\mathrm{-3}$
+      is the solution of equation $(x+3)=0.$ The graph passes directly through the *x*-intercept at $x=\mathrm{-3.}$ The factor is linear (has a degree of 1), so the behavior near the intercept is like that of a line—it passes directly through the intercept. We call this a single zero because the zero corresponds to a single factor of the function.
+The *x*-intercept $x=2$ is the repeated solution of equation ${(x-2)}^{2}=0.$ The graph touches the axis at the intercept and changes direction. The factor is quadratic (degree 2), so the behavior near the intercept is like that of a quadratic—it bounces off of the horizontal axis at the intercept.
  $$
 {(x-2)}^{2}=(x-2)(x-2)
 $$
-    The factor is repeated, that is, the factor $$\left(x-2\right)$$ appears twice. The number of times a given factor appears in the factored form of the equation of a polynomial is called the **multiplicity**. The zero associated with this factor, $$x=2,$$ has multiplicity 2 because the factor $$\left(x-2\right)$$ occurs twice.
-The *x*-intercept $$x=-1$$ is the repeated solution of factor $${(x+1)}^{3}=0.$$ The graph passes through the axis at the intercept, but flattens out a bit first. This factor is cubic (degree 3), so the behavior near the intercept is like that of a cubic—with the same S-shape near the intercept as the toolkit function $$f\left(x\right)={x}^{3}.$$ We call this a triple zero, or a zero with multiplicity 3.
+    The factor is repeated, that is, the factor $\left(x-2\right)$ appears twice. The number of times a given factor appears in the factored form of the equation of a polynomial is called the **multiplicity**. The zero associated with this factor, $x=2,$ has multiplicity 2 because the factor $\left(x-2\right)$ occurs twice.
+The *x*-intercept $x=-1$ is the repeated solution of factor ${(x+1)}^{3}=0.$ The graph passes through the axis at the intercept, but flattens out a bit first. This factor is cubic (degree 3), so the behavior near the intercept is like that of a cubic—with the same S-shape near the intercept as the toolkit function $f\left(x\right)={x}^{3}.$ We call this a triple zero, or a zero with multiplicity 3.
 For **zeros** with even multiplicities, the graphs *touch* or are tangent to the *x*-axis. For zeros with odd multiplicities, the graphs *cross* or intersect the *x*-axis. See  for examples of graphs of polynomial functions with multiplicity 1, 2, and 3.
-\n\n![
-        ](../../media/CNX_Precalc_Figure_03_04_008-cb4a.jpg)\n\nFor higher even powers, such as 4, 6, and 8, the graph will still touch and bounce off of the horizontal axis but, for each increasing even power, the graph will appear flatter as it approaches and leaves the *x*-axis.
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_008-cb4a.jpg)\n\nFor higher even powers, such as 4, 6, and 8, the graph will still touch and bounce off of the horizontal axis but, for each increasing even power, the graph will appear flatter as it approaches and leaves the *x*-axis.
 For higher odd powers, such as 5, 7, and 9, the graph will still cross through the horizontal axis, but for each increasing odd power, the graph will appear flatter as it approaches and leaves the *x*-axis.
 
 Graphical Behavior of Polynomials at *x*-Intercepts
 ===================================================
 
-      If a polynomial contains a factor of the form $${(x-h)}^{p},$$ the behavior near the $$x\text{-}$$ intercept $$h$$ is determined by the power $$p.$$ We say that $$x=h$$ is a zero of **multiplicity** $$p.$$
+      If a polynomial contains a factor of the form ${(x-h)}^{p},$ the behavior near the $x\text{-}$ intercept $h$ is determined by the power $p.$ We say that $x=h$ is a zero of **multiplicity** $p.$
 The graph of a polynomial function will touch the *x*-axis at zeros with even multiplicities. The graph will cross the *x*-axis at zeros with odd multiplicities.
 The sum of the multiplicities is the degree of the polynomial function.
 
     
       How To
-      *Given a graph of a polynomial function of degree* $$n,$$ *identify the zeros and their multiplicities.*
+      *Given a graph of a polynomial function of degree* $n,$ *identify the zeros and their multiplicities.*
 If the graph crosses the *x*-axis and appears almost linear at the intercept, it is a single zero.
       If the graph touches the *x*-axis and bounces off of the axis, it is a zero with even multiplicity.
       If the graph crosses the *x*-axis at a zero, it is a zero with odd multiplicity.
-        The sum of the multiplicities is $$\le n.$$
+        The sum of the multiplicities is $\le n.$
         
       
     
@@ -372,22 +364,20 @@ Identifying Zeros and Their Multiplicities
 
           Use the graph of the function of degree 6 in  to identify the zeros of the function and their possible multiplicities.
 
-          \n\n![
-              ](../../media/CNX_Precalc_Figure_03_04_009.jpg)\n\n
+          \n\n![Image](../../media/CNX_Precalc_Figure_03_04_009.jpg)\n\n
         
         
           The polynomial function is of degree 6. The sum of the multiplicities must be 6.
-Starting from the left, the first zero occurs at $$x=\mathrm{-3.}$$ The graph touches the *x*-axis, so the multiplicity of the zero must be even. The zero of $$\mathrm{-3}$$ most likely has multiplicity $$2.$$
-The next zero occurs at $$x=\mathrm{-1.}$$ The graph looks almost linear at this point. This is a single zero of multiplicity 1.
-The last zero occurs at $$x=4.$$ The graph crosses the*x*-axis, so the multiplicity of the zero must be odd. We know that the multiplicity is likely 3 and that the sum of the multiplicities is 6.
+Starting from the left, the first zero occurs at $x=\mathrm{-3.}$ The graph touches the *x*-axis, so the multiplicity of the zero must be even. The zero of $\mathrm{-3}$ most likely has multiplicity $2.$
+The next zero occurs at $x=\mathrm{-1.}$ The graph looks almost linear at this point. This is a single zero of multiplicity 1.
+The last zero occurs at $x=4.$ The graph crosses the*x*-axis, so the multiplicity of the zero must be odd. We know that the multiplicity is likely 3 and that the sum of the multiplicities is 6.
 
       
 
     
       Try It
       Use the graph of the function of degree 9 in  to identify the zeros of the function and their multiplicities.
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_010-d677.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_010-d677.jpg)\n\n
 
     The graph has a zero of –5 with multiplicity 3, a zero of -1 with multiplicity 2, and a zero of 3 with multiplicity 4.
 
@@ -399,28 +389,26 @@ Determining End Behavior
 As we have already learned, the behavior of a graph of a **polynomial function** of the form
  $$
 f(x)={a}_{n}{x}^{n}+{a}_{n-1}{x}^{n-1}+\mathrm{...}+{a}_{1}x+{a}_{0}
-$$ will either ultimately rise or fall as $$x$$
-      increases without bound and will either rise or fall as $$x$$
+$$ will either ultimately rise or fall as $x$
+      increases without bound and will either rise or fall as $x$
       decreases without bound. This is because for very large inputs, say 100 or 1,000, the leading term dominates the size of the output. The same is true for very small inputs, say –100 or –1,000.
-Recall that we call this behavior the *end behavior* of a function. As we pointed out when discussing quadratic equations, when the leading term of a polynomial function, $${a}_{n}{x}^{n},$$ is an even power function, as $$x$$ increases or decreases without bound, $$f(x)$$ increases without bound. When the leading term is an odd power function, as $$x$$ decreases without bound, $$f(x)$$ also decreases without bound; as $$x$$ increases without bound, $$f(x)$$ also increases without bound. If the leading term is negative, it will change the direction of the end behavior.  summarizes all four cases.
+Recall that we call this behavior the *end behavior* of a function. As we pointed out when discussing quadratic equations, when the leading term of a polynomial function, ${a}_{n}{x}^{n},$ is an even power function, as $x$ increases or decreases without bound, $f(x)$ increases without bound. When the leading term is an odd power function, as $x$ decreases without bound, $f(x)$ also decreases without bound; as $x$ increases without bound, $f(x)$ also increases without bound. If the leading term is negative, it will change the direction of the end behavior.  summarizes all four cases.
 
-\n\n![
-        ](../../media/CNX_Precalc_Figure_03_04_011abcdn.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_011abcdn.jpg)\n\n
     
 Understanding the Relationship between Degree and Turning Points
 ================================================================
 
-    In addition to the end behavior, recall that we can analyze a polynomial function’s local behavior. It may have a turning point where the graph changes from increasing to decreasing (rising to falling) or decreasing to increasing (falling to rising). Look at the graph of the polynomial function $$f(x)={x}^{4}-{x}^{3}-4{x}^{2}+4x$$ in . The graph has three turning points.
-\n\n![
-        ](../../media/CNX_Precalc_Figure_03_04_015-f2e1.jpg)\n\n
-    This function $$f$$
+    In addition to the end behavior, recall that we can analyze a polynomial function’s local behavior. It may have a turning point where the graph changes from increasing to decreasing (rising to falling) or decreasing to increasing (falling to rising). Look at the graph of the polynomial function $f(x)={x}^{4}-{x}^{3}-4{x}^{2}+4x$ in . The graph has three turning points.
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_015-f2e1.jpg)\n\n
+    This function $f$
 is a 4th degree polynomial function and has 3 turning points. The maximum number of turning points of a polynomial function is always one less than the degree of the function.
 
 Interpreting Turning Points
 ===========================
 
       A **turning point** is a point of the graph where the graph changes from increasing to decreasing (rising to falling) or decreasing to increasing (falling to rising).
-A polynomial of degree $$n$$ will have at most $$n-1$$ turning points.
+A polynomial of degree $n$ will have at most $n-1$ turning points.
 
       
           
@@ -431,17 +419,17 @@ Finding the Maximum Number of Turning Points Using the Degree of a Polynomial Fu
 
           
 ⓐ
- $$f(x)=-{x}^{3}+4{x}^{5}-3{x}^{2}+1$$ 
-          ⓑ $$f(x)=-{\left(x-1\right)}^{2}\left(1+2{x}^{2}\right)$$
+ $f(x)=-{x}^{3}+4{x}^{5}-3{x}^{2}+1$ 
+          ⓑ $f(x)=-{\left(x-1\right)}^{2}\left(1+2{x}^{2}\right)$
 
           
         
           
-        ⓐFirst, rewrite the polynomial function in descending order: $$f(x)=4{x}^{5}-{x}^{3}-3{x}^{2}+1$$
+        ⓐFirst, rewrite the polynomial function in descending order: $f(x)=4{x}^{5}-{x}^{3}-3{x}^{2}+1$
 
 Identify the degree of the polynomial function. This polynomial function is of degree 5.
 
-        The maximum number of turning points is $$5-1=4.$$
+        The maximum number of turning points is $5-1=4.$
 
         
           ⓑ
@@ -449,12 +437,12 @@ Identify the degree of the polynomial function. This polynomial function is of d
         First, identify the leading term of the polynomial function if the function were expanded.
 
           
-            
-          
+
+![Graph of f(x)=x^4-x^3-4x^2+4x which denotes where the function increases and decreases and its turning points.](../../media/CNX_Precalc_Figure_03_04_016.jpg)
 
         Then, identify the degree of the polynomial function. This polynomial function is of degree 4.
 
-        The maximum number of turning points is $$4-1=3.$$
+        The maximum number of turning points is $4-1=3.$
 
         
 
@@ -473,10 +461,10 @@ Graphing Polynomial Functions
 
       
         Find the intercepts.
-      Check for symmetry. If the function is an even function, its graph is symmetrical about the $$y\text{-}$$ axis, that is, $$f\left(-x\right)=f\left(x\right).$$
-If a function is an odd function, its graph is symmetrical about the origin, that is, $$f\left(-x\right)=-f\left(x\right).$$
+      Check for symmetry. If the function is an even function, its graph is symmetrical about the $y\text{-}$ axis, that is, $f\left(-x\right)=f\left(x\right).$
+If a function is an odd function, its graph is symmetrical about the origin, that is, $f\left(-x\right)=-f\left(x\right).$
 
-      Use the multiplicities of the zeros to determine the behavior of the polynomial at the $$x\text{-}$$ intercepts.
+      Use the multiplicities of the zeros to determine the behavior of the polynomial at the $x\text{-}$ intercepts.
       Determine the end behavior by examining the leading term.
       Use the end behavior and the behavior at the intercepts to sketch a graph.
       Ensure that the number of turning points does not exceed one less than the degree of the polynomial.
@@ -489,46 +477,43 @@ If a function is an odd function, its graph is symmetrical about the origin, tha
 Sketching the Graph of a Polynomial Function
 ============================================
 
-          Sketch a graph of $$f(x)=\mathrm{-2}{(x+3)}^{2}(x-5).$$
+          Sketch a graph of $f(x)=\mathrm{-2}{(x+3)}^{2}(x-5).$
 
         
         
-          This graph has two *x*-intercepts. At $$x=\mathrm{-3},$$ the factor is squared, indicating a multiplicity of 2. The graph will bounce at this *x*-intercept. At $$x=5,$$ the function has a multiplicity of one, indicating the graph will cross through the axis at this intercept.
+          This graph has two *x*-intercepts. At $x=\mathrm{-3},$ the factor is squared, indicating a multiplicity of 2. The graph will bounce at this *x*-intercept. At $x=5,$ the function has a multiplicity of one, indicating the graph will cross through the axis at this intercept.
 
-The *y*-intercept is found by evaluating $$f(0).$$
+The *y*-intercept is found by evaluating $f(0).$
 
  $$
 \begin{array}{ccc}\hfill f(0)& =& \mathrm{-2}{(0+3)}^{2}(0-5)\hfill \\ & =& \mathrm{-2}\cdot 9\cdot (\mathrm{-5})\hfill \\ & =& 90\hfill \end{array}
 $$
-The *y*-intercept is $$(0,90).$$
-Additionally, we can see the leading term, if this polynomial were multiplied out, would be $$-2{x}^{3},$$
+The *y*-intercept is $(0,90).$
+Additionally, we can see the leading term, if this polynomial were multiplied out, would be $-2{x}^{3},$
 so the end behavior is that of a vertically reflected cubic, with the outputs decreasing as the inputs approach infinity, and the outputs increasing as the inputs approach negative infinity. See .
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_017.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_017.jpg)\n\n
         To sketch this, we consider that:
 
-        As $$x\to -\infty $$ the function $$f(x)\to \infty ,$$ so we know the graph starts in the second quadrant and is decreasing toward the $$x\text{-}$$ axis.
+        As $x\to -\infty$ the function $f(x)\to \infty ,$ so we know the graph starts in the second quadrant and is decreasing toward the $x\text{-}$ axis.
 
-        Since $$f\left(-x\right)=\mathrm{-2}{\left(-x+3\right)}^{2}\left(-x\u20135\right)$$
-is not equal to $$f\left(x\right),$$ the graph does not display symmetry.
-        At $$\left(-3,0\right),$$ the graph bounces off of the *x*-axis, so the function must start increasing.At $$\left(0,90\right),$$ the graph crosses the *y*-axis at the *y*-intercept. See .
+        Since $f\left(-x\right)=\mathrm{-2}{\left(-x+3\right)}^{2}\left(-x\u20135\right)$
+is not equal to $f\left(x\right),$ the graph does not display symmetry.
+        At $\left(-3,0\right),$ the graph bounces off of the *x*-axis, so the function must start increasing.At $\left(0,90\right),$ the graph crosses the *y*-axis at the *y*-intercept. See .
 
-        \n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_018.jpg)\n\n
+        \n\n![Image](../../media/CNX_Precalc_Figure_03_04_018.jpg)\n\n
 
-        Somewhere after this point, the graph must turn back down or start decreasing toward the horizontal axis because the graph passes through the next intercept at $$\left(5,0\right).$$ See .
-\n\n![
-            ](../../media/CNX_Precalc_Figure_03_04_019.jpg)\n\n
-        As $$x\to \infty $$ the function $$f(x)\to \mathrm{-\infty},$$ so we know the graph continues to decrease, and we can stop drawing the graph in the fourth quadrant.
+        Somewhere after this point, the graph must turn back down or start decreasing toward the horizontal axis because the graph passes through the next intercept at $\left(5,0\right).$ See .
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_019.jpg)\n\n
+        As $x\to \infty$ the function $f(x)\to \mathrm{-\infty},$ so we know the graph continues to decrease, and we can stop drawing the graph in the fourth quadrant.
 Using technology, we can create the graph for the polynomial function, shown in , and verify that the resulting graph looks like our sketch in .
 
-        \n\n![The complete graph of the polynomial function $$f(x)=-2{(x+3)}^{2}(x-5)$$](../../media/CNX_Precalc_Figure_03_04_020.jpg)\n\n
+        \n\n![The complete graph of the polynomial function $f(x)=-2{(x+3)}^{2}(x-5)$](../../media/CNX_Precalc_Figure_03_04_020.jpg)\n\n
 
     
       Try It
-      Sketch a graph of $$f(x)=\frac{1}{4}x{(x-1)}^{4}{(x+3)}^{3}.$$
+      Sketch a graph of $f(x)=\frac{1}{4}x{(x-1)}^{4}{(x+3)}^{3}.$
 
-        
+        ![Graph of f(x)=(1/4)x(x-1)^4(x+3)^3.](../../media/CNX_Precalc_Figure_03_04_021.jpg)
 
       
       
@@ -540,64 +525,63 @@ Using technology, we can create the graph for the polynomial function, shown in 
 Using the Intermediate Value Theorem
 ====================================
 
-In some situations, we may know two points on a graph but not the zeros. If those two points are on opposite sides of the *x*-axis, we can confirm that there is a zero between them. Consider a polynomial function $$f$$ whose graph is smooth and continuous. The **Intermediate Value Theorem** states that for two numbers $$a$$ and $$b$$ in the domain of $$f,$$ if $$a<b$$ and $$f\left(a\right)\ne f\left(b\right),$$ then the function $$f$$ takes on every value between $$f\left(a\right)$$ and $$f\left(b\right).$$ (While the theorem is intuitive, the proof is actually quite complicated and requires higher mathematics.) We can apply this theorem to a special case that is useful in graphing polynomial functions. If a point on the graph of a continuous function $$f$$ at $$x=a$$ lies above the $$x\text{-}$$ axis and another point at $$x=b$$ lies below the $$x\text{-}$$ axis, there must exist a third point between $$x=a$$ and $$x=b$$ where the graph crosses the $$x\text{-}$$ axis. Call this point $$\left(c,\phantom{\rule{0.5em}{0ex}}\text{}f\left(c\right)\right).$$ This means that we are assured there is a solution $$c$$ where $$f\left(c\right)=0.$$
-In other words, the Intermediate Value Theorem tells us that when a polynomial function changes from a negative value to a positive value, the function must cross the $$x\text{-}$$ axis.  shows that there is a zero between $$a$$
-and $$b.$$
+In some situations, we may know two points on a graph but not the zeros. If those two points are on opposite sides of the *x*-axis, we can confirm that there is a zero between them. Consider a polynomial function $f$ whose graph is smooth and continuous. The **Intermediate Value Theorem** states that for two numbers $a$ and $b$ in the domain of $f,$ if $a<b$ and $f\left(a\right)\ne f\left(b\right),$ then the function $f$ takes on every value between $f\left(a\right)$ and $f\left(b\right).$ (While the theorem is intuitive, the proof is actually quite complicated and requires higher mathematics.) We can apply this theorem to a special case that is useful in graphing polynomial functions. If a point on the graph of a continuous function $f$ at $x=a$ lies above the $x\text{-}$ axis and another point at $x=b$ lies below the $x\text{-}$ axis, there must exist a third point between $x=a$ and $x=b$ where the graph crosses the $x\text{-}$ axis. Call this point $\left(c,\phantom{\rule{0.5em}{0ex}}\text{}f\left(c\right)\right).$ This means that we are assured there is a solution $c$ where $f\left(c\right)=0.$
+In other words, the Intermediate Value Theorem tells us that when a polynomial function changes from a negative value to a positive value, the function must cross the $x\text{-}$ axis.  shows that there is a zero between $a$
+and $b.$
 
 \n\n![Using the Intermediate Value Theorem to show there exists a zero.](../../media/CNX_Precalc_Figure_03_04_022.jpg)\n\n
 
 Intermediate Value Theorem
 ==========================
 
-Let $$f$$
-be a polynomial function. The **Intermediate Value Theorem** states that if $$f\left(a\right)$$
-and $$f\left(b\right)$$
-have opposite signs, then there exists at least one value $$c$$
-between $$a$$
-and $$b$$
-for which $$f\left(c\right)=0.$$
+Let $f$
+be a polynomial function. The **Intermediate Value Theorem** states that if $f\left(a\right)$
+and $f\left(b\right)$
+have opposite signs, then there exists at least one value $c$
+between $a$
+and $b$
+for which $f\left(c\right)=0.$
 
 Using the Intermediate Value Theorem
 ====================================
 
-Show that the function $$f(x)={x}^{3}-5{x}^{2}+3x+6$$
-has at least two real zeros between $$x=1$$
-and $$x=4.$$
+Show that the function $f(x)={x}^{3}-5{x}^{2}+3x+6$
+has at least two real zeros between $x=1$
+and $x=4.$
 
-  As a start, evaluate $$f(x)$$
-at the integer values $$x=1,2,3,$$ and $$4.$$ See .
+  As a start, evaluate $f(x)$
+at the integer values $x=1,2,3,$ and $4.$ See .
 
-*$$x$$*
+*$x$*
 1
 2
 3
 4
 
-*$$f(x)$$*
+*$f(x)$*
 5
 0
 –3
 2
 
-We see that one zero occurs at $$x=2.$$ Also, since $$f(3)$$ is negative and $$f(4)$$ is positive, by the Intermediate Value Theorem, there must be at least one real zero between 3 and 4.
-We have shown that there are at least two real zeros between $$x=1$$
-and $$x=4.$$
+We see that one zero occurs at $x=2.$ Also, since $f(3)$ is negative and $f(4)$ is positive, by the Intermediate Value Theorem, there must be at least one real zero between 3 and 4.
+We have shown that there are at least two real zeros between $x=1$
+and $x=4.$
 
   
 
 Analysis
 ========
 
-    We can also see on the graph of the function in  that there are two real zeros between $$x=1$$
-and $$x=4.$$
+    We can also see on the graph of the function in  that there are two real zeros between $x=1$
+and $x=4.$
 
-\n\n![
-    ](../../media/CNX_Precalc_Figure_03_04_023.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_023.jpg)\n\n
 
 Try It
-Show that the function $$f(x)=7{x}^{5}-9{x}^{4}-{x}^{2}$$ has at least one real zero between $$x=1$$ and $$x=2.$$
+Show that the function $f(x)=7{x}^{5}-9{x}^{4}-{x}^{2}$ has at least one real zero between $x=1$ and $x=2.$
 
-Because $$f$$ is a polynomial function and since $$f(1)$$ is negative and $$f(2)$$ is positive, there is at least one real zero between $$x=1$$ and $$x=2.$$
+Because $f$ is a polynomial function and since $f(1)$ is negative and $f(2)$ is positive, there is at least one real zero between $x=1$ and $x=2.$
 
 Writing Formulas for Polynomial Functions
 =========================================
@@ -607,11 +591,11 @@ Now that we know how to find zeros of polynomial functions, we can use them to w
 Factored Form of Polynomials
 ============================
 
-If a polynomial of degree $$p$$
-that can be factored into strictly linear factors has horizontal intercepts at $$x={x}_{1},{x}_{2},\dots ,{x}_{n},$$
-then the polynomial can be written in the factored form: $$f(x)=a{(x-{x}_{1})}^{{p}_{1}}{(x-{x}_{2})}^{{p}_{2}}\cdots {(x-{x}_{n})}^{{p}_{n}}$$
-where the powers $${p}_{i}$$
-on each factor can be determined by the behavior of the graph at the corresponding intercept, and the stretch factor $$a$$
+If a polynomial of degree $p$
+that can be factored into strictly linear factors has horizontal intercepts at $x={x}_{1},{x}_{2},\dots ,{x}_{n},$
+then the polynomial can be written in the factored form: $f(x)=a{(x-{x}_{1})}^{{p}_{1}}{(x-{x}_{2})}^{{p}_{2}}\cdots {(x-{x}_{n})}^{{p}_{n}}$
+where the powers ${p}_{i}$
+on each factor can be determined by the behavior of the graph at the corresponding intercept, and the stretch factor $a$
 can be determined given a value of the function other than the *x*-intercept.
 
 How To
@@ -628,29 +612,27 @@ Writing a Formula for a Polynomial Function from the Graph
 
   Write a formula for the polynomial function shown in .
 
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_024.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_024.jpg)\n\n
 
-This graph has three *x*-intercepts: $$x=\mathrm{-3},2,$$ and $$5.$$ The *y*-intercept is located at $$(0,-2).$$ At $$x=\mathrm{-3}$$ and $$x=5,$$
-the graph passes through the axis linearly, suggesting the corresponding factors of the polynomial will be linear. At $$x=2,$$ the graph bounces at the intercept, suggesting the corresponding factor of the polynomial will be second degree (quadratic). Together, this gives us
+This graph has three *x*-intercepts: $x=\mathrm{-3},2,$ and $5.$ The *y*-intercept is located at $(0,-2).$ At $x=\mathrm{-3}$ and $x=5,$
+the graph passes through the axis linearly, suggesting the corresponding factors of the polynomial will be linear. At $x=2,$ the graph bounces at the intercept, suggesting the corresponding factor of the polynomial will be second degree (quadratic). Together, this gives us
  $$
 f(x)=a(x+3){(x-2)}^{2}(x-5)
 $$ 
-To determine the stretch factor, we utilize another point on the graph. We will use the $$y\text{-}$$ intercept $$(0,\u20132),$$ to solve for $$a.$$
+To determine the stretch factor, we utilize another point on the graph. We will use the $y\text{-}$ intercept $(0,\u20132),$ to solve for $a.$
 
  $$
 \begin{array}{ccc}\hfill f(0)& =& a(0+3){(0-2)}^{2}(0-5)\hfill \\ \hfill \mathrm{-2}& =& a(0+3){(0-2)}^{2}(0-5)\hfill \\ \hfill \mathrm{-2}& =& -60a\hfill \\ \hfill a& =& \frac{1}{30}\hfill \end{array}
 $$
-The graphed polynomial appears to represent the function $$f(x)=\frac{1}{30}(x+3){(x-2)}^{2}(x-5).$$
+The graphed polynomial appears to represent the function $f(x)=\frac{1}{30}(x+3){(x-2)}^{2}(x-5).$
 
 Try It
 
   Given the graph shown in , write a formula for the function shown.
 
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_025.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_025.jpg)\n\n
 
-$$f(x)=-\frac{1}{8}{(x-2)}^{3}{(x+1)}^{2}(x-4)$$
+$f(x)=-\frac{1}{8}{(x-2)}^{3}{(x+1)}^{2}(x-4)$
 
 Using Local and Global Extrema
 ==============================
@@ -662,45 +644,41 @@ Each turning point represents a local minimum or maximum. Sometimes, a turning p
 Local and Global Extrema
 ========================
 
-A **local maximum** or **local minimum** at $$x=a$$ (sometimes called the relative maximum or minimum, respectively) is the output at the highest or lowest point on the graph in an open interval around $$x=a.$$ If a function has a local maximum at $$a,$$ then $$f(a)\ge f(x)$$ for all $$x$$ in an open interval around $$x=a.$$ If a function has a local minimum at $$a,$$ then $$f(a)\le f(x)$$ for all $$x$$ in an open interval around $$x=a.$$
-A **global maximum** or **global minimum** is the output at the highest or lowest point of the function. If a function has a global maximum at $$a,$$ then $$f(a)\ge f(x)$$ for all $$x.$$ If a function has a global minimum at $$a,$$ then $$f(a)\le f(x)$$ for all $$x.$$
+A **local maximum** or **local minimum** at $x=a$ (sometimes called the relative maximum or minimum, respectively) is the output at the highest or lowest point on the graph in an open interval around $x=a.$ If a function has a local maximum at $a,$ then $f(a)\ge f(x)$ for all $x$ in an open interval around $x=a.$ If a function has a local minimum at $a,$ then $f(a)\le f(x)$ for all $x$ in an open interval around $x=a.$
+A **global maximum** or **global minimum** is the output at the highest or lowest point of the function. If a function has a global maximum at $a,$ then $f(a)\ge f(x)$ for all $x.$ If a function has a global minimum at $a,$ then $f(a)\le f(x)$ for all $x.$
 We can see the difference between local and global extrema in .
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_026n.png)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_026n.png)\n\n
 
 Q&A
 *Do all polynomial functions have a global minimum or maximum?*
-*No. Only polynomial functions of even degree have a global minimum or maximum. For example, $$f\left(x\right)=x$$ has neither a global maximum nor a global minimum.*
+*No. Only polynomial functions of even degree have a global minimum or maximum. For example, $f\left(x\right)=x$ has neither a global maximum nor a global minimum.*
 
 Using Local Extrema to Solve Applications
 =========================================
 
 An open-top box is to be constructed by cutting out squares from each corner of a 14 cm by 20 cm sheet of plastic and then folding up the sides. Find the size of squares that should be cut out to maximize the volume enclosed by the box.
 
-  We will start this problem by drawing a picture like that in , labeling the width of the cut-out squares with a variable, $$w.$$
+  We will start this problem by drawing a picture like that in , labeling the width of the cut-out squares with a variable, $w.$
 
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_027.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_027.jpg)\n\n
 
-Notice that after a square is cut out from each end, it leaves a $$\left(14-2w\right)$$ cm by $$\left(20-2w\right)$$ cm rectangle for the base of the box, and the box will be $$w$$ cm tall. This gives the volume
+Notice that after a square is cut out from each end, it leaves a $\left(14-2w\right)$ cm by $\left(20-2w\right)$ cm rectangle for the base of the box, and the box will be $w$ cm tall. This gives the volume
 
  $$
 \begin{array}{ccc}\hfill V(w)& =& (20-2w)(14-2w)w\hfill \\ & =& 280w-68{w}^{2}+4{w}^{3}\hfill \end{array}
 $$
-Notice, since the factors are $$w,$$ $$20\u20132w$$ and $$14\u20132w,$$ the three zeros are 10, 7, and 0, respectively. Because a height of 0 cm is not reasonable, we consider the only the zeros 10 and 7.  The shortest side is 14 and we are cutting off two squares, so values $$w$$ may take on are greater than zero or less than 7. This means we will restrict the domain of this function to $$0<w<7.$$ Using technology to sketch the graph of $$V\left(w\right)$$ on this reasonable domain, we get a graph like that in . We can use this graph to estimate the maximum value for the volume, restricted to values for $$w$$ that are reasonable for this problem—values from 0 to 7.
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_028.jpg)\n\n
-  From this graph, we turn our focus to only the portion on the reasonable domain, $$\left[0,\phantom{\rule{0.5em}{0ex}}\text{}7\right].$$ We can estimate the maximum value to be around 340 cubic cm, which occurs when the squares are about 2.75 cm on each side. To improve this estimate, we could use advanced features of our technology, if available, or simply change our window to zoom in on our graph to produce .
-\n\n![
-](../../media/CNX_Precalc_Figure_03_04_029.jpg)\n\n
+Notice, since the factors are $w,$ $20\u20132w$ and $14\u20132w,$ the three zeros are 10, 7, and 0, respectively. Because a height of 0 cm is not reasonable, we consider the only the zeros 10 and 7.  The shortest side is 14 and we are cutting off two squares, so values $w$ may take on are greater than zero or less than 7. This means we will restrict the domain of this function to $0<w<7.$ Using technology to sketch the graph of $V\left(w\right)$ on this reasonable domain, we get a graph like that in . We can use this graph to estimate the maximum value for the volume, restricted to values for $w$ that are reasonable for this problem—values from 0 to 7.
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_028.jpg)\n\n
+  From this graph, we turn our focus to only the portion on the reasonable domain, $\left[0,\phantom{\rule{0.5em}{0ex}}\text{}7\right].$ We can estimate the maximum value to be around 340 cubic cm, which occurs when the squares are about 2.75 cm on each side. To improve this estimate, we could use advanced features of our technology, if available, or simply change our window to zoom in on our graph to produce .
+\n\n![Image](../../media/CNX_Precalc_Figure_03_04_029.jpg)\n\n
 
 From this zoomed-in view, we can refine our estimate for the maximum volume to about 339 cubic cm, when the squares measure approximately 2.7 cm on each side.
 
 Try It
 
-Use technology to find the maximum and minimum values on the interval $$[\mathrm{-1},4]$$ of the function $$f(x)=-0.2{(x-2)}^{3}{(x+1)}^{2}(x-4).$$
+Use technology to find the maximum and minimum values on the interval $[\mathrm{-1},4]$ of the function $f(x)=-0.2{(x-2)}^{3}{(x+1)}^{2}(x-4).$
 
-The minimum occurs at approximately the point $$(0,-6.5),$$ and the maximum occurs at approximately the point $$(3.5,7).$$
+The minimum occurs at approximately the point $(0,-6.5),$ and the maximum occurs at approximately the point $(3.5,7).$
 
 Media
 Access the following online resource for additional instruction and practice with graphing polynomial functions.
@@ -714,23 +692,23 @@ Key Concepts
     Polynomial functions of degree 2 or more are smooth, continuous functions. See .
 
     To find the zeros of a polynomial function, if it can be factored, factor the function and set each factor equal to zero. See *,**,*and .
-    Another way to find the $$x\text{-}$$ intercepts of a polynomial function is to graph the function and identify the points at which the graph crosses the $$x\text{-}$$ axis. See *.*
-    The multiplicity of a zero determines how the graph behaves at the $$x\text{-}$$ intercepts. See *.*
+    Another way to find the $x\text{-}$ intercepts of a polynomial function is to graph the function and identify the points at which the graph crosses the $x\text{-}$ axis. See *.*
+    The multiplicity of a zero determines how the graph behaves at the $x\text{-}$ intercepts. See *.*
 The graph of a polynomial will cross the horizontal axis at a zero with odd multiplicity.
 The graph of a polynomial will touch the horizontal axis at a zero with even multiplicity.
 The end behavior of a polynomial function depends on the leading term.
 The graph of a polynomial function changes direction at its turning points.
-    A polynomial function of degree $$n$$
-has at most $$n-1$$
+    A polynomial function of degree $n$
+has at most $n-1$
 turning points. See *.*
-    To graph polynomial functions, find the zeros and their multiplicities, determine the end behavior, and ensure that the final graph has at most $$n-1$$
+    To graph polynomial functions, find the zeros and their multiplicities, determine the end behavior, and ensure that the final graph has at most $n-1$
 turning points. See  and *.*
     Graphing a polynomial function helps to estimate local and global extremas. See *.*
-    The Intermediate Value Theorem tells us that if $$f(a)\ \text{and}\ f(b)$$
-have opposite signs, then there exists at least one value $$c$$
-between $$a$$
-and $$b$$
-for which $$f\left(c\right)=0.$$
+    The Intermediate Value Theorem tells us that if $f(a)\ \text{and}\ f(b)$
+have opposite signs, then there exists at least one value $c$
+between $a$
+and $b$
+for which $f\left(c\right)=0.$
 See *.*
 
 Section Exercises
@@ -739,20 +717,20 @@ Section Exercises
 Verbal
 ======
 
-What is the difference between an $$x\text{-}$$ intercept and a zero of a polynomial function $$f?$$
+What is the difference between an $x\text{-}$ intercept and a zero of a polynomial function $f?$
 
-The $$x\text{-}$$ intercept is where the graph of the function crosses the $$x\text{-}$$ axis, and the zero of the function is the input value for which $$f(x)=0.$$
+The $x\text{-}$ intercept is where the graph of the function crosses the $x\text{-}$ axis, and the zero of the function is the input value for which $f(x)=0.$
 
-If a polynomial function of degree $$n$$
-has $$n$$
+If a polynomial function of degree $n$
+has $n$
 distinct zeros, what do you know about the graph of the function?
 
 Explain how the Intermediate Value Theorem can assist us in finding a zero of a function.
 
-If we evaluate the function at $$a$$
-and at $$b$$
-and the sign of the function value changes, then we know a zero exists between $$a$$
-and $$b.$$
+If we evaluate the function at $a$
+and at $b$
+and the sign of the function value changes, then we know a zero exists between $a$
+and $b.$
 
 Explain how the factored form of the polynomial helps us in graphing it.
 
@@ -762,310 +740,340 @@ There will be a factor raised to an even power.
 
 Algebraic
 =========
-For the following exercises, find the $$x\text{-}$$ or *t*-intercepts of the polynomial functions.
+For the following exercises, find the $x\text{-}$ or *t*-intercepts of the polynomial functions.
 
-$$C\left(t\right)=2\left(t-4\right)\left(t+1\right)(t-6)$$
+$C\left(t\right)=2\left(t-4\right)\left(t+1\right)(t-6)$
 
-$$C\left(t\right)=3\left(t+2\right)\left(t-3\right)(t+5)$$
+$C\left(t\right)=3\left(t+2\right)\left(t-3\right)(t+5)$
 
-$$(-2,0),(3,0),(-5,0)$$
+$(-2,0),(3,0),(-5,0)$
 
-$$C\left(t\right)=4t{\left(t-2\right)}^{2}(t+1)$$
+$C\left(t\right)=4t{\left(t-2\right)}^{2}(t+1)$
 
-$$C\left(t\right)=2t\left(t-3\right){\left(t+1\right)}^{2}$$
+$C\left(t\right)=2t\left(t-3\right){\left(t+1\right)}^{2}$
 
-$$(3,0),(-1,0),(0,0)$$
+$(3,0),(-1,0),(0,0)$
 
-$$C\left(t\right)=2{t}^{4}-8{t}^{3}+6{t}^{2}$$
+$C\left(t\right)=2{t}^{4}-8{t}^{3}+6{t}^{2}$
 
-$$C\left(t\right)=4{t}^{4}+12{t}^{3}-40{t}^{2}$$
+$C\left(t\right)=4{t}^{4}+12{t}^{3}-40{t}^{2}$
 
-$$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-5,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(2,0\right)$$
+$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-5,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(2,0\right)$
 
-$$f(x)={x}^{4}-{x}^{2}$$
+$f(x)={x}^{4}-{x}^{2}$
 
-$$f(x)={x}^{3}+{x}^{2}-20x$$
+$f(x)={x}^{3}+{x}^{2}-20x$
 
-$$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-5,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(4,0\right)$$
+$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-5,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(4,0\right)$
 
-$$f(x)={x}^{3}+6{x}^{2}-7x$$
+$f(x)={x}^{3}+6{x}^{2}-7x$
 
-$$f(x)={x}^{3}+{x}^{2}-4x-4$$
+$f(x)={x}^{3}+{x}^{2}-4x-4$
 
-$$\left(2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-1,0\right)$$
+$\left(2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-1,0\right)$
 
-$$f(x)={x}^{3}+2{x}^{2}-9x-18$$
+$f(x)={x}^{3}+2{x}^{2}-9x-18$
 
-$$f(x)=2{x}^{3}-{x}^{2}-8x+4$$
+$f(x)=2{x}^{3}-{x}^{2}-8x+4$
 
-$$(-2,0),\phantom{\rule{0.5em}{0ex}}(2,0),\phantom{\rule{0.5em}{0ex}}\left(\frac{1}{2},0\right)$$
+$(-2,0),\phantom{\rule{0.5em}{0ex}}(2,0),\phantom{\rule{0.5em}{0ex}}\left(\frac{1}{2},0\right)$
 
-$$f(x)={x}^{6}-7{x}^{3}-8$$
+$f(x)={x}^{6}-7{x}^{3}-8$
 
-$$f(x)=2{x}^{4}+6{x}^{2}-8$$
+$f(x)=2{x}^{4}+6{x}^{2}-8$
 
-$$\left(1,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-1,0\right)$$
+$\left(1,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-1,0\right)$
 
-$$f(x)={x}^{3}-3{x}^{2}-x+3$$
+$f(x)={x}^{3}-3{x}^{2}-x+3$
 
-$$f(x)={x}^{6}-2{x}^{4}-3{x}^{2}$$
+$f(x)={x}^{6}-2{x}^{4}-3{x}^{2}$
 
-$$(0,0),\phantom{\rule{0.5em}{0ex}}(\sqrt{3},0),\phantom{\rule{0.5em}{0ex}}(-\sqrt{3},0)$$
+$(0,0),\phantom{\rule{0.5em}{0ex}}(\sqrt{3},0),\phantom{\rule{0.5em}{0ex}}(-\sqrt{3},0)$
 
-$$f(x)={x}^{6}-3{x}^{4}-4{x}^{2}$$
+$f(x)={x}^{6}-3{x}^{4}-4{x}^{2}$
 
-$$f(x)={x}^{5}-5{x}^{3}+4x$$
+$f(x)={x}^{5}-5{x}^{3}+4x$
 
-$$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(1,0\right)\text{,\}\left(-1,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-2,0\right)$$
+$\left(0,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(1,0\right)\text{,\}\left(-1,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(2,0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(-2,0\right)$
 
 For the following exercises, use the Intermediate Value Theorem to confirm that the given polynomial has at least one zero within the given interval.
 
-$$f(x)={x}^{3}-9x,$$
-between $$x=\mathrm{-4}$$
-and $$x=\mathrm{-2.}$$
+$f(x)={x}^{3}-9x,$
+between $x=\mathrm{-4}$
+and $x=\mathrm{-2.}$
 
-$$f(x)={x}^{3}-9x,$$
-between $$x=2$$
-and $$x=4.$$
+$f(x)={x}^{3}-9x,$
+between $x=2$
+and $x=4.$
 
-$$f\left(2\right)=\u201310$$
-and $$f\left(4\right)=28.$$
+$f\left(2\right)=\u201310$
+and $f\left(4\right)=28.$
 Sign change confirms.
 
-$$f(x)={x}^{5}-2x,$$
-between $$x=1$$
-and $$x=2.$$
+$f(x)={x}^{5}-2x,$
+between $x=1$
+and $x=2.$
 
-$$f(x)=-{x}^{4}+4,$$
-between $$x=1$$
-and $$x=3$$
+$f(x)=-{x}^{4}+4,$
+between $x=1$
+and $x=3$
 .
 
-$$f\left(1\right)=3$$
-and $$f\left(3\right)=\u201377.$$
+$f\left(1\right)=3$
+and $f\left(3\right)=\u201377.$
 Sign change confirms.
 
-$$f(x)=\mathrm{-2}{x}^{3}-x,$$
-between $$x=\mathrm{\u20131}$$
-and $$x=1.$$
+$f(x)=\mathrm{-2}{x}^{3}-x,$
+between $x=\mathrm{\u20131}$
+and $x=1.$
 
-$$f(x)={x}^{3}-100x+2,$$
-between $$x=0.01$$
-and $$x=0.1$$
+$f(x)={x}^{3}-100x+2,$
+between $x=0.01$
+and $x=0.1$
 
-$$f\left(0.01\right)=1.000001$$
-and $$f\left(0.1\right)=\u2013\mathrm{7.999.}$$
+$f\left(0.01\right)=1.000001$
+and $f\left(0.1\right)=\u2013\mathrm{7.999.}$
 Sign change confirms.
 
 For the following exercises, find the zeros and give the multiplicity of each.
 
-$$f(x)={\left(x+2\right)}^{3}{\left(x-3\right)}^{2}$$
+$f(x)={\left(x+2\right)}^{3}{\left(x-3\right)}^{2}$
 
-$$f(x)={x}^{2}{\left(2x+3\right)}^{5}{\left(x-4\right)}^{2}$$
+$f(x)={x}^{2}{\left(2x+3\right)}^{5}{\left(x-4\right)}^{2}$
 
-0 with multiplicity 2, $$-\frac{3}{2}$$
+0 with multiplicity 2, $-\frac{3}{2}$
 with multiplicity 5, 4 with multiplicity 2
 
-$$f(x)={x}^{3}{\left(x-1\right)}^{3}\left(x+2\right)$$
+$f(x)={x}^{3}{\left(x-1\right)}^{3}\left(x+2\right)$
 
-$$f(x)={x}^{2}\left({x}^{2}+4x+4\right)$$
+$f(x)={x}^{2}\left({x}^{2}+4x+4\right)$
 
             0 with multiplicity 2, –2 with multiplicity 2
 
-$$f(x)={\left(2x+1\right)}^{3}\left(9{x}^{2}-6x+1\right)$$
+$f(x)={\left(2x+1\right)}^{3}\left(9{x}^{2}-6x+1\right)$
 
-$$f(x)={\left(3x+2\right)}^{5}\left({x}^{2}-10x+25\right)$$
+$f(x)={\left(3x+2\right)}^{5}\left({x}^{2}-10x+25\right)$
 
-          $$-\frac{2}{3}$$ with multiplicity 5, 5 with multiplicity 2
+          $-\frac{2}{3}$ with multiplicity 5, 5 with multiplicity 2
 
-$$f(x)=x\left(4{x}^{2}-12x+9\right)\left({x}^{2}+8x+16\right)$$
+$f(x)=x\left(4{x}^{2}-12x+9\right)\left({x}^{2}+8x+16\right)$
 
-$$f(x)={x}^{6}-{x}^{5}-2{x}^{4}$$
+$f(x)={x}^{6}-{x}^{5}-2{x}^{4}$
 
          0 with multiplicity 4, 2 with multiplicity 1, −1 with multiplicity 1
 
-$$f(x)=3{x}^{4}+6{x}^{3}+3{x}^{2}$$
+$f(x)=3{x}^{4}+6{x}^{3}+3{x}^{2}$
 
-$$f(x)=4{x}^{5}-12{x}^{4}+9{x}^{3}$$
+$f(x)=4{x}^{5}-12{x}^{4}+9{x}^{3}$
 
-$$\frac{3}{2}$$
+$\frac{3}{2}$
 with multiplicity 2, 0 with multiplicity 3
 
-$$f(x)=2{x}^{4}\left({x}^{3}-4{x}^{2}+4x\right)$$
+$f(x)=2{x}^{4}\left({x}^{3}-4{x}^{2}+4x\right)$
 
-$$f(x)=4{x}^{4}\left(9{x}^{4}-12{x}^{3}+4{x}^{2}\right)$$
+$f(x)=4{x}^{4}\left(9{x}^{4}-12{x}^{3}+4{x}^{2}\right)$
 
-           $$\text{0}\phantom{\rule{0.5em}{0ex}}\text{with}\phantom{\rule{0.5em}{0ex}}\text{multiplicity}\phantom{\rule{0.5em}{0ex}}6\text{,}\phantom{\rule{0.5em}{0ex}}\frac{2}{3}\phantom{\rule{0.5em}{0ex}}\text{with}\phantom{\rule{0.5em}{0ex}}\text{multiplicity}\phantom{\rule{0.5em}{0ex}}2$$
+           $\text{0}\phantom{\rule{0.5em}{0ex}}\text{with}\phantom{\rule{0.5em}{0ex}}\text{multiplicity}\phantom{\rule{0.5em}{0ex}}6\text{,}\phantom{\rule{0.5em}{0ex}}\frac{2}{3}\phantom{\rule{0.5em}{0ex}}\text{with}\phantom{\rule{0.5em}{0ex}}\text{multiplicity}\phantom{\rule{0.5em}{0ex}}2$
 
 Graphical
 =========
 
-For the following exercises, graph the polynomial functions. Note $$x\text{-}$$ and $$y\text{-}$$ intercepts, multiplicity, and end behavior.
+For the following exercises, graph the polynomial functions. Note $x\text{-}$ and $y\text{-}$ intercepts, multiplicity, and end behavior.
 
-  $$f\left(x\right)={\left(x+3\right)}^{2}(x-2)$$
+  $f\left(x\right)={\left(x+3\right)}^{2}(x-2)$
 
-$$g\left(x\right)=\left(x+4\right){\left(x-1\right)}^{2}$$
+$g\left(x\right)=\left(x+4\right){\left(x-1\right)}^{2}$
 
-*x*-intercepts, $$\left(\mathrm{1,\; 0}\right)$$
-with multiplicity 2, $$\left(\u20134,\ 0\right)$$
-with multiplicity 1, $$y\text{-}$$ intercept $$(0,\ 4).$$
- As $$\phantom{\rule{0.2em}{0ex}}x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty ,\phantom{\rule{0.5em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty .$$
-
-  
-
-$$h\left(x\right)={\left(x-1\right)}^{3}{\left(x+3\right)}^{2}$$
-
-$$k\left(x\right)={\left(x-3\right)}^{3}{\left(x-2\right)}^{2}$$
-
-*x*-intercepts $$(3,0)$$ with multiplicity 3, $$(2,0)$$ with multiplicity 2, $$y\text{-}$$ intercept $$(0,\u2013108).$$ As $$x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty ,\phantom{\rule{0.2em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty .$$
+*x*-intercepts, $\left(\mathrm{1,\; 0}\right)$
+with multiplicity 2, $\left(\u20134,\ 0\right)$
+with multiplicity 1, $y\text{-}$ intercept $(0,\ 4).$
+ As $\phantom{\rule{0.2em}{0ex}}x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty ,\phantom{\rule{0.5em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty .$
 
   
 
-$$m\left(x\right)=-2x\left(x-1\right)(x+3)$$
+![Graph of g(x)=(x+4)(x-1)^2.](../../media/CNX_Precalc_Figure_03_04_202.jpg)
 
-$$n\left(x\right)=-3x\left(x+2\right)(x-4)$$
+$h\left(x\right)={\left(x-1\right)}^{3}{\left(x+3\right)}^{2}$
 
-*x*-intercepts $$\left(0,\ 0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(\u20132,\ 0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(4,0\right)$$
-with multiplicity 1, $$y\text{-}$$ intercept $$(0,\ 0).$$ As
- $$x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty ,\phantom{\rule{0.2em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty .$$
+$k\left(x\right)={\left(x-3\right)}^{3}{\left(x-2\right)}^{2}$
+
+*x*-intercepts $(3,0)$ with multiplicity 3, $(2,0)$ with multiplicity 2, $y\text{-}$ intercept $(0,\u2013108).$ As $x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty ,\phantom{\rule{0.2em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty .$
 
   
+
+![Graph of k(x)=(x-3)^3(x-2)^2.](../../media/CNX_Precalc_Figure_03_04_204.jpg)
+
+$m\left(x\right)=-2x\left(x-1\right)(x+3)$
+
+$n\left(x\right)=-3x\left(x+2\right)(x-4)$
+
+*x*-intercepts $\left(0,\ 0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(\u20132,\ 0\right),\phantom{\rule{0.5em}{0ex}}\text{}\left(4,0\right)$
+with multiplicity 1, $y\text{-}$ intercept $(0,\ 0).$ As
+ $x\to -\infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to \infty ,\phantom{\rule{0.2em}{0ex}}\text{as}\phantom{\rule{0.2em}{0ex}}x\to \infty ,\phantom{\rule{0.2em}{0ex}}f(x)\to -\infty .$
+
+  
+
+![Graph of n(x)=-3x(x+2)(x-4).](../../media/CNX_Precalc_Figure_03_04_206.jpg)
 
 For the following exercises, use the graphs to write the formula for a polynomial function of least degree.
 
   
 
-$$f(x)=-\frac{2}{9}(x-3)(x+1)(x+3)$$
+![Graph of a positive odd-degree polynomial with zeros at x=-2, 1, and 3.](../../media/CNX_Precalc_Figure_03_04_207.jpg)
 
-$$f(x)=\frac{1}{4}{(x+2)}^{2}(x-3)$$
+![Graph of a negative odd-degree polynomial with zeros at x=-3, 1, and 3.](../../media/CNX_PreCalc_Figure_03_04_208.jpg)
+
+$f(x)=-\frac{2}{9}(x-3)(x+1)(x+3)$
+
+![Graph of a negative odd-degree polynomial with zeros at x=-1, and 2.](../../media/CNX_PreCalc_Figure_03_04_209.jpg)
+
+![Graph of a positive odd-degree polynomial with zeros at x=-2, and 3.](../../media/CNX_PreCalc_Figure_03_04_210.jpg)
+
+$f(x)=\frac{1}{4}{(x+2)}^{2}(x-3)$
+
+![Graph of a negative even-degree polynomial with zeros at x=-3, -2, 3, and 4.](../../media/CNX_PreCalc_Figure_03_04_211.jpg)
 
 For the following exercises, use the graph to identify zeros and multiplicity.
 
+![Graph of a negative even-degree polynomial with zeros at x=-4, -2, 1, and 3.](../../media/CNX_PreCalc_Figure_03_04_212.jpg)
+
 –4, –2, 1, 3 with multiplicity 1
+
+![Graph of a positive even-degree polynomial with zeros at x=-4, -2, and 3.](../../media/CNX_PreCalc_Figure_03_04_213.jpg)
+
+![Graph of a positive even-degree polynomial with zeros at x=-2,, and 3.](../../media/CNX_PreCalc_Figure_03_04_214.jpg)
 
 –2, 3 each with multiplicity 2
 
+![Graph of a negative odd-degree polynomial with zeros at x=-3, -2, and 1.](../../media/CNX_PreCalc_Figure_03_04_215.jpg)
+
 For the following exercises, use the given information about the polynomial graph to write the equation.
 
-Degree 3. Zeros at $$x=\mathrm{\u20132,}$$
- $$x=\mathrm{1,}$$ and $$x=3.$$ *y*-intercept at $$(0,\mathrm{\u20134}).$$
+Degree 3. Zeros at $x=\mathrm{\u20132,}$
+ $x=\mathrm{1,}$ and $x=3.$ *y*-intercept at $(0,\mathrm{\u20134}).$
 
-$$f(x)=-\frac{2}{3}(x+2)(x-1)(x-3)$$
+$f(x)=-\frac{2}{3}(x+2)(x-1)(x-3)$
 
-Degree 3.  Zeros at $$x=\text{\u20135,}$$
- $$x=\mathrm{\u20132},$$ and $$x=1.$$ *y*-intercept at $$(0,6)$$
+Degree 3.  Zeros at $x=\text{\u20135,}$
+ $x=\mathrm{\u20132},$ and $x=1.$ *y*-intercept at $(0,6)$
 
-Degree 5.  Roots of multiplicity 2 at $$x=3$$
-and $$x=1$$
-, and a root of multiplicity 1 at $$x=\mathrm{\u20133.}$$
-*y*-intercept at $$(0,9)$$
+Degree 5.  Roots of multiplicity 2 at $x=3$
+and $x=1$
+, and a root of multiplicity 1 at $x=\mathrm{\u20133.}$
+*y*-intercept at $(0,9)$
 
-$$f(x)=\frac{1}{3}{(x-3)}^{2}{(x-1)}^{2}(x+3)$$
+$f(x)=\frac{1}{3}{(x-3)}^{2}{(x-1)}^{2}(x+3)$
 
-Degree 4.  Root of multiplicity 2 at $$x=\mathrm{4,}$$ and a roots of multiplicity 1 at $$x=1$$ and $$x=\mathrm{\u20132.}$$ *y*-intercept at $$(0,\text{\u2013}3).$$
+Degree 4.  Root of multiplicity 2 at $x=\mathrm{4,}$ and a roots of multiplicity 1 at $x=1$ and $x=\mathrm{\u20132.}$ *y*-intercept at $(0,\text{\u2013}3).$
 
-Degree 5.  Double zero at $$x=1,$$ and triple zero at $$x=3.$$ Passes through the point $$(2,15).$$
+Degree 5.  Double zero at $x=1,$ and triple zero at $x=3.$ Passes through the point $(2,15).$
 
-$$f(x)=\mathrm{-15}{(x-1)}^{2}{(x-3)}^{3}$$
+$f(x)=\mathrm{-15}{(x-1)}^{2}{(x-3)}^{3}$
 
-Degree 3. Zeros at $$x=4,$$ $$x=3,$$ and $$x=2.$$ *y*-intercept at $$\left(0,\mathrm{-24}\right).$$
+Degree 3. Zeros at $x=4,$ $x=3,$ and $x=2.$ *y*-intercept at $\left(0,\mathrm{-24}\right).$
 
-Degree 3. Zeros at $$x=\mathrm{-3},$$
- $$x=\mathrm{-2}$$
-and $$x=1.$$
-*y*-intercept at $$(0,12).$$
+Degree 3. Zeros at $x=\mathrm{-3},$
+ $x=\mathrm{-2}$
+and $x=1.$
+*y*-intercept at $(0,12).$
 
-$$f(x)=-2\left(x+3\right)\left(x+2\right)\left(x-1\right)$$
+$f(x)=-2\left(x+3\right)\left(x+2\right)\left(x-1\right)$
 
-Degree 5. Roots of multiplicity 2 at $$x=\mathrm{-3}$$
-and $$x=2$$
-and a root of multiplicity 1 at $$x=\mathrm{-2.}$$
-*y*-intercept at $$\left(0,\ 4\right).$$
+Degree 5. Roots of multiplicity 2 at $x=\mathrm{-3}$
+and $x=2$
+and a root of multiplicity 1 at $x=\mathrm{-2.}$
+*y*-intercept at $\left(0,\ 4\right).$
 
-Degree 4. Roots of multiplicity 2 at $$x=\frac{1}{2}$$ and roots of multiplicity 1 at $$x=6$$ and $$x=\mathrm{-2.}$$
-*y*-intercept at $$\left(\mathrm{0,}18\right).$$
+Degree 4. Roots of multiplicity 2 at $x=\frac{1}{2}$ and roots of multiplicity 1 at $x=6$ and $x=\mathrm{-2.}$
+*y*-intercept at $\left(\mathrm{0,}18\right).$
 
-$$f(x)=-\frac{3}{2}{\left(2x-1\right)}^{2}\left(x-6\right)\left(x+2\right)$$
+$f(x)=-\frac{3}{2}{\left(2x-1\right)}^{2}\left(x-6\right)\left(x+2\right)$
 
-Double zero at $$x=\mathrm{-3}$$
-and triple zero at $$x=0.$$
-Passes through the point $$(1,32).$$
+Double zero at $x=\mathrm{-3}$
+and triple zero at $x=0.$
+Passes through the point $(1,32).$
 
 Technology
 ==========
 
 For the following exercises, use a calculator to approximate local minima and maxima or the global minimum and maximum.
 
-$$f(x)={x}^{3}-x-1$$
+$f(x)={x}^{3}-x-1$
 
-local max $$\left(\u2013\text{.58,\ \u2013}.62\right),$$
-local min $$\left(\text{.58,\ \u20131}\text{.38}\right)$$
+local max $\left(\u2013\text{.58,\ \u2013}.62\right),$
+local min $\left(\text{.58,\ \u20131}\text{.38}\right)$
 
-$$f(x)=2{x}^{3}-3x-1$$
+$f(x)=2{x}^{3}-3x-1$
 
-$$f(x)={x}^{4}+x$$
+$f(x)={x}^{4}+x$
 
-global min $$\left(\u2013\text{.63,\ \u2013}\text{.47}\right)$$
+global min $\left(\u2013\text{.63,\ \u2013}\text{.47}\right)$
 
-$$f(x)=-{x}^{4}+3x-2$$
+$f(x)=-{x}^{4}+3x-2$
 
-$$f(x)={x}^{4}-{x}^{3}+1$$
+$f(x)={x}^{4}-{x}^{3}+1$
 
-global min $$\text{(}\text{.75,\}\text{.89)}$$
+global min $\text{(}\text{.75,\}\text{.89)}$
 
 Extensions
 ==========
 
 For the following exercises, use the graphs to write a polynomial function of least degree.
 
-$$f(x)={(x-500)}^{2}(x+200)$$
+![Graph of a positive odd-degree polynomial with zeros at x=--2/3, and 4/3 and y=8.](../../media/CNX_PreCalc_Figure_03_04_216-a7ca.jpg)
+
+![Graph of a positive odd-degree polynomial with zeros at x=--200, and 500 and y=50000000.](../../media/CNX_PreCalc_Figure_03_04_217.jpg)
+
+$f(x)={(x-500)}^{2}(x+200)$
+
+![Graph of a positive odd-degree polynomial with zeros at x=--300, and 100 and y=-90000.](../../media/CNX_PreCalc_Figure_03_04_218.jpg)
 
 Real-World Applications
 =======================
 
 For the following exercises, write the polynomial function that models the given situation.
 
-A rectangle has a length of 10 units and a width of 8 units. Squares of $$x$$
-by $$x$$
-units are cut out of each corner, and then the sides are folded up to create an open box. Express the volume of the box as a polynomial function in terms of $$x.$$
+A rectangle has a length of 10 units and a width of 8 units. Squares of $x$
+by $x$
+units are cut out of each corner, and then the sides are folded up to create an open box. Express the volume of the box as a polynomial function in terms of $x.$
 
-$$f(x)=4{x}^{3}-36{x}^{2}+80x$$
+$f(x)=4{x}^{3}-36{x}^{2}+80x$
 
-Consider the same rectangle of the preceding problem. Squares of $$2x$$
-by $$2x$$
-units are cut out of each corner. Express the volume of the box as a polynomial in terms of $$x.$$
+Consider the same rectangle of the preceding problem. Squares of $2x$
+by $2x$
+units are cut out of each corner. Express the volume of the box as a polynomial in terms of $x.$
 
-A square has sides of 12 units. Squares $$x\text{}+1$$
-by $$x\text{}+1$$
-units are cut out of each corner, and then the sides are folded up to create an open box. Express the volume of the box as a function in terms of $$x.$$
+A square has sides of 12 units. Squares $x\text{}+1$
+by $x\text{}+1$
+units are cut out of each corner, and then the sides are folded up to create an open box. Express the volume of the box as a function in terms of $x.$
 
-$$f(x)=4{x}^{3}-36{x}^{2}+60x+100$$
+$f(x)=4{x}^{3}-36{x}^{2}+60x+100$
 
-A cylinder has a radius of $$x+2$$
+A cylinder has a radius of $x+2$
 units and a height of 3 units greater. Express the volume of the cylinder as a polynomial function.
 
-A right circular cone has a radius of $$3x+6$$
-and a height 3 units less. Express the volume of the cone as a polynomial function. The volume of a cone is $$V=\frac{1}{3}\pi {r}^{2}h$$
-for radius $$r$$
-and height $$h.$$
+A right circular cone has a radius of $3x+6$
+and a height 3 units less. Express the volume of the cone as a polynomial function. The volume of a cone is $V=\frac{1}{3}\pi {r}^{2}h$
+for radius $r$
+and height $h.$
 
-$$f(x)=9\pi ({x}^{3}+5{x}^{2}+8x+4)$$
+$f(x)=9\pi ({x}^{3}+5{x}^{2}+8x+4)$
 
  
 
-    **global maximum**   highest turning point on a graph; $$f(a)$$
-where $$f(a)\ge f(x)$$
-for all $$x.$$ 
+    **global maximum**   highest turning point on a graph; $f(a)$
+where $f(a)\ge f(x)$
+for all $x.$ 
 
-    **global minimum**   lowest turning point on a graph; $$f(a)$$
-where $$f(a)\le f(x)$$
-for all $$x.$$ 
-**Intermediate Value Theorem** for two numbers $$a$$
-and $$b$$
-in the domain of $$f,$$
-if $$a<b$$
-and $$f\left(a\right)\ne f\left(b\right),$$
-then the function $$f$$
-takes on every value between $$f\left(a\right)$$
-and $$f\left(b\right)$$ ; specifically, when a polynomial function changes from a negative value to a positive value, the function must cross the $$x\text{-}$$ axis
-    **multiplicity**  the number of times a given factor appears in the factored form of the equation of a polynomial; if a polynomial contains a factor of the form $${(x-h)}^{p}$$ , $$x=h$$ is a zero of multiplicity $$p.$$
+    **global minimum**   lowest turning point on a graph; $f(a)$
+where $f(a)\le f(x)$
+for all $x.$ 
+**Intermediate Value Theorem** for two numbers $a$
+and $b$
+in the domain of $f,$
+if $a<b$
+and $f\left(a\right)\ne f\left(b\right),$
+then the function $f$
+takes on every value between $f\left(a\right)$
+and $f\left(b\right)$ ; specifically, when a polynomial function changes from a negative value to a positive value, the function must cross the $x\text{-}$ axis
+    **multiplicity**  the number of times a given factor appears in the factored form of the equation of a polynomial; if a polynomial contains a factor of the form ${(x-h)}^{p}$ , $x=h$ is a zero of multiplicity $p.$

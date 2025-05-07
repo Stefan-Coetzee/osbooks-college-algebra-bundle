@@ -25,18 +25,18 @@ Objective 1: Graph and interpret applications of slope–intercept form of a lin
 Graph and Interpret Applications of Slope–Intercept form of linear equations.
 =============================================================================
 Many real-world applications are modeled by linear functions. We will take a look at a few applications here so you can see how equations written in slope–intercept form describe real world situations.
-Usually, when a linear function uses real-world data, different letters are used to represent the variables, instead of using only $$x$$ and $$y$$ . The variables used remind us of what quantities are being measured.
+Usually, when a linear function uses real-world data, different letters are used to represent the variables, instead of using only $x$ and $y$ . The variables used remind us of what quantities are being measured.
 Also, we often will need to adjust the axes in our rectangular coordinate system to different scales to accommodate the data in the application. Since many applications have both independent and dependent variables that are positive our graphs will lie primarily in Quadrant I.
 
 Linear Functions
 ================
 A linear function is a function whose graph is a line. Linear functions can be written in the *slope-intercept* form of a line
-$$f(x)=mx+b$$
+$f(x)=mx+b$
 where *b* is the initial or starting value of the function (when input, *x*=0), and *m* is the constant rate of change, or slope of the function. The *y*-intercept is at (0,*b*),
-$$m=\text{slope}=\ \frac{\text{change in output}}{\text{change in input}}=\frac{\u2206y}{\u2206x}=\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}=\frac{f({x}_{2})-f({x}_{1})}{{x}_{2}-{x}_{1}}=\frac{\text{rise}}{\text{run}}$$ .
+$m=\text{slope}=\ \frac{\text{change in output}}{\text{change in input}}=\frac{\u2206y}{\u2206x}=\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}=\frac{f({x}_{2})-f({x}_{1})}{{x}_{2}-{x}_{1}}=\frac{\text{rise}}{\text{run}}$ .
 When interpreting slope, it will be important to consider the units of measurement. Make sure to always attach these units to both the numerator and denominator when they are provided to you.
 
-The equation $$F=\frac{9}{5}C+32$$ is used to convert temperatures, *C,* on the Celsius scale to temperatures, *F*, on the Fahrenheit scale.
+The equation $F=\frac{9}{5}C+32$ is used to convert temperatures, *C,* on the Celsius scale to temperatures, *F*, on the Fahrenheit scale.
 
 ⓐ Find the Fahrenheit temperature for a Celsius temperature of 0.
 
@@ -46,19 +46,23 @@ The equation $$F=\frac{9}{5}C+32$$ is used to convert temperatures, *C,* on the 
 
 ⓓ Graph the equation.
 
-ⓐ $$\begin{array}{cc}\text{Find the Fahrenheit temperature for a Celsius temperature of 0.}\hfill & \phantom{\rule{4.6em}{0ex}}F=\frac{9}{5}C+32\hfill \\ \text{Find}\phantom{\rule{0.2em}{0ex}}F\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}C=0.\hfill & \phantom{\rule{4.6em}{0ex}}F=\frac{9}{5}\left(0\right)+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4.6em}{0ex}}F=32\hfill \end{array}$$
+ⓐ $\begin{array}{cc}\text{Find the Fahrenheit temperature for a Celsius temperature of 0.}\hfill & \phantom{\rule{4.6em}{0ex}}F=\frac{9}{5}C+32\hfill \\ \text{Find}\phantom{\rule{0.2em}{0ex}}F\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}C=0.\hfill & \phantom{\rule{4.6em}{0ex}}F=\frac{9}{5}\left(0\right)+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4.6em}{0ex}}F=32\hfill \end{array}$
 
-ⓑ $$\begin{array}{cc}\text{Find the Fahrenheit temperature for a Celsius temperature of 20.}\hfill & \phantom{\rule{4em}{0ex}}F=\frac{9}{5}C+32\hfill \\ \text{Find}\phantom{\rule{0.2em}{0ex}}F\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}C=20.\hfill & \phantom{\rule{4em}{0ex}}F=\frac{9}{5}\left(20\right)+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4em}{0ex}}F=36+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4em}{0ex}}F=68\hfill \end{array}$$ 
+ⓑ $\begin{array}{cc}\text{Find the Fahrenheit temperature for a Celsius temperature of 20.}\hfill & \phantom{\rule{4em}{0ex}}F=\frac{9}{5}C+32\hfill \\ \text{Find}\phantom{\rule{0.2em}{0ex}}F\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}C=20.\hfill & \phantom{\rule{4em}{0ex}}F=\frac{9}{5}\left(20\right)+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4em}{0ex}}F=36+32\hfill \\ \text{Simplify.}\hfill & \phantom{\rule{4em}{0ex}}F=68\hfill \end{array}$ 
 ⓒ
 
 Interpret the slope and *F*-intercept of the equation.
 Even though this equation uses *F* and *C*, it is still in slope–intercept form.
 
-The slope, $$\frac{9}{5},$$ means that the temperature Fahrenheit (*F*) increases 9 degrees when the temperature Celsius (*C*) increases 5 degrees.
-The *F*-intercept means that when the temperature is $$0\text{\xb0}$$ on the Celsius scale, it is $$32\text{\xb0}$$ on the Fahrenheit scale.
+![y equals m x plus b. F equals m C plus b. The y and F are emphasized in red. The x and C are emphasized in blue. F equals 9 divided by 5 C plus 32.](../../media/CNX_IntAlg_Figure_03_02_018_img_new.jpg)
+
+The slope, $\frac{9}{5},$ means that the temperature Fahrenheit (*F*) increases 9 degrees when the temperature Celsius (*C*) increases 5 degrees.
+The *F*-intercept means that when the temperature is $0\text{\xb0}$ on the Celsius scale, it is $32\text{\xb0}$ on the Fahrenheit scale.
 
 ⓓ Graph the equation.
-We’ll need to use a larger scale than our usual. Start at the *F*-intercept $$\left(0,32\right)$$ , and then count out the rise of 9 and the run of 5 to get a second point as shown in the graph.
+We’ll need to use a larger scale than our usual. Start at the *F*-intercept $\left(0,32\right)$ , and then count out the rise of 9 and the run of 5 to get a second point as shown in the graph.
+
+![This figure shows the graph of a straight line on the x y-coordinate plane. The x-axis runs from negative 40 to 80. The y-axis runs from negative 40 to 80. The line goes through the points (0, 32) and (5, 41).](../../media/CNX_IntAlg_Figure_03_02_019_img_new.jpg)
 
 Practice Makes Perfect
 ======================
@@ -75,12 +79,12 @@ Graph and interpret applications of slope–intercept form of a linear function.
 
   A function that will convert women’s dress sizes in the US, x, to dress sizes in Italy, I(x), is given by:
 
-$$I\left(x\right)=2(x+10)$$
+$I\left(x\right)=2(x+10)$
 
 ⓐ 
 
 **x*, US women’s size*
- $$I\left(x\right)=2(x+10)$$ *Italian women’s size*
+ $I\left(x\right)=2(x+10)$ *Italian women’s size*
 
 4
 
@@ -144,21 +148,23 @@ Reflect on whether your answer is reasonable for the given situation and whether
 Clearly convey your result using appropriate units, and answer in full sentences when necessary.
 Now let’s take a look at the student in Seattle. In Elan’s situation, there are two changing quantities: time and money. The amount of money they have remaining while on vacation depends on how long they stay. We can use this information to define our variables, including units.
 
- $$\begin{array}{l}\text{Output:}\phantom{\rule{0.5em}{0ex}}M,\text{money\ remaining,\ in\ dollars}\\ \text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{time,\ in\ weeks}\end{array}$$
+ $\begin{array}{l}\text{Output:}\phantom{\rule{0.5em}{0ex}}M,\text{money\ remaining,\ in\ dollars}\\ \text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{time,\ in\ weeks}\end{array}$
 
-So, the amount of money remaining depends on the number of weeks: $$M\left(t\right)$$ .
+So, the amount of money remaining depends on the number of weeks: $M\left(t\right)$ .
 
- $$\begin{array}{l}\text{We\ can\ also\ identify\ the\ initial\ value\ and\ the\ rate\ of\ change}.\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ Initial\ Value:\ She\ saved\ \$3,500,\ so\ \$3,500\ is\ the\ initial\ value\ for}\phantom{\rule{0.5em}{0ex}}M.\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ Rate\ of\ Change:\ She\ anticipates\ spending\ \$400\ each\ week,\ so}-\text{\$400\ per\ week\ is\ the\ rate\ of\ change,\ or\ slope}.\end{array}$$
+ $\begin{array}{l}\text{We\ can\ also\ identify\ the\ initial\ value\ and\ the\ rate\ of\ change}.\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ Initial\ Value:\ She\ saved\ \$3,500,\ so\ \$3,500\ is\ the\ initial\ value\ for}\phantom{\rule{0.5em}{0ex}}M.\\ \phantom{\rule{0.5em}{0ex}}\text{\ \ \ \ \ \ \ \ \ \ \ \ Rate\ of\ Change:\ She\ anticipates\ spending\ \$400\ each\ week,\ so}-\text{\$400\ per\ week\ is\ the\ rate\ of\ change,\ or\ slope}.\end{array}$
 
 Notice that the unit of dollars per week matches the unit of our output variable divided by our input variable. Also, because the slope is negative, the linear function is decreasing. This should make sense because she is spending money each week.
 
-The **rate of change** is constant, so we can start with the **linear model** $$M\left(t\right)=mt+b.$$ Then we can substitute the intercept and slope provided.
+The **rate of change** is constant, so we can start with the **linear model** $M\left(t\right)=mt+b.$ Then we can substitute the intercept and slope provided.
+
+![Image](../../media/CNX_Precalc_Figure_02_03_002-4389.jpg)
 
 To find the *t-*intercept (horizontal axis intercept), we set the output to zero, and solve for the input.
 
- $$\begin{array}{ccc}\hfill 0& =& \mathrm{-400}t+3500\hfill \\ \hfill t& =& \frac{3500}{400}\hfill \\ & =& 8.75\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill 0& =& \mathrm{-400}t+3500\hfill \\ \hfill t& =& \frac{3500}{400}\hfill \\ & =& 8.75\hfill \end{array}$
 The *t*-intercept (horizontal axis intercept) is 8.75 weeks. Because this represents the input value when the output will be zero, we could say that Elan will have no money left after 8.75 weeks.
-When modeling any real-life scenario with functions, there is typically a limited domain over which that model will be valid—almost no trend continues indefinitely. Here the domain refers to the number of weeks. In this case, it doesn’t make sense to talk about input values less than zero. A negative input value could refer to a number of weeks before Elan saved $3,500, but the scenario discussed poses the question once they saved $3,500 because this is when the trip and subsequent spending starts. It is also likely that this model is not valid after the *t*-intercept (horizontal axis intercept), unless Elan uses a credit card and goes into debt. The domain represents the set of input values, so the reasonable domain for this function is $$0\le t\le \mathrm{8.75.}$$
+When modeling any real-life scenario with functions, there is typically a limited domain over which that model will be valid—almost no trend continues indefinitely. Here the domain refers to the number of weeks. In this case, it doesn’t make sense to talk about input values less than zero. A negative input value could refer to a number of weeks before Elan saved $3,500, but the scenario discussed poses the question once they saved $3,500 because this is when the trip and subsequent spending starts. It is also likely that this model is not valid after the *t*-intercept (horizontal axis intercept), unless Elan uses a credit card and goes into debt. The domain represents the set of input values, so the reasonable domain for this function is $0\le t\le \mathrm{8.75.}$
 In this example, we were given a written description of the situation. We followed the steps of modeling a problem to analyze the information. However, the information provided may not always be the same. Sometimes we might be provided with an intercept. Other times we might be provided with an output value. We must be careful to analyze the information we are given, and use it appropriately to build a linear model.
 
 Using a Given Intercept to Build a Model
@@ -166,10 +172,10 @@ Using a Given Intercept to Build a Model
 
 Some real-world problems provide the vertical axis intercept, which is the constant or initial value. Once the vertical axis intercept is known, the *t*-intercept (horizontal axis intercept) can be calculated. Suppose, for example, that Hannah plans to pay off a no-interest loan from her parents. Her loan balance is $1,000. She plans to pay $250 per month until her balance is $0. The *y*-intercept is the initial amount of her debt, or $1,000. The rate of change, or slope, is -$250 per month. We can then use the slope-intercept form and the given information to develop a linear model.
 
- $$\begin{array}{ccc}\hfill f(x)& =& mx+b\hfill \\ & =& \mathrm{-250}x+1000\hfill \end{array}$$
-Now we can set the function equal to 0, and solve for $$x$$ to find the *x*-intercept.
+ $\begin{array}{ccc}\hfill f(x)& =& mx+b\hfill \\ & =& \mathrm{-250}x+1000\hfill \end{array}$
+Now we can set the function equal to 0, and solve for $x$ to find the *x*-intercept.
 
- $$\begin{array}{ccc}\hfill 0& =& \mathrm{-250}x+1000\hfill \\ \hfill 1000& =& 250x\hfill \\ \hfill 4& =& x\hfill \\ \hfill x& =& 4\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill 0& =& \mathrm{-250}x+1000\hfill \\ \hfill 1000& =& 250x\hfill \\ \hfill 4& =& x\hfill \\ \hfill x& =& 4\hfill \end{array}$
 The *x*-intercept is the number of months it takes her to reach a balance of $0. The *x*-intercept is 4 months, so it will take Hannah four months to pay off her loan.
 
 Using a Given Input and Output to Build a Model
@@ -200,27 +206,27 @@ The two changing quantities are the population size and time. While we could use
 
 To make computation a little nicer, we will define our input as the number of years since 2004.
 
- $$\begin{array}{l}\\ \begin{array}{l}\text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{years\ since\ 2004}\hfill \\ \text{Output:}\phantom{\rule{0.5em}{0ex}}P(t),\text{the\ town\u2019s\ population}\hfill \end{array}\end{array}$$
-To predict the population in 2013 ( $$t=9$$ ), we would first need an equation for the population. Likewise, to find when the population would reach 15,000, we would need to solve for the input that would provide an output of 15,000. To write an equation, we need the initial value and the rate of change, or slope.
+ $\begin{array}{l}\\ \begin{array}{l}\text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{years\ since\ 2004}\hfill \\ \text{Output:}\phantom{\rule{0.5em}{0ex}}P(t),\text{the\ town\u2019s\ population}\hfill \end{array}\end{array}$
+To predict the population in 2013 ( $t=9$ ), we would first need an equation for the population. Likewise, to find when the population would reach 15,000, we would need to solve for the input that would provide an output of 15,000. To write an equation, we need the initial value and the rate of change, or slope.
 To determine the rate of change, we will use the change in output per change in input.
 
- $$m=\frac{\text{change\ in\ output}}{\text{change\ in\ input}}$$ 
-The problem gives us two input-output pairs. Converting them to match our defined variables, the year 2004 would correspond to $$t=0,$$ giving the point $$\left(0,\text{6200}\right).$$ Notice that through our clever choice of variable definition, we have “given” ourselves the *y*-intercept of the function. The year 2009 would correspond to $$t=\text{5,}$$ giving the point $$(5,\text{8100}).$$
-The two coordinate pairs are $$\left(0,\text{6200}\right)$$ and $$\left(5,\text{8100}\right).$$ Recall that we encountered examples in which we were provided two points earlier in the chapter. We can use these values to calculate the slope.
+ $m=\frac{\text{change\ in\ output}}{\text{change\ in\ input}}$ 
+The problem gives us two input-output pairs. Converting them to match our defined variables, the year 2004 would correspond to $t=0,$ giving the point $\left(0,\text{6200}\right).$ Notice that through our clever choice of variable definition, we have “given” ourselves the *y*-intercept of the function. The year 2009 would correspond to $t=\text{5,}$ giving the point $(5,\text{8100}).$
+The two coordinate pairs are $\left(0,\text{6200}\right)$ and $\left(5,\text{8100}\right).$ Recall that we encountered examples in which we were provided two points earlier in the chapter. We can use these values to calculate the slope.
 
- $$\begin{array}{ccc}\hfill m& =& \frac{8100-6200}{5-0}\hfill \\ & =& \frac{1900}{5}\hfill \\ & =& 380\phantom{\rule{0.5em}{0ex}}\text{people\ per\ year}\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill m& =& \frac{8100-6200}{5-0}\hfill \\ & =& \frac{1900}{5}\hfill \\ & =& 380\phantom{\rule{0.5em}{0ex}}\text{people\ per\ year}\hfill \end{array}$
 We already know the *y*-intercept of the line, so we can immediately write the equation:
 
- $$P(t)=380t+6200$$
+ $P(t)=380t+6200$
 
-To predict the population in 2013, we evaluate our function at $$t=9.$$
+To predict the population in 2013, we evaluate our function at $t=9.$
 
- $$\begin{array}{ccc}\hfill P(9)& =& 380(9)+\mathrm{6,200}\hfill \\ & =& \mathrm{9,620}\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill P(9)& =& 380(9)+\mathrm{6,200}\hfill \\ & =& \mathrm{9,620}\hfill \end{array}$
 If the trend continues, our model predicts a population of 9,620 in 2013.
 
-To find when the population will reach 15,000, we can set $$P(t)=15000$$ and solve for $$t.$$
+To find when the population will reach 15,000, we can set $P(t)=15000$ and solve for $t.$
 
- $$\begin{array}{ccc}\hfill 15000& =& 380t+6200\hfill \\ \hfill 8800& =& 380t\hfill \\ \hfill t& \approx & 23.158\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill 15000& =& 380t+6200\hfill \\ \hfill 8800& =& 380t\hfill \\ \hfill t& \approx & 23.158\hfill \end{array}$
 Our model predicts the population will reach 15,000 in a little more than 23 years after 2004, or somewhere around the year 2027.
 
  
@@ -228,12 +234,12 @@ Our model predicts the population will reach 15,000 in a little more than 23 yea
 Try It
 A company sells doughnuts. They incur a fixed cost of $25,000 for rent, insurance, and other expenses. It costs $0.25 to produce each doughnut.
 
-ⓐ Write a linear model to represent the cost $$C$$ of the company as a function of $$x,$$ the number of doughnuts produced.
+ⓐ Write a linear model to represent the cost $C$ of the company as a function of $x,$ the number of doughnuts produced.
 ⓑ Find and interpret the *y*-intercept.
 
-          ⓐ $$C(x)=0.25x+25,000$$
+          ⓐ $C(x)=0.25x+25,000$
     
-         ⓑ The *y*-intercept is $$(0,25,000)$$. If the company does not produce a single doughnut, they still incur a cost of $25,000.
+         ⓑ The *y*-intercept is $(0,25,000)$. If the company does not produce a single doughnut, they still incur a cost of $25,000.
 
       
 
@@ -261,32 +267,30 @@ In essence, we can partially answer this question by saying they will fall out o
 "How long will it take them to be 2 miles apart"?
 In this problem, our changing quantities are time and position, but ultimately we need to know how long will it take for them to be 2 miles apart. We can see that time will be our input variable, so we’ll define our input and output variables.
 
- $$\begin{array}{l}\\ \begin{array}{l}\text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{time\ in\ hours}.\hfill \\ \text{Output:}\phantom{\rule{0.5em}{0ex}}A(t),\text{distance\ in\ miles,\ and}\phantom{\rule{0.5em}{0ex}}E(t),\text{distance\ in\ miles}\hfill \end{array}\end{array}$$
+ $\begin{array}{l}\\ \begin{array}{l}\text{Input:}\phantom{\rule{0.5em}{0ex}}t,\text{time\ in\ hours}.\hfill \\ \text{Output:}\phantom{\rule{0.5em}{0ex}}A(t),\text{distance\ in\ miles,\ and}\phantom{\rule{0.5em}{0ex}}E(t),\text{distance\ in\ miles}\hfill \end{array}\end{array}$
 Because it is not obvious how to define our output variable, we’ll start by drawing a picture such as .
 
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_003.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_003.jpg)\n\n
 
-Initial Value: They both start at the same intersection so when $$t=0,$$ the distance traveled by each person should also be 0. Thus the initial value for each is 0.
+Initial Value: They both start at the same intersection so when $t=0,$ the distance traveled by each person should also be 0. Thus the initial value for each is 0.
 
-Rate of Change: Anna is walking 4 miles per hour and Emanuel is walking 3 miles per hour, which are both rates of change. The slope for $$A$$ is 4 and the slope for $$E$$ is 3.
+Rate of Change: Anna is walking 4 miles per hour and Emanuel is walking 3 miles per hour, which are both rates of change. The slope for $A$ is 4 and the slope for $E$ is 3.
 
 Using those values, we can write formulas for the distance each person has walked.
 
- $$\begin{array}{ccc}\hfill A(t)& =& 4t\hfill \\ \hfill E(t)& =& 3t\hfill \end{array}$$
-For this problem, the distances from the starting point are important. To notate these, we can define a coordinate system, identifying the “starting point” at the intersection where they both started. Then we can use the variable, $$A,$$ which we introduced above, to represent Anna’s position, and define it to be a measurement from the starting point in the eastward direction. Likewise, can use the variable, $$E,$$ to represent Emanuel’s position, measured from the starting point in the southward direction. Note that in defining the coordinate system, we specified both the starting point of the measurement and the direction of measure.
+ $\begin{array}{ccc}\hfill A(t)& =& 4t\hfill \\ \hfill E(t)& =& 3t\hfill \end{array}$
+For this problem, the distances from the starting point are important. To notate these, we can define a coordinate system, identifying the “starting point” at the intersection where they both started. Then we can use the variable, $A,$ which we introduced above, to represent Anna’s position, and define it to be a measurement from the starting point in the eastward direction. Likewise, can use the variable, $E,$ to represent Emanuel’s position, measured from the starting point in the southward direction. Note that in defining the coordinate system, we specified both the starting point of the measurement and the direction of measure.
 
-We can then define a third variable, $$D,$$ to be the measurement of the distance between Anna and Emanuel. Showing the variables on the diagram is often helpful, as we can see from .
-Recall that we need to know how long it takes for $$D,$$ the distance between them, to equal 2 miles. Notice that for any given input $$t,$$ the outputs $$A(t),E(t),$$ and $$D\left(t\right)$$ represent distances.
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_004.jpg)\n\nshows us that we can use the Pythagorean Theorem because we have drawn a right angle.
+We can then define a third variable, $D,$ to be the measurement of the distance between Anna and Emanuel. Showing the variables on the diagram is often helpful, as we can see from .
+Recall that we need to know how long it takes for $D,$ the distance between them, to equal 2 miles. Notice that for any given input $t,$ the outputs $A(t),E(t),$ and $D\left(t\right)$ represent distances.
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_004.jpg)\n\nshows us that we can use the Pythagorean Theorem because we have drawn a right angle.
 
 Using the Pythagorean Theorem, we get:
 
- $$\begin{array}{cccc}\hfill D{(t)}^{2}& =& A{(t)}^{2}+E{(t)}^{2}\hfill & \\ & =& {(4t)}^{2}+{(3t)}^{2}\hfill & \\ & =& 16{t}^{2}+9{t}^{2}\hfill & \\ & =& 25{t}^{2}\hfill & \\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}D(t)& =& \pm \sqrt{25{t}^{2}}\hfill & \phantom{\rule{1em}{0ex}}\text{Solve\ for\}D(t)\phantom{\rule{0.5em}{0ex}}\text{using\ the\ square\ root.}\hfill \\ & =& \pm 5\left|t\right|\hfill & \end{array}$$
-In this scenario we are considering only positive values of $$t,$$ so our distance $$D\left(t\right)$$ will always be positive. We can simplify this answer to $$D(t)=5t.$$ This means that the distance between Anna and Emanuel is also a linear function. Because $$D$$ is a linear function, we can now answer the question of when the distance between them will reach 2 miles. We will set the output $$D(t)=2$$ and solve for $$t.$$
+ $\begin{array}{cccc}\hfill D{(t)}^{2}& =& A{(t)}^{2}+E{(t)}^{2}\hfill & \\ & =& {(4t)}^{2}+{(3t)}^{2}\hfill & \\ & =& 16{t}^{2}+9{t}^{2}\hfill & \\ & =& 25{t}^{2}\hfill & \\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}D(t)& =& \pm \sqrt{25{t}^{2}}\hfill & \phantom{\rule{1em}{0ex}}\text{Solve\ for\}D(t)\phantom{\rule{0.5em}{0ex}}\text{using\ the\ square\ root.}\hfill \\ & =& \pm 5\left|t\right|\hfill & \end{array}$
+In this scenario we are considering only positive values of $t,$ so our distance $D\left(t\right)$ will always be positive. We can simplify this answer to $D(t)=5t.$ This means that the distance between Anna and Emanuel is also a linear function. Because $D$ is a linear function, we can now answer the question of when the distance between them will reach 2 miles. We will set the output $D(t)=2$ and solve for $t.$
 
- $$\begin{array}{ccc}\hfill D(t)& =& 2\hfill \\ \hfill 5t& =& 2\hfill \\ \hfill t& =& \frac{2}{5}=0.4\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill D(t)& =& 2\hfill \\ \hfill 5t& =& 2\hfill \\ \hfill t& =& \frac{2}{5}=0.4\hfill \end{array}$
 They will fall out of radio contact in 0.4 hour, or 24 minutes.
 
 Q&A
@@ -299,25 +303,24 @@ Using a Diagram to Model Distance Between Cities
 
 There is a straight road leading from the town of Westborough to Agritown 30 miles east and 10 miles north. Partway down this road, it junctions with a second road, perpendicular to the first, leading to the town of Eastborough. If the town of Eastborough is located 20 miles directly east of the town of Westborough, how far is the road junction from Westborough?
 
-It might help here to draw a picture of the situation. See . It would then be helpful to introduce a coordinate system. While we could place the origin anywhere, placing it at Westborough seems convenient. This puts Agritown at coordinates $$\left(\text{3}0,\text{1}0\right),$$ and Eastborough at $$\left(\text{2}0,\text{}0\right).$$
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_005.jpg)\n\n
+It might help here to draw a picture of the situation. See . It would then be helpful to introduce a coordinate system. While we could place the origin anywhere, placing it at Westborough seems convenient. This puts Agritown at coordinates $\left(\text{3}0,\text{1}0\right),$ and Eastborough at $\left(\text{2}0,\text{}0\right).$
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_005.jpg)\n\n
 Using this point along with the origin, we can find the slope of the line from Westborough to Agritown.
 
- $$m=\frac{10-0}{30-0}=\frac{1}{3}$$ 
+ $m=\frac{10-0}{30-0}=\frac{1}{3}$ 
 Now we can write an equation to describe the road from Westborough to Agritown.
 
- $$W(x)=\frac{1}{3}x$$
+ $W(x)=\frac{1}{3}x$
 
-From this, we can determine the perpendicular road to Eastborough will have slope $$m=\u20133.$$ Because the town of Eastborough is at the point (20, 0), we can find the equation.
+From this, we can determine the perpendicular road to Eastborough will have slope $m=\u20133.$ Because the town of Eastborough is at the point (20, 0), we can find the equation.
 
- $$\begin{array}{cccc}\hfill E(x)& =& \mathrm{-3}x+b\hfill & \\ \hfill 0& =& \mathrm{-3}(20)+b\hfill & \phantom{\rule{1em}{0ex}}\text{Substitute\}(20,0)\phantom{\rule{0.8}{0ex}}\text{into\ the\ equation}.\hfill \\ \hfill b& =& 60\hfill & \\ \hfill E(x)& =& \mathrm{-3}x+60\hfill & \end{array}$$
+ $\begin{array}{cccc}\hfill E(x)& =& \mathrm{-3}x+b\hfill & \\ \hfill 0& =& \mathrm{-3}(20)+b\hfill & \phantom{\rule{1em}{0ex}}\text{Substitute\}(20,0)\phantom{\rule{0.8}{0ex}}\text{into\ the\ equation}.\hfill \\ \hfill b& =& 60\hfill & \\ \hfill E(x)& =& \mathrm{-3}x+60\hfill & \end{array}$
 We can now find the coordinates of the junction of the roads by finding the intersection of these lines. Setting them equal,
 
- $$\begin{array}{cccc}\hfill \phantom{\rule{0.5em}{0ex}}\text{}\frac{1}{3}x& =& -3x+60\hfill & \\ \hfill \frac{10}{3}x& =& 60\hfill & \\ \hfill \ 10x& =& 180\hfill & \\ \hfill x& =& 18\hfill & \phantom{\rule{2em}{0ex}}\text{Substitute\ this\ back\ into\}W(x).\hfill \\ \hfill y& =& W(18)\hfill & \\ & =& \frac{1}{3}(18)\hfill & \\ & =& 6\hfill & \end{array}$$
+ $\begin{array}{cccc}\hfill \phantom{\rule{0.5em}{0ex}}\text{}\frac{1}{3}x& =& -3x+60\hfill & \\ \hfill \frac{10}{3}x& =& 60\hfill & \\ \hfill \ 10x& =& 180\hfill & \\ \hfill x& =& 18\hfill & \phantom{\rule{2em}{0ex}}\text{Substitute\ this\ back\ into\}W(x).\hfill \\ \hfill y& =& W(18)\hfill & \\ & =& \frac{1}{3}(18)\hfill & \\ & =& 6\hfill & \end{array}$
 The roads intersect at the point (18, 6). Using the distance formula, we can now find the distance from Westborough to the junction.
 
- $$\begin{array}{ccc}\hfill \text{distance}& =& \sqrt{{({x}_{2}-{x}_{1})}^{2}+{({y}_{2}-{y}_{1})}^{2}}\hfill \\ & =& \sqrt{{(18-0)}^{2}+{(6-0)}^{2}}\hfill \\ & \approx & \phantom{\rule{0.5em}{0ex}}\text{}18.974\phantom{\rule{0.5em}{0ex}}\text{miles}\hfill \end{array}$$
+ $\begin{array}{ccc}\hfill \text{distance}& =& \sqrt{{({x}_{2}-{x}_{1})}^{2}+{({y}_{2}-{y}_{1})}^{2}}\hfill \\ & =& \sqrt{{(18-0)}^{2}+{(6-0)}^{2}}\hfill \\ & \approx & \phantom{\rule{0.5em}{0ex}}\text{}18.974\phantom{\rule{0.5em}{0ex}}\text{miles}\hfill \end{array}$
 
 Analysis
 ========
@@ -335,15 +338,14 @@ Modeling a Set of Data with Linear Functions
 
 Real-world situations including two or more linear functions may be modeled with a **system of linear equations**. Remember, when solving a system of linear equations, we are looking for points the two lines have in common. Typically, there are three types of answers possible, as shown in .
 
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_006abc.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_006abc.jpg)\n\n
 How To
 
 *Given a situation that represents a system of linear equations, write the system of equations and identify the solution.*
 
 Identify the input and output of each linear model.
 Identify the slope and *y*-intercept of each linear model.
-Find the solution by setting the two linear functions equal to another and solving for $$x,$$ or find the point of intersection on a graph.
+Find the solution by setting the two linear functions equal to another and solving for $x,$ or find the point of intersection on a graph.
 
 Building a System of Linear Models to Choose a Truck Rental Company
 ===================================================================
@@ -353,32 +355,31 @@ Jamal is choosing between two truck-rental companies. The first, Keep on Truckin
 The two important quantities in this problem are the cost and the number of miles driven. Because we have two companies to consider, we will define two functions in .
 
 Input
- $$d,$$ distance driven in miles
+ $d,$ distance driven in miles
 
 Outputs
-$$K(d):$$ cost, in dollars, for renting from Keep on Trucking
+$K(d):$ cost, in dollars, for renting from Keep on Trucking
 
-$$M\left(d\right)$$ cost, in dollars, for renting from Move It Your Way
+$M\left(d\right)$ cost, in dollars, for renting from Move It Your Way
 
 Initial Value
-Up-front fee: $$K\left(0\right)=\text{2}0$$ and $$M\left(0\right)=\text{16}$$ 
+Up-front fee: $K\left(0\right)=\text{2}0$ and $M\left(0\right)=\text{16}$ 
 
 Rate of Change
- $$K(d)=\text{\$}0.\text{59}$$ /mile and $$P(d)=\text{\$}0.\text{63}$$ /mile
+ $K(d)=\text{\$}0.\text{59}$ /mile and $P(d)=\text{\$}0.\text{63}$ /mile
 
-A linear function is of the form $$f(x)=mx+b.$$ Using the rates of change and initial charges, we can write the equations
+A linear function is of the form $f(x)=mx+b.$ Using the rates of change and initial charges, we can write the equations
 
- $$\begin{array}{ccc}\hfill K(d)& =& 0.59d+20\hfill \\ \hfill M(d)& =& 0.63d+16\hfill \end{array}$$
-Using these equations, we can determine when Keep on Trucking, Inc., will be the better choice. Because all we have to make that decision from is the costs, we are looking for when Move It Your Way, will cost less, or when $$K(d)<M(d).$$ The solution pathway will lead us to find the equations for the two functions, find the intersection, and then see where the $$K\left(d\right)$$ function is smaller.
-These graphs are sketched in , with $$K\left(d\right)$$ in blue.
+ $\begin{array}{ccc}\hfill K(d)& =& 0.59d+20\hfill \\ \hfill M(d)& =& 0.63d+16\hfill \end{array}$
+Using these equations, we can determine when Keep on Trucking, Inc., will be the better choice. Because all we have to make that decision from is the costs, we are looking for when Move It Your Way, will cost less, or when $K(d)<M(d).$ The solution pathway will lead us to find the equations for the two functions, find the intersection, and then see where the $K\left(d\right)$ function is smaller.
+These graphs are sketched in , with $K\left(d\right)$ in blue.
 
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_007-4eed.jpg)\n\n
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_007-4eed.jpg)\n\n
 
 To find the intersection, we set the equations equal and solve:
 
- $$\begin{array}{ccc}\hfill K(d)& =& M(d)\hfill \\ \hfill 0.59d+20& =& 0.63d+16\hfill \\ \hfill 4& =& 0.04d\hfill \\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}100& =& d\hfill \\ \hfill d& =& 100\hfill \end{array}$$
-This tells us that the cost from the two companies will be the same if 100 miles are driven. Either by looking at the graph, or noting that $$K\left(d\right)$$ is growing at a slower rate, we can conclude that Keep on Trucking, Inc. will be the cheaper price when more than 100 miles are driven, that is $$d>100$$ .
+ $\begin{array}{ccc}\hfill K(d)& =& M(d)\hfill \\ \hfill 0.59d+20& =& 0.63d+16\hfill \\ \hfill 4& =& 0.04d\hfill \\ \hfill \phantom{\rule{0.5em}{0ex}}\text{}100& =& d\hfill \\ \hfill d& =& 100\hfill \end{array}$
+This tells us that the cost from the two companies will be the same if 100 miles are driven. Either by looking at the graph, or noting that $K\left(d\right)$ is growing at a slower rate, we can conclude that Keep on Trucking, Inc. will be the cheaper price when more than 100 miles are driven, that is $d>100$ .
 
 Media
 Access this online resource for additional instruction and practice with linear function models.
@@ -394,7 +395,7 @@ Draw a diagram, where appropriate. See  and .
 Check for reasonableness of the answer.
 Linear models may be built by identifying or calculating the slope and using the *y*-intercept.
 
-The *x*-intercept may be found by setting $$y=0,$$ which is setting the expression $$mx+b$$ equal to 0.
+The *x*-intercept may be found by setting $y=0,$ which is setting the expression $mx+b$ equal to 0.
 The point of intersection of a system of linear equations is the point where the *x*- and *y*-values are the same. See .
 A graph of the system may be used to identify the points where one line falls below (or above) the other line.
 
@@ -420,16 +421,16 @@ Explain how to determine the slope in a word problem that uses a linear function
 
 Algebraic
 =========
-Find the area of a parallelogram bounded by the *y*-axis, the line $$x=3,$$ the line $$f(x)=1+2x,$$ and the line parallel to $$f(x)$$ passing through $$\left(\text{2},\text{7}\right).$$
+Find the area of a parallelogram bounded by the *y*-axis, the line $x=3,$ the line $f(x)=1+2x,$ and the line parallel to $f(x)$ passing through $\left(\text{2},\text{7}\right).$
 6 square units
 
-Find the area of a triangle bounded by the *x*-axis, the line $$f(x)=12\u2013\frac{1}{3}x,$$ and the line perpendicular to $$f(x)$$ that passes through the origin.
+Find the area of a triangle bounded by the *x*-axis, the line $f(x)=12\u2013\frac{1}{3}x,$ and the line perpendicular to $f(x)$ that passes through the origin.
 
-Find the area of a triangle bounded by the *y*-axis, the line $$f(x)=9\u2013\frac{6}{7}x,$$ and the line perpendicular to $$f(x)$$ that passes through the origin.
+Find the area of a triangle bounded by the *y*-axis, the line $f(x)=9\u2013\frac{6}{7}x,$ and the line perpendicular to $f(x)$ that passes through the origin.
 
 20.01 square units
 
-Find the area of a parallelogram bounded by the *x*-axis, the line $$g(x)=2,$$ the line $$f(x)=3x,$$ and the line parallel to $$f(x)$$ passing through $$(6,1).$$
+Find the area of a parallelogram bounded by the *x*-axis, the line $g(x)=2,$ the line $f(x)=3x,$ and the line parallel to $f(x)$ passing through $(6,1).$
 
 For the following exercises, consider this scenario: A town’s population has been decreasing at a constant rate. In 2010 the population was 5,900. By 2012 the population had dropped to 4,700. Assume this trend continues.
 
@@ -449,17 +450,17 @@ Identify the year in which the population will reach 75,000.
 
 For the following exercises, consider this scenario: A town has an initial population of 75,000. It grows at a constant rate of 2,500 per year for 5 years.
 
-Find the linear function that models the town’s population $$P$$ as a function of the year, $$t,$$ where $$t$$ is the number of years since the model began.
+Find the linear function that models the town’s population $P$ as a function of the year, $t,$ where $t$ is the number of years since the model began.
 
-$$P\left(t\right)=75,000+2500t$$
+$P\left(t\right)=75,000+2500t$
 
-Find a reasonable domain and range for the function $$P.$$
+Find a reasonable domain and range for the function $P.$
 
-If the function $$P$$ is graphed, find and interpret the *x*- and *y*-intercepts.
+If the function $P$ is graphed, find and interpret the *x*- and *y*-intercepts.
 
 (–30, 0) Thirty years before the start of this model, the town had no citizens. (0, 75,000) Initially, the town had a population of 75,000.
 
-If the function $$P$$ is graphed, find and interpret the slope of the function.
+If the function $P$ is graphed, find and interpret the slope of the function.
 
 When will the population reach 100,000?
 
@@ -469,15 +470,15 @@ What is the population in the year 12 years from the onset of the model?
 
 For the following exercises, consider this scenario: The weight of a newborn is 7.5 pounds. The baby gained one-half pound a month for its first year.
 
-Find the linear function that models the baby’s weight $$W$$ as a function of the age of the baby, in months, $$t.$$
+Find the linear function that models the baby’s weight $W$ as a function of the age of the baby, in months, $t.$
 
-$$W(t)=0.5t+7.5$$
+$W(t)=0.5t+7.5$
 
-Find a reasonable domain and range for the function $$W.$$
+Find a reasonable domain and range for the function $W.$
 
-If the function $$W$$ is graphed, find and interpret the *x*- and *y*-intercepts.
+If the function $W$ is graphed, find and interpret the *x*- and *y*-intercepts.
 
-$$\left(-15,\text{}0\right)$$ : The *x*-intercept is not a plausible set of data for this model because it means the baby weighed 0 pounds 15 months prior to birth. $$\left(0,\text{7}.\text{5}\right)$$ : The baby weighed 7.5 pounds at birth.
+$\left(-15,\text{}0\right)$ : The *x*-intercept is not a plausible set of data for this model because it means the baby weighed 0 pounds 15 months prior to birth. $\left(0,\text{7}.\text{5}\right)$ : The baby weighed 7.5 pounds at birth.
 
 If the function *W* is graphed, find and interpret the slope of the function.
 
@@ -489,17 +490,17 @@ What is the output when the input is 6.2?
 
 For the following exercises, consider this scenario: The number of people afflicted with the common cold in the winter months steadily decreased by 205 each year from 2005 until 2010. In 2005, 12,025 people were inflicted.
 
-Find the linear function that models the number of people inflicted with the common cold $$C$$ as a function of the year, $$t.$$
+Find the linear function that models the number of people inflicted with the common cold $C$ as a function of the year, $t.$
 
-$$C\left(t\right)=12,025-205t$$
+$C\left(t\right)=12,025-205t$
 
-Find a reasonable domain and range for the function $$C.$$
+Find a reasonable domain and range for the function $C.$
 
-If the function $$C$$ is graphed, find and interpret the *x*- and *y*-intercepts.
+If the function $C$ is graphed, find and interpret the *x*- and *y*-intercepts.
 
-$$\left(\text{58}.\text{7},\text{}0\right):$$ In roughly 59 years, the number of people inflicted with the common cold would be 0. $$\left(0,\text{12},0\text{25}\right)$$ Initially there were 12,025 people afflicted by the common cold.
+$\left(\text{58}.\text{7},\text{}0\right):$ In roughly 59 years, the number of people inflicted with the common cold would be 0. $\left(0,\text{12},0\text{25}\right)$ Initially there were 12,025 people afflicted by the common cold.
 
-If the function $$C$$ is graphed, find and interpret the slope of the function.
+If the function $C$ is graphed, find and interpret the slope of the function.
 
 When will the output reach 0?
 
@@ -509,12 +510,11 @@ In what year will the number of people be 9,700?
 
 Graphical
 =========
-For the following exercises, use the graph in , which shows the profit, $$y,$$ in thousands of dollars, of a company in a given year, $$t,$$ where $$t$$ represents the number of years since 1980.
+For the following exercises, use the graph in , which shows the profit, $y,$ in thousands of dollars, of a company in a given year, $t,$ where $t$ represents the number of years since 1980.
 
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_201-34f0.jpg)\n\nFind the linear function $$y,$$ where $$y$$ depends on $$t,$$ the number of years since 1980.
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_201-34f0.jpg)\n\nFind the linear function $y,$ where $y$ depends on $t,$ the number of years since 1980.
 
-$$y=-2t\text{+180}$$
+$y=-2t\text{+180}$
 
 Find and interpret the *y*-intercept.
 
@@ -524,13 +524,12 @@ In 2070, the company’s profit will be zero.
 
 Find and interpret the slope.
 
-For the following exercises, use the graph in , which shows the profit, $$y,$$ in thousands of dollars, of a company in a given year, $$t,$$ where $$t$$ represents the number of years since 1980.
+For the following exercises, use the graph in , which shows the profit, $y,$ in thousands of dollars, of a company in a given year, $t,$ where $t$ represents the number of years since 1980.
 
-\n\n![
-](../../media/CNX_Precalc_Figure_02_03_202.jpg)\n\n
-Find the linear function $$y,$$ where $$y$$ depends on $$t,$$ the number of years since 1980.
+\n\n![Image](../../media/CNX_Precalc_Figure_02_03_202.jpg)\n\n
+Find the linear function $y,$ where $y$ depends on $t,$ the number of years since 1980.
 
-$$y=\text{3}0t-\text{3}00$$
+$y=\text{3}0t-\text{3}00$
 
 Find and interpret the *y*-intercept.
 
@@ -598,7 +597,7 @@ In 2004, a school population was 1001. By 2008 the population had grown to 1697.
 ⓑHow long did it take the population to grow from 1001 students to 1697 students?
 ⓒWhat is the average population growth per year?
  ⓓWhat was the population in the year 2000?
-ⓔFind an equation for the population, $$P,$$ of the school *t* years after 2000.
+ⓔFind an equation for the population, $P,$ of the school *t* years after 2000.
 ⓕUsing your equation, predict the population of the school in 2011.
 
 ⓐ696 people 
@@ -613,7 +612,7 @@ In 2003, a town’s population was 1431. By 2007 the population had grown to 213
 ⓑHow long did it take the population to grow from 1431 people to 2134 people?
 ⓒWhat is the average population growth per year?
 ⓓWhat was the population in the year 2000?
-ⓔFind an equation for the population, $$P,$$ of the town $$t$$ years after 2000.
+ⓔFind an equation for the population, $P,$ of the town $t$ years after 2000.
 ⓕUsing your equation, predict the population of the town in 2014.
 
 A phone company has a monthly cellular plan where a customer pays a flat monthly fee and then a certain amount of money per minute used for voice or video calling. If a customer uses 410 minutes, the monthly cost will be $71.50. If the customer uses 720 minutes, the monthly cost will be $118.
@@ -627,7 +626,7 @@ A phone company has a monthly cellular plan where a customer pays a flat monthly
 ⓒ$113.05
 A phone company has a monthly cellular data plan where a customer pays a flat monthly fee of $10 and then a certain amount of money per megabyte (MB) of data used on the phone. If a customer uses 20 MB, the monthly cost will be $11.20. If the customer uses 130 MB, the monthly cost will be $17.80.
 
-ⓐFind a linear equation for the monthly cost of the data plan as a function of $$x,$$ the number of MB used.
+ⓐFind a linear equation for the monthly cost of the data plan as a function of $x,$ the number of MB used.
 ⓑInterpret the slope and *y*-intercept of the equation.
 ⓒUse your equation to find the total monthly cost if 250 MB are used.
 
@@ -640,21 +639,21 @@ P(t) = 190t + 4,360
 
 In 2003, the owl population in a park was measured to be 340. By 2007, the population was measured again to be 285. The population changes linearly. Let the input be years since 2003.
 
-ⓐFind a formula for the owl population, $$P.$$ Let the input be years since 2003.
+ⓐFind a formula for the owl population, $P.$ Let the input be years since 2003.
 ⓑWhat does your model predict the owl population to be in 2012?
 
 The Federal Helium Reserve held about 16 billion cubic feet of helium in 2010 and is being depleted by about 2.1 billion cubic feet each year.
 
-ⓐ Give a linear equation for the remaining federal helium reserves, $$R,$$ in terms of $$t,$$ the number of years since 2010.
+ⓐ Give a linear equation for the remaining federal helium reserves, $R,$ in terms of $t,$ the number of years since 2010.
 ⓑ In 2015, what will the helium reserves be?
 ⓒ If the rate of depletion doesn’t change, in what year will the Federal Helium Reserve be depleted?
 
-ⓐ $$R\left(t\right)=-2.1t\ +\ 16$$
+ⓐ $R\left(t\right)=-2.1t\ +\ 16$
 ⓑ 5.5 billion cubic feet 
 ⓒ During the year 2017
 Suppose the world’s oil reserves in 2014 are 1,820 billion barrels. If, on average, the total reserves are decreasing by 25 billion barrels of oil each year:
 
-ⓐ Give a linear equation for the remaining oil reserves, $$R,$$ in terms of $$t,$$ the number of years since now.
+ⓐ Give a linear equation for the remaining oil reserves, $R,$ in terms of $t,$ the number of years since now.
 ⓑ Seven years from now, what will the oil reserves be?
 ⓒ If the rate at which the reserves are decreasing is constant, when will the world’s oil reserves be depleted?
 

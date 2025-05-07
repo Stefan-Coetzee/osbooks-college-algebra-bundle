@@ -66,8 +66,7 @@ Brainstorm ideas with your classmates about ways this corequisite support course
 
 A hardware store sells 16-ft ladders and 24-ft ladders. A window is located 12 feet above the ground. A ladder needs to be purchased that will reach the window from a point on the ground 5 feet from the building. To find out the length of ladder needed, we can draw a right triangle as shown in , and use the Pythagorean Theorem.
 
-\n\n![
-](../../media/CNX_CAT_Figure_01_03_001.jpg)\n\n
+\n\n![Image](../../media/CNX_CAT_Figure_01_03_001.jpg)\n\n
 
  $$
 \begin{array}{ccc}\hfill {a}^{2}+{b}^{2}& =& {c}^{2}\hfill \\ \hfill {5}^{2}+{12}^{2}& =& {c}^{2}\hfill \\ \hfill 169& =& {c}^{2}\hfill \end{array}
@@ -78,97 +77,99 @@ Now, we need to find out the length that, when squared, is 169, to determine whi
 Evaluating Square Roots
 =======================
 
-When the square root of a number is squared, the result is the original number. Since  $${4}^{2}=16,$$ the square root of  $$16$$ 
- is  $$4.$$ 
+When the square root of a number is squared, the result is the original number. Since  ${4}^{2}=16,$ the square root of  $16$ 
+ is  $4.$ 
  The square root function is the inverse of the squaring function just as subtraction is the inverse of addition. To undo squaring, we take the square root.
 
-In general terms, if  $$a$$ 
- is a positive real number, then the square root of  $$a$$ 
- is a number that, when multiplied by itself, gives  $$a.$$ 
- The square root could be positive or negative because multiplying two negative numbers gives a positive number. The **principal square root** is the nonnegative number that when multiplied by itself equals  $$a.$$ 
+In general terms, if  $a$ 
+ is a positive real number, then the square root of  $a$ 
+ is a number that, when multiplied by itself, gives  $a.$ 
+ The square root could be positive or negative because multiplying two negative numbers gives a positive number. The **principal square root** is the nonnegative number that when multiplied by itself equals  $a.$ 
  The square root obtained using a calculator is the principal square root.
 
-The principal square root of  $$a$$ 
- is written as  $$\sqrt{a}.$$ 
+The principal square root of  $a$ 
+ is written as  $\sqrt{a}.$ 
  The symbol is called a **radical**, the term under the symbol is called the **radicand**, and the entire expression is called a **radical expression**.
+
+![The expression: square root of twenty-five is enclosed in a circle. The circle has an arrow pointing to it labeled: Radical expression. The square root symbol has an arrow pointing to it labeled: Radical. The number twenty-five has an arrow pointing to it labeled: Radicand.](../../media/CNX_CAT_Figure_01_03_002.jpg)
 
 Principal Square Root
 =====================
 
-The **principal square root** of  $$a$$ 
- is the nonnegative number that, when multiplied by itself, equals  $$a.$$ 
- It is written as a **radical expression***,* with a symbol called a **radical** over the term called the **radicand**:  $$\sqrt{a}.$$
+The **principal square root** of  $a$ 
+ is the nonnegative number that, when multiplied by itself, equals  $a.$ 
+ It is written as a **radical expression***,* with a symbol called a **radical** over the term called the **radicand**:  $\sqrt{a}.$
 
 Q&A
-*Does*  $$\sqrt{25}=\pm 5?$$
+*Does*  $\sqrt{25}=\pm 5?$
 
-*No. Although both*  $${5}^{2}$$ 
- *and*  $${(\mathrm{-5})}^{2}$$ 
- *are*  $$25,$$ *the radical symbol implies only a nonnegative root, the principal square root. The principal square root of 25 is*  $$\sqrt{25}=5.$$
+*No. Although both*  ${5}^{2}$ 
+ *and*  ${(\mathrm{-5})}^{2}$ 
+ *are*  $25,$ *the radical symbol implies only a nonnegative root, the principal square root. The principal square root of 25 is*  $\sqrt{25}=5.$
 
 Evaluating Square Roots
 =======================
 
 Evaluate each expression.
 
-ⓐ $$\sqrt{100}$$
+ⓐ $\sqrt{100}$
 
-ⓑ $$\sqrt{\sqrt{16}}$$
+ⓑ $\sqrt{\sqrt{16}}$
 
-ⓒ $$\sqrt{25+144}$$
+ⓒ $\sqrt{25+144}$
 
-ⓓ $$\sqrt{49}-\sqrt{81}$$
+ⓓ $\sqrt{49}-\sqrt{81}$
 
-ⓐ $$\sqrt{100}=10$$ because $${10}^{2}=100$$
+ⓐ $\sqrt{100}=10$ because ${10}^{2}=100$
 
-ⓑ $$\sqrt{\sqrt{16}}=\sqrt{4}=2$$ because $${4}^{2}=16$$ and $${2}^{2}=4$$
+ⓑ $\sqrt{\sqrt{16}}=\sqrt{4}=2$ because ${4}^{2}=16$ and ${2}^{2}=4$
 
-ⓒ $$\sqrt{25+144}=\sqrt{169}=13$$ because $${13}^{2}=169$$
+ⓒ $\sqrt{25+144}=\sqrt{169}=13$ because ${13}^{2}=169$
 
-ⓓ $$\sqrt{49}-\sqrt{81}=7-9=\mathrm{-2}$$ because $${7}^{2}=49$$ and $${9}^{2}=81$$
+ⓓ $\sqrt{49}-\sqrt{81}=7-9=\mathrm{-2}$ because ${7}^{2}=49$ and ${9}^{2}=81$
 
 Q&A
-*For  $$\sqrt{25+144},$$ can we find the square roots before adding?*
+*For  $\sqrt{25+144},$ can we find the square roots before adding?*
 
-*No.*  $$\sqrt{25}+\sqrt{144}=5+12=17.$$ 
- *This is not equivalent to*  $$\sqrt{25+144}=13.$$ 
+*No.*  $\sqrt{25}+\sqrt{144}=5+12=17.$ 
+ *This is not equivalent to*  $\sqrt{25+144}=13.$ 
  *The order of operations requires us to add the terms in the radicand before finding the square root.*
 
 Try It
 Evaluate each expression.
 
-ⓐ $$\sqrt{225}$$
+ⓐ $\sqrt{225}$
 
-ⓑ $$\sqrt{\sqrt{81}}$$
+ⓑ $\sqrt{\sqrt{81}}$
 
-ⓒ $$\sqrt{25-9}$$
+ⓒ $\sqrt{25-9}$
 
-ⓓ $$\sqrt{36}+\sqrt{121}$$
+ⓓ $\sqrt{36}+\sqrt{121}$
 
-ⓐ $$15$$
+ⓐ $15$
 
-ⓑ $$3$$
+ⓑ $3$
 
-ⓒ $$4$$
+ⓒ $4$
 
-ⓓ $$17$$
+ⓓ $17$
 
 Using the Product Rule to Simplify Square Roots
 ===============================================
 
-To simplify a square root, we rewrite it such that there are no perfect squares in the radicand. There are several properties of square roots that allow us to simplify complicated radical expressions. The first rule we will look at is the *product rule for simplifying square roots,* which allows us to separate the square root of a product of two numbers into the product of two separate rational expressions. For instance, we can rewrite  $$\sqrt{15}$$ 
- as  $$\sqrt{3}\cdot \sqrt{5}.$$ 
+To simplify a square root, we rewrite it such that there are no perfect squares in the radicand. There are several properties of square roots that allow us to simplify complicated radical expressions. The first rule we will look at is the *product rule for simplifying square roots,* which allows us to separate the square root of a product of two numbers into the product of two separate rational expressions. For instance, we can rewrite  $\sqrt{15}$ 
+ as  $\sqrt{3}\cdot \sqrt{5}.$ 
  We can also use the product rule to express the product of multiple radical expressions as a single radical expression.
 
 The Product Rule for Simplifying Square Roots
 =============================================
 
-If  $$a$$ 
- and  $$b$$ 
- are nonnegative, the square root of the product  $$ab$$ 
- is equal to the product of the square roots of  $$a$$ 
- and  $$b.\phantom{\rule{0.5em}{0ex}}$$
- $$\sqrt{ab}=\sqrt{a}\cdot \sqrt{b}$$
+If  $a$ 
+ and  $b$ 
+ are nonnegative, the square root of the product  $ab$ 
+ is equal to the product of the square roots of  $a$ 
+ and  $b.\phantom{\rule{0.5em}{0ex}}$
+ $\sqrt{ab}=\sqrt{a}\cdot \sqrt{b}$
 
 How To
 *Given a square root radical expression, use the product rule to simplify it.*
@@ -182,19 +183,19 @@ Using the Product Rule to Simplify Square Roots
 
 Simplify the radical expression.
 
-ⓐ $$\sqrt{300}$$
+ⓐ $\sqrt{300}$
 
-ⓑ $$\sqrt{162{a}^{5}{b}^{4}}$$
+ⓑ $\sqrt{162{a}^{5}{b}^{4}}$
 
-  ⓐ $$\begin{array}{cc}\sqrt{100\cdot 3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Factor\ perfect\ square\ from\ radicand}.\hfill \\ \sqrt{100}\cdot \sqrt{3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Write\ radical\ expression\ as\ product\ of\ radical\ expressions}.\hfill \\ 10\sqrt{3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Simplify}.\hfill \end{array}$$
+  ⓐ $\begin{array}{cc}\sqrt{100\cdot 3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Factor\ perfect\ square\ from\ radicand}.\hfill \\ \sqrt{100}\cdot \sqrt{3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Write\ radical\ expression\ as\ product\ of\ radical\ expressions}.\hfill \\ 10\sqrt{3}\hfill & \phantom{\rule{4.5em}{0ex}}\text{Simplify}.\hfill \end{array}$
 
-ⓑ $$\begin{array}{cc}\sqrt{81{a}^{4}{b}^{4}\cdot 2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ perfect\ square\ from\ radicand}.\hfill \\ \sqrt{81{a}^{4}{b}^{4}}\cdot \sqrt{2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Write\ radical\ expression\ as\ product\ of\ radical\ expressions}.\hfill \\ 9{a}^{2}{b}^{2}\sqrt{2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}$$
+ⓑ $\begin{array}{cc}\sqrt{81{a}^{4}{b}^{4}\cdot 2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Factor\ perfect\ square\ from\ radicand}.\hfill \\ \sqrt{81{a}^{4}{b}^{4}}\cdot \sqrt{2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Write\ radical\ expression\ as\ product\ of\ radical\ expressions}.\hfill \\ 9{a}^{2}{b}^{2}\sqrt{2a}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}$
 
 Try It
 
-Simplify  $$\sqrt{50{x}^{2}{y}^{3}z}.$$
+Simplify  $\sqrt{50{x}^{2}{y}^{3}z}.$
 
-$$5\left|x\right|\left|y\right|\sqrt{2yz}.$$ 
+$5\left|x\right|\left|y\right|\sqrt{2yz}.$ 
  Notice the absolute value signs around *x* and *y*? That’s because their value must be positive!
 
  
@@ -208,31 +209,31 @@ Simplify.
 Using the Product Rule to Simplify the Product of Multiple Square Roots
 =======================================================================
 
-Simplify the radical expression. $$\sqrt{12}\cdot \sqrt{3}$$
+Simplify the radical expression. $\sqrt{12}\cdot \sqrt{3}$
 
-$$\begin{array}{cc}\sqrt{12\cdot 3}\hfill & \phantom{\rule{2em}{0ex}}\text{Express\ the\ product\ as\ a\ single\ radical\ expression}.\hfill \\ \sqrt{36}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \\ 6\hfill & \end{array}$$
+$\begin{array}{cc}\sqrt{12\cdot 3}\hfill & \phantom{\rule{2em}{0ex}}\text{Express\ the\ product\ as\ a\ single\ radical\ expression}.\hfill \\ \sqrt{36}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \\ 6\hfill & \end{array}$
 
 Try It
 
-Simplify  $$\sqrt{50x}\cdot \sqrt{2x}$$ 
- assuming  $$x>0.$$
+Simplify  $\sqrt{50x}\cdot \sqrt{2x}$ 
+ assuming  $x>0.$
 
-$$10\left|x\right|$$
+$10\left|x\right|$
 
 Using the Quotient Rule to Simplify Square Roots
 ================================================
 
-Just as we can rewrite the square root of a product as a product of square roots, so too can we rewrite the square root of a quotient as a quotient of square roots, using the *quotient rule for simplifying square roots.* It can be helpful to separate the numerator and denominator of a fraction under a radical so that we can take their square roots separately. We can rewrite  $$\sqrt{\frac{5}{2}}$$ 
- as  $$\frac{\sqrt{5}}{\sqrt{2}}.$$
+Just as we can rewrite the square root of a product as a product of square roots, so too can we rewrite the square root of a quotient as a quotient of square roots, using the *quotient rule for simplifying square roots.* It can be helpful to separate the numerator and denominator of a fraction under a radical so that we can take their square roots separately. We can rewrite  $\sqrt{\frac{5}{2}}$ 
+ as  $\frac{\sqrt{5}}{\sqrt{2}}.$
 
 The Quotient Rule for Simplifying Square Roots
 ==============================================
 
-The square root of the quotient  $$\frac{a}{b}$$ 
- is equal to the quotient of the square roots of  $$a$$ 
- and  $$b,$$ where  $$b\ne 0.$$
+The square root of the quotient  $\frac{a}{b}$ 
+ is equal to the quotient of the square roots of  $a$ 
+ and  $b,$ where  $b\ne 0.$
 
- $$\sqrt{\frac{a}{b}}=\frac{\sqrt{a}}{\sqrt{b}}$$
+ $\sqrt{\frac{a}{b}}=\frac{\sqrt{a}}{\sqrt{b}}$
 
 How To
 *Given a radical expression, use the quotient rule to simplify it.*
@@ -245,16 +246,16 @@ Using the Quotient Rule to Simplify Square Roots
 
 Simplify the radical expression.
 
-$$\sqrt{\frac{5}{36}}$$
+$\sqrt{\frac{5}{36}}$
 
-$$\begin{array}{cc}\frac{\sqrt{5}}{\sqrt{36}}\hfill & \phantom{\rule{2em}{0ex}}\text{Write\ as\ quotient\ of\ two\ radical\ expressions}.\hfill \\ \frac{\sqrt{5}}{6}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ denominator}.\hfill \end{array}$$
+$\begin{array}{cc}\frac{\sqrt{5}}{\sqrt{36}}\hfill & \phantom{\rule{2em}{0ex}}\text{Write\ as\ quotient\ of\ two\ radical\ expressions}.\hfill \\ \frac{\sqrt{5}}{6}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ denominator}.\hfill \end{array}$
 
 Try It
 
-Simplify  $$\sqrt{\frac{2{x}^{2}}{9{y}^{4}}}.$$
+Simplify  $\sqrt{\frac{2{x}^{2}}{9{y}^{4}}}.$
 
-$$\frac{x\sqrt{2}}{3{y}^{2}}.$$ 
- We do not need the absolute value signs for  $${y}^{2}$$ 
+$\frac{x\sqrt{2}}{3{y}^{2}}.$ 
+ We do not need the absolute value signs for  ${y}^{2}$ 
  because that term will always be nonnegative.
 
 Using the Quotient Rule to Simplify an Expression with Two Square Roots
@@ -262,25 +263,25 @@ Using the Quotient Rule to Simplify an Expression with Two Square Roots
 
 Simplify the radical expression.
 
-$$\frac{\sqrt{234{x}^{11}y}}{\sqrt{26{x}^{7}y}}$$
+$\frac{\sqrt{234{x}^{11}y}}{\sqrt{26{x}^{7}y}}$
 
-$$\begin{array}{cc}\sqrt{\frac{234{x}^{11}y}{26{x}^{7}y}}\hfill & \phantom{\rule{2em}{0ex}}\text{Combine\ numerator\ and\ denominator\ into\ one\ radical\ expression}.\hfill \\ \sqrt{9{x}^{4}}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ fraction}.\hfill \\ 3{x}^{2}\phantom{\rule{0.5em}{0ex}}\text\ \hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ square\ root}.\hfill \end{array}$$
+$\begin{array}{cc}\sqrt{\frac{234{x}^{11}y}{26{x}^{7}y}}\hfill & \phantom{\rule{2em}{0ex}}\text{Combine\ numerator\ and\ denominator\ into\ one\ radical\ expression}.\hfill \\ \sqrt{9{x}^{4}}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ fraction}.\hfill \\ 3{x}^{2}\phantom{\rule{0.5em}{0ex}}\text\ \hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ square\ root}.\hfill \end{array}$
 
 Try It
 
-Simplify  $$\frac{\sqrt{9{a}^{5}{b}^{14}}}{\sqrt{3{a}^{4}{b}^{5}}}.$$
+Simplify  $\frac{\sqrt{9{a}^{5}{b}^{14}}}{\sqrt{3{a}^{4}{b}^{5}}}.$
 
-$${b}^{4}\sqrt{3ab}$$
+${b}^{4}\sqrt{3ab}$
 
 Adding and Subtracting Square Roots
 ===================================
 
-We can add or subtract radical expressions only when they have the same radicand and when they have the same radical type such as square roots. For example, the sum of  $$\sqrt{2}$$ 
- and  $$3\sqrt{2}$$ 
- is  $$4\sqrt{2}.$$ 
- However, it is often possible to simplify radical expressions, and that may change the radicand. The radical expression  $$\sqrt{18}$$ 
- can be written with a  $$2$$ 
- in the radicand, as  $$3\sqrt{2},$$ so  $$\sqrt{2}+\sqrt{18}=\sqrt{2}+3\sqrt{2}=4\sqrt{2}.$$
+We can add or subtract radical expressions only when they have the same radicand and when they have the same radical type such as square roots. For example, the sum of  $\sqrt{2}$ 
+ and  $3\sqrt{2}$ 
+ is  $4\sqrt{2}.$ 
+ However, it is often possible to simplify radical expressions, and that may change the radicand. The radical expression  $\sqrt{18}$ 
+ can be written with a  $2$ 
+ in the radicand, as  $3\sqrt{2},$ so  $\sqrt{2}+\sqrt{18}=\sqrt{2}+3\sqrt{2}=4\sqrt{2}.$
 
 How To
 *Given a radical expression requiring addition or subtraction of square roots, simplify.*
@@ -291,42 +292,42 @@ Add or subtract expressions with equal radicands.
 Adding Square Roots
 ===================
 
-Add  $$5\sqrt{12}+2\sqrt{3}.$$
+Add  $5\sqrt{12}+2\sqrt{3}.$
 
-We can rewrite  $$5\sqrt{12}$$ 
- as  $$5\sqrt{4\xb73}.$$ 
- According the product rule, this becomes  $$5\sqrt{4}\sqrt{3}.$$ 
- The square root of  $$\sqrt{4}$$ 
- is 2, so the expression becomes  $$5\left(2\right)\sqrt{3},$$ which is  $$10\sqrt{3}.$$ 
+We can rewrite  $5\sqrt{12}$ 
+ as  $5\sqrt{4\xb73}.$ 
+ According the product rule, this becomes  $5\sqrt{4}\sqrt{3}.$ 
+ The square root of  $\sqrt{4}$ 
+ is 2, so the expression becomes  $5\left(2\right)\sqrt{3},$ which is  $10\sqrt{3}.$ 
  Now the terms have the same radicand so we can add.
-$$10\sqrt{3}+2\sqrt{3}=12\sqrt{3}$$
+$10\sqrt{3}+2\sqrt{3}=12\sqrt{3}$
 
 Try It
 
-Add  $$\sqrt{5}+6\sqrt{20}.$$
+Add  $\sqrt{5}+6\sqrt{20}.$
 
-$$13\sqrt{5}$$
+$13\sqrt{5}$
 
 Subtracting Square Roots
 ========================
 
-Subtract  $$20\sqrt{72{a}^{3}{b}^{4}c}\phantom{\rule{0.5em}{0ex}}-14\sqrt{8{a}^{3}{b}^{4}c}.$$
+Subtract  $20\sqrt{72{a}^{3}{b}^{4}c}\phantom{\rule{0.5em}{0ex}}-14\sqrt{8{a}^{3}{b}^{4}c}.$
 
 Factor 9 out of the first term so that both terms have equal radicands.
 
- $$\begin{array}{ccccc}\hfill 20\sqrt{72{a}^{3}{b}^{4}c}& =& 20\sqrt{9\cdot 8{a}^{3}{b}^{4}c}\hfill & =& 20\sqrt{9}\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ & =& 20(3)\sqrt{8{a}^{3}{b}^{4}c}\hfill & =& 60\sqrt{8{a}^{3}{b}^{4}c}\hfill \end{array}$$
+ $\begin{array}{ccccc}\hfill 20\sqrt{72{a}^{3}{b}^{4}c}& =& 20\sqrt{9\cdot 8{a}^{3}{b}^{4}c}\hfill & =& 20\sqrt{9}\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ & =& 20(3)\sqrt{8{a}^{3}{b}^{4}c}\hfill & =& 60\sqrt{8{a}^{3}{b}^{4}c}\hfill \end{array}$
 
 So
 
  
-    $$\begin{array}{c}20\sqrt{72{a}^{3}{b}^{4}c}-14\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ =60\sqrt{8{a}^{3}{b}^{4}c}-14\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ =46\sqrt{8{a}^{3}{b}^{4}c}\hfill \end{array}$$
+    $\begin{array}{c}20\sqrt{72{a}^{3}{b}^{4}c}-14\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ =60\sqrt{8{a}^{3}{b}^{4}c}-14\sqrt{8{a}^{3}{b}^{4}c}\hfill \\ =46\sqrt{8{a}^{3}{b}^{4}c}\hfill \end{array}$
     
 
 Try It
 
-Subtract  $$3\sqrt{80x}\phantom{\rule{0.5em}{0ex}}-4\sqrt{45x}.$$
+Subtract  $3\sqrt{80x}\phantom{\rule{0.5em}{0ex}}-4\sqrt{45x}.$
 
-$$0$$
+$0$
 
 Rationalizing Denominators
 ==========================
@@ -335,9 +336,9 @@ When an expression involving square root radicals is written in simplest form, i
 
 We know that multiplying by 1 does not change the value of an expression. We use this property of multiplication to change expressions that contain radicals in the denominator. To remove radicals from the denominators of fractions, multiply by the form of 1 that will eliminate the radical.
 
-For a denominator containing a single term, multiply by the radical in the denominator over itself. In other words, if the denominator is  $$b\sqrt{c},$$ multiply by  $$\frac{\sqrt{c}}{\sqrt{c}}.$$
+For a denominator containing a single term, multiply by the radical in the denominator over itself. In other words, if the denominator is  $b\sqrt{c},$ multiply by  $\frac{\sqrt{c}}{\sqrt{c}}.$
 
-For a denominator containing the sum or difference of a rational and an irrational term, multiply the numerator and denominator by the conjugate of the denominator, which is found by changing the sign of the radical portion of the denominator. If the denominator is  $$a+b\sqrt{c},$$ then the conjugate is  $$a-b\sqrt{c}.$$
+For a denominator containing the sum or difference of a rational and an irrational term, multiply the numerator and denominator by the conjugate of the denominator, which is found by changing the sign of the radical portion of the denominator. If the denominator is  $a+b\sqrt{c},$ then the conjugate is  $a-b\sqrt{c}.$
 
 How To
 *Given an expression with a single square root radical term in the denominator, rationalize the denominator.*
@@ -348,11 +349,11 @@ Simplify.
 Rationalizing a Denominator Containing a Single Term
 ====================================================
 
-Write  $$\frac{2\sqrt{3}}{3\sqrt{10}}$$ 
+Write  $\frac{2\sqrt{3}}{3\sqrt{10}}$ 
  in simplest form.
 
-The radical in the denominator is  $$\sqrt{10}.$$ 
- So multiply the fraction by  $$\frac{\sqrt{10}}{\sqrt{10}}.$$ 
+The radical in the denominator is  $\sqrt{10}.$ 
+ So multiply the fraction by  $\frac{\sqrt{10}}{\sqrt{10}}.$ 
  Then simplify.
 
  $$
@@ -361,10 +362,10 @@ $$
 
 Try It
 
-Write  $$\frac{12\sqrt{3}}{\sqrt{2}}$$ 
+Write  $\frac{12\sqrt{3}}{\sqrt{2}}$ 
  in simplest form.
 
-$$6\sqrt{6}$$
+$6\sqrt{6}$
 
 How To
 *Given an expression with a radical term and a constant in the denominator, rationalize the denominator.*
@@ -377,12 +378,12 @@ Simplify.
 Rationalizing a Denominator Containing Two Terms
 ================================================
 
-Write  $$\frac{4}{1+\sqrt{5}}$$ 
+Write  $\frac{4}{1+\sqrt{5}}$ 
  in simplest form.
 
-Begin by finding the conjugate of the denominator by writing the denominator and changing the sign. So the conjugate of  $$1+\sqrt{5}$$ 
- is  $$1-\sqrt{5}.$$ 
- Then multiply the fraction by  $$\frac{1-\sqrt{5}}{1-\sqrt{5}}.$$
+Begin by finding the conjugate of the denominator by writing the denominator and changing the sign. So the conjugate of  $1+\sqrt{5}$ 
+ is  $1-\sqrt{5}.$ 
+ Then multiply the fraction by  $\frac{1-\sqrt{5}}{1-\sqrt{5}}.$
 
  $$
 \begin{array}{cc}\frac{4}{1+\sqrt{5}}\cdot \frac{1-\sqrt{5}}{1-\sqrt{5}}\hfill & \\ \frac{4-4\sqrt{5}}{-4}\hfill & \phantom{\rule{2em}{0ex}}\text{Use\ the\ distributive\ property}.\hfill \\ \sqrt{5}-1\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}
@@ -390,10 +391,10 @@ $$
 
 Try It
 
-Write  $$\frac{7}{2+\sqrt{3}}$$ 
+Write  $\frac{7}{2+\sqrt{3}}$ 
  in simplest form.
 
-$$14\mathrm{-7}\sqrt{3}$$
+$14\mathrm{-7}\sqrt{3}$
 
 Using Rational Roots
 ====================
@@ -403,74 +404,74 @@ Although square roots are the most common rational roots, we can also find cube 
 Understanding *n*th Roots
 =========================
 
-Suppose we know that  $${a}^{3}=8.$$ 
- We want to find what number raised to the 3rd power is equal to 8. Since  $${2}^{3}=8,$$ we say that 2 is the cube root of 8.
+Suppose we know that  ${a}^{3}=8.$ 
+ We want to find what number raised to the 3rd power is equal to 8. Since  ${2}^{3}=8,$ we say that 2 is the cube root of 8.
 
-The *n*th root of  $$a$$ 
- is a number that, when raised to the *n*th power, gives  $$a.$$ 
- For example,  $$\mathrm{-3}$$ 
- is the 5th root of  $$\mathrm{-243}$$ 
- because  $${(\mathrm{-3})}^{5}=\mathrm{-243.}$$ 
- If  $$a$$ 
- is a real number with at least one *n*th root, then the **principal *n*th root** of  $$a$$ 
- is the number with the same sign as  $$a$$ 
- that, when raised to the *n*th power, equals  $$a.$$
+The *n*th root of  $a$ 
+ is a number that, when raised to the *n*th power, gives  $a.$ 
+ For example,  $\mathrm{-3}$ 
+ is the 5th root of  $\mathrm{-243}$ 
+ because  ${(\mathrm{-3})}^{5}=\mathrm{-243.}$ 
+ If  $a$ 
+ is a real number with at least one *n*th root, then the **principal *n*th root** of  $a$ 
+ is the number with the same sign as  $a$ 
+ that, when raised to the *n*th power, equals  $a.$
 
-The principal *n*th root of  $$a$$ 
- is written as  $$\sqrt[n]{a},$$ where  $$n$$ 
- is a positive integer greater than or equal to 2. In the radical expression,  $$n$$ 
+The principal *n*th root of  $a$ 
+ is written as  $\sqrt[n]{a},$ where  $n$ 
+ is a positive integer greater than or equal to 2. In the radical expression,  $n$ 
  is called the **index** of the radical.
 
-Principal $$n$$ th Root
-=======================
+Principal $n$ th Root
+=====================
 
-If  $$a$$ 
- is a real number with at least one *n*th root, then the **principal *n*th root** of  $$a,$$ written as  $$\sqrt[n]{a},$$ is the number with the same sign as  $$a$$ 
- that, when raised to the *n*th power, equals  $$a.$$ 
- The **index** of the radical is  $$n.$$
+If  $a$ 
+ is a real number with at least one *n*th root, then the **principal *n*th root** of  $a,$ written as  $\sqrt[n]{a},$ is the number with the same sign as  $a$ 
+ that, when raised to the *n*th power, equals  $a.$ 
+ The **index** of the radical is  $n.$
 
 Simplifying *n*th Roots
 =======================
 
 Simplify each of the following:
 
- ⓐ $$\sqrt[5]{\mathrm{-32}}$$
+ ⓐ $\sqrt[5]{\mathrm{-32}}$
 
-ⓑ $$\sqrt[4]{4}\cdot \sqrt[4]{1,024}$$
+ⓑ $\sqrt[4]{4}\cdot \sqrt[4]{1,024}$
 
-ⓒ $$-\sqrt[3]{\frac{8{x}^{6}}{125}}$$
+ⓒ $-\sqrt[3]{\frac{8{x}^{6}}{125}}$
 
-ⓓ $$8\sqrt[4]{3}-\sqrt[4]{48}$$
+ⓓ $8\sqrt[4]{3}-\sqrt[4]{48}$
 
-  ⓐ $$\sqrt[5]{\mathrm{-32}}=\mathrm{-2}\phantom{\rule{0.5em}{0ex}}$$ because $$\phantom{\rule{0.5em}{0ex}}{(\mathrm{-2})}^{5}=\mathrm{-32}$$
+  ⓐ $\sqrt[5]{\mathrm{-32}}=\mathrm{-2}\phantom{\rule{0.5em}{0ex}}$ because $\phantom{\rule{0.5em}{0ex}}{(\mathrm{-2})}^{5}=\mathrm{-32}$
 
-ⓑFirst, express the product as a single radical expression. $$\phantom{\rule{0.5em}{0ex}}\sqrt[4]{\mathrm{4,096}}=8\phantom{\rule{0.5em}{0ex}}$$ because $$\phantom{\rule{0.5em}{0ex}}{8}^{4}=\mathrm{4,096}$$
+ⓑFirst, express the product as a single radical expression. $\phantom{\rule{0.5em}{0ex}}\sqrt[4]{\mathrm{4,096}}=8\phantom{\rule{0.5em}{0ex}}$ because $\phantom{\rule{0.5em}{0ex}}{8}^{4}=\mathrm{4,096}$
 
-ⓒ $$\begin{array}{cc}\frac{-\sqrt[3]{8{x}^{6}}}{\sqrt[3]{125}}\hfill & \phantom{\rule{3em}{0ex}}\text{Write\ as\ quotient\ of\ two\ radical\ expressions}.\hfill \\ \frac{-2{x}^{2}}{5}\hfill & \phantom{\rule{3em}{0ex}}\text{Simplify}.\hfill \end{array}$$
+ⓒ $\begin{array}{cc}\frac{-\sqrt[3]{8{x}^{6}}}{\sqrt[3]{125}}\hfill & \phantom{\rule{3em}{0ex}}\text{Write\ as\ quotient\ of\ two\ radical\ expressions}.\hfill \\ \frac{-2{x}^{2}}{5}\hfill & \phantom{\rule{3em}{0ex}}\text{Simplify}.\hfill \end{array}$
 
-ⓓ $$\begin{array}{cc}8\sqrt[4]{3}-2\sqrt[4]{3}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ to\ get\ equal\ radicands}.\hfill \\ 6\sqrt[4]{3}\ \hfill & \phantom{\rule{2em}{0ex}}\text{Add}.\hfill \end{array}$$
+ⓓ $\begin{array}{cc}8\sqrt[4]{3}-2\sqrt[4]{3}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify\ to\ get\ equal\ radicands}.\hfill \\ 6\sqrt[4]{3}\ \hfill & \phantom{\rule{2em}{0ex}}\text{Add}.\hfill \end{array}$
 
 Try It
 
 Simplify.
 
-ⓐ $$\sqrt[3]{\mathrm{-216}}$$
+ⓐ $\sqrt[3]{\mathrm{-216}}$
 
-ⓑ $$\frac{3\sqrt[4]{80}}{\sqrt[4]{5}}$$
+ⓑ $\frac{3\sqrt[4]{80}}{\sqrt[4]{5}}$
 
-ⓒ $$6\sqrt[3]{9,000}+7\sqrt[3]{576}$$
+ⓒ $6\sqrt[3]{9,000}+7\sqrt[3]{576}$
 
-ⓐ $$\mathrm{-6}$$
+ⓐ $\mathrm{-6}$
 
-ⓑ $$6$$
+ⓑ $6$
 
-ⓒ $$88\sqrt[3]{9}$$
+ⓒ $88\sqrt[3]{9}$
 
 Using Rational Exponents
 ========================
 
-**Radical expressions** can also be written without using the radical symbol. We can use rational (fractional) exponents. The index must be a positive integer. If the index  $$n$$ 
- is even, then  $$a$$ 
+**Radical expressions** can also be written without using the radical symbol. We can use rational (fractional) exponents. The index must be a positive integer. If the index  $n$ 
+ is even, then  $a$ 
  cannot be negative.
  $$
 {a}^{\frac{1}{n}}=\sqrt[n]{a}
@@ -478,7 +479,7 @@ $$
 
 We can also have rational exponents with numerators other than 1. In these cases, the exponent must be a fraction in lowest terms. We raise the base to a power and take an *n*th root. The numerator tells us the power and the denominator tells us the root.
 
- $${a}^{\frac{m}{n}}={\left(\sqrt[n]{a}\right)}^{m}=\sqrt[n]{{a}^{m}}$$
+ ${a}^{\frac{m}{n}}={\left(\sqrt[n]{a}\right)}^{m}=\sqrt[n]{{a}^{m}}$
 All of the properties of exponents that we learned for integer exponents also hold for rational exponents.
 
  
@@ -488,7 +489,7 @@ Rational Exponents
 
 Rational exponents are another way to express principal *n*th roots. The general form for converting between a radical expression with a radical symbol and one with a rational exponent is
 
- $${a}^{\frac{m}{n}}={\left(\sqrt[n]{a}\right)}^{m}=\sqrt[n]{{a}^{m}}$$
+ ${a}^{\frac{m}{n}}={\left(\sqrt[n]{a}\right)}^{m}=\sqrt[n]{{a}^{m}}$
 
 How To
 *Given an expression with a rational exponent, write the expression as a radical.*
@@ -500,14 +501,14 @@ Using the base as the radicand, raise the radicand to the power and use the root
 Writing Rational Exponents as Radicals
 ======================================
 
-Write  $${343}^{\frac{2}{3}}$$ 
+Write  ${343}^{\frac{2}{3}}$ 
  as a radical. Simplify.
 
 The 2 tells us the power and the 3 tells us the root.
 
-$${343}^{\frac{2}{3}}={\left(\sqrt[3]{343}\right)}^{2}=\sqrt[3]{{343}^{2}}$$
-We know that  $$\sqrt[3]{343}=7$$ 
- because  $${7}^{3}=343.$$ 
+${343}^{\frac{2}{3}}={\left(\sqrt[3]{343}\right)}^{2}=\sqrt[3]{{343}^{2}}$
+We know that  $\sqrt[3]{343}=7$ 
+ because  ${7}^{3}=343.$ 
  Because the cube root is easy to find, it is easiest to find the cube root before squaring for this problem. In general, it is easier to find the root first and then raise it to a power.
 
 $$
@@ -516,46 +517,46 @@ $$
 
 Try It
 
-Write  $${9}^{\frac{5}{2}}$$ 
+Write  ${9}^{\frac{5}{2}}$ 
  as a radical. Simplify.
 
-$${\left(\sqrt{9}\right)}^{5}={3}^{5}=243$$
+${\left(\sqrt{9}\right)}^{5}={3}^{5}=243$
 
 Writing Radicals as Rational Exponents
 ======================================
 
-Write  $$\frac{4}{\sqrt[7]{{a}^{2}}}$$ 
+Write  $\frac{4}{\sqrt[7]{{a}^{2}}}$ 
  using a rational exponent.
 
-The power is 2 and the root is 7, so the rational exponent will be  $$\frac{2}{7}.$$ 
- We get  $$\frac{4}{{a}^{\frac{2}{7}}}.$$ 
- Using properties of exponents, we get  $$\frac{4}{\sqrt[7]{{a}^{2}}}=4{a}^{\frac{\mathrm{-2}}{7}}.$$
+The power is 2 and the root is 7, so the rational exponent will be  $\frac{2}{7}.$ 
+ We get  $\frac{4}{{a}^{\frac{2}{7}}}.$ 
+ Using properties of exponents, we get  $\frac{4}{\sqrt[7]{{a}^{2}}}=4{a}^{\frac{\mathrm{-2}}{7}}.$
 
 Try It
 
-Write  $$x\sqrt{{(5y)}^{9}}$$ 
+Write  $x\sqrt{{(5y)}^{9}}$ 
  using a rational exponent.
 
-$$x{(5y)}^{\frac{9}{2}}$$
+$x{(5y)}^{\frac{9}{2}}$
 
 Simplifying Rational Exponents
 ==============================
 
 Simplify:
 
-  ⓐ $$5\left(2{x}^{\frac{3}{4}}\right)\left(3{x}^{\frac{1}{5}}\right)$$
+  ⓐ $5\left(2{x}^{\frac{3}{4}}\right)\left(3{x}^{\frac{1}{5}}\right)$
 
-ⓑ $${\left(\frac{16}{9}\right)}^{-\frac{1}{2}}$$
+ⓑ ${\left(\frac{16}{9}\right)}^{-\frac{1}{2}}$
 
-  ⓐ $$\begin{array}{cc}30{x}^{\frac{3}{4}}{x}^{\frac{1}{5}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Multiply\ the\ coefficients}.\hfill \\ 30{x}^{\frac{3}{4}+\frac{1}{5}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Use\ properties\ of\ exponents}.\hfill \\ 30{x}^{\frac{19}{20}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Simplify}.\hfill \end{array}$$
+  ⓐ $\begin{array}{cc}30{x}^{\frac{3}{4}}{x}^{\frac{1}{5}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Multiply\ the\ coefficients}.\hfill \\ 30{x}^{\frac{3}{4}+\frac{1}{5}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Use\ properties\ of\ exponents}.\hfill \\ 30{x}^{\frac{19}{20}}\hfill & \phantom{\rule{2.5em}{0ex}}\text{Simplify}.\hfill \end{array}$
 
-ⓑ $$\begin{array}{cc}{\left(\frac{9}{16}\right)}^{\frac{1}{2}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use\ definition\ of\ negative\ exponents}.\hfill \\ \sqrt{\frac{9}{16}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Rewrite\ as\ a\ radical}.\hfill \\ \frac{\sqrt{9}}{\sqrt{16}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use\ the\ quotient\ rule}.\hfill \\ \frac{3}{4}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Simplify}.\hfill \end{array}$$
+ⓑ $\begin{array}{cc}{\left(\frac{9}{16}\right)}^{\frac{1}{2}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use\ definition\ of\ negative\ exponents}.\hfill \\ \sqrt{\frac{9}{16}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Rewrite\ as\ a\ radical}.\hfill \\ \frac{\sqrt{9}}{\sqrt{16}}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Use\ the\ quotient\ rule}.\hfill \\ \frac{3}{4}\hfill & \phantom{\rule{2em}{0ex}}\text{\hspace{1em}\hspace{1em}}\text{Simplify}.\hfill \end{array}$
 
 Try It
 
-Simplify  $${\left(8x\right)}^{\frac{1}{3}}\left(14{x}^{\frac{6}{5}}\right).$$
+Simplify  ${\left(8x\right)}^{\frac{1}{3}}\left(14{x}^{\frac{6}{5}}\right).$
 
-$$28{x}^{\frac{23}{15}}$$
+$28{x}^{\frac{23}{15}}$
 
 Media
 Access these online resources for additional instruction and practice with radicals and rational exponents.
@@ -568,26 +569,26 @@ Rationalize Denominator
 Key Concepts
 ============
 
-The principal square root of a number  $$a$$ 
- is the nonnegative number that when multiplied by itself equals  $$a.$$ 
+The principal square root of a number  $a$ 
+ is the nonnegative number that when multiplied by itself equals  $a.$ 
  See .
-If  $$a$$ 
- and  $$b$$ 
- are nonnegative, the square root of the product  $$ab$$ 
- is equal to the product of the square roots of  $$a$$ 
- and  $$b$$ 
+If  $a$ 
+ and  $b$ 
+ are nonnegative, the square root of the product  $ab$ 
+ is equal to the product of the square roots of  $a$ 
+ and  $b$ 
  See  and .
-If  $$a$$ 
- and  $$b$$ 
- are nonnegative, the square root of the quotient  $$\frac{a}{b}$$ 
- is equal to the quotient of the square roots of  $$a$$ 
- and  $$b$$ 
+If  $a$ 
+ and  $b$ 
+ are nonnegative, the square root of the quotient  $\frac{a}{b}$ 
+ is equal to the quotient of the square roots of  $a$ 
+ and  $b$ 
  See  and .
 We can add and subtract radical expressions if they have the same radicand and the same index. See  and .
 Radical expressions written in simplest form do not contain a radical in the denominator. To eliminate the square root radical from the denominator, multiply both the numerator and the denominator by the conjugate of the denominator. See  and .
-The principal *n*th root of  $$a$$ 
- is the number with the same sign as  $$a$$ 
- that when raised to the *n*th power equals  $$a.$$ 
+The principal *n*th root of  $a$ 
+ is the number with the same sign as  $a$ 
+ that when raised to the *n*th power equals  $a.$ 
  These roots have the same properties as square roots.**** See .
 Radicals can be rewritten as rational exponents and rational exponents can be rewritten as radicals. See  and .
 The properties of exponents apply to rational exponents. See .
@@ -615,199 +616,199 @@ Numeric
 
 For the following exercises, simplify each expression.
 
-$$\sqrt{256}$$
+$\sqrt{256}$
 
 16
 
-$$\sqrt{\sqrt{256}}$$
+$\sqrt{\sqrt{256}}$
 
-$$\sqrt{4\left(9+16\right)}$$
+$\sqrt{4\left(9+16\right)}$
 
 10
 
-$$\sqrt{289}-\sqrt{121}$$
+$\sqrt{289}-\sqrt{121}$
 
-$$\sqrt{196}$$
+$\sqrt{196}$
 
 14
 
-$$\sqrt{1}$$
+$\sqrt{1}$
 
-$$\sqrt{98}$$
+$\sqrt{98}$
 
-$$7\sqrt{2}$$
+$7\sqrt{2}$
 
-$$\sqrt{\frac{27}{64}}$$
+$\sqrt{\frac{27}{64}}$
 
-$$\sqrt{\frac{81}{5}}$$
+$\sqrt{\frac{81}{5}}$
 
-$$\frac{9\sqrt{5}}{5}$$
+$\frac{9\sqrt{5}}{5}$
 
-$$\sqrt{800}$$
+$\sqrt{800}$
 
-$$\sqrt{169}+\sqrt{144}$$
+$\sqrt{169}+\sqrt{144}$
 
 25
 
-$$\sqrt{\frac{8}{50}}$$
+$\sqrt{\frac{8}{50}}$
 
-$$\frac{18}{\sqrt{162}}$$
+$\frac{18}{\sqrt{162}}$
 
-$$\sqrt{2}$$
+$\sqrt{2}$
 
-$$\sqrt{192}$$
+$\sqrt{192}$
 
-$$14\sqrt{6}-6\sqrt{24}$$
+$14\sqrt{6}-6\sqrt{24}$
 
-$$2\sqrt{6}$$
+$2\sqrt{6}$
 
-$$15\sqrt{5}+7\sqrt{45}$$
+$15\sqrt{5}+7\sqrt{45}$
 
-$$\sqrt{150}$$
+$\sqrt{150}$
 
-$$5\sqrt{6}$$
+$5\sqrt{6}$
 
-$$\sqrt{\frac{96}{100}}$$
+$\sqrt{\frac{96}{100}}$
 
-$$\left(\sqrt{42}\right)\left(\sqrt{30}\right)$$
+$\left(\sqrt{42}\right)\left(\sqrt{30}\right)$
 
-$$6\sqrt{35}$$
+$6\sqrt{35}$
 
-$$12\sqrt{3}-4\sqrt{75}$$
+$12\sqrt{3}-4\sqrt{75}$
 
-$$\sqrt{\frac{4}{225}}$$
+$\sqrt{\frac{4}{225}}$
 
-$$\frac{2}{15}$$
+$\frac{2}{15}$
 
-$$\sqrt{\frac{405}{324}}$$
+$\sqrt{\frac{405}{324}}$
 
-$$\sqrt{\frac{360}{361}}$$
+$\sqrt{\frac{360}{361}}$
 
-$$\frac{6\sqrt{10}}{19}$$
+$\frac{6\sqrt{10}}{19}$
 
-$$\frac{5}{1+\sqrt{3}}$$
+$\frac{5}{1+\sqrt{3}}$
 
-$$\frac{8}{1-\sqrt{17}}$$
+$\frac{8}{1-\sqrt{17}}$
 
-$$-\frac{1+\sqrt{17}}{2}$$
+$-\frac{1+\sqrt{17}}{2}$
 
-$$\sqrt[4]{16}$$
+$\sqrt[4]{16}$
 
-$$\sqrt[3]{128}+3\sqrt[3]{2}$$
+$\sqrt[3]{128}+3\sqrt[3]{2}$
 
-$$7\sqrt[3]{2}$$
+$7\sqrt[3]{2}$
 
-$$\sqrt[5]{\frac{\mathrm{-32}}{243}}$$
+$\sqrt[5]{\frac{\mathrm{-32}}{243}}$
 
-$$\frac{15\sqrt[4]{125}}{\sqrt[4]{5}}$$
+$\frac{15\sqrt[4]{125}}{\sqrt[4]{5}}$
 
-$$15\sqrt{5}$$
+$15\sqrt{5}$
 
-$$3\sqrt[3]{\mathrm{-432}}+\sqrt[3]{16}$$
+$3\sqrt[3]{\mathrm{-432}}+\sqrt[3]{16}$
 
 Algebraic
 =========
 
 For the following exercises, simplify each expression.
 
-$$\sqrt{400{x}^{4}}$$
+$\sqrt{400{x}^{4}}$
 
-$$20{x}^{2}$$
+$20{x}^{2}$
 
-$$\sqrt{4{y}^{2}}$$
+$\sqrt{4{y}^{2}}$
 
-$$\sqrt{49p}$$
+$\sqrt{49p}$
 
-$$7\sqrt{p}$$
+$7\sqrt{p}$
 
-$${\left(144{p}^{2}{q}^{6}\right)}^{\frac{1}{2}}$$
+${\left(144{p}^{2}{q}^{6}\right)}^{\frac{1}{2}}$
 
-$${m}^{\frac{5}{2}}\sqrt{289}$$
+${m}^{\frac{5}{2}}\sqrt{289}$
 
-$$17{m}^{2}\sqrt{m}$$
+$17{m}^{2}\sqrt{m}$
 
-$$9\sqrt{3{m}^{2}}+\sqrt{27}$$
+$9\sqrt{3{m}^{2}}+\sqrt{27}$
 
-$$3\sqrt{a{b}^{2}}-b\sqrt{a}$$
+$3\sqrt{a{b}^{2}}-b\sqrt{a}$
 
-$$2b\sqrt{a}$$
+$2b\sqrt{a}$
 
-$$\frac{4\sqrt{2n}}{\sqrt{16{n}^{4}}}$$
+$\frac{4\sqrt{2n}}{\sqrt{16{n}^{4}}}$
 
-$$\sqrt{\frac{225{x}^{3}}{49x}}$$
+$\sqrt{\frac{225{x}^{3}}{49x}}$
 
-$$\frac{15x}{7}$$
+$\frac{15x}{7}$
 
-$$3\sqrt{44z}+\sqrt{99z}$$
+$3\sqrt{44z}+\sqrt{99z}$
 
-$$\sqrt{50{y}^{8}}$$
+$\sqrt{50{y}^{8}}$
 
-$$5{y}^{4}\sqrt{2}$$
+$5{y}^{4}\sqrt{2}$
 
-$$\sqrt{490b{c}^{2}}$$
+$\sqrt{490b{c}^{2}}$
 
-$$\sqrt{\frac{32}{14d}}$$
+$\sqrt{\frac{32}{14d}}$
 
-$$\frac{4\sqrt{7d}}{7d}$$
+$\frac{4\sqrt{7d}}{7d}$
 
-$${q}^{\frac{3}{2}}\sqrt{63p}$$
+${q}^{\frac{3}{2}}\sqrt{63p}$
 
-$$\frac{\sqrt{8}}{1-\sqrt{3x}}$$
+$\frac{\sqrt{8}}{1-\sqrt{3x}}$
 
-$$\frac{2\sqrt{2}+2\sqrt{6x}}{1\mathrm{-3}x}$$
+$\frac{2\sqrt{2}+2\sqrt{6x}}{1\mathrm{-3}x}$
 
-$$\sqrt{\frac{20}{121{d}^{4}}}$$
+$\sqrt{\frac{20}{121{d}^{4}}}$
 
-$${w}^{\frac{3}{2}}\sqrt{32}-{w}^{\frac{3}{2}}\sqrt{50}$$
+${w}^{\frac{3}{2}}\sqrt{32}-{w}^{\frac{3}{2}}\sqrt{50}$
 
-$$-w\sqrt{2w}$$
+$-w\sqrt{2w}$
 
-$$\sqrt{108{x}^{4}}+\sqrt{27{x}^{4}}$$
+$\sqrt{108{x}^{4}}+\sqrt{27{x}^{4}}$
 
-$$\frac{\sqrt{12x}}{2+2\sqrt{3}}$$
+$\frac{\sqrt{12x}}{2+2\sqrt{3}}$
 
-$$\frac{3\sqrt{x}-\sqrt{3x}}{2}$$
+$\frac{3\sqrt{x}-\sqrt{3x}}{2}$
 
-$$\sqrt{147{k}^{3}}$$
+$\sqrt{147{k}^{3}}$
 
-$$\sqrt{125{n}^{10}}$$
+$\sqrt{125{n}^{10}}$
 
-$$5{n}^{5}\sqrt{5}$$
+$5{n}^{5}\sqrt{5}$
 
-$$\sqrt{\frac{42q}{36{q}^{3}}}$$
+$\sqrt{\frac{42q}{36{q}^{3}}}$
 
-$$\sqrt{\frac{81m}{361{m}^{2}}}$$
+$\sqrt{\frac{81m}{361{m}^{2}}}$
 
-$$\frac{9\sqrt{m}}{19m}$$
+$\frac{9\sqrt{m}}{19m}$
 
-$$\sqrt{72c}-2\sqrt{2c}$$
+$\sqrt{72c}-2\sqrt{2c}$
 
-$$\sqrt{\frac{144}{324{d}^{2}}}$$
+$\sqrt{\frac{144}{324{d}^{2}}}$
 
-$$\frac{2}{3d}$$
+$\frac{2}{3d}$
 
-$$\sqrt[3]{24{x}^{6}}+\sqrt[3]{81{x}^{6}}$$
+$\sqrt[3]{24{x}^{6}}+\sqrt[3]{81{x}^{6}}$
 
-$$\sqrt[4]{\frac{162{x}^{6}}{16{x}^{4}}}$$
+$\sqrt[4]{\frac{162{x}^{6}}{16{x}^{4}}}$
 
-$$\frac{3\sqrt[4]{2{x}^{2}}}{2}$$
+$\frac{3\sqrt[4]{2{x}^{2}}}{2}$
 
-$$\sqrt[3]{64y}$$
+$\sqrt[3]{64y}$
 
-$$\sqrt[3]{128{z}^{3}}-\sqrt[3]{\mathrm{-16}{z}^{3}}$$
+$\sqrt[3]{128{z}^{3}}-\sqrt[3]{\mathrm{-16}{z}^{3}}$
 
-$$6z\sqrt[3]{2}$$
+$6z\sqrt[3]{2}$
 
-$$\sqrt[5]{\mathrm{1,024}{c}^{10}}$$
+$\sqrt[5]{\mathrm{1,024}{c}^{10}}$
 
 Real-World Applications
 =======================
-A guy wire for a suspension bridge runs from the ground diagonally to the top of the closest pylon to make a triangle. We can use the Pythagorean Theorem to find the length of guy wire needed. The square of the distance between the wire on the ground and the pylon on the ground is 90,000 feet. The square of the height of the pylon is 160,000 feet. So the length of the guy wire can be found by evaluating  $$\sqrt{\mathrm{90,000}+\mathrm{160,000}}.$$ 
+A guy wire for a suspension bridge runs from the ground diagonally to the top of the closest pylon to make a triangle. We can use the Pythagorean Theorem to find the length of guy wire needed. The square of the distance between the wire on the ground and the pylon on the ground is 90,000 feet. The square of the height of the pylon is 160,000 feet. So the length of the guy wire can be found by evaluating  $\sqrt{\mathrm{90,000}+\mathrm{160,000}}.$ 
  What is the length of the guy wire?
 
 500 feet
 
-A car accelerates at a rate of  $$6-\frac{\sqrt{4}}{\sqrt{t}}{\phantom{\rule{0.5em}{0ex}}\text{m/s}}^{2}$$ 
+A car accelerates at a rate of  $6-\frac{\sqrt{4}}{\sqrt{t}}{\phantom{\rule{0.5em}{0ex}}\text{m/s}}^{2}$ 
  where *t* is the time in seconds after the car moves from rest. Simplify the expression.
 
 Extensions
@@ -815,34 +816,34 @@ Extensions
 
 For the following exercises, simplify each expression.
 
-$$\frac{\sqrt{8}-\sqrt{16}}{4-\sqrt{2}}-{2}^{\frac{1}{2}}$$
+$\frac{\sqrt{8}-\sqrt{16}}{4-\sqrt{2}}-{2}^{\frac{1}{2}}$
 
-$$\frac{\mathrm{-5}\sqrt{2}\mathrm{-6}}{7}$$
+$\frac{\mathrm{-5}\sqrt{2}\mathrm{-6}}{7}$
 
-$$\frac{{4}^{\frac{3}{2}}-{16}^{\frac{3}{2}}}{{8}^{\frac{1}{3}}}$$
+$\frac{{4}^{\frac{3}{2}}-{16}^{\frac{3}{2}}}{{8}^{\frac{1}{3}}}$
 
-$$\frac{\sqrt{m{n}^{3}}}{{a}^{2}\sqrt{{c}^{\mathrm{-3}}}}\cdot \frac{{a}^{\mathrm{-7}}{n}^{\mathrm{-2}}}{\sqrt{{m}^{2}{c}^{4}}}$$
+$\frac{\sqrt{m{n}^{3}}}{{a}^{2}\sqrt{{c}^{\mathrm{-3}}}}\cdot \frac{{a}^{\mathrm{-7}}{n}^{\mathrm{-2}}}{\sqrt{{m}^{2}{c}^{4}}}$
 
-$$\frac{\sqrt{mnc}}{{a}^{9}cmn}$$
+$\frac{\sqrt{mnc}}{{a}^{9}cmn}$
 
-$$\frac{a}{a-\sqrt{c}}$$
+$\frac{a}{a-\sqrt{c}}$
 
-$$\frac{x\sqrt{64y}+4\sqrt{y}}{\sqrt{128y}}$$
+$\frac{x\sqrt{64y}+4\sqrt{y}}{\sqrt{128y}}$
 
-$$\frac{2x+1}{2\sqrt{2}}$$
+$\frac{2x+1}{2\sqrt{2}}$
 
-$$\left(\frac{\sqrt{250{x}^{2}}}{\sqrt{100{b}^{3}}}\right)\left(\frac{7\sqrt{b}}{\sqrt{125x}}\right)$$
+$\left(\frac{\sqrt{250{x}^{2}}}{\sqrt{100{b}^{3}}}\right)\left(\frac{7\sqrt{b}}{\sqrt{125x}}\right)$
 
-$$\sqrt{\frac{\sqrt[3]{64}+\sqrt[4]{256}}{\sqrt{64}+\sqrt{256}}}$$
+$\sqrt{\frac{\sqrt[3]{64}+\sqrt[4]{256}}{\sqrt{64}+\sqrt{256}}}$
 
-$$\frac{\sqrt{3}}{3}$$
+$\frac{\sqrt{3}}{3}$
 
 **index**the number above the radical sign indicating the *n*th root
-**principal *n*th root** the number with the same sign as  $$a$$ 
- that when raised to the *n*th power equals  $$a$$
+**principal *n*th root** the number with the same sign as  $a$ 
+ that when raised to the *n*th power equals  $a$
 
-**principal square root**the nonnegative square root of a number  $$a$$ 
- that, when multiplied by itself, equals  $$a$$
+**principal square root**the nonnegative square root of a number  $a$ 
+ that, when multiplied by itself, equals  $a$
 
 **radical**the symbol used to indicate a root
 **radical expression**an expression containing a radical symbol

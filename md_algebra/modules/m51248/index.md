@@ -329,9 +329,9 @@ In the table below list 5 challenges you have had in past math courses when taki
   
 
 Develop your plan for success.  Keep in mind the idea of mindsets and try to approach your test taking strategies with a growth mindset. Now is the time for growth as you begin a new term. Share your plan with your study group members.
-A pastry shop has fixed costs of $$\text{\$}280$$ per week and variable costs of $$\text{\$}9$$ per box of pastries. The shop’s costs per week in terms of $$x,$$ the number of boxes made, is $$280+9x.$$ We can divide the costs per week by the number of boxes made to determine the cost per box of pastries.
+A pastry shop has fixed costs of $\text{\$}280$ per week and variable costs of $\text{\$}9$ per box of pastries. The shop’s costs per week in terms of $x,$ the number of boxes made, is $280+9x.$ We can divide the costs per week by the number of boxes made to determine the cost per box of pastries.
 
- $$\frac{280+9x}{x}$$
+ $\frac{280+9x}{x}$
 
 Notice that the result is a polynomial expression divided by a second polynomial expression. In this section, we will explore quotients of polynomial expressions.
 
@@ -340,15 +340,15 @@ Simplifying Rational Expressions
 
 The quotient of two polynomial expressions is called a **rational expression**. We can apply the properties of fractions to rational expressions, such as simplifying the expressions by canceling common factors from the numerator and the denominator. To do this, we first need to factor both the numerator and denominator. Let’s start with the rational expression shown.
 
- $$\frac{{x}^{2}+8x+16}{{x}^{2}+11x+28}$$
+ $\frac{{x}^{2}+8x+16}{{x}^{2}+11x+28}$
 
 We can factor the numerator and denominator to rewrite the expression.
 
- $$\frac{{(x+4)}^{2}}{(x+4)(x+7)}$$
+ $\frac{{(x+4)}^{2}}{(x+4)(x+7)}$
 
-Then we can simplify that expression by canceling the common factor $$\left(x+4\right).$$
+Then we can simplify that expression by canceling the common factor $\left(x+4\right).$
 
- $$\frac{x+4}{x+7}$$
+ $\frac{x+4}{x+7}$
 
 How To
 *Given a rational expression, simplify it.*
@@ -359,7 +359,7 @@ Cancel any common factors.
 Simplifying Rational Expressions
 ================================
 
-Simplify $$\frac{{x}^{2}-9}{{x}^{2}+4x+3}.$$
+Simplify $\frac{{x}^{2}-9}{{x}^{2}+4x+3}.$
 
  $$
 \begin{array}{lllll}\frac{(x+3)(x-3)}{(x+3)(x+1)}\hfill & \hfill & \hfill & \hfill & \text{Factor\ the\ numerator\ and\ the\ denominator}.\hfill \\ \frac{x-3}{x+1}\hfill & \hfill & \hfill & \hfill & \text{Cancel\ common\ factor\}(x+3).\hfill \end{array}
@@ -374,15 +374,15 @@ We can cancel the common factor because any expression divided by itself is equa
 
 Q&A
 
-*Can the $${x}^{2}$$ term be cancelled in ?*
+*Can the ${x}^{2}$ term be cancelled in ?*
 
-*No. A factor is an expression that is multiplied by another expression. The $${x}^{2}$$ term is not a factor of the numerator or the denominator.*
+*No. A factor is an expression that is multiplied by another expression. The ${x}^{2}$ term is not a factor of the numerator or the denominator.*
 
 Try It
 
-Simplify $$\frac{x-6}{{x}^{2}-36}.$$
+Simplify $\frac{x-6}{{x}^{2}-36}.$
 
-$$\frac{1}{x+6}$$
+$\frac{1}{x+6}$
 
 Multiplying Rational Expressions
 ================================
@@ -414,16 +414,16 @@ Try It
 
 Multiply the rational expressions and show the product in simplest form:
 
- $$\frac{{x}^{2}+11x+30}{{x}^{2}+5x+6}\cdot \frac{{x}^{2}+7x+12}{{x}^{2}+8x+16}$$
+ $\frac{{x}^{2}+11x+30}{{x}^{2}+5x+6}\cdot \frac{{x}^{2}+7x+12}{{x}^{2}+8x+16}$
 
-$$\frac{(x+5)(x+6)}{(x+2)(x+4)}$$
+$\frac{(x+5)(x+6)}{(x+2)(x+4)}$
 
 Dividing Rational Expressions
 =============================
 
-Division of rational expressions works the same way as division of other fractions. To divide a rational expression by another rational expression, multiply the first expression by the reciprocal of the second. Using this approach, we would rewrite $$\frac{1}{x}\xf7\frac{{x}^{2}}{3}$$ as the product $$\frac{1}{x}\cdot \frac{3}{{x}^{2}}.$$ Once the division expression has been rewritten as a multiplication expression, we can multiply as we did before.
+Division of rational expressions works the same way as division of other fractions. To divide a rational expression by another rational expression, multiply the first expression by the reciprocal of the second. Using this approach, we would rewrite $\frac{1}{x}\xf7\frac{{x}^{2}}{3}$ as the product $\frac{1}{x}\cdot \frac{3}{{x}^{2}}.$ Once the division expression has been rewritten as a multiplication expression, we can multiply as we did before.
 
- $$\frac{1}{x}\cdot \frac{3}{{x}^{2}}=\frac{3}{{x}^{3}}$$
+ $\frac{1}{x}\cdot \frac{3}{{x}^{2}}=\frac{3}{{x}^{3}}$
 
 How To
 *Given two rational expressions, divide them.*
@@ -439,7 +439,7 @@ Dividing Rational Expressions
 
 Divide the rational expressions and express the quotient in simplest form:
 
- $$\frac{2{x}^{2}+x-6}{{x}^{2}-1}\xf7\frac{{x}^{2}-4}{{x}^{2}+2x+1}$$
+ $\frac{2{x}^{2}+x-6}{{x}^{2}-1}\xf7\frac{{x}^{2}-4}{{x}^{2}+2x+1}$
 
  $$
 \begin{array}{cc}\frac{2{x}^{2}+x-6}{{x}^{2}-1}\cdot \frac{{x}^{2}+2x+1}{{x}^{2}-4}\hfill & \phantom{\rule{2em}{0ex}}\text{Rewrite as multiplication.}\hfill \\ \frac{(2x-3)(x+2)}{(x+1)(x-1)}\cdot \frac{{(x+1)}^{2}}{(x+2)(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Factor.}\hfill \\ \frac{(2x-3)(x+2){(x+1)}^{2}}{(x+1)(x-1)(x+2)(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Multiply.}\hfill \\ \frac{(2x-3)(x+1)}{(x-1)(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Cancel common factors to simplify.}\hfill \end{array}
@@ -449,9 +449,9 @@ Try It
 
 Divide the rational expressions and express the quotient in simplest form:
 
- $$\frac{9{x}^{2}-16}{3{x}^{2}+17x-28}\xf7\frac{3{x}^{2}-2x-8}{{x}^{2}+5x-14}$$
+ $\frac{9{x}^{2}-16}{3{x}^{2}+17x-28}\xf7\frac{3{x}^{2}-2x-8}{{x}^{2}+5x-14}$
 
-$$1$$
+$1$
 
 Adding and Subtracting Rational Expressions
 ===========================================
@@ -464,9 +464,9 @@ $$
 
 We have to rewrite the fractions so they share a common denominator before we are able to add. We must do the same thing when adding or subtracting rational expressions.
 
-The easiest common denominator to use will be the **least common denominator**, or LCD. The LCD is the smallest multiple that the denominators have in common. To find the LCD of two rational expressions, we factor the expressions and multiply all of the distinct factors. For instance, if the factored denominators were $$(x+3)(x+4)$$ and $$(x+4)(x+5),$$ then the LCD would be $$(x+3)(x+4)(x+5).$$
+The easiest common denominator to use will be the **least common denominator**, or LCD. The LCD is the smallest multiple that the denominators have in common. To find the LCD of two rational expressions, we factor the expressions and multiply all of the distinct factors. For instance, if the factored denominators were $(x+3)(x+4)$ and $(x+4)(x+5),$ then the LCD would be $(x+3)(x+4)(x+5).$
 
-Once we find the LCD, we need to multiply each expression by the form of 1 that will change the denominator to the LCD. We would need to multiply the expression with a denominator of $$(x+3)(x+4)$$ by $$\frac{x+5}{x+5}$$ and the expression with a denominator of $$(x+4)(x+5)$$ by $$\frac{x+3}{x+3}.$$
+Once we find the LCD, we need to multiply each expression by the form of 1 that will change the denominator to the LCD. We would need to multiply the expression with a denominator of $(x+3)(x+4)$ by $\frac{x+5}{x+5}$ and the expression with a denominator of $(x+4)(x+5)$ by $\frac{x+3}{x+3}.$
 
 How To
 *Given two rational expressions, add or subtract them.*
@@ -482,27 +482,27 @@ Adding Rational Expressions
 
 Add the rational expressions:
 
- $$\frac{5}{x}+\frac{6}{y}$$
+ $\frac{5}{x}+\frac{6}{y}$
 
-First, we have to find the LCD. In this case, the LCD will be $$xy.$$ We then multiply each expression by the appropriate form of 1 to obtain $$xy$$ as the denominator for each fraction.
+First, we have to find the LCD. In this case, the LCD will be $xy.$ We then multiply each expression by the appropriate form of 1 to obtain $xy$ as the denominator for each fraction.
 
- $$\begin{array}{l}\frac{5}{x}\cdot \frac{y}{y}+\frac{6}{y}\cdot \frac{x}{x}\\ \frac{5y}{xy}+\frac{6x}{xy}\end{array}$$
+ $\begin{array}{l}\frac{5}{x}\cdot \frac{y}{y}+\frac{6}{y}\cdot \frac{x}{x}\\ \frac{5y}{xy}+\frac{6x}{xy}\end{array}$
 
 Now that the expressions have the same denominator, we simply add the numerators to find the sum.
 
- $$\frac{6x+5y}{xy}$$
+ $\frac{6x+5y}{xy}$
 
 Analysis
 ========
 
-Multiplying by $$\frac{y}{y}$$ or $$\frac{x}{x}$$ does not change the value of the original expression because any number divided by itself is 1, and multiplying an expression by 1 gives the original expression.
+Multiplying by $\frac{y}{y}$ or $\frac{x}{x}$ does not change the value of the original expression because any number divided by itself is 1, and multiplying an expression by 1 gives the original expression.
 
 Subtracting Rational Expressions
 ================================
 
 Subtract the rational expressions:
 
- $$\frac{6}{{x}^{2}+4x+4}-\frac{2}{{x}^{2}\mathrm{-4}}$$
+ $\frac{6}{{x}^{2}+4x+4}-\frac{2}{{x}^{2}\mathrm{-4}}$
 
  $$
 \begin{array}{cc}\frac{6}{{(x+2)}^{2}}-\frac{2}{(x+2)(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Factor}.\hfill \\ \frac{6}{{(x+2)}^{2}}\cdot \frac{x-2}{x-2}-\frac{2}{(x+2)(x-2)}\cdot \frac{x+2}{x+2}\hfill & \phantom{\rule{2em}{0ex}}\text{Multiply\ each\ fraction\ to\ get\ LCD\ as\ denominator}.\hfill \\ \frac{6(x-2)}{{(x+2)}^{2}(x-2)}-\frac{2(x+2)}{{(x+2)}^{2}(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Multiply}.\hfill \\ \frac{6x-12-(2x+4)}{{(x+2)}^{2}(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Apply\ distributive\ property}.\hfill \\ \frac{4x-16}{{(x+2)}^{2}(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Subtract}.\hfill \\ \frac{4(x-4)}{{(x+2)}^{2}(x-2)}\hfill & \phantom{\rule{2em}{0ex}}\text{Simplify}.\hfill \end{array}
@@ -515,14 +515,14 @@ Q&A
 
 Try It
 
-Subtract the rational expressions: $$\frac{3}{x+5}-\frac{1}{x\mathrm{-3}}.$$
+Subtract the rational expressions: $\frac{3}{x+5}-\frac{1}{x\mathrm{-3}}.$
 
-$$\frac{2(x\mathrm{-7})}{(x+5)(x\mathrm{-3})}$$
+$\frac{2(x\mathrm{-7})}{(x+5)(x\mathrm{-3})}$
 
 Simplifying Complex Rational Expressions
 ========================================
 
-A complex rational expression is a rational expression that contains additional rational expressions in the numerator, the denominator, or both. We can simplify complex rational expressions by rewriting the numerator and denominator as single rational expressions and dividing. The complex rational expression $$\frac{a}{\frac{1}{b}+c}$$ can be simplified by rewriting the numerator as the fraction $$\frac{a}{1}$$ and combining the expressions in the denominator as $$\frac{1+bc}{b}.$$ We can then rewrite the expression as a multiplication problem using the reciprocal of the denominator. We get $$\frac{a}{1}\cdot \frac{b}{1+bc},$$ which is equal to $$\frac{ab}{1+bc}.$$
+A complex rational expression is a rational expression that contains additional rational expressions in the numerator, the denominator, or both. We can simplify complex rational expressions by rewriting the numerator and denominator as single rational expressions and dividing. The complex rational expression $\frac{a}{\frac{1}{b}+c}$ can be simplified by rewriting the numerator as the fraction $\frac{a}{1}$ and combining the expressions in the denominator as $\frac{1+bc}{b}.$ We can then rewrite the expression as a multiplication problem using the reciprocal of the denominator. We get $\frac{a}{1}\cdot \frac{b}{1+bc},$ which is equal to $\frac{ab}{1+bc}.$
 
 How To
 *Given a complex rational expression, simplify it.*
@@ -537,7 +537,7 @@ Simplify.
 Simplifying Complex Rational Expressions
 ========================================
 
-Simplify: $$\frac{y+\frac{1}{x}}{\frac{x}{y}}$$ .
+Simplify: $\frac{y+\frac{1}{x}}{\frac{x}{y}}$ .
 
 Begin by combining the expressions in the numerator into one expression.
 
@@ -546,7 +546,7 @@ Begin by combining the expressions in the numerator into one expression.
 $$
 Now the numerator is a single rational expression and the denominator is a single rational expression.
 
- $$\frac{\frac{xy+1}{x}}{\frac{x}{y}}$$
+ $\frac{\frac{xy+1}{x}}{\frac{x}{y}}$
 
 We can rewrite this as division, and then multiplication.
 
@@ -556,9 +556,9 @@ $$
 
 Try It
 
-Simplify: $$\frac{\frac{x}{y}-\frac{y}{x}}{y}$$
+Simplify: $\frac{\frac{x}{y}-\frac{y}{x}}{y}$
 
-$$\frac{{x}^{2}-{y}^{2}}{x{y}^{2}}$$
+$\frac{{x}^{2}-{y}^{2}}{x{y}^{2}}$
 
 Q&A
 *Can a complex rational expression always be simplified?*
@@ -603,183 +603,185 @@ Algebraic
 
 For the following exercises, simplify the rational expressions.
 
-$$\frac{{x}^{2}-16}{{x}^{2}-5x+4}$$
+$\frac{{x}^{2}-16}{{x}^{2}-5x+4}$
 
-$$\frac{{y}^{2}+10y+25}{{y}^{2}+11y+30}$$
+$\frac{{y}^{2}+10y+25}{{y}^{2}+11y+30}$
 
-$$\frac{y+5}{y+6}$$
+$\frac{y+5}{y+6}$
 
-$$\frac{6{a}^{2}-24a+24}{6{a}^{2}-24}$$
+$\frac{6{a}^{2}-24a+24}{6{a}^{2}-24}$
 
-$$\frac{9{b}^{2}+18b+9}{3b+3}$$
+$\frac{9{b}^{2}+18b+9}{3b+3}$
 
-$$3b+3$$
+$3b+3$
 
-$$\frac{m-12}{{m}^{2}-144}$$
+$\frac{m-12}{{m}^{2}-144}$
 
-$$\frac{2{x}^{2}+7x-4}{4{x}^{2}+2x-2}$$
+$\frac{2{x}^{2}+7x-4}{4{x}^{2}+2x-2}$
 
-$$\frac{x+4}{2x+2}$$
+$\frac{x+4}{2x+2}$
 
-$$\frac{6{x}^{2}+5x-4}{3{x}^{2}+19x+20}$$
+$\frac{6{x}^{2}+5x-4}{3{x}^{2}+19x+20}$
 
-$$\frac{{a}^{2}+9a+18}{{a}^{2}+3a-18}$$
+$\frac{{a}^{2}+9a+18}{{a}^{2}+3a-18}$
 
-$$\frac{a+3}{a-3}$$
+$\frac{a+3}{a-3}$
 
-$$\frac{3{c}^{2}+25c-18}{3{c}^{2}-23c+14}$$
+$\frac{3{c}^{2}+25c-18}{3{c}^{2}-23c+14}$
 
-$$\frac{12{n}^{2}-29n-8}{28{n}^{2}-5n-3}$$
+$\frac{12{n}^{2}-29n-8}{28{n}^{2}-5n-3}$
 
-$$\frac{3n-8}{7n-3}$$
+$\frac{3n-8}{7n-3}$
 
 For the following exercises, multiply the rational expressions and express the product in simplest form.
 
-$$\frac{{x}^{2}-x-6}{2{x}^{2}+x-6}\cdot \frac{2{x}^{2}+7x-15}{{x}^{2}-9}$$
+$\frac{{x}^{2}-x-6}{2{x}^{2}+x-6}\cdot \frac{2{x}^{2}+7x-15}{{x}^{2}-9}$
 
-$$\frac{{c}^{2}+2c-24}{{c}^{2}+12c+36}\cdot \frac{{c}^{2}-10c+24}{{c}^{2}-8c+16}$$
+$\frac{{c}^{2}+2c-24}{{c}^{2}+12c+36}\cdot \frac{{c}^{2}-10c+24}{{c}^{2}-8c+16}$
 
-$$\frac{c-6}{c+6}$$
+$\frac{c-6}{c+6}$
 
-$$\frac{2{d}^{2}+9d-35}{{d}^{2}+10d+21}\cdot \frac{3{d}^{2}+2d-21}{3{d}^{2}+14d-49}$$
+$\frac{2{d}^{2}+9d-35}{{d}^{2}+10d+21}\cdot \frac{3{d}^{2}+2d-21}{3{d}^{2}+14d-49}$
 
-$$\frac{10{h}^{2}-9h-9}{2{h}^{2}-19h+24}\cdot \frac{{h}^{2}-16h+64}{5{h}^{2}-37h-24}$$
+$\frac{10{h}^{2}-9h-9}{2{h}^{2}-19h+24}\cdot \frac{{h}^{2}-16h+64}{5{h}^{2}-37h-24}$
 
-$$1$$
+$1$
 
-$$\frac{6{b}^{2}+13b+6}{4{b}^{2}-9}\cdot \frac{6{b}^{2}+31b-30}{18{b}^{2}-3b-10}$$
+$\frac{6{b}^{2}+13b+6}{4{b}^{2}-9}\cdot \frac{6{b}^{2}+31b-30}{18{b}^{2}-3b-10}$
 
-$$\frac{2{d}^{2}+15d+25}{4{d}^{2}-25}\cdot \frac{2{d}^{2}-15d+25}{25{d}^{2}-1}$$
+$\frac{2{d}^{2}+15d+25}{4{d}^{2}-25}\cdot \frac{2{d}^{2}-15d+25}{25{d}^{2}-1}$
 
-$$\frac{{d}^{2}-25}{25{d}^{2}-1}$$
+$\frac{{d}^{2}-25}{25{d}^{2}-1}$
 
-$$\frac{6{x}^{2}-5x-50}{15{x}^{2}-44x-20}\cdot \frac{20{x}^{2}-7x-6}{2{x}^{2}+9x+10}$$
+$\frac{6{x}^{2}-5x-50}{15{x}^{2}-44x-20}\cdot \frac{20{x}^{2}-7x-6}{2{x}^{2}+9x+10}$
 
-$$\frac{{t}^{2}-1}{{t}^{2}+4t+3}\cdot \frac{{t}^{2}+2t-15}{{t}^{2}-4t+3}$$
+$\frac{{t}^{2}-1}{{t}^{2}+4t+3}\cdot \frac{{t}^{2}+2t-15}{{t}^{2}-4t+3}$
 
-$$\frac{t+5}{t+3}$$
+$\frac{t+5}{t+3}$
 
-$$\frac{2{n}^{2}-n-15}{6{n}^{2}+13n-5}\cdot \frac{12{n}^{2}-13n+3}{4{n}^{2}-15n+9}$$
+$\frac{2{n}^{2}-n-15}{6{n}^{2}+13n-5}\cdot \frac{12{n}^{2}-13n+3}{4{n}^{2}-15n+9}$
 
-$$\frac{36{x}^{2}-25}{6{x}^{2}+65x+50}\cdot \frac{3{x}^{2}+32x+20}{18{x}^{2}+27x+10}$$
+$\frac{36{x}^{2}-25}{6{x}^{2}+65x+50}\cdot \frac{3{x}^{2}+32x+20}{18{x}^{2}+27x+10}$
 
-$$\frac{6x-5}{6x+5}$$
+$\frac{6x-5}{6x+5}$
 
 For the following exercises, divide the rational expressions.
 
-$$\frac{3{y}^{2}-7y-6}{2{y}^{2}-3y-9}\xf7\frac{{y}^{2}+y-2}{2{y}^{2}+y-3}$$
+$\frac{3{y}^{2}-7y-6}{2{y}^{2}-3y-9}\xf7\frac{{y}^{2}+y-2}{2{y}^{2}+y-3}$
 
-$$\frac{6{p}^{2}+p-12}{8{p}^{2}+18p+9}\xf7\frac{6{p}^{2}-11p+4}{2{p}^{2}+11p-6}$$
+$\frac{6{p}^{2}+p-12}{8{p}^{2}+18p+9}\xf7\frac{6{p}^{2}-11p+4}{2{p}^{2}+11p-6}$
 
-$$\frac{p+6}{4p+3}$$
+$\frac{p+6}{4p+3}$
 
-$$\frac{{q}^{2}-9}{{q}^{2}+6q+9}\xf7\frac{{q}^{2}-2q-3}{{q}^{2}+2q-3}$$
+$\frac{{q}^{2}-9}{{q}^{2}+6q+9}\xf7\frac{{q}^{2}-2q-3}{{q}^{2}+2q-3}$
 
-$$\frac{18{d}^{2}+77d-18}{27{d}^{2}-15d+2}\xf7\frac{3{d}^{2}+29d-44}{9{d}^{2}-15d+4}$$
+$\frac{18{d}^{2}+77d-18}{27{d}^{2}-15d+2}\xf7\frac{3{d}^{2}+29d-44}{9{d}^{2}-15d+4}$
 
-$$\frac{2d+9}{d+11}$$
+$\frac{2d+9}{d+11}$
 
-$$\frac{16{x}^{2}+18x-55}{32{x}^{2}-36x-11}\xf7\frac{2{x}^{2}+17x+30}{4{x}^{2}+25x+6}$$
+$\frac{16{x}^{2}+18x-55}{32{x}^{2}-36x-11}\xf7\frac{2{x}^{2}+17x+30}{4{x}^{2}+25x+6}$
 
-$$\frac{144{b}^{2}-25}{72{b}^{2}-6b-10}\xf7\frac{18{b}^{2}-21b+5}{36{b}^{2}-18b-10}$$
+$\frac{144{b}^{2}-25}{72{b}^{2}-6b-10}\xf7\frac{18{b}^{2}-21b+5}{36{b}^{2}-18b-10}$
 
-$$\frac{12b+5}{3b\mathrm{-1}}$$
+$\frac{12b+5}{3b\mathrm{-1}}$
 
-$$\frac{16{a}^{2}-24a+9}{4{a}^{2}+17a-15}\xf7\frac{16{a}^{2}-9}{4{a}^{2}+11a+6}$$
+$\frac{16{a}^{2}-24a+9}{4{a}^{2}+17a-15}\xf7\frac{16{a}^{2}-9}{4{a}^{2}+11a+6}$
 
-$$\frac{22{y}^{2}+59y+10}{12{y}^{2}+28y-5}\xf7\frac{11{y}^{2}+46y+8}{24{y}^{2}-10y+1}$$
+$\frac{22{y}^{2}+59y+10}{12{y}^{2}+28y-5}\xf7\frac{11{y}^{2}+46y+8}{24{y}^{2}-10y+1}$
 
-$$\frac{4y\mathrm{-1}}{y+4}$$
+$\frac{4y\mathrm{-1}}{y+4}$
 
-$$\frac{9{x}^{2}+3x-20}{3{x}^{2}-7x+4}\xf7\frac{6{x}^{2}+4x-10}{{x}^{2}-2x+1}$$
+$\frac{9{x}^{2}+3x-20}{3{x}^{2}-7x+4}\xf7\frac{6{x}^{2}+4x-10}{{x}^{2}-2x+1}$
 
 For the following exercises, add and subtract the rational expressions, and then simplify.
 
-$$\frac{4}{x}+\frac{10}{y}$$
+$\frac{4}{x}+\frac{10}{y}$
 
-$$\frac{10x+4y}{xy}$$
+$\frac{10x+4y}{xy}$
 
-$$\frac{12}{2q}-\frac{6}{3p}$$
+$\frac{12}{2q}-\frac{6}{3p}$
 
-$$\frac{4}{a+1}+\frac{5}{a-3}$$
+$\frac{4}{a+1}+\frac{5}{a-3}$
 
-$$\frac{9a-7}{{a}^{2}-2a-3}$$
+$\frac{9a-7}{{a}^{2}-2a-3}$
 
-$$\frac{c+2}{3}-\frac{c-4}{4}$$
+$\frac{c+2}{3}-\frac{c-4}{4}$
 
-$$\frac{y+3}{y-2}+\frac{y-3}{y+1}$$
+$\frac{y+3}{y-2}+\frac{y-3}{y+1}$
 
-$$\frac{2{y}^{2}-y+9}{{y}^{2}-y-2}$$
+$\frac{2{y}^{2}-y+9}{{y}^{2}-y-2}$
 
-$$\frac{x-1}{x+1}-\frac{2x+3}{2x+1}$$
+$\frac{x-1}{x+1}-\frac{2x+3}{2x+1}$
 
-$$\frac{3z}{z+1}+\frac{2z+5}{z-2}$$
+$\frac{3z}{z+1}+\frac{2z+5}{z-2}$
 
-$$\frac{5{z}^{2}+z+5}{{z}^{2}-z-2}$$
+$\frac{5{z}^{2}+z+5}{{z}^{2}-z-2}$
 
-$$\frac{4p}{p+1}-\frac{p+1}{4p}$$
+$\frac{4p}{p+1}-\frac{p+1}{4p}$
 
-$$\frac{x}{x+1}+\frac{y}{y+1}$$
+$\frac{x}{x+1}+\frac{y}{y+1}$
 
-$$\frac{x+2xy+y}{x+xy+y+1}$$
+$\frac{x+2xy+y}{x+xy+y+1}$
 
 For the following exercises, simplify the rational expression.
 
-$$\frac{\frac{6}{y}-\frac{4}{x}}{y}$$
+$\frac{\frac{6}{y}-\frac{4}{x}}{y}$
 
-$$\frac{\frac{2}{a}+\frac{7}{b}}{b}$$
+$\frac{\frac{2}{a}+\frac{7}{b}}{b}$
 
-$$\frac{2b+7a}{a{b}^{2}}$$
+$\frac{2b+7a}{a{b}^{2}}$
 
-$$\frac{\frac{x}{4}-\frac{p}{8}}{p}$$
+$\frac{\frac{x}{4}-\frac{p}{8}}{p}$
 
-$$\frac{\frac{3}{a}+\frac{b}{6}}{\frac{2b}{3a}}$$
+$\frac{\frac{3}{a}+\frac{b}{6}}{\frac{2b}{3a}}$
 
-$$\frac{18+ab}{4b}$$
+$\frac{18+ab}{4b}$
 
-$$\frac{\frac{3}{x+1}+\frac{2}{x-1}}{\frac{x-1}{x+1}}$$
+$\frac{\frac{3}{x+1}+\frac{2}{x-1}}{\frac{x-1}{x+1}}$
 
-$$\frac{\frac{a}{b}-\frac{b}{a}}{\frac{a+b}{ab}}$$
+$\frac{\frac{a}{b}-\frac{b}{a}}{\frac{a+b}{ab}}$
 
-$$a-b$$
+$a-b$
 
-$$\frac{\frac{2x}{3}+\frac{4x}{7}}{\frac{x}{2}}$$
+$\frac{\frac{2x}{3}+\frac{4x}{7}}{\frac{x}{2}}$
 
-$$\frac{\frac{2c}{c+2}+\frac{c-1}{c+1}}{\frac{2c+1}{c+1}}$$
+$\frac{\frac{2c}{c+2}+\frac{c-1}{c+1}}{\frac{2c+1}{c+1}}$
 
-$$\frac{3{c}^{2}+3c-2}{2{c}^{2}+5c+2}$$
+$\frac{3{c}^{2}+3c-2}{2{c}^{2}+5c+2}$
 
-$$\frac{\frac{x}{y}-\frac{y}{x}}{\frac{x}{y}+\frac{y}{x}}$$
+$\frac{\frac{x}{y}-\frac{y}{x}}{\frac{x}{y}+\frac{y}{x}}$
 
 Real-World Applications
 =======================
 
-Brenda is placing tile on her bathroom floor. The area of the floor is $$15{x}^{2}-8x-7$$ ft2. The area of one tile is $${x}^{2}-2x+1{\text{ft}}^{2}.$$ To find the number of tiles needed, simplify the rational expression: $$\frac{15{x}^{2}-8x-7}{{x}^{2}-2x+1}.$$
+Brenda is placing tile on her bathroom floor. The area of the floor is $15{x}^{2}-8x-7$ ft2. The area of one tile is ${x}^{2}-2x+1{\text{ft}}^{2}.$ To find the number of tiles needed, simplify the rational expression: $\frac{15{x}^{2}-8x-7}{{x}^{2}-2x+1}.$
 
-			$$\frac{15x+7}{x\mathrm{-1}}$$
+![A rectangle that’s labeled: Area = fifteen times x squared minus eight times x minus seven.](../../media/CNX_CAT_Figure_01_06_201.jpg)
 
-The area of Lijuan's yard is $$25{x}^{2}-625$$ ft2. A patch of sod has an area of $${x}^{2}-10x+25$$ ft2. Divide the two areas and simplify to find how many pieces of sod Lijuan needs to cover her yard.
+			$\frac{15x+7}{x\mathrm{-1}}$
 
-Elroi wants to mulch his garden. His garden is $${x}^{2}+18x+81$$ ft2. One bag of mulch covers $${x}^{2}-81$$ ft2. Divide the expressions and simplify to find how many bags of mulch Elroi needs to mulch his garden.
+The area of Lijuan's yard is $25{x}^{2}-625$ ft2. A patch of sod has an area of ${x}^{2}-10x+25$ ft2. Divide the two areas and simplify to find how many pieces of sod Lijuan needs to cover her yard.
 
-$$\frac{x+9}{x\mathrm{-9}}$$
+Elroi wants to mulch his garden. His garden is ${x}^{2}+18x+81$ ft2. One bag of mulch covers ${x}^{2}-81$ ft2. Divide the expressions and simplify to find how many bags of mulch Elroi needs to mulch his garden.
+
+$\frac{x+9}{x\mathrm{-9}}$
 
 Extensions
 ==========
 
 For the following exercises, perform the given operations and simplify.
 
-$$\frac{{x}^{2}+x-6}{{x}^{2}-2x-3}\cdot \frac{2{x}^{2}-3x-9}{{x}^{2}-x-2}\xf7\frac{10{x}^{2}+27x+18}{{x}^{2}+2x+1}$$
+$\frac{{x}^{2}+x-6}{{x}^{2}-2x-3}\cdot \frac{2{x}^{2}-3x-9}{{x}^{2}-x-2}\xf7\frac{10{x}^{2}+27x+18}{{x}^{2}+2x+1}$
 
-$$\frac{\frac{3{y}^{2}-10y+3}{3{y}^{2}+5y-2}\cdot \frac{2{y}^{2}-3y-20}{2{y}^{2}-y-15}}{y-4}$$
+$\frac{\frac{3{y}^{2}-10y+3}{3{y}^{2}+5y-2}\cdot \frac{2{y}^{2}-3y-20}{2{y}^{2}-y-15}}{y-4}$
 
-$$\frac{1}{y+2}$$
+$\frac{1}{y+2}$
 
-$$\frac{\frac{4a+1}{2a-3}+\frac{2a-3}{2a+3}}{\frac{4{a}^{2}+9}{a}}$$
+$\frac{\frac{4a+1}{2a-3}+\frac{2a-3}{2a+3}}{\frac{4{a}^{2}+9}{a}}$
 
-$$\frac{{x}^{2}+7x+12}{{x}^{2}+x-6}\xf7\frac{3{x}^{2}+19x+28}{8{x}^{2}-4x-24}\xf7\frac{2{x}^{2}+x-3}{3{x}^{2}+4x-7}$$
+$\frac{{x}^{2}+7x+12}{{x}^{2}+x-6}\xf7\frac{3{x}^{2}+19x+28}{8{x}^{2}-4x-24}\xf7\frac{2{x}^{2}+x-3}{3{x}^{2}+4x-7}$
 
-$$4$$
+$4$
 
 Chapter Review Exercises
 ========================
@@ -789,31 +791,31 @@ Real Numbers: Algebra Essentials
 
 For the following exercises, perform the given operations.
 
-$${\left(5-3\cdot 2\right)}^{2}-6$$
+${\left(5-3\cdot 2\right)}^{2}-6$
 
-$$\mathrm{-5}$$
+$\mathrm{-5}$
 
-$$64\xf7\left(2\cdot 8\right)+14\xf77$$
+$64\xf7\left(2\cdot 8\right)+14\xf77$
 
-$$2\cdot {5}^{2}+6\xf72$$
+$2\cdot {5}^{2}+6\xf72$
 
 53
 
 For the following exercises, solve the equation.
 
-$$5x+9=\mathrm{-11}$$
+$5x+9=\mathrm{-11}$
 
-$$2y+{4}^{2}=64$$
+$2y+{4}^{2}=64$
 
-$$y=24$$
+$y=24$
 
 For the following exercises, simplify the expression.
 
-$$9\left(y+2\right)\xf73\cdot 2+1$$
+$9\left(y+2\right)\xf73\cdot 2+1$
 
-$$3m\left(4+7\right)-m$$
+$3m\left(4+7\right)-m$
 
-$$32m$$
+$32m$
 
 For the following exercises, identify the number as rational, irrational, whole, or natural. Choose the most descriptive answer.
 
@@ -823,9 +825,9 @@ For the following exercises, identify the number as rational, irrational, whole,
 
 whole
 
-$$\frac{5}{6}$$
+$\frac{5}{6}$
 
-$$\sqrt{11}$$
+$\sqrt{11}$
 
 irrational
 
@@ -834,223 +836,223 @@ Exponents and Scientific Notation
 
 For the following exercises, simplify the expression.
 
-$${2}^{2}\cdot {2}^{4}$$
+${2}^{2}\cdot {2}^{4}$
 
-$$\frac{{4}^{5}}{{4}^{3}}$$
+$\frac{{4}^{5}}{{4}^{3}}$
 
-$$16$$
+$16$
 
-$${\left(\frac{{a}^{2}}{{b}^{3}}\right)}^{4}$$
+${\left(\frac{{a}^{2}}{{b}^{3}}\right)}^{4}$
 
-$$\frac{6{a}^{2}\cdot {a}^{0}}{2{a}^{\mathrm{-4}}}$$
+$\frac{6{a}^{2}\cdot {a}^{0}}{2{a}^{\mathrm{-4}}}$
 
-$$3{a}^{6}$$
+$3{a}^{6}$
 
-$$\frac{{\left(xy\right)}^{4}}{{y}^{3}}\cdot \frac{2}{{x}^{5}}$$
+$\frac{{\left(xy\right)}^{4}}{{y}^{3}}\cdot \frac{2}{{x}^{5}}$
 
-$$\frac{{4}^{\mathrm{-2}}{x}^{3}{y}^{\mathrm{-3}}}{2{x}^{0}}$$
+$\frac{{4}^{\mathrm{-2}}{x}^{3}{y}^{\mathrm{-3}}}{2{x}^{0}}$
 
-$$\frac{{x}^{3}}{32{y}^{3}}$$
+$\frac{{x}^{3}}{32{y}^{3}}$
 
-$${\left(\frac{2{x}^{2}}{y}\right)}^{\mathrm{-2}}$$
+${\left(\frac{2{x}^{2}}{y}\right)}^{\mathrm{-2}}$
 
-$$\left(\frac{16{a}^{3}}{{b}^{2}}\right){\left(4a{b}^{\mathrm{-1}}\right)}^{\mathrm{-2}}$$
+$\left(\frac{16{a}^{3}}{{b}^{2}}\right){\left(4a{b}^{\mathrm{-1}}\right)}^{\mathrm{-2}}$
 
-$$a$$
+$a$
 
-Write the number in standard notation: $$2.1314\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{\mathrm{-6}}$$
+Write the number in standard notation: $2.1314\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{\mathrm{-6}}$
 
 Write the number in scientific notation: 16,340,000
 
-$$1.634\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{7}$$
+$1.634\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{7}$
 
 Radicals and Rational Expressions
 =================================
 
 For the following exercises, find the principal square root.
 
-$$\sqrt{121}$$
+$\sqrt{121}$
 
-$$\sqrt{196}$$
+$\sqrt{196}$
 
 14
 
-$$\sqrt{361}$$
+$\sqrt{361}$
 
-$$\sqrt{75}$$
+$\sqrt{75}$
 
-$$5\sqrt{3}$$
+$5\sqrt{3}$
 
-$$\sqrt{162}$$
+$\sqrt{162}$
 
-$$\sqrt{\frac{32}{25}}$$
+$\sqrt{\frac{32}{25}}$
 
-$$\frac{4\sqrt{2}}{5}$$
+$\frac{4\sqrt{2}}{5}$
 
-$$\sqrt{\frac{80}{81}}$$
+$\sqrt{\frac{80}{81}}$
 
-$$\sqrt{\frac{49}{1250}}$$
+$\sqrt{\frac{49}{1250}}$
 
-$$\frac{7\sqrt{2}}{50}$$
+$\frac{7\sqrt{2}}{50}$
 
-$$\frac{2}{4+\sqrt{2}}$$
+$\frac{2}{4+\sqrt{2}}$
 
-$$4\sqrt{3}+6\sqrt{3}$$
+$4\sqrt{3}+6\sqrt{3}$
 
-$$10\sqrt{3}$$
+$10\sqrt{3}$
 
-$$12\sqrt{5}-13\sqrt{5}$$
+$12\sqrt{5}-13\sqrt{5}$
 
-$$\sqrt[5]{\mathrm{-243}}$$
+$\sqrt[5]{\mathrm{-243}}$
 
-$$\mathrm{-3}$$
+$\mathrm{-3}$
 
-$$\frac{\sqrt[3]{250}}{\sqrt[3]{\mathrm{-8}}}$$
+$\frac{\sqrt[3]{250}}{\sqrt[3]{\mathrm{-8}}}$
 
 Polynomials
 ===========
 
 For the following exercises, perform the given operations and simplify.
 
-$$(3{x}^{3}+2x-1)+(4{x}^{2}-2x+7)$$
+$(3{x}^{3}+2x-1)+(4{x}^{2}-2x+7)$
 
-$$3{x}^{3}+4{x}^{2}+6$$
+$3{x}^{3}+4{x}^{2}+6$
 
-$$\left(2y+1\right)-\left(2{y}^{2}-2y-5\right)$$
+$\left(2y+1\right)-\left(2{y}^{2}-2y-5\right)$
 
-$$(2{x}^{2}+3x-6)+(3{x}^{2}-4x+9)$$
+$(2{x}^{2}+3x-6)+(3{x}^{2}-4x+9)$
 
-$$5{x}^{2}-x+3$$
+$5{x}^{2}-x+3$
 
-$$\left(6{a}^{2}+3a+10\right)-\left(6{a}^{2}\mathrm{-3}a+5\right)$$
+$\left(6{a}^{2}+3a+10\right)-\left(6{a}^{2}\mathrm{-3}a+5\right)$
 
-$$(k+3)(k-6)$$
+$(k+3)(k-6)$
 
-$${k}^{2}-3k-18$$
+${k}^{2}-3k-18$
 
-$$(2h+1)(3h-2)$$
+$(2h+1)(3h-2)$
 
-$$\left(x+1\right)\left({x}^{2}+1\right)$$
+$\left(x+1\right)\left({x}^{2}+1\right)$
 
-$${x}^{3}+{x}^{2}+x+1$$
+${x}^{3}+{x}^{2}+x+1$
 
-$$(m-2)({m}^{2}+2m-3)$$
+$(m-2)({m}^{2}+2m-3)$
 
-$$\left(a+2b\right)\left(3a-b\right)$$
+$\left(a+2b\right)\left(3a-b\right)$
 
-$$3{a}^{2}+5ab-2{b}^{2}$$
+$3{a}^{2}+5ab-2{b}^{2}$
 
-$$\left(x+y\right)\left(x-y\right)$$
+$\left(x+y\right)\left(x-y\right)$
 
 Factoring Polynomials
 =====================
 
 For the following exercises, find the greatest common factor.
 
-$$81p+9pq-27{p}^{2}{q}^{2}$$
+$81p+9pq-27{p}^{2}{q}^{2}$
 
-$$9p$$
+$9p$
 
-$$12{x}^{2}y+4x{y}^{2}\mathrm{-18}xy$$
+$12{x}^{2}y+4x{y}^{2}\mathrm{-18}xy$
 
-$$88{a}^{3}b+4{a}^{2}b-144{a}^{2}$$
+$88{a}^{3}b+4{a}^{2}b-144{a}^{2}$
 
-$$4{a}^{2}$$
+$4{a}^{2}$
 
 For the following exercises, factor the polynomial.
 
-$$2{x}^{2}-9x-18$$
+$2{x}^{2}-9x-18$
 
-$$8{a}^{2}+30a-27$$
+$8{a}^{2}+30a-27$
 
-$$(4a-3)(2a+9)$$
+$(4a-3)(2a+9)$
 
-$${d}^{2}-5d-66$$
+${d}^{2}-5d-66$
 
-$${x}^{2}+10x+25$$
+${x}^{2}+10x+25$
 
-$${\left(x+5\right)}^{2}$$
+${\left(x+5\right)}^{2}$
 
-$${y}^{2}-6y+9$$
+${y}^{2}-6y+9$
 
-$$4{h}^{2}-12hk+9{k}^{2}$$
+$4{h}^{2}-12hk+9{k}^{2}$
 
-$${(2h-3k)}^{2}$$
+${(2h-3k)}^{2}$
 
-$$361{x}^{2}-121$$
+$361{x}^{2}-121$
 
-$${p}^{3}+216$$
+${p}^{3}+216$
 
-$$(p+6)({p}^{2}-6p+36)$$
+$(p+6)({p}^{2}-6p+36)$
 
-$$8{x}^{3}-125$$
+$8{x}^{3}-125$
 
-$$64{q}^{3}-27{p}^{3}$$
+$64{q}^{3}-27{p}^{3}$
 
-$$(4q-3p)(16{q}^{2}+12pq+9{p}^{2})$$
+$(4q-3p)(16{q}^{2}+12pq+9{p}^{2})$
 
-$$4x{(x-1)}^{-\frac{1}{4}}+3{(x-1)}^{\frac{3}{4}}$$
+$4x{(x-1)}^{-\frac{1}{4}}+3{(x-1)}^{\frac{3}{4}}$
 
-$$3p{\left(p+3\right)}^{\frac{1}{3}}\mathrm{-8}{\left(p+3\right)}^{\frac{4}{3}}$$
+$3p{\left(p+3\right)}^{\frac{1}{3}}\mathrm{-8}{\left(p+3\right)}^{\frac{4}{3}}$
 
-$${\left(p+3\right)}^{\frac{1}{3}}\left(\mathrm{-5}p-24\right)$$
+${\left(p+3\right)}^{\frac{1}{3}}\left(\mathrm{-5}p-24\right)$
 
-$$4r{\left(2r-1\right)}^{-\frac{2}{3}}-5{\left(2r-1\right)}^{\frac{1}{3}}$$
+$4r{\left(2r-1\right)}^{-\frac{2}{3}}-5{\left(2r-1\right)}^{\frac{1}{3}}$
 
 Rational Expressions
 ====================
 
 For the following exercises, simplify the expression.
 
-$$\frac{{x}^{2}-x-12}{{x}^{2}-8x+16}$$
+$\frac{{x}^{2}-x-12}{{x}^{2}-8x+16}$
 
-$$\frac{x+3}{x-4}$$
+$\frac{x+3}{x-4}$
 
-$$\frac{4{y}^{2}-25}{4{y}^{2}-20y+25}$$
+$\frac{4{y}^{2}-25}{4{y}^{2}-20y+25}$
 
-$$\frac{2{a}^{2}-a-3}{2{a}^{2}-6a-8}\cdot \frac{5{a}^{2}-19a-4}{10{a}^{2}-13a-3}$$
+$\frac{2{a}^{2}-a-3}{2{a}^{2}-6a-8}\cdot \frac{5{a}^{2}-19a-4}{10{a}^{2}-13a-3}$
 
-$$\frac{1}{2}$$
+$\frac{1}{2}$
 
-$$\frac{d-4}{{d}^{2}-9}\cdot \frac{d-3}{{d}^{2}-16}$$
+$\frac{d-4}{{d}^{2}-9}\cdot \frac{d-3}{{d}^{2}-16}$
 
-$$\frac{{m}^{2}+5m+6}{2{m}^{2}-5m-3}\xf7\frac{2{m}^{2}+3m-9}{4{m}^{2}-4m-3}$$
+$\frac{{m}^{2}+5m+6}{2{m}^{2}-5m-3}\xf7\frac{2{m}^{2}+3m-9}{4{m}^{2}-4m-3}$
 
-$$\frac{m+2}{m-3}$$
+$\frac{m+2}{m-3}$
 
-$$\frac{4{d}^{2}-7d-2}{6{d}^{2}-17d+10}\xf7\frac{8{d}^{2}+6d+1}{6{d}^{2}+7d-10}$$
+$\frac{4{d}^{2}-7d-2}{6{d}^{2}-17d+10}\xf7\frac{8{d}^{2}+6d+1}{6{d}^{2}+7d-10}$
 
-$$\frac{10}{x}+\frac{6}{y}$$
+$\frac{10}{x}+\frac{6}{y}$
 
-$$\frac{6x+10y}{xy}$$
+$\frac{6x+10y}{xy}$
 
-$$\frac{12}{{a}^{2}+2a+1}-\frac{3}{{a}^{2}\mathrm{-1}}$$
+$\frac{12}{{a}^{2}+2a+1}-\frac{3}{{a}^{2}\mathrm{-1}}$
 
-$$\frac{\frac{1}{d}+\frac{2}{c}}{\frac{6c+12d}{dc}}$$
+$\frac{\frac{1}{d}+\frac{2}{c}}{\frac{6c+12d}{dc}}$
 
-$$\frac{1}{6}$$
+$\frac{1}{6}$
 
-$$\frac{\frac{3}{x}-\frac{7}{y}}{\frac{2}{x}}$$
+$\frac{\frac{3}{x}-\frac{7}{y}}{\frac{2}{x}}$
 
  
 Chapter Practice Test
 =====================
 For the following exercises, identify the number as rational, irrational, whole, or natural. Choose the most descriptive answer.
 
-$$\mathrm{-13}$$
+$\mathrm{-13}$
 
 rational
 
-$$\sqrt{2}$$
+$\sqrt{2}$
 
 For the following exercises, evaluate the expression.
-$$2(x+3)-12;x=2$$
+$2(x+3)-12;x=2$
 
-$$x=\mathrm{\u20132}$$
+$x=\mathrm{\u20132}$
 
-$$y{(3+3)}^{2}-26;y=1$$
+$y{(3+3)}^{2}-26;y=1$
 
-Write the number in standard notation: $$3.1415\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{6}$$
+Write the number in standard notation: $3.1415\phantom{\rule{0.5em}{0ex}}\times \phantom{\rule{0.5em}{0ex}}{10}^{6}$
 
 3,141,500
 
@@ -1058,79 +1060,79 @@ Write the number in scientific notation: 0.0000000212.
 
 For the following exercises, simplify the expression.
 
-$$\mathrm{-2}\cdot {\left(2+3\cdot 2\right)}^{2}+144$$
+$\mathrm{-2}\cdot {\left(2+3\cdot 2\right)}^{2}+144$
 
-$$16$$
+$16$
 
-$$4\left(x+3\right)-\left(6x+2\right)$$
+$4\left(x+3\right)-\left(6x+2\right)$
 
-$${3}^{5}\cdot {3}^{\mathrm{-3}}$$
+${3}^{5}\cdot {3}^{\mathrm{-3}}$
 
 9
 
-$${\left(\frac{2}{3}\right)}^{3}$$
+${\left(\frac{2}{3}\right)}^{3}$
 
-$$\frac{8{x}^{3}}{{\left(2x\right)}^{2}}$$
+$\frac{8{x}^{3}}{{\left(2x\right)}^{2}}$
 
-$$2x$$
+$2x$
 
-$$\left(16{y}^{0}\right)2{y}^{\mathrm{-2}}$$
+$\left(16{y}^{0}\right)2{y}^{\mathrm{-2}}$
 
-$$\sqrt{441}$$
+$\sqrt{441}$
 
 21
 
-$$\sqrt{490}$$
+$\sqrt{490}$
 
-$$\sqrt{\frac{9x}{16}}$$
+$\sqrt{\frac{9x}{16}}$
 
-$$\frac{3\sqrt{x}}{4}$$
+$\frac{3\sqrt{x}}{4}$
 
-$$\frac{\sqrt{121{b}^{2}}}{1+\sqrt{b}}$$
+$\frac{\sqrt{121{b}^{2}}}{1+\sqrt{b}}$
 
-$$6\sqrt{24}+7\sqrt{54}-12\sqrt{6}$$
+$6\sqrt{24}+7\sqrt{54}-12\sqrt{6}$
 
-$$21\sqrt{6}$$
+$21\sqrt{6}$
 
-$$\frac{\sqrt[3]{\mathrm{-8}}}{\sqrt[4]{625}}$$
+$\frac{\sqrt[3]{\mathrm{-8}}}{\sqrt[4]{625}}$
 
-$$(13{q}^{3}+2{q}^{2}-3)-(6{q}^{2}+5q-3)$$
+$(13{q}^{3}+2{q}^{2}-3)-(6{q}^{2}+5q-3)$
 
-$$13{q}^{3}-4{q}^{2}-5q$$
+$13{q}^{3}-4{q}^{2}-5q$
 
-$$\left(6{p}^{2}+2p+1\right)+\left(9{p}^{2}\mathrm{-1}\right)$$
+$\left(6{p}^{2}+2p+1\right)+\left(9{p}^{2}\mathrm{-1}\right)$
 
-$$(n-2)({n}^{2}-4n+4)$$
+$(n-2)({n}^{2}-4n+4)$
 
-$${n}^{3}-6{n}^{2}+12n-8$$
+${n}^{3}-6{n}^{2}+12n-8$
 
-$$(a-2b)(2a+b)$$
+$(a-2b)(2a+b)$
 
 For the following exercises, factor the polynomial.
 
-$$16{x}^{2}-81$$
+$16{x}^{2}-81$
 
-$$(4x+9)(4x-9)$$
+$(4x+9)(4x-9)$
 
-$${y}^{2}+12y+36$$
+${y}^{2}+12y+36$
 
-$$27{c}^{3}-1331$$
+$27{c}^{3}-1331$
 
-$$(3c-11)(9{c}^{2}+33c+121)$$
+$(3c-11)(9{c}^{2}+33c+121)$
 
-$$3x{(x-6)}^{-\frac{1}{4}}+2{(x-6)}^{\frac{3}{4}}$$
+$3x{(x-6)}^{-\frac{1}{4}}+2{(x-6)}^{\frac{3}{4}}$
 
 For the following exercises, simplify the expression.
 
-$$\frac{2{z}^{2}+7z+3}{{z}^{2}-9}\cdot \frac{4{z}^{2}-15z+9}{4{z}^{2}-1}$$
+$\frac{2{z}^{2}+7z+3}{{z}^{2}-9}\cdot \frac{4{z}^{2}-15z+9}{4{z}^{2}-1}$
 
-$$\frac{4z-3}{2z-1}$$
+$\frac{4z-3}{2z-1}$
 
-$$\frac{x}{y}+\frac{2}{x}$$
+$\frac{x}{y}+\frac{2}{x}$
 
-$$\frac{\frac{a}{2b}-\frac{2b}{9a}}{\frac{3a-2b}{6a}}$$
+$\frac{\frac{a}{2b}-\frac{2b}{9a}}{\frac{3a-2b}{6a}}$
 
-$$\frac{3a+2b}{3b}$$
+$\frac{3a+2b}{3b}$
 
 **least common denominator** the smallest multiple that two denominators have in common
 **rational expression**the quotient of two polynomial expressions
