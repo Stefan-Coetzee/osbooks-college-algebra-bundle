@@ -1,0 +1,11 @@
+[project]
+name = "osbooks-college-algebra-bundle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lxml>=5.4.0",
+    "pandocfilters>=1.5.1",
+    "py-asciimath>=0.3.0",
+]
