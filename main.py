@@ -85,14 +85,21 @@ def mathml_to_tex(math_el: etree.Element, source_file_path: Path | None = None) 
     final_latex = "" # Initialize to empty
     try:
         xslt_result_obj = mml_bowang.mathml2latex(xml_string)
-        #print("xslt_result_obj:\n\n",xslt_result_obj)
         final_latex = mml_bowang.unicode2latex(xslt_result_obj)
-        #print("final_latex:\n\n",final_latex)
+        
+        # CRITICAL: Ensure \hfill and escaped dollar signs are handled.
+        # log(f"DEBUG: mathml_to_tex - BEFORE replaces: '{final_latex}'") # Optional debug
+        final_latex = final_latex.replace("\\hfill", " ")
+        final_latex = final_latex.replace("\\\\$", "$") # Replace '\\$' (double backslash, dollar)
+        final_latex = final_latex.replace("\\$", "$")   # Replace '\$' (single backslash, dollar)
+        # log(f"DEBUG: mathml_to_tex - AFTER replaces: '{final_latex}'") # Optional debug
+
         # --- Debug Print for specific file ---
         if DEBUG_THIS_FILE:
             print(f"\n--- DEBUG m51239 ---")
             print(f"Input MathML:\n{xml_string}")
-            print(f"Output LaTeX:\n'{final_latex}'") 
+            print(f"Raw LaTeX from lib:\n'{mml_bowang.unicode2latex(xslt_result_obj)}'") # Log it before our replaces
+            print(f"Processed LaTeX (after replaces):\n'{final_latex}'") 
             print(f"--------------------\n")
         # ---
 
@@ -107,8 +114,45 @@ def mathml_to_tex(math_el: etree.Element, source_file_path: Path | None = None) 
 
 # ----------------------------------------------------------- element renderers -
 # Forward declaration for the main render function, as RENDER handlers might call it.
-def render(node, source_file_path: Path | None = None, include_mathml_source: bool = False) -> str:
-    pass # Actual definition will be below RENDER handlers
+def render(node, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None) -> str:
+    if isinstance(node, etree._ElementUnicodeResult):
+        return str(node) 
+    
+    if not isinstance(node.tag, str): # Comments, PIs, etc.
+        return ""
+
+    tag_name_ns = node.tag
+    local_tag_name = tag_name_ns.split("}")[-1] if '}' in tag_name_ns else tag_name_ns
+    
+    renderer_func = RENDER.get(local_tag_name) or RENDER.get(tag_name_ns)
+
+    output_parts = []
+    if renderer_func:
+        # ALWAYS pass the include_mathml_source flag to the specific renderer.
+        # The renderer itself will decide if/how to use it or pass it further.
+        # This requires renderers (like r_para_new, etc.) to accept this param.
+        # r_math, r_fig will also receive it.
+        try:
+            output_parts.append(renderer_func(node, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
+        except TypeError as e:
+            # Handle cases where a renderer in RENDER might not yet accept include_mathml_source
+            if "unexpected keyword argument 'include_mathml_source'" in str(e):
+                # Call without the flag as a fallback for non-updated renderers
+                # log(f"⚠︎ Renderer for {local_tag_name} does not accept 'include_mathml_source'. Calling without it.")
+                output_parts.append(renderer_func(node, source_file_path=source_file_path, context=context))
+            else:
+                raise # Re-raise other TypeErrors
+    else:
+        # Generic handling: process node.text + children + child.tail
+        if node.text:
+            output_parts.append(node.text) # Reverted: Do not strip here
+        
+        for child in node:
+            output_parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context)) # Pass flag recursively
+            if child.tail:
+                output_parts.append(child.tail) # Reverted: Do not strip here
+                
+    return "".join(output_parts) # Removed re.sub and .strip()
 
 # Global RENDER dictionary
 RENDER: dict[str, Any] = {}
@@ -117,27 +161,32 @@ def underline(txt: str, ch: str = "=") -> str:
     return f"\n{txt}\n{ch * len(txt)}\n"
 
 # --- NEW/MODIFIED RENDER HANDLERS ---
-def r_para_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_para_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
         if child.tail: parts.append(child.tail)
-    return "".join(parts).strip() + "\n"
+    
+    content = "".join(parts)
+    # Add a newline if the paragraph has content, otherwise return empty string.
+    # This relies on block children (like images) providing their own \n\n structure,
+    # and the global re.sub(r'\n{3,}', '\n\n', txt) to clean up excessive newlines.
+    return content + "\n" if content.strip() else "" 
 
-def r_em_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_em_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
         if child.tail: parts.append(child.tail)
     return f'*{"".join(parts).strip()}*'
 
-def r_term_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_term_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
         if child.tail: parts.append(child.tail)
     
     parent = el.getparent()
@@ -145,35 +194,49 @@ def r_term_new(el, source_file_path: Path | None = None, include_mathml_source: 
     text_content = "".join(parts).strip()
     return "" if parent_tag.endswith("DEFINITION") else f"**{text_content}**"
     
-def r_title_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_title_new(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     parts = []
     if el.text: parts.append(el.text)
     for child in el:
-        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+        parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
         if child.tail: parts.append(child.tail)
     txt = "".join(parts).strip()
     
     parent = el.getparent()
-    parent_tag = parent.tag if parent is not None else ""
-    # Ensure title text itself doesn't get newlines from underline mixed in if it's short
+    parent_tag_local = ""
+    if parent is not None and isinstance(parent.tag, str):
+        parent_tag_local = parent.tag.split("}")[-1] if '}' in parent.tag else parent.tag
+
     title_text = txt.replace("\n", " ") 
-    if parent_tag.endswith("SECTION"):
-        return f"\n## {title_text}\n"
+
+    if parent_tag_local == "section":
+        depth = 0
+        # Iterate over ancestors of the parent <section> element
+        for ancestor in parent.iterancestors():
+            if isinstance(ancestor.tag, str):
+                ancestor_local_tag = ancestor.tag.split("}")[-1] if '}' in ancestor.tag else ancestor.tag
+                if ancestor_local_tag == "section":
+                    depth += 1
+        
+        heading_level = min(depth + 1, 6) # Changed from depth + 2 to depth + 1 for H1
+        heading_prefix = "#" * heading_level
+        return f"\n{heading_prefix} {title_text}\n"
     else:
-        return underline(title_text)
+        # For titles of figures, tables, notes, etc., render as bold.
+        return f"\n\n**{title_text}**\n\n"
 
 # --- Helper for cleaning alt text (can be made global if used more widely) ---
 def clean_alt_text_global(text_content: str | None, default_alt: str = "Image") -> str:
     if text_content is None:
         return default_alt
-    cleaned = str(text_content).replace('\\n', ' ').replace('\\r', ' ').strip()
+    cleaned = str(text_content).replace('\n', ' ').replace('\r', ' ').strip()
     return cleaned if cleaned else default_alt
 
 # r_fig and r_math are assumed to be mostly compatible as they build their own strings.
 # r_fig might need to be updated if it calls the old render or relies on its side effects.
 # For now, keep existing r_fig and r_math definitions.
 
-def r_fig(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_fig(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     NSMAP = {'cnxml': 'http://cnx.rice.edu/cnxml'}
     subs = el.findall(".//cnxml:subfigure", namespaces=NSMAP)
     out: list[str] = []
@@ -194,14 +257,14 @@ def r_fig(el, source_file_path: Path | None = None, include_mathml_source: bool 
 
         cap_node = el.find(".//cnxml:caption", namespaces=NSMAP)
         if cap_node is not None:
-            caption_display_text = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
+            caption_display_text = render(cap_node, source_file_path=source_file_path, include_mathml_source=False, context=context).strip()
             if caption_display_text:
-                 out.append(f"\\n\\n*{caption_display_text}*\\n\\n")
+                 out.append(f"\n\n*{caption_display_text}*\n\n")
     else:
         cap_node = el.find(".//cnxml:caption", namespaces=NSMAP)
         rendered_caption_content = ""
         if cap_node is not None:
-            rendered_caption_content = render(cap_node, source_file_path=source_file_path, include_mathml_source=False).strip()
+            rendered_caption_content = render(cap_node, source_file_path=source_file_path, include_mathml_source=False, context=context).strip()
         alt_from_caption = clean_alt_text_global(rendered_caption_content, default_alt="")
 
         src_node = el.find(".//cnxml:image", namespaces=NSMAP)
@@ -220,17 +283,17 @@ def r_fig(el, source_file_path: Path | None = None, include_mathml_source: bool 
         elif alt_from_caption:
             alt_text_for_image_tag = alt_from_caption
         
-        out.append(f"\\n\\n![{alt_text_for_image_tag}]({md_img_src})\\n\\n")
+        out.append(f"\n\n![{alt_text_for_image_tag}]({md_img_src})\n\n")
 
         if rendered_caption_content and (alt_from_media or alt_text_for_image_tag != alt_from_caption):
-            out.append(f"\\n\\n*{rendered_caption_content}*\\n\\n")
+            out.append(f"\n\n*{rendered_caption_content}*\n\n")
         elif rendered_caption_content and not alt_from_media and alt_text_for_image_tag == alt_from_caption:
             pass
 
-    return "\\n".join(out)
+    return "\n".join(out)
 
 
-def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     tex_from_lib = mathml_to_tex(el, source_file_path=source_file_path)
     display_attr = el.get("display")
 
@@ -318,14 +381,25 @@ def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool
                 temp_tex = temp_tex[1:-1].strip()
             processed_tex_content = temp_tex
 
+    # Ensure processed_tex_content is bare of stray leading/trailing $ before final wrapping,
+    # unless it's a \begin{}...\end{} block which might have legitimate $ characters.
+    if not (processed_tex_content.strip().startswith("\\begin")):
+        processed_tex_content = processed_tex_content.strip('$')
+    
+    # Explicitly convert a trailing \\$ to $ if present after the above strip
+    if processed_tex_content.endswith('\\$'):
+        processed_tex_content = processed_tex_content[:-2] + '$'
+
     # Now, form the latex_part based on processed_tex_content and render style
     # and apply the "empty after processing" diagnostic
     
-    if not processed_tex_content.strip(): # Content inside delimiters is empty/whitespace
-        # If tex_from_lib was originally non-empty, but processed_tex_content is empty, it's a diagnostic case.
-        # This helps catch cases like library returning "$ $" which becomes empty.
-        # We use repr(tex_from_lib) to make sure spaces or minimal content is visible.
-        latex_part = f"*[MathML processed to empty TeX. Original from lib: {repr(tex_from_lib)}]*"
+    if not processed_tex_content.strip(): # Check after potential stripping
+        # If tex_from_lib was originally non-empty, but processed_tex_content is empty after all stripping,
+        # it's a diagnostic case (e.g. library returned only "$", which got stripped).
+        if tex_from_lib and tex_from_lib.strip():
+            latex_part = f"*[MathML processed to empty TeX. Original from lib: {repr(tex_from_lib)}]*"
+        else: # Original from lib was also empty/whitespace
+             latex_part = f"*[MathML conversion failed (no TeX from lib)]*"
     else:
         if is_block_render_style:
             latex_part = f"\n\n$$\n{processed_tex_content}\n$$\n\n"
@@ -336,8 +410,228 @@ def r_math(el, source_file_path: Path | None = None, include_mathml_source: bool
     return output.strip()
 
 
-# --- NEW MAIN RENDER FUNCTION ---
-def render(node, source_file_path: Path | None = None, include_mathml_source: bool = False) -> str:
+# --- NEW ELEMENT HANDLERS FOR TABLE ELEMENTS ---
+def r_entry_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    parts = []
+    if el.text: parts.append(el.text)
+    for child_node in el:
+        # Render child, then replace newlines from its output with spaces for inline cell content
+        rendered_child = render(child_node, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context)
+        parts.append(rendered_child.replace('\n', ' ')) 
+        if child_node.tail: parts.append(child_node.tail.replace('\n', ' '))
+    content = "".join(parts).strip()
+    return content
+
+def r_row_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    # NSMAP_C = {'c': el.nsmap.get(None) if el.nsmap else 'http://cnx.rice.edu/cnxml'} # Not strictly needed if tags are localname
+    cells = []
+    for entry_node in el.xpath("./*[local-name()='entry']"):
+        cells.append(r_entry_handler(entry_node, source_file_path, include_mathml_source, context))
+    
+    if not cells: # Should not happen in valid tables, but good to handle
+        return "" # This line should be indented under the if.
+    # Ensure there are no blank lines between the if block and the next statement if that confuses the linter.
+    return "| " + " | ".join(cells) + " |\n"
+
+def r_tgroup_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    # NSMAP_C = {'c': el.nsmap.get(None) if el.nsmap else 'http://cnx.rice.edu/cnxml'} # Not strictly needed
+    header_rows_content = []
+    body_rows_content = []
+    num_cols = 0
+
+    # Try to determine num_cols from the first row found (header or body)
+    # Use xpath which robustly handles positional predicates like [1]
+    first_row_candidates = el.xpath(".//*[local-name()='row'][1]")
+    if first_row_candidates: 
+        first_row_el = first_row_candidates[0]
+        # Use xpath for consistency and robustness with local-name()
+        num_cols = len(first_row_el.xpath("./*[local-name()='entry']"))
+    elif el.get('cols'): # Fallback to cols attribute on tgroup if present
+        try:
+            num_cols = int(el.get('cols'))
+        except ValueError:
+            num_cols = 1 # Default if cols attr is invalid
+    else: # Default if no rows or cols attr
+        num_cols = 1 
+    if num_cols == 0: num_cols = 1 # Ensure at least one column for separator
+
+    # Use xpath for finding thead and tbody for robustness with local-name()
+    thead_elements = el.xpath("./*[local-name()='thead']")
+    if thead_elements:
+        thead_el = thead_elements[0] # Assuming only one thead
+        for row_node in thead_el.xpath("./*[local-name()='row']"):
+            header_rows_content.append(r_row_handler(row_node, source_file_path, include_mathml_source, context))
+    
+    tbody_elements = el.xpath("./*[local-name()='tbody']")
+    if tbody_elements:
+        tbody_el = tbody_elements[0] # Assuming only one tbody
+        for row_node in tbody_el.xpath("./*[local-name()='row']"):
+            body_rows_content.append(r_row_handler(row_node, source_file_path, include_mathml_source, context))
+    else: # If no tbody, assume rows are direct children of tgroup
+        for row_node in el.xpath("./*[local-name()='row']"):
+             # Check if this row is part of a thead already processed
+            parent_is_thead = False
+            parent = row_node.getparent()
+            if parent is not None and parent.tag.endswith('thead'):
+                parent_is_thead = True 
+            if not parent_is_thead:
+                body_rows_content.append(r_row_handler(row_node, source_file_path, include_mathml_source, context))
+
+    md_table = []
+    if header_rows_content: # Rows from an explicit <thead>
+        md_table.extend(header_rows_content)
+        separator = "| " + " | ".join([":---"] * num_cols) + " |\n"
+        md_table.append(separator)
+        md_table.extend(body_rows_content) # Add all body rows after the header and separator
+    elif body_rows_content: # No <thead, so treat the first body row as a header
+        if body_rows_content: # Ensure there is at least one body row
+            md_table.append(body_rows_content[0]) # First body row is the header
+            separator = "| " + " | ".join([":---"] * num_cols) + " |\n"
+            md_table.append(separator)
+            md_table.extend(body_rows_content[1:]) # Add remaining body rows
+    # If neither header_rows_content nor body_rows_content, md_table remains empty, which is fine.
+
+    return "".join(md_table)
+
+def r_table_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    # A <table> typically contains one or more <tgroup> elements.
+    # We will render each tgroup sequentially.
+    tgroup_content_parts = []
+    for tgroup_node in el.xpath("./*[local-name()='tgroup']"):
+        tgroup_content_parts.append(r_tgroup_handler(tgroup_node, source_file_path, include_mathml_source, context))
+    
+    # Ensure tables are block elements, surrounded by newlines
+    return "\n\n" + "\n".join(tgroup_content_parts).strip() + "\n\n" 
+
+# --- NEW ELEMENT HANDLERS FOR NOTE AND EXAMPLE ---
+def r_note_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    inner_parts = []
+    if el.text: inner_parts.append(el.text)
+    for child_node in el:
+        inner_parts.append(render(child_node, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
+        if child_node.tail: inner_parts.append(child_node.tail)
+    content = "".join(inner_parts)
+
+    if not content.strip(): return "\n\n" # Check .strip() for emptiness, but use raw content for processing
+
+    # Apply blockquote formatting
+    # Ensure that "> " is only added to non-empty lines to avoid ">" on blank lines meant for spacing.
+    quoted_lines = []
+    for line in content.splitlines():
+        if line.strip():
+            quoted_lines.append(f"> {line}")
+        else:
+            quoted_lines.append(">") # For intentional blank lines within the source content of the note
+    formatted_content = "\n".join(quoted_lines)
+    
+    return f"\n\n{formatted_content}\n\n"
+
+def r_example_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    inner_parts = []
+    if el.text: inner_parts.append(el.text)
+    for child_node in el:
+        inner_parts.append(render(child_node, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
+        if child_node.tail: inner_parts.append(child_node.tail)
+    content = "".join(inner_parts)
+
+    if not content.strip(): return "\n\n" # Check .strip() for emptiness
+
+    # Using a horizontal rule for visual separation before the example content.
+    # The content itself will be rendered as is (could include titles, paras, lists etc.)
+    return f"\n\n<hr/>\n\n{content}\n\n"
+
+
+# --- NEW HANDLERS FOR SECTION AND EXERCISE ---
+def r_problem_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    parts = []
+    if el.text: parts.append(el.text)
+    for child_node in el:
+        parts.append(render(child_node, source_file_path, include_mathml_source, context))
+        if child_node.tail: parts.append(child_node.tail)
+    return "".join(parts).strip()
+
+def r_solution_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    parts = []
+    if el.text: parts.append(el.text)
+    for child_node in el:
+        parts.append(render(child_node, source_file_path, include_mathml_source, context))
+        if child_node.tail: parts.append(child_node.tail)
+    # Indent solution lines for better readability within <details>
+    content = "".join(parts).strip()
+    # Basic indentation for now, can be improved if complex content needs smarter indent
+    # return "\n".join([f"  {line}" for line in content.splitlines()])
+    return content # Keep solution content as is for now, markdown details will handle block display
+
+def r_exercise_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    problem_node_candidates = el.xpath("./*[local-name()='problem']")
+    problem_node = problem_node_candidates[0] if problem_node_candidates else None
+    
+    solution_node_candidates = el.xpath("./*[local-name()='solution']")
+    solution_node = solution_node_candidates[0] if solution_node_candidates else None
+
+    output_parts = []
+    numbered = False
+    if context is not None and 'exercise_counter' in context:
+        context['exercise_counter'] += 1
+        counter = context['exercise_counter']
+        output_parts.append(f"{counter}. ")
+        numbered = True
+
+    if problem_node is not None:
+        problem_content = r_problem_handler(problem_node, source_file_path, include_mathml_source, context)
+        # If numbered, ensure problem content stays on the same line or starts fresh after number.
+        # If not numbered, it starts normally.
+        output_parts.append(problem_content.replace('\n', ' ') if numbered else problem_content)
+    else:
+        output_parts.append("[Problem content not found]")
+
+    output_parts.append("\n") # Newline after the problem text
+
+    if solution_node is not None:
+        solution_content = r_solution_handler(solution_node, source_file_path, include_mathml_source, context)
+        output_parts.append("\n<details>\n")
+        output_parts.append("<summary>Solution</summary>\n")
+        output_parts.append("\n") 
+        output_parts.append(solution_content + "\n")
+        output_parts.append("</details>\n")
+    
+    # Ensure overall exercise block is separated by newlines, 
+    # prepending one if it wasn't numbered (to ensure block display)
+    prefix = "\n" if not numbered else ""
+    return prefix + "".join(output_parts) + "\n"
+
+def r_section_handler(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
+    parts = []
+    current_section_context = context # By default, pass down the received context
+
+    if el.get('class') == 'section-exercises':
+        # This section type resets and manages its own exercise counter.
+        # Create a new context for this section and its children to ensure counter reset.
+        # If we want to inherit other things from parent context, we could do context.copy() or selective copy.
+        # For just exercise counter, a fresh dict is cleanest for reset.
+        current_section_context = {} # Fresh context for this section-exercises block
+        current_section_context['exercise_counter'] = 0
+
+    title_node_candidates = el.xpath("./*[local-name()='title']")
+    if title_node_candidates:
+        title_node = title_node_candidates[0]
+        # Title rendering does not need/use the exercise_counter from current_section_context
+        parts.append(render(title_node, source_file_path, include_mathml_source, None)) 
+        
+    for child_node in el:
+        if isinstance(child_node.tag, str) and child_node.tag.endswith('title'):
+            continue
+        # Pass the current_section_context (which is either the original or the new one for section-exercises)
+        parts.append(render(child_node, source_file_path, include_mathml_source, current_section_context))
+        if child_node.tail: 
+            processed_tail = child_node.tail.strip()
+            if processed_tail: 
+                 parts.append("\n" + processed_tail + "\n")
+
+    return "".join(parts)
+
+# --- MAIN RENDER FUNCTION (needs to be updated to pass context) ---
+def render(node, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None) -> str:
     if isinstance(node, etree._ElementUnicodeResult):
         return str(node) 
     
@@ -356,29 +650,29 @@ def render(node, source_file_path: Path | None = None, include_mathml_source: bo
         # This requires renderers (like r_para_new, etc.) to accept this param.
         # r_math, r_fig will also receive it.
         try:
-            output_parts.append(renderer_func(node, source_file_path=source_file_path, include_mathml_source=include_mathml_source))
+            output_parts.append(renderer_func(node, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context))
         except TypeError as e:
             # Handle cases where a renderer in RENDER might not yet accept include_mathml_source
             if "unexpected keyword argument 'include_mathml_source'" in str(e):
                 # Call without the flag as a fallback for non-updated renderers
                 # log(f"⚠︎ Renderer for {local_tag_name} does not accept 'include_mathml_source'. Calling without it.")
-                output_parts.append(renderer_func(node, source_file_path=source_file_path))
+                output_parts.append(renderer_func(node, source_file_path=source_file_path, context=context))
             else:
                 raise # Re-raise other TypeErrors
     else:
         # Generic handling: process node.text + children + child.tail
         if node.text:
-            output_parts.append(node.text)
+            output_parts.append(node.text) # Reverted: Do not strip here
         
         for child in node:
-            output_parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source)) # Pass flag recursively
+            output_parts.append(render(child, source_file_path=source_file_path, include_mathml_source=include_mathml_source, context=context)) # Pass flag recursively
             if child.tail:
-                output_parts.append(child.tail)
+                output_parts.append(child.tail) # Reverted: Do not strip here
                 
-    return "".join(output_parts)
+    return "".join(output_parts) # Removed re.sub and .strip()
 
 # --- NEW MEDIA RENDERER ---
-def r_media(el, source_file_path: Path | None = None, include_mathml_source: bool = False):
+def r_media(el, source_file_path: Path | None = None, include_mathml_source: bool = False, context: dict | None = None):
     NSMAP = {'cnxml': 'http://cnx.rice.edu/cnxml'} 
     
     # Get alt from the <media> tag itself
@@ -419,6 +713,15 @@ RENDER.update({
     "figure": r_fig,
     "math": r_math,
     "media": r_media, # <-- Added media renderer
+    "note": r_note_handler, # Added note handler
+    "example": r_example_handler, # Added example handler
+    # CNXML Table elements
+    "table": r_table_handler,
+    "tgroup": r_tgroup_handler, # Often tables start directly with tgroup
+    "thead": lambda el, SFP, IMS, CTX: "".join([render(c, SFP, IMS, CTX) for c in el]), # Pass context
+    "tbody": lambda el, SFP, IMS, CTX: "".join([render(c, SFP, IMS, CTX) for c in el]), # Pass context
+    "row": r_row_handler,
+    "entry": r_entry_handler,
     # "image": r_media, # Optionally, if <image> can be directly under <para>
     # Add other CNXML tags and their handlers here. For example:
     # "section": r_section_new, (if you define r_section_new)
@@ -426,6 +729,10 @@ RENDER.update({
     # "item": r_item_new,
     # "link": r_link_new, # Example, definition needed
     # If a tag is not here, it gets generic text aggregation.
+    "section": r_section_handler,
+    "exercise": r_exercise_handler,
+    "problem": r_problem_handler, # Typically called by exercise_handler, but good to have
+    "solution": r_solution_handler, # Typically called by exercise_handler
 })
 # Ensure MathML specific tag is also covered if namespace is primary
 RENDER["{http://www.w3.org/1998/Math/MathML}math"] = r_math
@@ -438,13 +745,15 @@ def convert_cnxml(cnxml: Path, include_mathml_source: bool = False) -> str:
         doc = etree.parse(str(cnxml), parser)
     except etree.XMLSyntaxError as e:
         log(f"⚠︎ XML Syntax Error parsing {cnxml}: {e}")
-        return f"Error parsing {cnxml.name}: XML Syntax Error.\\n"
+        return f"Error parsing {cnxml.name}: XML Syntax Error.\n"
     except Exception as e:
         log(f"⚠︎ Error parsing {cnxml}: {type(e).__name__}: {e}")
         return f"Error parsing {cnxml.name}: {type(e).__name__}.\n"
 
     # NEW: Call the new render function to get the complete string output
-    txt = render(doc.getroot(), source_file_path=cnxml, include_mathml_source=include_mathml_source)
+    # Initialize the context for exercise numbering here.
+    master_context = {'exercise_counter': 0} 
+    txt = render(doc.getroot(), source_file_path=cnxml, include_mathml_source=include_mathml_source, context=master_context)
     
     # Cleanup: Collapse multiple newlines (3+ -> 2, 2 stays 2), then strip.
     # Allow max 2 consecutive newlines (one blank line).
